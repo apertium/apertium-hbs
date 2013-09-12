@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis-chars>
+  <!-- Make apostrophe variants equal ' -->
+  <char value="'">
+    <equiv-char value="’"/>
+    <equiv-char value="ʼ"/>
+  </char>
+
+  <!-- Sometimes we see đ as ð -->
+  <char value="đ">
+    <equiv-char value="ð"/>
+  </char>
+
+  <!-- Legacy values for characters with comma -->
+  <char value="ț">
+    <equiv-char value="ţ"/>
+  </char>
+  <char value="Ț">
+    <equiv-char value="Ţ"/>
+  </char>
+  <char value="ș">
+    <equiv-char value="ş"/>
+  </char>
+  <char value="Ș">
+    <equiv-char value="Ş"/>
+  </char>
+
+</analysis-chars>
