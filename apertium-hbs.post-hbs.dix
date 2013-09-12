@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="diagnos">
+      <e><i>*</i></e>
+      <e><i>@</i></e>
+      <e><i>#</i></e>
+    </pardef>
+    <pardef n="V__aeiou">
+      <e><i>a</i></e>
+      <e><i>e</i></e>
+      <e><i>i</i></e>
+      <e><i>o</i></e>
+      <e><i>u</i></e>
+    </pardef>
+
+    <pardef n="C__not-szšž">
+      <e><i>b</i></e>
+      <e><i>c</i></e>
+      <e><i>d</i></e>
+      <e><i>f</i></e>
+      <e><i>g</i></e>
+      <e><i>h</i></e>
+      <e><i>j</i></e>
+      <e><i>k</i></e>
+      <e><i>l</i></e>
+      <e><i>m</i></e>
+      <e><i>n</i></e>
+      <e><i>p</i></e>
+      <e><i>q</i></e>
+      <e><i>r</i></e>
+      <e><i>t</i></e>
+      <e><i>v</i></e>
+      <e><i>x</i></e>
+      <e><i>z</i></e>
+    </pardef>
+
+    <pardef n="C__szšž">
+      <e><i>s</i></e>
+      <e><i>z</i></e>
+      <e><i>š</i></e>
+      <e><i>ž</i></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- The rule for (a) in s(a) is: the Serbian and Bosnian 
+         standards use sa ; the Croatian standard uses s (sa 
+	 only before s, z, š, ž : sa sela 'from the countryside'). 
+	 
+	 According to Zocky, this rule applies for all of the 
+	 standards. -->
+    <e alt="hbs_HR">
+      <p>
+        <l><a/>sa<b/></l>
+        <r>s<b/></r>
+      </p>
+      <par n="V__aeiou"/>
+    </e>
+    <e alt="hbs_HR">
+      <p>
+        <l><a/>sa<b/></l>
+        <r>s<b/></r>
+      </p>
+      <par n="diagnos"/>
+      <par n="V__aeiou"/>
+    </e>
+
+    <e alt="hbs_HR">
+      <p>
+        <l><a/>sa<b/></l>
+        <r>s<b/></r>
+      </p>
+      <par n="diagnos"/>
+      <par n="C__not-szšž"/>
+    </e>
+    <e alt="hbs_HR">
+      <p>
+        <l><a/>sa<b/></l>
+        <r>s<b/></r>
+      </p>
+      <par n="C__not-szšž"/>
+    </e>
+    <e>
+      <p>
+        <l><a/>sa<b/></l>
+        <r>sa<b/></r>
+      </p>
+    </e>
+  </section>
+</dictionary>

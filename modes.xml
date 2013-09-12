@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="hbs-morph">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hbs.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs_BS-gener">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="hbs_BS.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs_HR-gener">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="hbs_HR.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hbs_SR-gener">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="hbs_SR.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+  <mode name="hbs-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hbs.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 --trace -g">
+        <file name="apertium-hbs.hbs.rlx"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>

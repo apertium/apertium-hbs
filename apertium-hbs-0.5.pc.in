@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+
+Name: apertium-hbs
+Description: Finite-state morphological transducer and constraint grammar for Serbo-Croatian 
+Version: @VERSION@
