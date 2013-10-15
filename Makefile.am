@@ -111,10 +111,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix \
 apertium_hbsdir=$(prefix)/lib/apertium/$(BASENAME)/
 apertium_hbs_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_hbs_DATA=$(LANG1).automorf.bin $(LANG1a).autogen.bin $(LANG1b).autogen.bin $(LANG1c).autogen.bin \
-	$(LANG1a).autopgen.bin $(LANG1b).autopgen.bin $(LANG1c).autopgen.bin \
-		    $(LANG1).automorf.att.gz $(LANG1a).autogen.att.gz $(LANG1b).autogen.att.gz $(LANG1c).autogen.att.gz\
-		    $(LANG1).rlx.bin
+apertium_hbs_DATA=$(TARGETS_COMMON)
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
