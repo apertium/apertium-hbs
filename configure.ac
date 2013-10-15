@@ -82,4 +82,4 @@ then
 fi
 
 
-AC_OUTPUT([Makefile apertium-hbs-0.5.pc])
+AC_OUTPUT([Makefile apertium-hbs.pc])

@@ -109,7 +109,7 @@ apertium_hbs_DATA=$(LANG1).automorf.bin $(LANG1a).autogen.bin $(LANG1b).autogen.
 		    $(LANG1).rlx.bin modes
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
+pkgconfig_DATA = $(BASENAME).pc
 
 install-data-local:
 	if [ ! -d $(DESTDIR)$(apertium_hbs_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_hbs_srcdir); fi

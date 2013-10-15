@@ -7,10 +7,10 @@
 /README -text
 /TODO -text
 /alt.xsl -text
-/apertium-hbs-0.5.pc.in -text
 /apertium-hbs.hbs.acx -text
 /apertium-hbs.hbs.metadix -text
 /apertium-hbs.hbs.rlx -text
+/apertium-hbs.pc.in -text
 /apertium-hbs.post-hbs.dix -text
 /autogen.sh -text
 /configure.ac -text
