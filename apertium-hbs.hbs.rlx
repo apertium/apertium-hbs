@@ -361,7 +361,7 @@ SELECT:Modifier-Clt-Nom Nom IF (-1 Pron + Clt) (-2C Modifier + Nom);
 
 # Genitive inside numeral phrases
 SELECT Singular + Gen ((1* DualNum BARRIER (*) - Modifier) OR (-1* DualNum BARRIER (*) - Modifier))
-SELECT Plural + Gen ((1* PluralNum BARRIER (*) - Modifier) OR (-1* PluralNum BARRIER (*) - Modifier))
+SELECT Plural + Gen ((1C* PluralNum BARRIER (*) - Modifier) OR (-1C* PluralNum BARRIER (*) - Modifier))
 
 # Preposition based case disambiguation:
 REMOVE Pr + $$CASE (1 Nomen - $$CASE)
@@ -509,6 +509,9 @@ SELECT:IsThereASubject? Lp + $$GENDER + $$NUMBER IF
 
 # If it's not already disambiguated for plural via adjectives, it's most likely singular
 #REMOVE:PropNounSingular Prop + Plural;
+
+REMOVE Num IF (-2 BOS) (-1 Ant + Nom) (0 CC OR Num) (1 Ant + Nom) (2 V-FIN + Plural);
+    ## Marica i Ivica su u vrtu.
 
 SECTION
 # =========================================================================== #
