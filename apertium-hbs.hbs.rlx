@@ -514,8 +514,8 @@ SELECT:IsThereASubject? Lp + $$GENDER + $$NUMBER IF
 #REMOVE:PropNounSingular Prop + Plural;
 
 # Roman numeral or not
-SELECT:RomanOrNot Num IF (0 CC OR Num) (1 Sent or RPar)
-REMOVE:RomanOrNot Num IF (0 CC OR Num) (NOT -1 BOS) (NOT 0 RPar)  ;
+SELECT:RomanOrNot Num IF (0 CC OR Num) (1 Sent OR RPar);
+REMOVE:RomanOrNot Num IF (0 CC OR ("i")) (NOT -1 BOS) (NOT 1 Rpar) (NOT 1 Sent);
 REMOVE:RomanOrNot Num IF (-2 BOS) (-1 Ant + Nom) (0 CC OR Num) (1 Ant + Nom) (2 V-FIN + Plural);
     ## Marica i Ivica su u vrtu.
 
