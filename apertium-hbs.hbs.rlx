@@ -47,6 +47,9 @@ LIST CNJ = cnjcoo cnjsub ;
 LIST Interr = itg ;
 LIST Interjection = ij ;
 LIST Cm = (",") (cm) ;
+LIST LPar = lpar ;
+LIST RPar = rpar ;
+LIST Sent = sent ;
 
 # =========================================================================== #
 
@@ -510,7 +513,10 @@ SELECT:IsThereASubject? Lp + $$GENDER + $$NUMBER IF
 # If it's not already disambiguated for plural via adjectives, it's most likely singular
 #REMOVE:PropNounSingular Prop + Plural;
 
-REMOVE Num IF (-2 BOS) (-1 Ant + Nom) (0 CC OR Num) (1 Ant + Nom) (2 V-FIN + Plural);
+# Roman numeral or not
+SELECT:RomanOrNot Num IF (0 CC OR Num) (1 Sent or RPar)
+REMOVE:RomanOrNot Num IF (0 CC OR Num) ((-1 BOS) OR (1 RPar))
+REMOVE:RomanOrNot Num IF (-2 BOS) (-1 Ant + Nom) (0 CC OR Num) (1 Ant + Nom) (2 V-FIN + Plural);
     ## Marica i Ivica su u vrtu.
 
 SECTION
