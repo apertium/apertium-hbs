@@ -33617,7 +33617,7 @@
     <e lm="također"><i>također</i><par n="danas__adv"/></e>
     <e lm="također" r="LR"><p><l>takođe</l><r>također</r></p><par n="danas__adv"/></e>
     <e lm="naravno"><i>naravno</i><par n="danas__adv"/></e>
-    <e lm="tijekom"><i>tijekom</i><par n="danas__adv"/></e>
+<!--    <e lm="tijekom"><i>tijekom</i><par n="danas__adv"/></e> -->
     <e lm="kamo"><i>kamo</i><par n="danas__adv"/></e>
     <e lm="nekamo"><i>nekamo</i><par n="danas__adv"/></e>
     <e lm="nikamo"><i>nikamo</i><par n="danas__adv"/></e>
@@ -37185,11 +37185,11 @@
     <e lm="metalan"><p><l>najmetal</l><r>metal</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="metalan"><p><l>premetal</l><r>metal</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="kasan"><i>kas</i><par n="ruž/an__pst__adj"/></e>
+<!--    <e lm="kasan"><i>kas</i><par n="ruž/an__pst__adj"/></e>
     <e lm="kasan"><i>kas</i><par n="ruž/an__comp__adj"/></e>
     <e lm="kasan"><p><l>najkas</l><r>kas</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="kasan"><p><l>prekas</l><r>kas</r></p><par n="ruž/an__ssup__adj"/></e>
-
+-->
     <e lm="spiritualan"><i>spiritual</i><par n="ruž/an__pst__adj"/></e>
     <e lm="spiritualan"><i>spiritual</i><par n="ruž/an__comp__adj"/></e>
     <e lm="spiritualan"><p><l>najspiritual</l><r>spiritual</r></p><par n="ruž/an__sup__adj"/></e>
@@ -50712,7 +50712,7 @@
     <e lm="liderstvo"><i>liderst</i><par n="društ/vo__n"/></e>
     <e lm="lihvarstvo"><i>lihvarst</i><par n="društ/vo__n"/></e>
     <e lm="ljekarstvo"><i>l</i><par n="e_je__yat"/><i>karst</i><par n="društ/vo__n"/></e>
-    <e lm="ljeto"><i>l</i><par n="e_je__yat"/><i>t</i><par n="koljen/o__n"/></e>
+<!--    <e lm="ljeto"><i>l</i><par n="e_je__yat"/><i>t</i><par n="koljen/o__n"/></e> -->
     <e lm="ljevičarstvo"><i>l</i><par n="e_je__yat"/><i>vičarst</i><par n="društ/vo__n"/></e>
     <e lm="ljubiteljstvo"><i>ljubiteljst</i><par n="društ/vo__n"/></e>
     <e lm="ljubožderstvo"><i>ljubožderst</i><par n="društ/vo__n"/></e>
@@ -52891,7 +52891,7 @@
 
     <e lm="čim više"><i>čim<b/>više</i><par n="danas__adv"/></e>
 
-    <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e>
+<!--    <e lm="na koncu"><i>na<b/>koncu</i><par n="gen__pr"/></e> -->
     <e lm="na kraju"><i>na<b/>kraju</i><par n="gen__pr"/></e>
 
     <e lm="pedesetak"><i>pedesetak</i><p><l/><r><s n="num"/></r></p></e>
