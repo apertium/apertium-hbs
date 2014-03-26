@@ -88,6 +88,8 @@ LIST Plural = pl ;
 LIST Ant = ant ; 
 LIST Cog = cog ; 
 LIST ProperNoun = np ;
+LIST Toponim = top ; 
+LIST Places = "grad" ;
 
 # Words that have gender, number and case:
 LIST Nomen = top al ant cog n np prn adj; 
@@ -518,6 +520,9 @@ SELECT:RomanOrNot Num IF (0 CC OR Num) (1 Sent OR RPar);
 REMOVE:RomanOrNot Num IF (0 CC OR ("i")) (NOT -1 BOS) (NOT 1 RPar) (NOT 1 Sent);
 REMOVE:RomanOrNot Num IF (-2 BOS) (-1 Ant + Nom) (0 CC OR Num) (1 Ant + Nom) (2 V-FIN + Plural);
     ## Marica i Ivica su u vrtu.
+
+SELECT Toponim IF (0 Toponim OR N) (0 $$CASE) (-1C Places + $$CASE) ;
+    ## Višegodišnjim beskompromisnim djelovanjem sastav se uspio nametnuti kao trademark grada Rijeke
 
 SECTION
 # =========================================================================== #
