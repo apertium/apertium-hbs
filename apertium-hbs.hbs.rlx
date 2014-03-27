@@ -92,7 +92,7 @@ LIST Toponim = top ;
 LIST Places = "grad" ;
 
 # Words that have gender, number and case:
-LIST Nomen = top al ant cog n np prn adj; 
+LIST Nomen = top al ant cog n np prn adj num; 
 
 # Animacy
 LIST Animate = ma ; 
@@ -147,7 +147,7 @@ SET Num-Ord = Num - Ord ;
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interjection | Num | ("\?") ;
 
 # Skippable stuff
-LIST Skippable = ("clitic"i) clt adv cnjcoo cnjsub cm ;
+LIST Skippable = ("clitic"i) clt adv cnjcoo cnjsub cm ord ;
 
 # Categories that can come before the head noun in an ProperNoun 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | DemPron; 
@@ -347,6 +347,19 @@ REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
 # The easiest one, if it comes' after an adverb it's partitive:
 SELECT:AdvB4Partitive Adv (1 (@PAR) ) ;
 
+# Preposition based case disambiguation:
+REMOVE:PrepositionCase Pr + $$CASE (1 Nomen - $$CASE)
+REMOVE:PrepositionCase Pr + $$CASE (2 Nomen - $$CASE) (1 Skippable)
+REMOVE:PrepositionCase Nomen + $$CASE (-1 Pr - $$CASE)
+REMOVE:PrepositionCase Nomen + $$CASE (-2 Pr - $$CASE) (-1 Skippable)
+
+REMOVE:ModifierCase Nomen + $$CASE (-1 Modifier - $$CASE)
+REMOVE:ModifierCase Nomen + $$CASE (-2 Modifier - $$CASE) (-1 Skippable)
+
+REMOVE:ModifierCase Modifier + $$CASE (2 Nomen - $$CASE - Clt) (1 Skippable)
+REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE - Clt)
+
+
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
 SELECT Gen IF (0 Num) (-1C ("<prije>"i) + Pr);
 
@@ -356,6 +369,8 @@ SELECT:NumberChainIns Acc (0 Num) (-1* ACC-PREP BARRIER WORD - Modifier) ;
 SELECT:NumberChainIns Loc (0 Num) (-1* LOC-PREP BARRIER WORD - Modifier) ;
 SELECT:NumberChainIns Ins (0 Num) (-1* INS-PREP BARRIER WORD - Modifier) ;
     ## TODO: Expand this for all cases, currently they don't appear
+
+
 
 SELECT:Modifier-Nom Nom IF (-1C Modifier + Nom);
 SELECT:Modifier-Clt-Nom Nom IF (-1 Pron + Clt) (-2C Modifier + Nom);
@@ -368,38 +383,32 @@ SELECT:Modifier-Clt-Nom Nom IF (-1 Pron + Clt) (-2C Modifier + Nom);
 SELECT Singular + Gen ((1* DualNum BARRIER (*) - Modifier) OR (-1* DualNum BARRIER (*) - Modifier))
 SELECT Plural + Gen ((1C* PluralNum BARRIER (*) - Modifier) OR (-1C* PluralNum BARRIER (*) - Modifier))
 
-# Preposition based case disambiguation:
-REMOVE Pr + $$CASE (1 Nomen - $$CASE)
-REMOVE Nomen + $$CASE (-1 Pr - $$CASE)
-REMOVE Nomen + $$CASE (-1 Modifier - $$CASE)
 
-REMOVE Modifier + $$CASE (2 Nomen - $$CASE - Clt) (1 Skippable)
-REMOVE Modifier + $$CASE (1 Nomen - $$CASE - Clt)
 	
-SELECT:Pr-Acc-chain Acc IF (-1C ACC-PREP OR Modifier + Acc);
-SELECT:Pr-Acc-chain Acc IF (-2C Nomen + Acc) (-1C CNJ);
-SELECT:Pr-Acc-chain Acc IF (-2*C Nomen + Acc BARRIER WORD - Adv - CNJ) (-1C CNJ);
-SELECT:Pr-Acc-Clt-chain Acc IF (-1 Pron + Clt OR Num)(-2C ACC-PREP OR Modifier + Acc);
+#SELECT:Pr-Acc-chain Acc IF (-1C ACC-PREP OR Modifier + Acc);
+#SELECT:Pr-Acc-chain Acc IF (-2C Nomen + Acc) (-1C CNJ);
+#SELECT:Pr-Acc-chain Acc IF (-2*C Nomen + Acc BARRIER WORD - Adv - CNJ) (-1C CNJ);
+#SELECT:Pr-Acc-Clt-chain Acc IF (-1 Pron + Clt OR Num)(-2C ACC-PREP OR Modifier + Acc);
 
-SELECT:Pr-Gen-chain Gen IF (-1C GEN-PREP OR Modifier + Gen);
-SELECT:Pr-Gen-chain Gen IF (-2C Nomen + Gen) (-1C CNJ);
-SELECT:Pr-Gen-chain Gen IF (-2*C Nomen + Gen BARRIER WORD - Adv - CNJ) (-1C CNJ);
-SELECT:Pr-Gen-Clt-chain Gen IF (-1 Pron + Clt OR Num)(-2C GEN-PREP OR Modifier + Gen);
+#SELECT:Pr-Gen-chain Gen IF (-1C GEN-PREP OR Modifier + Gen);
+#SELECT:Pr-Gen-chain Gen IF (-2C Nomen + Gen) (-1C CNJ);
+#SELECT:Pr-Gen-chain Gen IF (-2*C Nomen + Gen BARRIER WORD - Adv - CNJ) (-1C CNJ);
+#SELECT:Pr-Gen-Clt-chain Gen IF (-1 Pron + Clt OR Num)(-2C GEN-PREP OR Modifier + Gen);
 
-SELECT:Pr-Dat-chain Dat IF (-1C DAT-PREP OR Modifier + Dat);
-SELECT:Pr-Dat-chain Dat IF (-2C Nomen + Dat)(-1C CNJ);
-SELECT:Pr-Dat-chain Dat IF (-2*C Nomen + Dat BARRIER WORD - Adv - CNJ) (-1C CNJ);
-SELECT:Pr-Dat-Clt-chain Dat IF (-1 Pron + Clt OR Num)(-2C DAT-PREP OR Modifier + Dat);
+#SELECT:Pr-Dat-chain Dat IF (-1C DAT-PREP OR Modifier + Dat);
+#SELECT:Pr-Dat-chain Dat IF (-2C Nomen + Dat)(-1C CNJ);
+#SELECT:Pr-Dat-chain Dat IF (-2*C Nomen + Dat BARRIER WORD - Adv - CNJ) (-1C CNJ);
+#SELECT:Pr-Dat-Clt-chain Dat IF (-1 Pron + Clt OR Num)(-2C DAT-PREP OR Modifier + Dat);
 
-SELECT:Pr-Loc-chain Loc IF (-1C LOC-PREP OR Modifier + Loc);
-SELECT:Pr-Loc-chain Loc IF (-2C Nomen + Loc)(-1C CNJ);
-SELECT:Pr-Loc-chain Loc IF (-2*C Nomen + Loc BARRIER WORD - Adv - CNJ) (-1C CNJ);
-SELECT:Pr-Loc-Clt-chain Loc IF (-1 Pron + Clt OR Num)(-2C LOC-PREP OR Modifier + Loc);
+#SELECT:Pr-Loc-chain Loc IF (-1C LOC-PREP OR Modifier + Loc);
+#SELECT:Pr-Loc-chain Loc IF (-2C Nomen + Loc)(-1C CNJ);
+#SELECT:Pr-Loc-chain Loc IF (-2*C Nomen + Loc BARRIER WORD - Adv - CNJ) (-1C CNJ);
+#SELECT:Pr-Loc-Clt-chain Loc IF (-1 Pron + Clt OR Num)(-2C LOC-PREP OR Modifier + Loc);
 
-SELECT:Pr-Ins-chain Ins IF (-1C INS-PREP OR Modifier + Ins);
-SELECT:Pr-Ins-chain Ins IF (-2C Nomen + Ins)(-1C CNJ);
-SELECT:Pr-Ins-chain Ins IF (-2*C Nomen + Ins BARRIER WORD - Adv - CNJ) (-1C CNJ); # Note and possibly TODO: Adv is here only because of 'kao<adv> i<cnjcoo>', but probably it should be a compound conjunction
-SELECT:Pr-Ins-Clt-chain Ins IF (-1 Pron + Clt OR Num)(-2C INS-PREP OR Modifier + Ins);
+#SELECT:Pr-Ins-chain Ins IF (-1C INS-PREP OR Modifier + Ins);
+#SELECT:Pr-Ins-chain Ins IF (-2C Nomen + Ins)(-1C CNJ);
+#SELECT:Pr-Ins-chain Ins IF (-2*C Nomen + Ins BARRIER WORD - Adv - CNJ) (-1C CNJ); # Note and possibly TODO: Adv is here only because of 'kao<adv> i<cnjcoo>', but probably it should be a compound conjunction
+#SELECT:Pr-Ins-Clt-chain Ins IF (-1 Pron + Clt OR Num)(-2C INS-PREP OR Modifier + Ins);
 
 SELECT:Ant+Cog $$NUMBER + $$GENDER + $$CASE IF (-1 Ant + $$NUMBER + $$GENDER + $$CASE ) (0 Cog + $$NUMBER + $$GENDER + $$CASE ) ;
 SELECT:Cog+Ant $$NUMBER + $$GENDER + $$CASE IF (1 Ant + $$NUMBER + $$GENDER + $$CASE ) (0 Cog + $$NUMBER + $$GENDER + $$CASE ) ;
@@ -418,7 +427,9 @@ SELECT:DativeIfAlone Dat IF (NOT 0 Num) (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C M
 REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C LOC-PREP) (NOT -1C Modifier + Loc);
     ## If dative stands alone, it's never locative
 
+
 SELECT:NomenAfterNounIsGenitive Gen (-1 N) (NOT 0 ProperNoun + (al) ) (NOT 0 (rel) );
+SELECT:NomenAfterNounIsGenitive Gen (-2 N) (-1 Skippable) (NOT 0 ProperNoun + (al) ) (NOT 0 (rel) );
 
 SELECT:kandidatPl Plural (0 ("kandidat"i) + Gen);
 
