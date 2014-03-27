@@ -25082,22 +25082,22 @@
       <e><p><l>zima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
 	<pardef n="kru/g__n"><!--Long plural-->
-      <e><p><l>g</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ga</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>gu</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>g</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>že</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e r="LR"><p><l>gu</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>gu</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>gom</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>govi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>gova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>govâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>govima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>gove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>govi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e><p><l>govima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>govima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ga</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>že</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e r="LR"><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>gom</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>govi</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>gova</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>govâ</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>gove</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>govi</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
     <pardef n="vol__n">
       <e><p><l></l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -33061,13 +33061,15 @@
     <e lm="bitan"><i>bit</i><par n="ruž/an__comp__adj"/></e>
     <e lm="bitan"><p><l>najbit</l><r>bit</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="bitan"><p><l>prebit</l><r>bit</r></p><par n="ruž/an__ssup__adj"/></e>
-    <e lm="bizaran"><i>bizar</i><par n="ruž/an__pst__sfx"/></e>
+    <e lm="bizaran"><i>bizar</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="bizaran"><p><l>najbizar</l><r>bizar</r></p><par n="ruž/an__sup__adj"/></e>
+    <e lm="bizaran"><p><l>prebizar</l><r>bizar</r></p><par n="ruž/an__ssup__adj"/></e>
     <e lm="bronca"><i>bronc</i><par n="žen/a__n"/></e>
     <e lm="bučan"><i>buč</i><par n="ruž/an__pst__adj"/></e>
     <e lm="bučan"><i>buč</i><par n="ruž/an__comp__adj"/></e>
     <e lm="bučan"><p><l>najbuč</l><r>buč</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="bučan"><p><l>prebuč</l><r>buč</r></p><par n="ruž/an__ssup__adj"/></e>
-    <e lm="cijeli"><i>cijel</i><par n="mnog/i__adj"/></e>
+<!-- to be removed <e lm="cijeli"><i>cijel</i><par n="mnog/i__adj"/></e> -->
     <e lm="da"><p><l>da</l><r>da<s n="part"/></r></p></e>
     <e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
     <e lm="dio"><i/><par n="dio__n"/></e>
@@ -33302,10 +33304,10 @@
     <e lm="pjevač"><i>pjevač</i><par n="orač__n"/></e>
     <e lm="početkom"><i>početkom</i><par n="ins__pr"/></e>
     <e lm="prvi"><i>prv</i><par n="mnog/i__adj"/></e>
-    <e lm="prvorazredni"><i>prvorazredn</i><par n="zdrav__pst__adj"/></e>
-    <e lm="prvorazredni"><i>prvorazredn</i><par n="zdrav__comp__adj"/></e>
-    <e lm="prvorazredni"><p><l>najprvorazredn</l><r>prvorazredn</r></p><par n="zdrav__sup__adj"/></e>
-    <e lm="prvorazredni"><p><l>najprvorazredn</l><r>prvorazredn</r></p><par n="zdrav__ssup__adj"/></e>
+    <e lm="prvorazredan"><i>prvorazred</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="prvorazredan"><i>prvorazred</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="prvorazredan"><p><l>najprvorazred</l><r>prvorazred</r></p><par n="ruž/an__sup__adj"/></e>
+    <e lm="prvorazredan"><p><l>najprvorazred</l><r>prvorazred</r></p><par n="ruž/an__ssup__adj"/></e>
     <e lm="punk"><i>pun</i><par n="bo/k__n"/></e>
     <e lm="raspad"><i>raspad</i><par n="bicikl__n"/></e>
     <e lm="razvijen"><i>razvijen</i><par n="zdrav__pst__adj"/></e>
@@ -33332,7 +33334,7 @@
     <e lm="će"><i>će</i><par n="ću__clt"/></e>
     <e lm="širiti"><i>šir</i><par n="imperf_iv_traž/iti__vblex"/></e>
     <e lm="u to vrijeme"><i>u<b/>to<b/>vrijeme</i><par n="danas__adv"/></e>
-    <!--<e lm="cijeli jedan"><i>cijel</i><par n="mnog/i__adj"/><p><l><b/>jed</l><r><g><b/>jed</g></r></p><par n="ruž/an__pst__adj"/></e>-->
+<!--    <e lm="cijeli jedan"><i>cijel</i><par n="mnog/i__adj"/><p><l><b/>jed</l><r><g><b/>jed</g></r></p><par n="ruž/an__pst__adj"/></e> -->
     <e lm="općenito"><i>općenito</i><par n="danas__adv"/></e>
     <e lm="čiji"><i>čiji</i><par n="coordinating__cnj"/></e>    
 
@@ -33658,7 +33660,7 @@
     <e lm="također"><i>također</i><par n="danas__adv"/></e>
     <e lm="također" r="LR"><p><l>takođe</l><r>također</r></p><par n="danas__adv"/></e>
     <e lm="naravno"><i>naravno</i><par n="danas__adv"/></e>
-   <e lm="tijekom"><i>tijekom</i><par n="danas__adv"/></e> 
+    <e lm="tijekom"><i>tijekom</i><par n="danas__adv"/></e>
     <e lm="kamo"><i>kamo</i><par n="danas__adv"/></e>
     <e lm="nekamo"><i>nekamo</i><par n="danas__adv"/></e>
     <e lm="nikamo"><i>nikamo</i><par n="danas__adv"/></e>
