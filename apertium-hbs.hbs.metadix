@@ -33338,7 +33338,7 @@
     <e lm="općenito"><i>općenito</i><par n="danas__adv"/></e>
     <e lm="čiji"><i>čiji</i><par n="coordinating__cnj"/></e>    
 
-    <e lm="-ih"><i>-</i><par n="pp__adj__sfx"/></e>
+    <e lm="-ih"><i>-</i><par n="zdrav__pst__adj"/></e>
     <e lm="babin"><i>bab</i><par n="marij/in__adj"/></e>
 
     <!--Closed speech categories-->
@@ -46833,7 +46833,7 @@
     <e lm="kuk"><i>ku</i><par n="bo/k__n"/></e>
     <e lm="luk"><i>lu</i><par n="bo/k__n"/></e>
     <e lm="muk"><i>mu</i><par n="bo/k__n"/></e>
-    <e lm="rijek"><i>r</i><par n="e_ije__yat"/><par n="bo/k__n"/></e>
+<!--    <e lm="rijek"><i>r</i><par n="e_ije__yat"/><par n="bo/k__n"/></e> What is this, anyway? Can it even stand by itself (pravorijek)? -->
     <e lm="lijek"><i>l</i><par n="e_ije__yat"/><par n="bo/k__n"/></e>
     <e lm="štrajk"><i>štraj</i><par n="bo/k__n"/></e>
     <e lm="blok"><i>blo</i><par n="bo/k__n"/></e>
