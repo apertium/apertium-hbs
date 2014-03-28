@@ -427,7 +427,7 @@ SELECT:DativeIfAlone Dat IF (NOT 0 Num) (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C M
 REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C LOC-PREP) (NOT -1C Modifier + Loc);
     ## If dative stands alone, it's never locative
 
-SELECT:TeCnjAfterComa CC IF (-1 Cm) ;
+SELECT:TeCnjAfterComa CC IF (0 Pron OR CC) (-1 Cm) ;
     ### Višegodišnjim beskompromisnim djelovanjem sastav se uspio nametnuti kao trademark grada Rijeke, cijele jedne regije, te na koncu poklonika nadahnute različitosti u više država.
 
 SELECT:NomenAfterNounIsGenitive Gen (-1 N) (NOT 0 ProperNoun + (al) ) (NOT 0 (rel) );
