@@ -33260,7 +33260,7 @@
     <e lm="visok"><p><l>vi</l><r>visok</r></p><par n="mek__comp__adj"/></e>
     <e lm="visok"><p><l>najvi</l><r>visok</r></p><par n="mek__sup__adj"/></e>
     <e lm="visok"><p><l>previsok</l><r>visok</r></p><par n="mek__ssup__adj"/></e>
-    <e lm="više"><i>više</i><par n="danas__adv"/></e>
+    <e lm="više"><i>više</i><par n="super__pst__adj"/></e>
     <e lm="višegodišnji"><i>višegodišnj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="vjeran"><i>vjer</i><par n="ruž/an__pst__adj"/></e>
     <e lm="vrijeme"><i/><par n="vrijeme__n"/></e>
