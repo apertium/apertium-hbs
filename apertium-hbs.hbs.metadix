@@ -143,21 +143,21 @@
   <pardefs>
 
     <pardef n="Mrle__np">
-      <e><p><l></l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ta</l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>tu</l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ta</l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>tu</l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l></l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e><p><l>tu</l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>tom</l><r><s n="np"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>ti</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ta</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>tima</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>te</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ti</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e><p><l>tima</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>tima</l><r><s n="np"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ta</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>tu</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ta</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tu</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>tu</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>tom</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ti</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ta</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>tima</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>te</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ti</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>tima</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>tima</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
 
     <pardef n="Termit/i__np">
@@ -33039,7 +33039,9 @@
     <!--New data-->
     
     <e lm="Damir"><i>Damir</i><par n="Mislav__np"/></e>
-    <e lm="Let"><i>Let</i><par n="Rim__np"/></e>
+    <e lm="Let"><i>Let</i><par n="SuperGaleb__np"/></e>
+<!--    <e lm="Let 2"><i>Let</i><par n="SuperGaleb__np"/><p><l><b/>2</l><r><g><b/>2</g></r></p></e>
+    <e lm="Let 3"><i>Let</i><par n="SuperGaleb__np"/><p><l><b/>3</l><r><g><b/>3</g></r></p></e> -->
     <e lm="Ljubljana"><i>Ljubljan</i><par n="Bosn/a__np"/></e>
     <e lm="Martinović"><i>Martinov</i><par n="Prezimen/ić__cog__np"/></e>
     <e lm="Mrle"><i>Mrle</i><par n="Mrle__np"/></e>
