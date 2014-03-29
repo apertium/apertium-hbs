@@ -174,6 +174,8 @@ SET NOT-PP-MEMBER = WORDMARK - PP-MEMBER ;
 # Categories which can be the head of a noun phrase
 SET NP-HEAD = N | Pron | Prop ; 
 
+SET NOT-NP-HEAD-OR-CM-OR-CC = WORDMARK - NP-HEAD | Cm | CC  ; 
+
 SET S-BOUNDARY = CS | Interr | (n voc) | EOS; 
 
 # =========================================================================== #
@@ -423,9 +425,19 @@ SELECT:FeminineCognameAloneIsNominative Nom IF # This rule is really analyser sp
     (NOT 1 Ant + ($$CASE - Nom));
     ## Indeed, if it's already not Accusative and Vocative etc
 
-SELECT:DativeIfAlone Dat IF (NOT 0 Num) (0C Dat OR Loc) (NOT -1C Pr) (NOT -1C Modifier + Loc) (NOT -1 Cm LINK -1 Loc);
+SELECT:DativeIfAlone Dat IF (NOT 0 Num) 
+                            (0C Dat OR Loc) 
+                            (NOT -1C Pr)
+                            (NOT -1C Modifier + Loc) 
+                            (NOT -1 CC LINK -1 Loc)
+                            (NOT -1 Cm LINK -1 Loc) ;
     ## Spomenik je otkriven u Zagrebu, Rijeci, Puli, Splitu i Ljubljani.
-REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C LOC-PREP) (NOT -1C Modifier + Loc) (NOT -1 Cm LINK -1 Loc);
+
+REMOVE:NotLocative Loc IF (0 Dat OR Loc) 
+                          (NOT -1C LOC-PREP) 
+                          (NOT -1C Modifier + Loc) 
+                          (NOT -1 CC LINK -1 Loc) 
+                          (NOT -1 Cm LINK -1 Loc) ;
     ## If dative stands alone, it's never locative
 
 SELECT:TeCnjAfterComa CC IF (-1 Cm) ;
@@ -537,6 +549,12 @@ SELECT Toponim IF (0 Toponim OR N) (0 $$CASE) (-1C Places + $$CASE) ;
     ## Višegodišnjim beskompromisnim djelovanjem sastav se uspio nametnuti kao trademark grada Rijeke
 
 SELECT Toponim + $$CASE IF (0C Toponim OR N) (-1 Cm LINK -1 Toponim + $$CASE) (1 Cm LINK 1 Toponim + $$CASE) ;
+    ## Spomenik je otkriven u Zagrebu, Rijeci, Puli, Splitu i Ljubljani.
+
+SELECT Toponim + $$CASE IF (0C Toponim) (-1 Cm LINK -1 Toponim + $$CASE) (1 CC LINK 1 Toponim + $$CASE) ;
+    ## Spomenik je otkriven u Zagrebu, Rijeci, Puli, Splitu i Ljubljani.
+
+SELECT Toponim + $$CASE IF (0C Toponim) (-1 CC LINK -1 Toponim + $$CASE) (-3 Cm LINK 1 Toponim + $$CASE) ;
     ## Spomenik je otkriven u Zagrebu, Rijeci, Puli, Splitu i Ljubljani.
 
 SECTION
