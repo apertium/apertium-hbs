@@ -33010,7 +33010,8 @@
       <e><p><l>dvadesetim</l><r>dvadeseti<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
       <e r="LR"><p><l>dvadesetima</l><r>dvadeseti<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
-      <e><re>[0-9]+</re><p><l>.</l><r><s n="num"/><s n="ord"/><s n="nom"/><s n="ind"/></r></p></e><!--Note: this indefinite part is basically cheating, though ordinals act as adjectives--><!--TODO: better this-->
+      <e><re>[0-9]+</re><p><l>.</l><r><s n="num"/><s n="ord"/></r></p></e><!--Note: this indefinite part is basically cheating, though ordinals act as adjectives--><!--TODO: better this-->
+      <!--<e><re>[0-9]+</re><p><l>.</l><r><s n="num"/><s n="ord"/><s n="nom"/><s n="ind"/></r></p></e>-->
       <!--Ordinal numbers-->
 
       <!--big TODO: finish this, these are basically all definite adjectives-->
