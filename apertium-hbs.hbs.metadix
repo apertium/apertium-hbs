@@ -33110,6 +33110,10 @@
     <e lm="image"><i>image</i><par n="odmor__n"/></e>
     <e lm="ime"><i>ime</i><par n="rame__n"/></e>
     <e lm="indie"><i>indie</i><par n="taksi__n"/></e>
+    <e lm="indie"><i>indie</i><par n="super__pst__adj"/></e>
+    <e lm="indie"><i>indie</i><par n="super__comp__adj"/></e>
+    <e lm="indie"><p><l>najindie</l><r>indie</r></p><par n="super__sup__adj"/></e>
+    <e lm="indie"><p><l>preindie</l><r>indie</r></p><par n="super__ssup__adj"/></e>
     <e lm="iskustvo"><i>iskust</i><par n="društ/vo__n"/></e>
     <e lm="iz"><i>iz</i><par n="gen__pr"/></e>
     <e lm="izlaz"><i>izlaz</i><par n="program__n"/></e>
