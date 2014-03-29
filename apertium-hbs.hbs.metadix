@@ -33365,7 +33365,7 @@
     <e lm="općenito"><i>općenito</i><par n="danas__adv"/></e>
     <e lm="čiji"><i>čiji</i><par n="coordinating__cnj"/></e>    
 
-    <e lm="-ih"><i>-</i><par n="zdrav__pst__adj"/></e>
+    <!--<e lm="-ih"><i>-</i><par n="zdrav__pst__adj"/></e>-->
     <e lm="babin"><i>bab</i><par n="marij/in__adj"/></e>
 
     <!--Closed speech categories-->
