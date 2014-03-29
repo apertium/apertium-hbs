@@ -161,13 +161,13 @@
     </pardef>
 
     <pardef n="Termit/i__np">
-      <e><p><l>i</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>a</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>e</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ima</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ima</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>i</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-      <e><p><l>ima</l><r>i<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>i</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>e</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ima</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ima</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>i</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>ima</l><r>i<s n="np"/><s n="al"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
 
     <!-- Vowel differences for long and short yat ~ Ekavian - Ijekavian -->
