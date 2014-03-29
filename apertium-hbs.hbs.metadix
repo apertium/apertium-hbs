@@ -33039,9 +33039,8 @@
     <!--New data-->
     
     <e lm="Damir"><i>Damir</i><par n="Mislav__np"/></e>
-    <e lm="Let"><i>Let</i><par n="SuperGaleb__np"/></e>
-<!--    <e lm="Let 2"><i>Let</i><par n="SuperGaleb__np"/><p><l><b/>2</l><r><g><b/>2</g></r></p></e>
-    <e lm="Let 3"><i>Let</i><par n="SuperGaleb__np"/><p><l><b/>3</l><r><g><b/>3</g></r></p></e> -->
+    <e lm="Let 2"><p><l>Let</l><r>Let<b/>2</r></p><par n="SuperGaleb__np"/><p><l><b/>2</l><r></r></p></e>
+    <e lm="Let 3"><p><l>Let</l><r>Let<b/>3</r></p><par n="SuperGaleb__np"/><p><l><b/>3</l><r></r></p></e>
     <e lm="Ljubljana"><i>Ljubljan</i><par n="Bosn/a__np"/></e>
     <e lm="Martinović"><i>Martinov</i><par n="Prezimen/ić__cog__np"/></e>
     <e lm="Mrle"><i>Mrle</i><par n="Mrle__np"/></e>
