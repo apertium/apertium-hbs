@@ -33075,12 +33075,18 @@
     <e lm="da"><p><l>da</l><r>da<s n="part"/></r></p></e>
     <e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
     <e lm="dio"><i/><par n="dio__n"/></e>
-    <e lm="diskografski"><i>diskografs</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="diskografski"><i>diskografs</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="diskografski"><i>diskografs</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="diskografski"><p><l>najdiskografs</l><r>diskografs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="diskografski"><p><l>prediskografs</l><r>diskografs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="djelovanje"><i>d</i><par n="e_je__yat"/><i>lovanj</i><par n="polj/e__n"/></e>
     <e lm="do"><i>do</i><par n="gen__pr"/></e>
     <e lm="doista"><i>doista</i><par n="danas__adv"/></e>
     <e lm="dorađenost"><i>dorađeno</i><par n="ma/st__n"/></e>
-    <e lm="dramaturški"><i>dramaturš</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="dramaturški"><i>dramaturš</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="dramaturški"><i>dramaturš</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="dramaturški"><p><l>najdramaturš</l><r>dramaturš</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="dramaturški"><p><l>predramaturš</l><r>dramaturš</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="drugi"><i>drug</i><par n="garantn/i__adj"/></e>
     <e lm="država"><i>držav</i><par n="žen/a__n"/></e>
     <e lm="dvije"><i>dvij</i><par n="base_numerals"/></e>
@@ -33111,7 +33117,10 @@
     <e lm="izuzetan"><i>izuzet</i><par n="ruž/an__comp__adj"/></e>
     <e lm="izuzetan"><p><l>najizuzet</l><r>izuzet</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="izuzetan"><p><l>preizuzet</l><r>izuzet</r></p><par n="ruž/an__ssup__adj"/></e>
-    <e lm="izvođački"><i>izvođač</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="izvođački"><i>izvođač</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="izvođački"><i>izvođač</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="izvođački"><p><l>najizvođač</l><r>izvođač</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="izvođački"><p><l>preizvođač</l><r>izvođač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="javan"><i>jav</i><par n="ruž/an__pst__adj"/></e>
     <e lm="javan"><i>jav</i><par n="ruž/an__comp__adj"/></e>
     <e lm="javan"><p><l>najjav</l><r>jav</r></p><par n="ruž/an__sup__adj"/></e>
@@ -33206,13 +33215,19 @@
     <e lm="red"><i>red</i><par n="test__n"/></e>
     <e lm="regija"><i>regij</i><par n="žen/a__n"/></e>
     <e lm="riječan"><i>riječan</i><par n="gospodin__n"/></e>
-    <e lm="riječki"><i>riječ</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="riječki"><i>riječ</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="riječki"><i>riječ</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="riječki"><p><l>najriječ</l><r>riječ</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="riječki"><p><l>preriječ</l><r>riječ</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="rock"><i>rock</i><par n="test__n"/></e>
     <e lm="sam"><i>sam</i><par n="sam__adj"/></e>
     <e lm="samo"><i>samo</i><par n="danas__adv"/></e>
     <e lm="sastav"><i>sastav</i><par n="program__n"/></e>
     <e lm="sceničnost"><i>scenično</i><par n="ma/st__n"/></e>
-    <e lm="scenski"><i>scens</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="scenski"><i>scens</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="scenski"><i>scens</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="scenski"><p><l>najscens</l><r>scens</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="scenski"><p><l>prescens</l><r>scens</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="sljedeći"><i>sljedeć</i><par n="odlučujuć/i__adj"/></e>
     <e lm="sljedeći"><i>sljedeć</i><par n="odlučujuć/i__adj"/></e>
     <e lm="socijalan"><i>socijal</i><par n="ruž/an__pst__adj"/></e>
@@ -33225,7 +33240,10 @@
     <e lm="specifičan"><p><l>prespecifič</l><r>specifič</r></p><par n="ruž/an__ssup__adj"/></e>
     <e lm="specifičnost"><i>specifično</i><par n="ma/st__n"/></e>
     <e lm="spomenik"><i>spomeni</i><par n="Gr/k__n"/></e>
-    <e lm="stilski"><i>stils</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="stilski"><i>stils</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="stilski"><i>stils</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="stilski"><p><l>najstils</l><r>stils</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="stilski"><p><l>prestils</l><r>stils</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="strukturni"><i>strukturn</i><par n="garantn/i__adj"/></e>
     <e lm="svjestan"><i>svje</i><par n="izvje/stan__pst__adj"/></e>
     <e lm="svjestan"><i>svje</i><par n="izvje/stan__comp__adj"/></e>
@@ -33249,7 +33267,10 @@
     <e lm="ulica"><i>ulic</i><par n="žen/a__n"/></e>
     <e lm="ulica"><i>ulic</i><par n="žen/a__n"/></e>
     <e lm="umjetnik"><i>umjetni</i><par n="učeni/k__n"/></e>
-    <e lm="umjetnički"><i>umjetnič</i><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="umjetnički"><i>umjetnič</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="umjetnički"><i>umjetnič</i><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="umjetnički"><p><l>najumjetnič</l><r>umjetnič</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="umjetnički"><p><l>preumjetnič</l><r>umjetnič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="unikatan"><i>unikat</i><par n="ruž/an__pst__adj"/></e>
     <e lm="uvijek"><i>uv</i><par n="e_ije__yat"/><i>k</i><par n="danas__adv"/></e>
     <e lm="veljača"><i>veljač</i><par n="žen/a__n"/></e>
