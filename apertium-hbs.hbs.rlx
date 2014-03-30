@@ -338,7 +338,7 @@ SELECT Animate (0 ("pas"i) + Nom);
 #   PP disambiguation                                                         #
 # =========================================================================== #
 
-REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
+#REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
 
