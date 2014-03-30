@@ -33132,10 +33132,11 @@
     <e lm="javnost"><i>javno</i><par n="ma/st__n"/></e>
     <e lm="jedan"><i>jed</i><par n="base_numerals"/></e>
     <e lm="jezgra"><i>jezg</i><par n="sest/ra__n"/></e>
-    <e lm="kao"><i>kao</i><par n="danas__adv"/></e>
+    <e lm="kao"><i>kao</i><par n="gen__pr"/></e>
     <e lm="karijera"><i>karijer</i><par n="žen/a__n"/></e>
     <e lm="kasnije"><i>kasnije</i><par n="danas__adv"/></e>
     <e lm="koji"><i>koji</i><par n="subordinating__cnj"/></e>
+    <e lm="koji"><i/><par n="interrogative__pronouns__prn"/></e>
     <e lm="kompilacija"><i>kompilacij</i><par n="žen/a__n"/></e>
     <e lm="konac"><i>kon</i><par n="prosin/ac__n"/></e>
     <e lm="koncert"><i>koncer</i><par n="studen/t__n"/></e>
@@ -33296,7 +33297,8 @@
     <e lm="za"><i>za</i><par n="ins__pr"/></e>
     <e lm="zaista"><i>zaista</i><par n="danas__adv"/></e>
     <e lm="zajedno"><i>zajedno</i><par n="danas__adv"/></e>
-    <e lm="čemu"><i>čemu</i><par n="što__itg__prn"/></e>
+<!--    <e lm="čemu"><i>čemu</i><par n="što__itg__prn"/></e> testing -->
+    <e lm="što"><i/><par n="što__itg__prn"/></e>
     <e lm="čudak"><i>čuda</i><par n="učeni/k__n"/></e>
     <e lm="kao što"><i>kao<b/>što</i><par n="subordinating__cnj"/></e>
     <e lm="štovatelj"><i>štovatelj</i><par n="prijatelj__n"/></e>
@@ -33326,7 +33328,7 @@
     <e lm="glazben"><i>glazben</i><par n="zdrav__comp__adj"/></e>
     <e lm="glazben"><p><l>najglazben</l><r>neprimjeren</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="glazben"><p><l>najglazben</l><r>neprimjeren</r></p><par n="zdrav__ssup__adj"/></e>
-    <e lm="PersonalPronoun"><i/><par n="personal_pronouns__prn"/></e>
+<!--    <e lm="PersonalPronoun"><i/><par n="personal_pronouns__prn"/></e> -->
     <e lm="onaj"><i>onaj</i><par n="onaj__dem__prn"/></e>
     <e lm="pjevač"><i>pjevač</i><par n="orač__n"/></e>
     <e lm="početkom"><i>početkom</i><par n="ins__pr"/></e>
@@ -33789,7 +33791,7 @@
     <e lm="blizu"><p><l>najbliže</l><r>blizu<s n="adv"/><s n="sup"/></r></p></e>
     <e lm="blizu"><p><l>preblizu</l><r>blizu<s n="adv"/><s n="ssup"/></r></p></e>
     <e lm="dolje"><i>dol</i><par n="e_je__yat"/><par n="danas__adv"/></e>
-    <e lm="kao"><i>kao</i><par n="danas__adv"/></e>
+<!--    <e lm="kao"><i>kao</i><par n="danas__adv"/></e>  testing -->
     <e lm="kako"><i>kako</i><par n="danas__adv"/></e>
     <e lm="oko"><i>oko</i><par n="danas__adv"/></e>
     <e lm="dosad"><i>dosad</i><par n="danas__adv"/></e>
