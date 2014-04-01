@@ -350,16 +350,16 @@ SELECT Animate (0 ("pas"i) + Nom);
 SELECT:AdvB4Partitive Adv (1 (@PAR) ) ;
 
 # Preposition based case disambiguation:
-REMOVE:PrepositionCase Pr + $$CASE (1 Nomen - $$CASE)
-REMOVE:PrepositionCase Pr + $$CASE (2 Nomen - $$CASE) (1 Skippable)
-REMOVE:PrepositionCase Nomen + $$CASE (-1 Pr - $$CASE)
-REMOVE:PrepositionCase Nomen + $$CASE (-2 Pr - $$CASE) (-1 Skippable)
+REMOVE:PrepositionCase KEEPORDER Pr + $$CASE (1 Nomen - $$CASE) (NOT 1 Nomen + $$CASE)
+REMOVE:PrepositionCase KEEPORDER Pr + $$CASE (2 Nomen - $$CASE) (NOT 2 Nomen + $$CASE) (1 Skippable)
+REMOVE:PrepositionCase KEEPORDER Nomen + $$CASE (-1 Pr - $$CASE) (NOT -1 Pr + $$CASE)
+REMOVE:PrepositionCase KEEPORDER Nomen + $$CASE (-2 Pr - $$CASE) (NOT -2 Pr + $$CASE) (-1 Skippable)
 
-REMOVE:ModifierCase Nomen + $$CASE (-1 Modifier - $$CASE)
-REMOVE:ModifierCase Nomen + $$CASE (-2 Modifier - $$CASE) (-1 Skippable)
+REMOVE:ModifierCase Nomen + $$CASE (-1 Modifier - $$CASE) (NOT -1 Modifier + $$CASE)
+REMOVE:ModifierCase Nomen + $$CASE (-2 Modifier - $$CASE) (NOT -2 Modifier + $$CASE) (-1 Skippable)
 
-REMOVE:ModifierCase Modifier + $$CASE (2 Nomen - $$CASE - Clt) (1 Skippable)
-REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE - Clt)
+REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE - Clt) (NOT 1 Nomen + $$CASE - Clt) 
+REMOVE:ModifierCase Modifier + $$CASE (2 Nomen - $$CASE - Clt) (NOT 2 Nomen + $$CASE - Clt) (1 Skippable)
 
 
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
@@ -425,19 +425,20 @@ SELECT:FeminineCognameAloneIsNominative Nom IF # This rule is really analyser sp
     (NOT 1 Ant + ($$CASE - Nom));
     ## Indeed, if it's already not Accusative and Vocative etc
 
-SELECT:DativeIfAlone Dat IF (NOT 0 Num) 
-                            (0C Dat OR Loc) 
-                            (NOT -1C Pr)
-                            (NOT -1C Modifier + Loc) 
-                            (NOT -1 CC LINK -1 Loc)
-                            (NOT -1 Cm LINK -1 Loc) ;
+#REMOVE:LocativeNeverAlone Loc IF (NOT 0 Num)
+#                            (0 Dat OR Loc or Ins)
+#                            (NOT -1C Pr)
+#                            (NOT -1C Modifier + Loc) 
+#                            (NOT -1 CC LINK -1 Loc)
+#                            (NOT -1 Cm LINK -1 Loc) ;
     ## Spomenik je otkriven u Zagrebu, Rijeci, Puli, Splitu i Ljubljani.
 
-REMOVE:NotLocative Loc IF (0 Dat OR Loc) 
-                          (NOT -1C LOC-PREP) 
+REMOVE:LocativeNeverAlone Loc IF
+                          (0 Dat OR Loc)
+                          (NOT -1C Pr + Loc) 
                           (NOT -1C Modifier + Loc) 
-                          (NOT -1 CC LINK -1 Loc) 
-                          (NOT -1 Cm LINK -1 Loc) ;
+                          (NEGATE -1 CC LINK -1 Loc) 
+                          (NEGATE -1 Cm LINK -1 Loc)
     ## If dative stands alone, it's never locative
 
 SELECT:TeCnjAfterComa CC IF (-1 Cm) ;
