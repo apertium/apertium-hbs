@@ -127,6 +127,7 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 install-data-local:
 	test -d $(DESTDIR)$(apertium_hbs_srcdir) || mkdir -p $(DESTDIR)$(apertium_hbs_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).metadix $(DESTDIR)$(apertium_hbs_srcdir)
+	$(INSTALL_DATA) $(BASENAME).cyr-lat.dix $(DESTDIR)$(apertium_hbs_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_hbs_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
