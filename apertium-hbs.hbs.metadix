@@ -33075,6 +33075,7 @@
     <e lm="da"><p><l>da</l><r>da<s n="part"/></r></p></e>
     <e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
     <e lm="dio"><i/><par n="dio__n"/></e>
+    <e lm="diskografija"><i>diskografij</i><par n="žen/a__n"/></e>
     <e lm="diskografski"><i>diskografs</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="diskografski"><i>diskografs</i><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="diskografski"><p><l>najdiskografs</l><r>diskografs</r></p><par n="pridjevs/ki__sup__adj"/></e>
@@ -33259,6 +33260,7 @@
 <!--    <e lm="termit"><i>termit</i><par n="odmor__n"/></e> -->
     <e lm="tijekom"><i>tijekom</i><par n="gen__pr"/></e>
     <e lm="točno"><i>točno</i><par n="danas__adv"/></e>
+    <e lm="točnije"><i>točno</i><par n="danas__adv"/></e>
 <!-- <e lm="točan"><i>toč</i><par n="ruž/an__pst__adj"/></e> -->
 <!-- <e lm="točan"><i>toč</i><par n="ruž/an__comp__adj"/></e> -->
 <!-- <e lm="točan"><p><l>najtoč</l><r>toč</r></p><par n="ruž/an__sup__adj"/></e> -->
