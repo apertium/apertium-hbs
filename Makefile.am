@@ -17,28 +17,28 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1a).autogen.bin $(LANG1b).autogen.b
 	$(LANG1).automorf.att.gz $(LANG1a).autogen.att.gz $(LANG1b).autogen.att.gz $(LANG1c).autogen.att.gz \
         $(LANG1).rlx.bin
 
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
+
 ###############################################################################
 ## Serbo-Croatian transducer
 ###############################################################################
 
-.deps/$(BASENAME).$(LANG1a).dix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(BASENAME).$(LANG1a).dix: $(BASENAME).$(LANG1).metadix .deps/.d
 	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(LANG1a).autogen.bin: .deps/$(BASENAME).$(LANG1a).dix
 	apertium-validate-dictionary $< 
 	lt-comp rl $< $@
 
-.deps/$(BASENAME).$(LANG1b).dix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(BASENAME).$(LANG1b).dix: $(BASENAME).$(LANG1).metadix .deps/.d
 	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(LANG1b).autogen.bin: .deps/$(BASENAME).$(LANG1b).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-.deps/$(BASENAME).$(LANG1c).dix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(BASENAME).$(LANG1c).dix: $(BASENAME).$(LANG1).metadix .deps/.d
 	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR2) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(LANG1c).autogen.bin: .deps/$(BASENAME).$(LANG1c).dix
@@ -54,8 +54,7 @@ $(LANG1b).autogen.att.gz: $(LANG1b).autogen.bin
 $(LANG1c).autogen.att.gz: $(LANG1c).autogen.bin
 	lt-print $< | gzip -9 -c > $@
 
-.deps/$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix .deps/.d
 	xsltproc --stringparam alt $(LANG1) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
 
 $(LANG1).automorf.bin: .deps/$(BASENAME).$(LANG1).dix
@@ -65,20 +64,17 @@ $(LANG1).automorf.bin: .deps/$(BASENAME).$(LANG1).dix
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c > $@
 
-$(LANG1a).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1a).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1a).dix
 	apertium-validate-dictionary .deps/post-$(LANG1a).dix
 	lt-comp lr .deps/post-$(LANG1a).dix $@ 
 
-$(LANG1b).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1b).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1b).dix
 	apertium-validate-dictionary .deps/post-$(LANG1b).dix
 	lt-comp lr .deps/post-$(LANG1b).dix $@ 
 
-$(LANG1c).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1c).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR1) alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1c).dix
 	apertium-validate-dictionary .deps/post-$(LANG1c).dix
 	lt-comp lr .deps/post-$(LANG1c).dix $@ 
@@ -116,12 +112,6 @@ apertium_hbs_DATA=$(TARGETS_COMMON)
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
-# Modes are not installed since they're all just "debug modes". All
-# modes are created by this goal.
-modes/$(LANG1)-morph.mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local:
@@ -129,6 +119,10 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).metadix $(DESTDIR)$(apertium_hbs_srcdir)
 	$(INSTALL_DATA) $(BASENAME).cyr-lat.dix $(DESTDIR)$(apertium_hbs_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_hbs_srcdir)
+
+###############################################################################
+## Cleanup
+###############################################################################
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
