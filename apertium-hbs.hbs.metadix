@@ -48084,7 +48084,6 @@
     <e lm="prevara"><i>pr</i><par n="e_ije__yat"/><i>var</i><par n="žen/a__n"/></e>    
     <e lm="kulisa"><i>kulis</i><par n="žen/a__n"/></e>
     <e lm="brineta"><i>brinet</i><par n="žen/a__n"/></e>
-<!--    <e lm="komiteta"><i>komitet</i><par n="žen/a__n"/></e> FIX: probably G of "komitet" -->
     <e lm="kota"><i>kot</i><par n="žen/a__n"/></e>
     <e lm="meta"><i>met</i><par n="žen/a__n"/></e>
     <e lm="nota"><i>not</i><par n="žen/a__n"/></e>
@@ -48299,7 +48298,7 @@
     <e lm="parola"><i>parol</i><par n="žen/a__n"/></e>
     <e lm="patrola"><i>patrol</i><par n="žen/a__n"/></e>
     <e lm="provala"><i>proval</i><par n="žen/a__n"/></e>
-<!--    <e lm="rebula"><i>rebul</i><par n="žen/a__n"/></e>  FIX: typo -->
+    <e lm="rebula"><i>rebul</i><par n="žen/a__n"/></e>  <!-- type of wine/grape, also a surname -->
     <e lm="šala"><i>šal</i><par n="žen/a__n"/></e>
     <e lm="samokontrola"><i>samokontrol</i><par n="žen/a__n"/></e>
     <e lm="strijela"><i>strijel</i><par n="žen/a__n"/></e>
@@ -49499,7 +49498,6 @@
     <e lm="rehabilitacija"><i>rehabilitacij</i><par n="žen/a__n"/></e>
     <e lm="rotacija"><i>rotacij</i><par n="žen/a__n"/></e>
     <e lm="samoizolacija"><i>samoizolacij</i><par n="žen/a__n"/></e>
-<!--    <e lm="sakcija"><i>sakcij</i><par n="žen/a__n"/></e> FIX: probably a typo -->
     <e lm="sankcija"><i>sakcij</i><par n="žen/a__n"/></e>
     <e lm="sekcija"><i>sekcij</i><par n="žen/a__n"/></e>
     <e lm="serija"><i>serij</i><par n="žen/a__n"/></e>
@@ -50752,7 +50750,7 @@
     <e lm="pridruživanje"><i>pridruživanj</i><par n="polj/e__n"/></e>
     <e lm="abdiciranje"><i>abdiciranj</i><par n="polj/e__n"/></e>
     <e lm="adaptiranje"><i>adaptiranj</i><par n="polj/e__n"/></e>
-<!--    <e lm="agrarstvo"><i>agrarst</i><par n="društ/vo__n"/></e> FIX: probably MK? -->
+<!--    <e lm="agrarstvo"><i>agrarst</i><par n="društ/vo__n"/></e> probably MK? -->
     <e lm="školstvo"><i>školst</i><par n="društ/vo__n"/></e>
     <e lm="državljanstvo"><i>državljanst</i><par n="društ/vo__n"/></e>
     <e lm="carstvo"><i>carst</i><par n="društ/vo__n"/></e>
