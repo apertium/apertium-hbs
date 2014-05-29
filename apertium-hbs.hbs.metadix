@@ -46868,6 +46868,7 @@
     <e lm="velikaš"><i>velikaš</i><par n="prijatelj__n"/></e>
     <e lm="milion"><i>milion</i><par n="program__n"/></e>
     <e lm="rekord"><i>rekord</i><par n="program__n"/></e>
+    <e lm="fokus"><i>fokus</i><par n="program__n"/></e>
     <e lm="virus"><i>virus</i><par n="program__n"/></e>
     <e lm="žargon"><i>žargon</i><par n="program__n"/></e>
     <e lm="virus"><i>virus</i><par n="pilot__n"/></e>
@@ -47482,6 +47483,7 @@
     <e lm="čistač"><i>čistač</i><par n="orač__n"/></e>
     <e lm="vozač"><i>vozač</i><par n="orač__n"/></e>
     <e lm="kralj"><i>kralj</i><par n="kralj__n"/></e>
+    <e lm="kraljica"><i>kraljic</i><par n="žen/a__n"/></e>
     <e lm="car"><i>car</i><par n="car__n"/></e>
     <e lm="domaćin"><i>domaćin</i><par n="majstor__n"/></e>
     <e lm="odmor"><i>odmor</i><par n="odmor__n"/></e>
@@ -47611,6 +47613,7 @@
     <e lm="veteran"><i>veteran</i><par n="pilot__n"/></e>
     <e lm="šampion"><i>šampion</i><par n="pilot__n"/></e>
     <e lm="profesor"><i>profesor</i><par n="pilot__n"/></e>
+    <e lm="sponzor"><i>sponzor</i><par n="pilot__n"/></e>
     <e lm="admiral"><i>admiral</i><par n="pilot__n"/></e>
     <e lm="akter"><i>akter</i><par n="pilot__n"/></e>
     <e lm="partner"><i>partner</i><par n="pilot__n"/></e>
@@ -47914,6 +47917,7 @@
     <e lm="ustaša"><i>ustaš</i><par n="koleg/a__n"/></e>
     <e lm="paša"><i>paš</i><par n="koleg/a__n"/></e>
     <e lm="pristaša"><i>pristaš</i><par n="koleg/a__n"/></e>
+    <e lm="vođa"><i>vojskovođ</i><par n="koleg/a__n"/></e>
     <e lm="vojskovođa"><i>vojskovođ</i><par n="koleg/a__n"/></e>
     <e lm="kolumnista"><i>kolumnist</i><par n="koleg/a__n"/></e>
     <!--Neuter -a -->
@@ -48077,7 +48081,8 @@
     <e lm="zora"><i>zor</i><par n="žen/a__n"/></e>    
     <e lm="spora"><i>spor</i><par n="žen/a__n"/></e>    
     <e lm="ruža"><i>ruž</i><par n="žen/a__n"/></e>    
-    <e lm="prikaza"><i>prikaz</i><par n="žen/a__n"/></e>    
+    <e lm="prikaza"><i>prikaz</i><par n="žen/a__n"/></e>   
+    <e lm="kontroverza"><i>kontroverz</i><par n="žen/a__n"/></e>   
     <e lm="nastava"><i>nastav</i><par n="žen/a__n"/></e>    
     <e lm="probava"><i>probav</i><par n="žen/a__n"/></e>    
     <e lm="prevara"><i>pr</i><par n="e_e__yat"/><i>var</i><par n="žen/a__n"/></e>    
@@ -48158,6 +48163,7 @@
     <e lm="studija izvedivosti"><i>studij</i><par n="žen/a__n"/><p><l><b/>izvedivosti</l><r><g><b/>izvedivosti</g></r></p></e>
     <e lm="greda"><i>gred</i><par n="žen/a__n"/></e>
     <e lm="livada"><i>livad</i><par n="žen/a__n"/></e>
+    <e lm="izrada"><i>livad</i><par n="žen/a__n"/></e>
     <e lm="marmelada"><i>marmelad</i><par n="žen/a__n"/></e>
     <e lm="metoda"><i>metod</i><par n="žen/a__n"/></e>
     <e lm="naslada"><i>naslad</i><par n="žen/a__n"/></e>
@@ -48406,12 +48412,14 @@
     <e lm="vatra"><i>vatr</i><par n="žen/a__n"/></e>
     <e lm="pristojba"><i>pristoj</i><par n="nared/ba__n"/><p><l><b/>za<b/>parkiranje</l><r><g><b/>za<b/>parkiranje</g></r></p></e>
     <!-- <e lm="pristojba"><i>pristoj</i><par n="nared/ba__n"/><p><l><b/>za<b/>smeće</l><r><g><b/>za<b/>smeće</g></r></p></e> -->
+    <e lm="izvedba"><i>izved</i><par n="nared/ba__n"/></e>
     <e lm="jednadžba"><i>jednadž</i><par n="nared/ba__n"/></e>
     <e lm="nagodba"><i>nagod</i><par n="nared/ba__n"/></e>
     <e lm="plovidba"><i>plovid</i><par n="nared/ba__n"/></e>
     <e lm="pogodba"><i>pogod</i><par n="nared/ba__n"/></e>
     <e lm="primjedba"><i>primjed</i><par n="nared/ba__n"/></e>
     <e lm="priredba"><i>prired</i><par n="nared/ba__n"/></e>
+    <e lm="skladba"><i>sklad</i><par n="nared/ba__n"/></e>
     <e lm="svadba"><i>svad</i><par n="nared/ba__n"/></e>
     <e lm="ženidba"><i>ženid</i><par n="nared/ba__n"/></e>
     <e lm="odredba"><i>odred</i><par n="nared/ba__n"/></e>
@@ -48526,6 +48534,7 @@
     <e lm="obveza"><i>obvez</i><par n="žen/a__n"/></e>
     <e lm="kolegica"><i>kolegic</i><par n="žen/a__n"/></e>
     <e lm="mjera"><i>m</i><par n="e_je__yat"/><i>r</i><par n="žen/a__n"/></e>
+    <e lm="zavjera"><i>zav</i><par n="e_je__yat"/><i>r</i><par n="žen/a__n"/></e>
     <e lm="tužiteljica"><i>tužiteljic</i><par n="žen/a__n"/></e>
     <e lm="ocjena"><i>oc</i><par n="e_je__yat"/><i>n</i><par n="žen/a__n"/></e>
     <e lm="priprema"><i>priprem</i><par n="žen/a__n"/></e>
@@ -49026,6 +49035,7 @@
     <e lm="živina"><i>živin</i><par n="žen/a__n"/></e>
     <e lm="životinja"><i>životinj</i><par n="žen/a__n"/></e>
     <e lm="kupaonica"><i>kupaonic</i><par n="žen/a__n"/></e>
+    <e lm="kada"><i>kad</i><par n="žen/a__n"/></e>
     <e lm="godina"><i>godin</i><par n="žen/a__n"/></e>
     <e lm="grupa"><i>grup</i><par n="žen/a__n"/></e>
     <e lm="država"><i>držav</i><par n="žen/a__n"/></e>
@@ -49767,6 +49777,7 @@
     <e lm="mafija"><i>mafij</i><par n="žen/a__n"/></e>
     <e lm="odmazda"><i>odmazd</i><par n="žen/a__n"/></e>
     <e lm="režija"><i>režij</i><par n="žen/a__n"/></e>
+    <e lm="laboratorij"><i>laboratorij</i><par n="namještaj__n"/></e>
     <e lm="laboratorija"><i>laboratorij</i><par n="žen/a__n"/></e>
     <e lm="banda"><i>band</i><par n="žen/a__n"/></e>
     <e lm="readmisija"><i>readmisij</i><par n="žen/a__n"/></e>
@@ -51084,6 +51095,7 @@
     <e lm="kultiviranje"><i>kultiviranj</i><par n="polj/e__n"/></e>
     <e lm="kultivisanje"><i>kultivisanj</i><par n="polj/e__n"/></e>
     <e lm="kupovanje"><i>kupovanj</i><par n="polj/e__n"/></e>
+    <e lm="kupovina"><i>kupovina</i><par n="žen/a__n"/></e>
     <e lm="lakejstvo"><i>lakejst</i><par n="društ/vo__n"/></e>
     <e lm="lezbijstvo"><i>lezbijst</i><par n="društ/vo__n"/></e>
     <e lm="liberaliziranje"><i>liberaliziranj</i><par n="polj/e__n"/></e>
@@ -52020,6 +52032,7 @@
     <e lm="korica"><i>koric</i><par n="žen/a__n"/></e>
     <e lm="čarolija"><i>čarolij</i><par n="žen/a__n"/></e>
     <e lm="demokracija"><i>demokracij</i><par n="žen/a__n"/></e>
+    <e lm="kultivacija"><i>kultivacij</i><par n="žen/a__n"/></e>
     <e lm="falsifikacija"><i>falsifikacij</i><par n="žen/a__n"/></e>
     <e lm="ilegalnost"><i>ilegalno</i><par n="ma/st__n"/></e>
     <e lm="kompatibilnost"><i>kompatibilno</i><par n="ma/st__n"/></e>
@@ -52166,7 +52179,7 @@
 <!-	<e lm="rusofobstvo"><i>rusofobst</i><par n="društ/vo__n"/></e> Not a standard word ->
 	<e lm="maroderstvo"><i>maroderst</i><par n="društ/vo__n"/></e>
 	<e lm="maroderizam"><i>maroderiz</i><par n="amateriz/am__n"/></e>
-	<e lm="kontraraspoznavanje"><i>kontraraspoznavanj</i><par n="polj/e__n"/></e>
+<!-	<e lm="kontraraspoznavanje"><i>kontraraspoznavanj</i><par n="polj/e__n"/></e> Pretty sure this is not a word... ->
 	<e lm="grkomanstvo"><i>grkomanst</i><par n="društ/vo__n"/></e>
 	<e lm="grkomanija"><i>grkomanij</i><par n="žen/a__n"/></e>
 	<e lm="dobrosusjedstvo"><i>dobrosus</i><par n="e_je__yat"/><i>dst</i><par n="društ/vo__n"/></e>
@@ -53873,9 +53886,9 @@
     <e lm="Pakistan"><i>Pakistan</i><par n="Križ__np"/></e>
     <e lm="Strasbourg"><i>Strasbourg</i><par n="Zagreb__np"/></e>
     <e lm="Afganistan"><i>Afganistan</i><par n="Zagreb__np"/></e>
-	<e lm="Luxembourg"><i>Luxembourg</i><par n="Zagreb__np"/></e>
-	<e lm="Luksemburg"><i>Luksemburg</i><par n="Zagreb__np"/></e>
-	<e lm="Lihtenštajn"><i>Lihtenštajn</i><par n="Zagreb__np"/></e>
+    <e lm="Luxembourg"><i>Luxembourg</i><par n="Zagreb__np"/></e>
+    <e lm="Luksemburg"><i>Luksemburg</i><par n="Zagreb__np"/></e>
+    <e lm="Lihtenštajn"><i>Lihtenštajn</i><par n="Zagreb__np"/></e>
 
     <e lm="Iran"><i>Iran</i><par n="Zagreb__np"/></e>
     <e lm="Tahiti"><i>Tahiti</i><par n="Haiti__np"/></e>
