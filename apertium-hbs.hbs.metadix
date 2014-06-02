@@ -47334,6 +47334,7 @@
     <e lm="general"><i>general</i><par n="crv__n"/></e>
     <e lm="građan"><i>građan</i><par n="crv__n"/></e>
     <e lm="građanin"><i>građan</i><par n="srb/in__n"/></e>
+    <e lm="bod"><i>bod</i><par n="brod__n"/></e>
     <e lm="brod"><i>brod</i><par n="brod__n"/></e>
     <e lm="bog"><i>bo</i><par n="bo/g__n"/></e>
     <e lm="drug"><i>dru</i><par n="bo/g__n"/></e>
@@ -47482,6 +47483,8 @@
     <e lm="avioprijevoznik"><i>aviopr</i><par n="e_ije__yat"/><i>vozni</i><par n="učeni/k__n"/></e>
     <e lm="književnik"><i>književni</i><par n="učeni/k__n"/></e>
     <e lm="književnost"><i>književno</i><par n="ma/st__n"/></e>
+    <e lm="prikladnost"><i>prikladno</i><par n="ma/st__n"/></e>
+    <e lm="uvježbanost"><i>uvježbano</i><par n="ma/st__n"/></e>
     <e lm="pobjednik"><i>pob</i><par n="e_je__yat"/><i>dni</i><par n="učeni/k__n"/></e>
     <e lm="posrednik"><i>posredni</i><par n="učeni/k__n"/></e>
     <e lm="potpukovnik"><i>potpukovni</i><par n="učeni/k__n"/></e>
@@ -47606,6 +47609,7 @@
     <e lm="mehanizam"><i>mehaniz</i><par n="amateriz/am__n"/></e>
     <e lm="mormonizam"><i>mormoniz</i><par n="amateriz/am__n"/></e>
     <e lm="protestantizam"><i>protestantiz</i><par n="amateriz/am__n"/></e>
+    <e lm="puritanac"><i>puritan</i><par n="muškar/ac__n"/></e>
     <e lm="puritanizam"><i>puritaniz</i><par n="amateriz/am__n"/></e>
     <e lm="osmijeh"><i>osm</i><par n="e_ije__yat"/><par n="uspje/h__n"/></e>
     <e lm="vazduh"><i>vazdu</i><par n="uspje/h__n"/></e>
@@ -47652,6 +47656,7 @@
     <e lm="efekt"><i>efekt</i><par n="pilot__n"/></e>
     <e lm="ekstremist"><i>ekstremist</i><par n="pilot__n"/></e>
     <e lm="demokrat"><i>demokrat</i><par n="pilot__n"/></e>
+    <e lm="renegat"><i>renegat</i><par n="pilot__n"/></e>
     <e lm="kandidat"><i>kandidat</i><par n="pilot__n"/></e>
     <e lm="protukandidat"><i>protukandidat</i><par n="pilot__n"/></e>
     <e lm="listopad"><i>listopad</i><par n="zrakoplov__n"/></e>
@@ -47850,6 +47855,8 @@
     <e lm="ljubitelj"><i>ljubitelj</i><par n="prijatelj__n"/></e>
     <e lm="neprijatelj"><i>neprijatelj</i><par n="prijatelj__n"/></e>
     <e lm="pokrovitelj"><i>pokrovitelj</i><par n="prijatelj__n"/></e>
+    <e lm="predsjedatelj"><i>predsjedatelj</i><par n="prijatelj__n"/></e>
+    <e lm="pretsjedatelj"><i>pretsjedatelj</i><par n="prijatelj__n"/></e>
     <e lm="spasitelj"><i>spasitelj</i><par n="prijatelj__n"/></e>
     <e lm="upravitelj"><i>upravitelj</i><par n="prijatelj__n"/></e>
     <e lm="voditelj"><i>voditelj</i><par n="prijatelj__n"/></e>
@@ -47910,6 +47917,7 @@
     <e lm="prestanak"><i>prestan</i><par n="sastan/ak__n"/></e>
     <e lm="zaključak"><i>zaključ</i><par n="sastan/ak__n"/></e>
     <e lm="zrak"><i>zra</i><par n="kri/k__n"/></e>
+    <e lm="rak"><i>ra</i><par n="kri/k__n"/></e><!-- the disease -->
     <!-- -o declension -->
     <e lm="video"><i>vide</i><par n="vide/o__n"/></e>
     <e lm="bruto"><i>brut</i><par n="vide/o__n"/></e>
@@ -50057,7 +50065,7 @@
     <e lm="pripadnost"><i>pripadno</i><par n="ma/st__n"/></e>
     <e lm="produktivnost"><i>produktivno</i><par n="ma/st__n"/></e>
     <e lm="realnost"><i>realno</i><par n="ma/st__n"/></e>
-    <e lm="rješenost"><i>r</i><par n="e_je__yat"/><i>šeno</i><par n="ma/st__n"/></e>
+    <e lm="riješenost"><i>r</i><par n="e_ije__yat"/><i>šeno</i><par n="ma/st__n"/></e>
     <e lm="odlučnost"><i>odlučno</i><par n="ma/st__n"/></e>
     <e lm="svjetlost"><i>sv</i><par n="e_je__yat"/><i>tlo</i><par n="ma/st__n"/></e>
     <e lm="ozbiljnost"><i>ozbiljno</i><par n="ma/st__n"/></e>
@@ -50195,7 +50203,7 @@
     <e lm="prenatrpanost"><i>prenatrpano</i><par n="ma/st__n"/></e>
     <e lm="obazrivost"><i>obazrivo</i><par n="ma/st__n"/></e>
     <e lm="preciznost"><i>precizno</i><par n="ma/st__n"/></e>
-    <e lm="privženost"><i>privženo</i><par n="ma/st__n"/></e>
+    <e lm="privrženost"><i>privrženo</i><par n="ma/st__n"/></e>
     <e lm="priznatost"><i>priznato</i><par n="ma/st__n"/></e>
     <e lm="pristupačnost"><i>pristupačno</i><par n="ma/st__n"/></e>
     <e lm="pristranost"><i>pristrano</i><par n="ma/st__n"/></e>
@@ -50685,7 +50693,8 @@
     <e lm="bdjenje"><i>bdjenj</i><par n="polj/e__n"/></e>
     <e lm="gusarenje"><i>gusarenj</i><par n="polj/e__n"/></e>
     <e lm="bičevanje"><i>bičevanj</i><par n="polj/e__n"/></e>
-    <e lm="pakiranje"><i>pakiranj</i><par n="polj/e__n"/></e>
+    <e lm="bičevanje"><i>bičevanj</i><par n="polj/e__n"/></e>
+    <e lm="podržavanje"><i>podržavanj</i><par n="polj/e__n"/></e>
     <e lm="okresivanje"><i>okresivanj</i><par n="polj/e__n"/></e>
     <e lm="kovanje"><i>kovanj</i><par n="polj/e__n"/></e>
     <e lm="lijevanje"><i>l</i><par n="e_ije__yat"/><i>vanj</i><par n="polj/e__n"/></e>
@@ -51370,7 +51379,9 @@
     <e lm="preseljavanje"><i>preseljavanj</i><par n="polj/e__n"/></e>
     <e lm="prestajanje"><i>prestajanj</i><par n="polj/e__n"/></e>
     <e lm="pretraživanje"><i>pretraživanj</i><par n="polj/e__n"/></e>
+    <e lm="predsjedanje"><i>preds</i><par n="e_je__yat"/><i>danj</i><par n="polj/e__n"/></e>
     <e lm="pretsjedanje"><i>prets</i><par n="e_je__yat"/><i>danj</i><par n="polj/e__n"/></e>
+    <e lm="predsjedateljstvo"><i>preds</i><par n="e_je__yat"/><i>dateljst</i><par n="društ/vo__n"/></e>
     <e lm="pretsjedateljstvo"><i>prets</i><par n="e_je__yat"/><i>dateljst</i><par n="društ/vo__n"/></e>
     <e lm="pretvaranje"><i>pretvaranj</i><par n="polj/e__n"/></e>
     <e lm="preustrojstvo"><i>preustrojst</i><par n="društ/vo__n"/></e>
@@ -51396,6 +51407,7 @@
     <e lm="produživanje"><i>produživanj</i><par n="polj/e__n"/></e>
     <e lm="profesorstvo"><i>profesorst</i><par n="društ/vo__n"/></e>
     <e lm="proglašavanje"><i>proglašavanj</i><par n="polj/e__n"/></e>
+    <e lm="prognoza"><i>prognoz</i><par n="žen/a__n"/></e>
     <e lm="prognoziranje"><i>prognoziranj</i><par n="polj/e__n"/></e>
     <e lm="projektiranje"><i>projektiranj</i><par n="polj/e__n"/></e>
     <e lm="prokletstvo"><i>prokletst</i><par n="društ/vo__n"/></e>
@@ -51484,6 +51496,7 @@
     <e lm="saboterstvo"><i>saboterst</i><par n="društ/vo__n"/></e>
     <e lm="samaritanstvo"><i>samaritanst</i><par n="društ/vo__n"/></e>
     <e lm="samoopredjeljivanje"><i>samoopred</i><par n="e_je__yat"/><i>ljivanj</i><par n="polj/e__n"/></e>
+    <e lm="samoodređenje"><i>samoodređenj</i><par n="polj/e__n"/></e>
     <e lm="samoraspuštanje"><i>samoraspuštanj</i><par n="polj/e__n"/></e>
     <e lm="samoubistvo"><i>samoubist</i><par n="društ/vo__n"/></e>
     <e lm="samoubojstvo"><i>samoubojst</i><par n="društ/vo__n"/></e>
@@ -51516,6 +51529,7 @@
     <e lm="skupljanje"><i>skupljanj</i><par n="polj/e__n"/></e>
     <e lm="slastičarstvo"><i>slastičarst</i><par n="društ/vo__n"/></e>
     <e lm="slušanje"><i>slušanj</i><par n="polj/e__n"/></e>
+    <e lm="postignuće"><i>postignuć</i><par n="polj/e__n"/></e>
     <e lm="smaknuće"><i>smaknuć</i><par n="polj/e__n"/></e>
     <e lm="smanjenje"><i>smanjenj</i><par n="polj/e__n"/></e>
     <e lm="smirenje"><i>smirenj</i><par n="polj/e__n"/></e>
