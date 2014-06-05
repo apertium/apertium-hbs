@@ -47611,6 +47611,7 @@
     <e lm="mormonizam"><i>mormoniz</i><par n="amateriz/am__n"/></e>
     <e lm="protestantizam"><i>protestantiz</i><par n="amateriz/am__n"/></e>
     <e lm="puritanac"><i>puritan</i><par n="muškar/ac__n"/></e>
+    <e lm="otac"><i>ot</i><par n="muškar/ac__n"/></e>
     <e lm="puritanizam"><i>puritaniz</i><par n="amateriz/am__n"/></e>
     <e lm="osmijeh"><i>osm</i><par n="e_ije__yat"/><par n="uspje/h__n"/></e>
     <e lm="vazduh"><i>vazdu</i><par n="uspje/h__n"/></e>
@@ -48228,6 +48229,7 @@
     <e lm="blagovaonica"><i>blagovaonic</i><par n="žen/a__n"/></e>
     <e lm="đavolica"><i>đavolic</i><par n="žen/a__n"/></e>
     <e lm="dušica"><i>dušic</i><par n="žen/a__n"/></e>
+    <e lm="ušica"><i>ušic</i><par n="žen/a__n"/></e>
     <e lm="dvojica"><i>dvojic</i><par n="gospod/a__n"/></e>
     <e lm="glasnica"><i>glasnic</i><par n="žen/a__n"/></e>
     <e lm="gledateljica"><i>gledateljic</i><par n="žen/a__n"/></e>
@@ -48973,7 +48975,8 @@
     <e lm="trogodišnjica"><i>trogodišnjic</i><par n="žen/a__n"/></e>
     <e lm="trtica"><i>trtic</i><par n="žen/a__n"/></e>
     <e lm="tržnica"><i>tržnic</i><par n="žen/a__n"/></e>
-    <e lm="ubojica"><i>ubojic</i><par n="žen/a__n"/></e>
+    <e lm="ubica"><i>ubic</i><par n="koleg/a__n"/></e>
+    <e lm="ubojica"><i>ubojic</i><par n="koleg/a__n"/></e>
     <e lm="učenica"><i>učenic</i><par n="vodnic/a__n"/></e>
     <e lm="učiteljica"><i>učiteljic</i><par n="vodnic/a__n"/></e>
     <e lm="ulaznica"><i>ulaznic</i><par n="žen/a__n"/></e>
@@ -52070,6 +52073,7 @@
     <e lm="dečko"><i>dečk</i><par n="dečk/o__n"/></e>
     <e lm="nivo"><i>nivo</i><par n="program__n"/></e>
     <e lm="pluća"><i>pluć</i><par n="vrat/a__n"/></e>
+    <e lm="pluće"><i>pluć</i><par n="polj/e__n"/></e>
     <e lm="gospoda"><i>gospod</i><par n="gospod/a__n"/></e>
     <e lm="kreda"><i>kred</i><par n="žen/a__n"/></e>
     <e lm="hvala"><i>hval</i><par n="žen/a__n"/></e>
