@@ -47452,6 +47452,7 @@
     <e lm="sumišljenik"><i>sumišljeni</i><par n="učeni/k__n"/></e>
     <e lm="suputnik"><i>suputni</i><par n="učeni/k__n"/></e>
     <e lm="svećenik"><i>svećeni</i><par n="učeni/k__n"/></e>
+    <e lm="sveštenik"><i>svećeni</i><par n="učeni/k__n"/></e>
     <e lm="kuga"><i>kug</i><par n="žen/a__n"/></e>
     <e lm="tarifa"><i>tarif</i><par n="žen/a__n"/></e>
     <e lm="dolina"><i>dolin</i><par n="žen/a__n"/></e>
@@ -47928,6 +47929,7 @@
     <e lm="evro"><i>evr</i><par n="vide/o__n"/></e>
     <e lm="moto"><i>mot</i><par n="vide/o__n"/></e>
     <e lm="radio"><i>radi</i><par n="radi/o__n"/></e>
+    <e lm="studio"><i>studi</i><par n="radi/o__n"/></e>
     <e lm="scenario"><i>scenari</i><par n="vide/o__n"/></e>
     <e lm="tempo"><i>temp</i><par n="vide/o__n"/></e>
     <e lm="veto"><i>vet</i><par n="vide/o__n"/></e>
@@ -51997,6 +51999,7 @@
     <e lm="pozor"><i>pozor</i><par n="odmor__n"/></e>
     <e lm="oprez"><i>oprez</i><par n="odmor__n"/></e>
     <e lm="transfer"><i>transfer</i><par n="zrakoplov__n"/></e>
+    <e lm="stožer"><i>stožer</i><par n="zrakoplov__n"/></e>
     <e lm="doticaj"><i>doticaj</i><par n="zrakoplov__n"/></e>
     <e lm="izvještaj"><i>izvještaj</i><par n="zrakoplov__n"/></e>
     <e lm="nasrtaj"><i>nasrtaj</i><par n="zrakoplov__n"/></e>
