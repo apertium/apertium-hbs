@@ -51658,6 +51658,7 @@
     <e lm="vođenje"><i>vođenj</i><par n="polj/e__n"/></e>
     <e lm="vodstvo"><i>vodst</i><par n="društ/vo__n"/></e>
     <e lm="vojaštvo"><i>vojašt</i><par n="društ/vo__n"/></e>
+    <e lm="vojvoda"><i>vojvod</i><par n="koleg/a__n"/></e>
     <e lm="vojvodstvo"><i>vojvodst</i><par n="društ/vo__n"/></e>
     <e lm="vozilo"><i>vozil</i><par n="koljen/o__n"/></e>
     <e lm="vraćanje"><i>vraćanj</i><par n="polj/e__n"/></e>
@@ -51680,6 +51681,7 @@
     <e lm="zapovjedništvo"><i>zapov</i><par n="e_je__yat"/><i>dništ</i><par n="društ/vo__n"/></e>
     <e lm="zaražavanje"><i>zaražavanj</i><par n="polj/e__n"/></e>
     <e lm="zatajenje"><i>zatajenj</i><par n="polj/e__n"/></e>
+    <e lm="zatopljenje"><i>zatopljenje</i><par n="polj/e__n"/></e>
     <e lm="zatopljivanje"><i>zatopljivanj</i><par n="polj/e__n"/></e>
     <e lm="zatvaranje"><i>zatvaranj</i><par n="polj/e__n"/></e>
     <e lm="završavanje"><i>završavanj</i><par n="polj/e__n"/></e>
@@ -51692,10 +51694,12 @@
     <e lm="zidarstvo"><i>zidarst</i><par n="društ/vo__n"/></e>
     <e lm="žiteljstvo"><i>žiteljst</i><par n="društ/vo__n"/></e>
     <e lm="življenje"><i>življenj</i><par n="polj/e__n"/></e>
+    <e lm="zlatar"><i>zlatar</i><par n="majstor__n"/></e>
     <e lm="zlatarstvo"><i>zlatarst</i><par n="društ/vo__n"/></e>
     <e lm="zlato"><i>zlat</i><par n="koljen/o__n"/></e>
     <e lm="značenje"><i>značenj</i><par n="polj/e__n"/></e>
     <e lm="znanje"><i>znanj</i><par n="polj/e__n"/></e>
+    <e lm="znoj"><i>znoj</i><par n="plač__n"/></e>
     <e lm="znojenje"><i>znojenj</i><par n="polj/e__n"/></e>
     <e lm="žonglerstvo"><i>žonglerst</i><par n="društ/vo__n"/></e>
     <e lm="zubarstvo"><i>zubarst</i><par n="društ/vo__n"/></e>
@@ -51819,6 +51823,8 @@
     <e lm="svod"><i>svod</i><par n="test__n"/></e>
     <e lm="ud"><i>ud</i><par n="test__n"/></e>
     <e lm="zid"><i>zid</i><par n="test__n"/></e>
+    <e lm="potres"><i>potres</i><par n="program__n"/></e>
+    <e lm="zemljotres"><i>zemljotres</i><par n="program__n"/></e>
     <e lm="lijes" r="LR"><i>l</i><par n="e_ije__yat"/><i>s</i><par n="test__n"/></e>
     <e lm="lijes"><i>l</i><par n="l/ijes__n"/></e>
     <e lm="mir"><i>mir</i><par n="mraz__n"/></e>
