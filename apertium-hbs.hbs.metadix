@@ -33343,6 +33343,104 @@
   </pardefs>
 
   <section id="main" type="standard">
+  
+    <!-- Midterm -->
+    
+    <e lm="odisati"><i>odisa</i><par n="imperf_tv_pi/sati__vblex"/></e>
+    <e lm="uzbuđenje"><i>uzbuđenj</i><par n="polj/e__n"/></e>
+    <e lm="nazočnost"><i>nazočno</i><par n="ma/st__n"/></e>
+    <e lm="zasjedanje"><i>zasjedanj</i><par n="polj/e__n"/></e>
+    <e lm="balkon"><i>balkon</i><par n="program__n"/></e>
+    <e lm="monarhist"><i>monarhist</i><par n="pilot__n"/></e>
+    <e lm="hvaliti"><i>hval</i><par n="imperf_tv_gul/iti__vblex"/></e>
+    <e lm="postkomunistički"><i>postkomunističk</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="postkomunistički"><p><l>postkomunistič</l><r>postkomunistič</r></p><par n="pridjevs/ki__comp__adj"/></e>
+    <e lm="postkomunistički"><p><l>najpostkomunistič</l><r>postkomunistič</r></p><par n="pridjevs/ki__sup__adj"/></e>
+    <e lm="postkomunistički"><p><l>prepostkomunistič</l><r>postkomunistič</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+    <e lm="dvosjekli"><i>dvosjekl</i><par n="garantn/i__adj"/></e>
+    <e lm="jamčiti"><i>jamč</i><par n="imperf_tv_traž/iti__vblex"/></e>
+    <e lm="provoditi"><i>provo</i><par n="imperf_tv_ra/diti__vblex"/></e>
+    <e lm="provoditi"><i>provo</i><par n="imperf_ref_ra/diti__vblex"/></e>
+    <e lm="uvažavanje"><i>uvažavanj</i><par n="polj/e__n"/></e>
+    <e lm="negiranje"><i>negiranj</i><par n="polj/e__n"/></e>
+    <e lm="primaran"><i>primar</i><par n="od/an__pst__adj"/></e>
+    <e lm="primaran"><i>primar</i><par n="od/an__comp__adj"/></e>
+    <e lm="primaran"><i>primar</i><par n="od/an__sup__adj"/></e>
+    <e lm="primaran"><i>primar</i><par n="od/an__ssup__adj"/></e>
+    <e lm="etika"><i>eti</i><par n="sli/ka__n"/></e>
+    <e lm="kukavičluk"><i>kukavičlu</i><par n="čajni/k__n"/></e>
+    <e lm="razvoj"><i>razvoj</i><par n="plač__n"/></e>
+    <e lm="diljem"><i>diljem</i><par n="gen__pr"/></e>
+    <e lm="zaostajati"><i>zaost</i><par n="imperf_iv__nast/ajati__vblex"/></e>
+    <e lm="neovisan"><i>neovis</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="neovisan"><i>neovis</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="neovisan"><i>neovis</i><par n="ruž/an__sup__adj"/></e>
+    <e lm="neovisan"><i>neovis</i><par n="ruž/an__ssup__adj"/></e>
+    <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__sup__adj"/></e>
+    <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__ssup__adj"/></e>
+    <e lm="cijenjen"><i>cijenjen</i><par n="zdrav__pst__adj"/></e>
+    <e lm="cijenjen"><i>cjenjen</i><par n="zdrav__comp__adj"/></e>
+    <e lm="cijenjen"><p><l>najcjenjen</l><r>cijenjen</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="cijenjen"><p><l>precjenjen</l><r>cijenjen</r></p><par n="zdrav__ssup__adj"/></e>
+    <e lm="posuditi"><i>posud</i><par n="imperf_iv_ra/diti__vblex"/></e>
+    <e lm="posuditi"><i>posud</i><par n="imperf_tv_ra/diti__vblex"/></e>
+    <e lm="povjesničar"><i>povjesničar</i><par n="pisar__n"/></e>
+    <e lm="dešifrirati"><i>dešifrir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+    <e lm="dešifrirati"><i>dešifrir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="dešifrirati"><i>dešifrir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="dešifrirati"><i>dešifrir</i><par n="perf_iv_ojač/ati__vblex"/></e>
+    <e lm="dešifrirati"><i>dešifrir</i><par n="perf_tv_ojač/ati__vblex"/></e>
+    <e lm="dešifrirati"><i>dešifrir</i><par n="perf_ref_ojač/ati__vblex"/></e>
+    <e lm="značaj"><i>značaj</i><par n="namještaj__n"/></e>
+    <e lm="Iulian"><i>Iulian</i><par n="Mislav__np"/></e>
+    <e lm="Pruteanu"><i>Pruteanu</i><par n="Prezime__cog__np"/></e>
+    <e lm="Isacescu"><i>Isacescu</i><par n="Prezime__cog__np"/></e>
+    <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__pst__adj"/></e>
+    <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__comp__adj"/></e>
+    <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__sup__adj"/></e>
+    <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="slučajno"><i>slučajno</i><par n="danas__adv"/></e>
+    <e lm="dotaknuti"><i>dotakn</i><par n="perf_iv_ukin/uti__vblex"/></e>
+    <e lm="dotaknuti"><i>dotakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+    <e lm="ideal"><i>ideal</i><par n="zrakoplov__n"/></e>
+    <e lm="imaginaran"><i>imaginar</i><par n="od/an__pst__adj"/></e>
+    <e lm="imaginaran"><i>imaginar</i><par n="od/an__comp__adj"/></e>
+    <e lm="imaginaran"><i>imaginar</i><par n="od/an__sup__adj"/></e>
+    <e lm="imaginaran"><i>imaginar</i><par n="od/an__ssup__adj"/></e>
+    <e lm="prošlost"><i>prošlo</i><par n="ma/st__n"/></e>
+    <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__pst__adj"/></e>
+    <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__comp__adj"/></e>
+    <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__sup__adj"/></e>
+    <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="obavljati"><i>obavlj</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="obavljati"><i>obavlj</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="Rumunj"><i>Rumunj</i><par n="lupež__n"/></e>
+    <e lm="čvrstina"><i>čvrstin</i><par n="žen/a__n"/></e>
+    <e lm="umirovljenik"><i>umirovljeni</i><par n="učeni/k__n"/></e>
+    <e lm="Ioan"><i>Ioan</i><par n="Mislav__np"/></e>
+    <e lm="Grigore"><i>Grigore</i><par n="Prezime__cog__np"/></e>
+    <e lm="srušiti"><i>sruš</i><par n="perf_tv_istraž/iti__vblex"/></e>
+    <e lm="srušiti"><i>sruš</i><par n="perf_ref_istraž/iti__vblex"/></e>
+    <e lm="srušen"><i>srušen</i><par n="zdrav__pst__adj"/></e>
+    <e lm="srušen"><i>srušen</i><par n="zdrav__comp__adj"/></e>
+    <e lm="srušen"><i>srušen</i><par n="zdrav__sup__adj"/></e>
+    <e lm="srušen"><i>srušen</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="sjećati"><i>s</i><par n="e_je__yat"/><i>ć</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="sjećati"><i>s</i><par n="e_je__yat"/><i>ć</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="prognan"><i>prognan</i><par n="od/an__pst__adj"/></e>
+    <e lm="prognan"><i>prognan</i><par n="od/an__comp__adj"/></e>
+    <e lm="prognan"><i>prognan</i><par n="od/an__sup__adj"/></e>
+    <e lm="prognan"><i>prognan</i><par n="od/an__ssup__adj"/></e>
+    <e lm="tadašnji"><i>tadašnj</i><par n="odlučujuć/i__adj"/></e>
+    <e lm="prosovjetski"><i>prosovjets</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="natjerati"><i>natjer</i><par n="perf_tv_ojač/ati__vblex"/></e>
+    <e lm="natjerati"><i>natjer</i><par n="perf_ref_ojač/ati__vblex"/></e>
+    <e lm="Traian"><i>Traian</i><par n="Mislav__np"/></e>
+    <e lm="Basescu"><i>Basescu</i><par n="Prezime__cog__np"/></e>
+    <e lm="komunist"><i>komunist</i><par n="pilot__n"/></e>
+    
     <!--New data-->
     
     <e lm="Damir"><i>Damir</i><par n="Mislav__np"/></e>
@@ -33696,7 +33794,7 @@
     <e lm="UNMIK"><i>UNMIK</i><par n="NATO__abbr"/></e>
     <!-- <e lm="Sjedinjene Američke Države"><i></i><par n="SAD__np"/></e> -->
     <!-- <e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="SETimes__np"/></e> -->
-    <!-- <e lm="SETimes"><i>SETimes</i><par n="SETimes__np"/></e> -->
+    <e lm="SETimes"><i>SETimes</i><par n="SETimes__np"/></e>
     <!-- <e lm="Unilang"><i>Unilang</i><par n="SETimes__np"/></e> -->
 
     <!-- SL abbreviations --> 
@@ -41423,6 +41521,10 @@
     <e lm="brojčani"><i>brojčan</i><par n="garantn/i__adj"/></e>
     <e lm="ptičji"><i>ptičj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="razni"><i>razn</i><par n="garantn/i__adj"/></e>
+    
+    <!-- possessive adjectives -->
+    
+    <e lm="kraljev"><i>kralj</i><par n="marij/ev__adj"/></e>
 
     <!--adjectives ending in -ski-->
 
