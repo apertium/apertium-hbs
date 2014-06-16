@@ -8980,7 +8980,7 @@
       <e><p><l></l><r>iti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
       <!--Aorist-->
       <e><p><l>i</l><r>iti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
-      <!--Partiiples-->
+      <!--Participles-->
       <e><p><l>i</l><r>iti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
       <e><p><l>en</l><r>iti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
       <e><p><l>ivši</l><r>iti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
@@ -33435,12 +33435,19 @@
     <e lm="prognan"><i>progn</i><par n="od/an__ssup__adj"/></e>
     <e lm="tadašnji"><i>tadašnj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="prosovjetski"><i>prosovjets</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="Petru"><i>Petru</i><par n="Mislav__np"/></e>
+    <e lm="Groza"><i>Groz</i><par n="Krnet/a__cog__np"/></e>
     <e lm="natjerati"><i>natjer</i><par n="perf_tv_ojač/ati__vblex"/></e>
     <e lm="natjerati"><i>natjer</i><par n="perf_ref_ojač/ati__vblex"/></e>
     <e lm="Traian"><i>Traian</i><par n="Mislav__np"/></e>
     <e lm="Basescu"><i>Basescu</i><par n="Prezime__cog__np"/></e>
     <e lm="komunist"><i>komunist</i><par n="pilot__n"/></e>
-    
+    <e lm="znatno"><i>znatno</i><par n="danas__adv"/></e>
+    <e lm="daleko"><i>daleko</i><par n="danas__adv"/></e>
+    <e lm="lako"><i>lako</i><par n="danas__adv"/></e>
+    <e lm="i dalje"><i>i<b/>dalje</i><par n="danas__adv"/></e>
+    <e lm="ništa"><i>ni</i><par n="ni/šta__neg__prn"/></e>
+     
     <!--New data-->
     
     <e lm="Damir"><i>Damir</i><par n="Mislav__np"/></e>
