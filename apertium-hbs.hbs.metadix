@@ -37169,10 +37169,10 @@
     <e lm="neto"><p><l>najneto</l><r>neto</r></p><par n="super__sup__adj"/></e>
     <e lm="neto"><p><l>preneto</l><r>neto</r></p><par n="super__ssup__adj"/></e>
 
-    <e lm="anti"><i>anti</i><par n="super__pst__adj"/></e>
+<!--    <e lm="anti"><i>anti</i><par n="super__pst__adj"/></e>
     <e lm="anti"><i>anti</i><par n="super__comp__adj"/></e>
     <e lm="anti"><p><l>najanti</l><r>anti</r></p><par n="super__sup__adj"/></e>
-    <e lm="anti"><p><l>preanti</l><r>anti</r></p><par n="super__ssup__adj"/></e>
+    <e lm="anti"><p><l>preanti</l><r>anti</r></p><par n="super__ssup__adj"/></e> -->
 
     
     <!--end Indeclinable adjectives-->
