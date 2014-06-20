@@ -9113,7 +9113,7 @@
       <!--Participles-->
       <e><p><l>i</l><r>iti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
       <e><p><l>jen</l><r>iti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-      <!--<e><p><l>eći</l><r>iti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
+      <e><p><l>eći</l><r>iti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
       <e><p><l>eći</l><r>eći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_ref_gul/iti__vblex">
@@ -9127,7 +9127,7 @@
       <e><p><l>ja</l><r>iti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
       <!--Participles-->
       <e><p><l>i</l><r>iti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
-      <!--<e><p><l>eći</l><r>iti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>--><!--verbose adverbs-->
+      <e><p><l>eći</l><r>iti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
       <e><p><l>eći</l><r>eći<s n="vblex"/><s n="adv"/></r></p></e><!--simple adverbs-->
     </pardef>
 
@@ -33353,6 +33353,7 @@
     <e lm="balkon"><i>balkon</i><par n="program__n"/></e>
     <e lm="monarhist"><i>monarhist</i><par n="pilot__n"/></e>
     <e lm="hvaliti"><i>hval</i><par n="imperf_tv_gul/iti__vblex"/></e>
+    <e lm="hvaliti"><i>hval</i><par n="imperf_ref_gul/iti__vblex"/></e>
     <e lm="postkomunistički"><i>postkomunistič</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="postkomunistički"><p><l>postkomunistič</l><r>postkomunistič</r></p><par n="pridjevs/ki__comp__adj"/></e>
     <e lm="postkomunistički"><p><l>najpostkomunistič</l><r>postkomunistič</r></p><par n="pridjevs/ki__sup__adj"/></e>
