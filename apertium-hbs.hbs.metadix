@@ -33352,6 +33352,8 @@
     <e lm="zasjedanje"><i>zasjedanj</i><par n="polj/e__n"/></e>
     <e lm="balkon"><i>balkon</i><par n="program__n"/></e>
     <e lm="monarhist"><i>monarhist</i><par n="pilot__n"/></e>
+    <e lm="puno"><i>puno</i><par n="danas__adv"/></e>
+    <e lm="taj"><i>taj</i><par n="taj__dem__prn"/></e>
     <e lm="hvaliti"><i>hval</i><par n="imperf_tv_gul/iti__vblex"/></e>
     <e lm="hvaliti"><i>hval</i><par n="imperf_ref_gul/iti__vblex"/></e>
     <e lm="postkomunistički"><i>postkomunistič</i><par n="pridjevs/ki__pst__adj"/></e>
@@ -33377,6 +33379,7 @@
     <e lm="neovisan"><i>neovis</i><par n="ruž/an__comp__adj"/></e>
     <e lm="neovisan"><i>neovis</i><par n="ruž/an__sup__adj"/></e>
     <e lm="neovisan"><i>neovis</i><par n="ruž/an__ssup__adj"/></e>
+    <e lm="ovaj"><i>ovaj</i><par n="ovaj__dem__prn"/></e>
     <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__pst__adj"/></e>
     <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__comp__adj"/></e>
     <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__sup__adj"/></e>
@@ -33450,6 +33453,8 @@
     <e lm="lako"><i>lako</i><par n="danas__adv"/></e>
     <e lm="i dalje"><i>i<b/>dalje</i><par n="danas__adv"/></e>
     <e lm="ništa"><i>ni</i><par n="ni/šta__neg__prn"/></e>
+    
+    <e lm="koji"><i>koji</i><par n="koji__itg__prn"/></e>
      
     <!--New data-->
     
