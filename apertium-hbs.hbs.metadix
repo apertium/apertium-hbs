@@ -30406,20 +30406,20 @@
 
     <pardef n="numeros_sin_inflexion">
       <!--The caseless numbers-->
-      <e><p><l/><r><s n="num"/></r></p></e>
+      <e><p><l/><r><s n="num"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="numeros_romanos">
       <!--Same as the caseless numbers-->
       <e><p><l/><r><s n="num"/></r></p></e>
     </pardef>
     <pardef n="numeros_con_inflexion">
-      <e><p><l></l><r><s n="num"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="acc"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="voc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="dat"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="loc"/></r></p></e>
-      <e><p><l>ma</l><r><s n="num"/><s n="ins"/></r></p></e>
-      <e><p><l>ju</l><r><s n="num"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>ma</l><r><s n="num"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ma</l><r><s n="num"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ma</l><r><s n="num"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ju</l><r><s n="num"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="collective_numerals">
@@ -30539,35 +30539,35 @@
       <e><p><l>jednim</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
       <e r="LR"><p><l>jednima</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
-      <e><p><l>dva</l><r>dva<s n="num"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
-      <e><p><l>dvaju</l><r>dva<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
-      <e><p><l>dvaju</l><r>dva<s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
-      <e><p><l>dvaju</l><r>dva<s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
-      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
-      <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="nom"/></r></p></e>
-      <e><p><l>dviju</l><r>dva<s n="num"/><s n="f"/><s n="gen"/></r></p></e>
-      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="dat"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="acc"/></r></p></e>
-      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
-      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
-      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>      
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="sg"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>dvaju</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>dvaju</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>dvaju</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>dviju</l><r>dva<s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>      
 
       <e><i>tri</i><par n="numeros_con_inflexion"/></e>
       <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
@@ -36900,8 +36900,8 @@
     <e lm="brojiti"><i>broj</i><par n="imperf_iv_traž/iti__vblex"/></e>
     <e lm="liječiti"><i>liječ</i><par n="imperf_tv_traž/iti__vblex"/></e>
     <e lm="liječiti"><i>liječ</i><par n="imperf_ref_traž/iti__vblex"/></e>
-    <e lm="lišiti"><i>liš</i><par n="perf_tv_istraž/iti__vblex"/></e>
-    <e lm="lišiti"><i>liš</i><par n="perf_ref_istraž/iti__vblex"/></e>
+<!--    <e lm="lišiti"><i>liš</i><par n="perf_tv_istraž/iti__vblex"/></e>
+    <e lm="lišiti"><i>liš</i><par n="perf_ref_istraž/iti__vblex"/></e> fix: temporary-->
     <e lm="uložiti"><i>ulož</i><par n="perf_tv_istraž/iti__vblex"/></e>
     <e lm="uložiti"><i>ulož</i><par n="perf_ref_istraž/iti__vblex"/></e>
     <e lm="zboriti"><i>zbor</i><par n="imperf_tv_traž/iti__vblex"/></e>
