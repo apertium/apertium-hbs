@@ -33456,6 +33456,10 @@
     <e lm="ništa"><i>ni</i><par n="ni/šta__neg__prn"/></e>
     
     <e lm="koji"><i>koji</i><par n="koji__itg__prn"/></e>
+    
+    <e lm="sav"><i>sav</i><par n="sav__tot__prn"/></e>
+	<e lm="Human Rights Watch"><i>Human<b/>Rights<b/>Watch</i><par n="SETimes__np"/></e>
+	<e lm="bilo koji"><i>bilo<b/>koji</i><par n="koji__itg__prn"/></e>
      
     <!--New data-->
     
@@ -34093,7 +34097,7 @@
 
     <!--Todo: add the compounds "radi čega", "zbog čega"... in the mk monodix there are some translations for them, though not all-->
     <!--Adverbs (the closed subset) -->
-    <e lm="sve"><i>sve</i><par n="danas__adv"/></e><!--As in "sve više", "sve bolje" ...-->
+<!--    <e lm="sve"><i>sve</i><par n="danas__adv"/></e> As in "sve više", "sve bolje" ... fix: this should probably be written better -->
     <e lm="ništa"><i>ništa</i><par n="danas__adv"/></e><!--As in "sve više", "sve bolje" ...-->
     <e lm="usporedo"><i>usporedo</i><par n="danas__adv"/></e>
     <e lm="dosta"><i>dosta</i><par n="danas__adv"/></e>
@@ -53491,7 +53495,8 @@
     <e lm="ove godine"><i>ove<b/>godine</i><par n="danas__adv"/></e>
     <e r="LR" lm="ove godine"><p><l>ovu<b/>godine</l><r>ove<b/>godine</r></p><par n="danas__adv"/></e>
     <e lm="kroz smijeh"><i>kroz<b/>sm</i><par n="e_ije__yat"/><i>h</i><par n="danas__adv"/></e>
-    <e lm="kroz smijeh"><i>s<b/>obzirom<b/>na</i><par n="danas__adv"/></e>
+    <e lm="s obzirom na"><i>s<b/>obzirom<b/>na</i><par n="danas__adv"/></e>
+    <e lm="s obzirom da"><i>s<b/>obzirom<b/>da</i><par n="danas__adv"/></e>
     <e lm="što prije"><i>što<b/>prije</i><par n="danas__adv"/></e>
     <e lm="u tijeku"><i>u<b/>tijeku</i><par n="danas__adv"/></e>
     <e lm="mnogokad"><i>mnogokad</i><par n="danas__adv"/></e>
