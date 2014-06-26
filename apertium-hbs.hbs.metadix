@@ -33460,6 +33460,10 @@
     <e lm="sav"><i>sav</i><par n="sav__tot__prn"/></e>
 	<e lm="Human Rights Watch"><i>Human<b/>Rights<b/>Watch</i><par n="SETimes__np"/></e>
 	<e lm="bilo koji"><i>bilo<b/>koji</i><par n="koji__itg__prn"/></e>
+	<e lm="Agence France Presse"><i>Agence<b/>France<b/>Presse</i><par n="SETimes__np"/></e>
+    <e lm="razmatrati"><i>razmatr</i><par n="imperf_iv_bir/ati__vblex"/></e>
+    <e lm="razmatrati"><i>razmatr</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="razmatrati"><i>razmatr</i><par n="imperf_ref_bir/ati__vblex"/></e>
      
     <!--New data-->
     
