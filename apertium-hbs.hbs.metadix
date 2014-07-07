@@ -27398,6 +27398,15 @@
       <e><p><l>eima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>eima</l><r>e<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
+    <pardef n="financij/e__n">
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ama</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>ama</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ama</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
     <pardef n="genij/e__n">
       <e><p><l>e</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -33353,6 +33362,22 @@
     <e lm="AFP"><p><l>AFP</l><r>AFP<s n="abbr"/></r></p></e>
     <e lm="Reuters"><i>Reuters</i><par n="SETimes__np"/></e>
     <e lm="potpora"><i>potpor</i><par n="žen/a__n"/></e>
+    <e lm="posebice"><i>posebice</i><par n="danas__adv"/></e>
+    <e lm="AP"><p><l>AP</l><r>AP<s n="abbr"/></r></p></e>
+    <e lm="MMF"><p><l>MMF</l><r>MMF<s n="abbr"/></r></p></e>
+    <e lm="pregovor"><i>pregovor</i><par n="govor__n"/></e>
+    <e lm="neovisnost"><i>neovisno</i><par n="ma/st__n"/></e>
+    <e lm="nastaviti"><i>nastavi</i><par n="perf_iv_izbi/ti__vblex"/></e>
+    <e lm="nastaviti"><i>nastavi</i><par n="perf_tv_izbi/ti__vblex"/></e>
+    <e lm="nastaviti"><i>nastavi</i><par n="perf_ref_izbi/ti__vblex"/></e>
+    <e lm="priopćiti"><i>priopći</i><par n="perf_tv_izbi/ti__vblex"/></e>
+    <e lm="CT"><p><l>CT</l><r>CT<s n="abbr"/></r></p></e>
+    <e lm="u skladu"><i>u<b/>skladu</i><par n="danas__adv"/></e>
+    <e lm="priključenje"><i>priključenj</i><par n="polj/e__n"/></e>
+    <e lm="čelnik"><i>čelni</i><par n="učeni/k__n"/></e>
+    <e lm="ukoliko"><i>ukoliko</i><par n="danas__adv"/></e>
+    <e lm="financije"><i>financij</i><par n="financij/e__n"/></e>
+    <e lm="KFOR"><p><l>KFOR</l><r>KFOR<s n="abbr"/></r></p></e>
 
     <!-- Midterm -->
     
@@ -49848,7 +49873,7 @@
     <e lm="centralizacija"><i>centralizacij</i><par n="žen/a__n"/></e>
     <e lm="jurisdikcija"><i>jurisdikcij</i><par n="žen/a__n"/></e>
     <e lm="azbuka"><i>azbu</i><par n="sli/ka__n"/></e>
-    <e lm="banka"><i>ban</i><par n="sli/ka__n"/></e>
+    <e lm="banka"><i>ban</i><par n="pat/ka__n"/></e>
     <e lm="bionika"><i>bioni</i><par n="sli/ka__n"/></e>
     <e lm="botanika"><i>botani</i><par n="sli/ka__n"/></e>
     <e lm="brojka"><i>broj</i><par n="sli/ka__n"/></e>
@@ -50021,7 +50046,7 @@
     <e lm="zakrpa"><i>zakrp</i><par n="vožnj/a__n"/></e>
     <e lm="slika"><i>sli</i><par n="sli/ka__n"/></e>
     <e lm="odluka"><i>odlu</i><par n="sli/ka__n"/></e>
-    <e lm="stranka"><i>stran</i><par n="sli/ka__n"/></e>
+    <e lm="stranka"><i>stran</i><par n="pat/ka__n"/></e>
     <e lm="majka"><i>maj</i><par n="maj/ka__n"/></e>
     <e lm="mašinka"><i>mašin</i><par n="maj/ka__n"/></e>
     <e lm="vojska"><i>vojs</i><par n="vojs/ka__n"/></e>
@@ -50489,7 +50514,7 @@
     <e lm="Marjeta"><i>Marjet</i><par n="Bosn/a__np"/></e>
     <e lm="Helena"><i>Helen</i><par n="Bosn/a__np"/></e>
     <!-- <e lm="Mitrovica"><i>Mitrovic</i><par n="Bosn/a__np"/></e> -->
-    <!-- <e lm="Priština"><i>Prištin</i><par n="Bosn/a__np"/></e> -->
+    <e lm="Priština"><i>Prištin</i><par n="Bosn/a__np"/></e> <!-- fix: not sure why commented out -->
     <!-- <e lm="Ankara"><i>Ankar</i><par n="Bosn/a__np"/></e> -->
     <!-- <e lm="Tirana"><i>Tiran</i><par n="Bosn/a__np"/></e> -->
     <e lm="Europa"><i>Europ</i><par n="Bosn/a__np"/></e>
