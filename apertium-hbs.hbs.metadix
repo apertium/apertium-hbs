@@ -33378,6 +33378,24 @@
     <e lm="ukoliko"><i>ukoliko</i><par n="danas__adv"/></e>
     <e lm="financije"><i>financij</i><par n="financij/e__n"/></e>
     <e lm="KFOR"><p><l>KFOR</l><r>KFOR<s n="abbr"/></r></p></e>
+    <e lm="novinar"><i>novinar</i><par n="pisar__n"/></e>
+    <e lm="razvitak"><i>razvi</i><par n="trenu/tak__n"/></e>
+    <e lm="prijam"><i>prij</i><par n="poj/am__n"/></e>
+    <e lm="EULEX"><p><l>EULEX</l><r>EULEX<s n="abbr"/></r></p></e>
+    <e lm="PKK"><p><l>PKK</l><r>PKK<s n="abbr"/></r></p></e>
+    <e lm="tajnik"><i>tajni</i><par n="učeni/k__n"/></e>
+    <e lm="provedba"><i>proved</i><par n="nared/ba__n"/></e>
+    <e lm="festival"><i>festival</i><par n="program__n"/></e>
+    <e lm="tiskovni"><i>tiskovn</i><par n="garantn/i__adj"/></e>
+    <e lm="posjet"><i>posjet</i><par n="program__n"/></e>
+    <e lm="BBC"><p><l>BBC</l><r>BBC<s n="abbr"/></r></p></e>
+    <e lm="Rehn"><i>Rehn</i><par n="Prezime__cog__np"/></e>
+    <e lm="Atena"><i>Aten</i><par n="Bosn/a__np"/></e>
+    <e lm="pregled"><i>pregled</i><par n="zrakoplov__n"/></e>
+    <e lm="OESS"><p><l>OESS</l><r>OESS<s n="abbr"/></r></p></e>
+    <e lm="DPA"><p><l>DPA</l><r>DPA<s n="abbr"/></r></p></e>
+    <e lm="Brussels"><i>Brussels</i><par n="Zagreb__np"/></e><!-- not the proper way of writing it in hbs, but far too common on SETimes -->
+    <e lm="ravnatelj"><i>ravnatelj</i><par n="prijatelj__n"/></e>
 
     <!-- Midterm -->
     
@@ -50594,8 +50612,8 @@
     <e lm="Meksiko"><i>Meksik</i><par n="Meksik/o__np"/></e>
     <e lm="Veneto"><i>Venet</i><par n="Meksik/o__np"/></e>
     <!-- <e lm="Podujevo"><i>Podujev</i><par n="Sarajev/o__np"/></e> -->
-    <!-- <e lm="Skopje"><i>Skopj</i><par n="Skopj/e__np"/></e> -->
-    <!-- <e lm="Skoplje"><p><l>Skoplj</l><r>Skopj</r></p><par n="Skopj/e__np"/></e> -->
+    <e lm="Skopje"><i>Skopj</i><par n="Skopj/e__np"/></e>
+    <e lm="Skoplje"><p><l>Skoplj</l><r>Skopj</r></p><par n="Skopj/e__np"/></e>
     <e lm="Dovje"><i>Dovj</i><par n="Skopj/e__np"/></e>
     <e lm="Grosuplje"><i>Grosuplj</i><par n="Skopj/e__np"/></e>
     <e lm="Celje"><i>Celj</i><par n="Skopj/e__np"/></e>
