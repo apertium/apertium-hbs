@@ -33411,6 +33411,10 @@
   </pardefs>
 
   <section id="main" type="standard">
+
+    <!-- testvoc particles -->
+
+    <e lm="bok"><p><l>bok</l><r>bok<s n="part"/></r></p></e>
   
     <!-- for coverage -->
 
@@ -33476,7 +33480,7 @@
     <e lm="izvješćivati"><i>izv</i><par n="e_je__yat"/><i>šć</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
     <e lm="izvješćivati"><i>izv</i><par n="e_je__yat"/><i>šć</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
     <e lm="TV"><p><l>TV</l><r>TV<s n="abbr"/></r></p></e>
-    <e lm="Grk"><i>Grk</i><par n="Gr/k__n"/></e>
+    <e lm="Grk"><i>Gr</i><par n="Gr/k__n"/></e>
     <e lm="George"><i>George</i><par n="Mislav__np"/></e>
     <e lm="birač"><i>birač</i><par n="orač__n"/></e>
     <e lm="Ankara"><i>Ankar</i><par n="Bosn/a__np"/></e>
