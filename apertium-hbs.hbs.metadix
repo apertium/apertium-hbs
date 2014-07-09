@@ -26989,6 +26989,29 @@
       <e><p><l>cima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>cima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
+    <pardef n="napre/dak__n"><!--With fleeting a-->
+      <e><p><l>dak</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>tka</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>tku</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>dak</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>tku</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>dče</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e r="LR"><p><l>če</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>tku</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>tkom</l><r>dak<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>dci</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ci</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>daka</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>dcima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>cima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>tke</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>dci</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>ci</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e r="LR"><p><l>dcima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e r="LR"><p><l>dcima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>cima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>cima</l><r>dak<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
     <pardef n="trenu/tak__n"><!--With fleeting a-->
       <e><p><l>tak</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>tka</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -33444,9 +33467,29 @@
     <e lm="Bukurešt"><i>Bukurešt</i><par n="Zagreb__np"/></e>
     <e lm="u svezi s"><i>u<b/>svezi<b/>s</i><par n="danas__adv"/></e>
     <e lm="približno"><i>približno</i><par n="danas__adv"/></e>
-    <e lm="Ponte"><i>Ponte</i><par n="Prezime__cog__np"/></e>
+    <e lm="del Ponte"><i>del<b/>Ponte</i><par n="Prezime__cog__np"/></e>
     <e lm="Koštunica"><i>Koštunic</i><par n="Krnet/a__cog__np"/></e>
     <e lm="optuženik"><i>optuženi</i><par n="učeni/k__n"/></e>
+	<e lm="Times"><i>Times</i><par n="SETimes__np"/></e>
+    <e lm="napredak"><i>napre</i><par n="napre/dak__n"/></e>
+    <e lm="veleposlanik"><i>veleposlani</i><par n="učeni/k__n"/></e>
+    <e lm="izvješćivati"><i>izv</i><par n="e_je__yat"/><i>šć</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+    <e lm="izvješćivati"><i>izv</i><par n="e_je__yat"/><i>šć</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+    <e lm="TV"><p><l>TV</l><r>TV<s n="abbr"/></r></p></e>
+    <e lm="Grk"><i>Grk</i><par n="Gr/k__n"/></e>
+    <e lm="George"><i>George</i><par n="Mislav__np"/></e>
+    <e lm="birač"><i>birač</i><par n="orač__n"/></e>
+    <e lm="Ankara"><i>Ankar</i><par n="Bosn/a__np"/></e>
+    <e lm="Sanader"><i>Sanader</i><par n="Prezime__cog__np"/></e>
+    <e lm="glasnogovornik"><i>glasnogovorni</i><par n="učeni/k__n"/></e>
+    <e lm="spreman"><i>sprem</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="spreman"><i>sprem</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="spreman"><i>sprem</i><par n="ruž/an__ssup__adj"/></e>
+    <e lm="izaslanik"><i>izaslani</i><par n="učeni/k__n"/></e>
+    <e lm="ovlast"><i>ovla</i><par n="ma/st__n"/></e>
+    <e lm="uspostava"><i>uspostav</i><par n="žen/a__n"/></e>
+    <e lm="unapređenje"><i>unapr</i><par n="e_je__yat"/><i>đenj</i><par n="polj/e__n"/></e>
+    <e lm="prioritet"><i>prioritet</i><par n="program__n"/></e>
 
     <!-- Midterm -->
     
@@ -48133,7 +48176,7 @@
     <e lm="stisak"><i>sti</i><par n="nagla/sak__n"/></e>
     <e lm="vrisak"><i>vri</i><par n="pi/sak__n"/></e>
     <e lm="sastanak"><i>sastan</i><par n="sastan/ak__n"/></e>
-    <e lm="napredak"><i>napred</i><par n="sastan/ak__n"/></e>
+    <e lm="napredak"><i>napred</i><par n="sastan/ak__n"/></e><!-- sub-standard paradigm -->
     <e lm="tjedan"><i>tjed</i><par n="ruj/an__n"/></e>
     <e lm="rujan"><i>ruj</i><par n="ruj/an__n"/></e>
     <e lm="češalj"><i>češ</i><par n="češ/alj__n"/></e>
