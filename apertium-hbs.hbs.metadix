@@ -24690,6 +24690,23 @@
       <e><p><l>ima</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>ima</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
+    <pardef n="Tur/čin__n">
+      <e><p><l>čin</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>čina</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>činu</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>čina</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>čine</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>činu</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>činom</l><r>čin<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ci</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>aka</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>akâ</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>cima</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ke</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ci</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>cima</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>cima</l><r>čin<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
     <pardef n="Če/h__n">
       <e><p><l>h</l><r>h<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ha</l><r>h<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -27372,6 +27389,23 @@
       <e><p><l>o</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>ju</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>jem</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>jâ</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>jima</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>jima</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>jima</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
+    <pardef n="tri/o__n">
+      <e><p><l>o</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ju</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>ju</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>om</l><r>o<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ja</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
       <e r="LR"><p><l>jâ</l><r>o<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -33396,6 +33430,23 @@
     <e lm="DPA"><p><l>DPA</l><r>DPA<s n="abbr"/></r></p></e>
     <e lm="Brussels"><i>Brussels</i><par n="Zagreb__np"/></e><!-- not the proper way of writing it in hbs, but far too common on SETimes -->
     <e lm="ravnatelj"><i>ravnatelj</i><par n="prijatelj__n"/></e>
+    <e lm="Tirana"><i>Tiran</i><par n="Bosn/a__np"/></e>
+    <e lm="udruga"><i>udru</i><par n="knji/ga__n"/></e>
+	<e lm="The Times"><i>The<b/>Times</i><par n="SETimes__np"/></e>
+    <e lm="trio"><i>tri</i><par n="tri/o__n"/></e>
+    <e lm="plin"><i>plin</i><par n="test__n"/></e>
+    <e lm="gotovo"><i>gotovo</i><par n="danas__adv"/></e>
+    <e lm="Istanbul"><i>Istanbul</i><par n="Zagreb__np"/></e>
+    <e lm="u cijelosti"><i>u<b/>cijelosti</i><par n="danas__adv"/></e>
+    <e lm="tribunal"><i>tribunal</i><par n="program__n"/></e>
+    <e lm="Turčin"><i>Tur</i><par n="Tur/čin__n"/></e>
+    <e lm="stajalište"><i>stajališt</i><par n="polj/e__n"/></e>
+    <e lm="Bukurešt"><i>Bukurešt</i><par n="Zagreb__np"/></e>
+    <e lm="u svezi s"><i>u<b/>svezi<b/>s</i><par n="danas__adv"/></e>
+    <e lm="približno"><i>približno</i><par n="danas__adv"/></e>
+    <e lm="Ponte"><i>Ponte</i><par n="Prezime__cog__np"/></e>
+    <e lm="Koštunica"><i>Koštunic</i><par n="Krnet/a__cog__np"/></e>
+    <e lm="optuženik"><i>optuženi</i><par n="učeni/k__n"/></e>
 
     <!-- Midterm -->
     
