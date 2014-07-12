@@ -6504,20 +6504,20 @@
 
       <!--The negative vbhaver--><!--Identicle save for the future. Identicool.-->
       <!--Infinitive--><!--Future tense makes no sence for the negative-->
-      <e><p><l>nemati</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+      <!-- <e><p><l>nemati</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e> -->
       <!-- <e><p><l>nema</l><r>nema</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
       <!--Imperative-->
-      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
       <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
       <!--Present-->
-      <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+      <!-- <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
       <!-- <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
       <!--Imperfect-->
-      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e> -->
       <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
       <!--Participles-->
-      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-      <e><p><l>nemajući</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <e><p><l>nemajući</l><r>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e> -->
     </pardef>
     <!--end Verb to have-->
     <!--Defective verb paradigms-->
@@ -6529,6 +6529,23 @@
       <e><p><l>vel</l><r>veli<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
     </pardef>
     <!-- end defective verb paradigms-->
+
+    <pardef n="nemati__vbhaver"><!--fix: took it out so it works when paired with eng -->
+      <e><p><l>nemati</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+      <!-- <e><p><l>nema</l><r>nema</r></p><par n="inf_ti+fiiI__sfx__ref__vbhaver__imperf"/></e> -->
+      <!--Imperative-->
+      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e> -->
+      <!--Present-->
+      <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+      <!-- <e><p><l>nem</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e> -->
+      <!--Imperfect-->
+      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+      <!-- <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e> -->
+      <!--Participles-->
+      <e><p><l>nema</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <e><p><l>nemajući</l><r>nemati<s n="vbhaver"/><s n="neg"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    </pardef>
 
 
     <!--Regular verb paradigms-->
@@ -33412,6 +33429,10 @@
 
   <section id="main" type="standard">
 
+    <!-- testvoc vbhaver -->
+
+    <e lm="nemati"><par n="nemati__vbhaver"/></e>
+
     <!-- testvoc particles -->
 
     <e lm="bok"><p><l>bok</l><r>bok<s n="part"/></r></p></e>
@@ -33925,7 +33946,7 @@
     <e lm="razvijen"><i>razvijen</i><par n="zdrav__comp__adj"/></e>
     <e lm="razvijen"><p><l>najrazvijen</l><r>razvijen</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="razvijen"><p><l>najrazvijen</l><r>razvijen</r></p><par n="zdrav__ssup__adj"/></e>
-    <e lm="s"><i>s</i><par n="/sa__pr"/></e>
+<!--    <e lm="s"><i>s</i><par n="/sa__pr"/></e> -->
     <e lm="stalno se"><i>stalno</i><i>se</i><par n="danas__adv"/></e>
     <e lm="svoj"><i/><par n="svoj__prn"/></e>
     <e lm="to"><i>to</i><par n="taj__dem__prn"/></e>
