@@ -84,8 +84,8 @@ $(LANG1c).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
 ## Disambiguation rules 
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
-	cg-comp $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
+	$(CGCOMP) $< $@
 
 ###############################################################################
 ## Distribution
