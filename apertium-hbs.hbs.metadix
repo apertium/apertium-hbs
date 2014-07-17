@@ -5102,7 +5102,7 @@
       <e><par n="kakav__itg__prn"/></e>
       <e><par n="čiji__itg__prn"/></e>
       <e><par n="koliki__itg__prn"/></e>
-      <e><p><l>koliko</l><r>koliko<s n="prn"/><s n="itg"/></r></p></e>
+<!--      <e><p><l>koliko</l><r>koliko<s n="prn"/><s n="itg"/></r></p></e> fix: koliko as prn.itg is covered in koliki__itg__prn, this is and adverb -->
     </pardef>
     <pardef n="relative__pronouns__prn">
       <e><par n="tko__rel__prn"/></e>
@@ -5111,7 +5111,7 @@
       <e><par n="kakav__rel__prn"/></e>
       <e><par n="čiji__rel__prn"/></e>
       <e><par n="koliki__rel__prn"/></e>
-      <e><p><l>koliko</l><r>koliko<s n="prn"/><s n="rel"/></r></p></e>
+<!--      <e><p><l>koliko</l><r>koliko<s n="prn"/><s n="rel"/></r></p></e> -->
     </pardef>
     <pardef n="indefinite__pronouns__prn"><!--Note: the suffix -god is implemented as a particle-->
       <e><i>ne</i><par n="ne/tko__ind__prn"/></e>
