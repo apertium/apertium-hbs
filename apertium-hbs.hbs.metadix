@@ -33525,7 +33525,6 @@
     <e lm="balkon"><i>balkon</i><par n="program__n"/></e>
     <e lm="monarhist"><i>monarhist</i><par n="pilot__n"/></e>
     <e lm="puno"><i>puno</i><par n="danas__adv"/></e>
-    <e lm="taj"><i>taj</i><par n="taj__dem__prn"/></e>
     <e lm="hvaliti"><i>hval</i><par n="imperf_tv_gul/iti__vblex"/></e>
     <e lm="hvaliti"><i>hval</i><par n="imperf_ref_gul/iti__vblex"/></e>
     <e lm="postkomunistički"><i>postkomunistič</i><par n="pridjevs/ki__pst__adj"/></e>
@@ -33551,7 +33550,6 @@
     <e lm="neovisan"><i>neovis</i><par n="ruž/an__comp__adj"/></e>
     <e lm="neovisan"><i>neovis</i><par n="ruž/an__sup__adj"/></e>
     <e lm="neovisan"><i>neovis</i><par n="ruž/an__ssup__adj"/></e>
-    <e lm="ovaj"><i>ovaj</i><par n="ovaj__dem__prn"/></e>
     <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__pst__adj"/></e>
     <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__comp__adj"/></e>
     <e lm="prosperitetan"><i>prosperitet</i><par n="ruž/an__sup__adj"/></e>
@@ -33626,11 +33624,7 @@
     <e lm="i dalje"><i>i<b/>dalje</i><par n="danas__adv"/></e>
     <e lm="ništa"><i>ni</i><par n="ni/šta__neg__prn"/></e>
     
-    <e lm="koji"><i>koji</i><par n="koji__itg__prn"/></e>
-    
-    <e lm="sav"><i>sav</i><par n="sav__tot__prn"/></e>
 	<e lm="Human Rights Watch"><i>Human<b/>Rights<b/>Watch</i><par n="SETimes__np"/></e>
-	<e lm="bilo koji"><i>bilo<b/>koji</i><par n="koji__itg__prn"/></e>
 	<e lm="Agence France Presse"><i>Agence<b/>France<b/>Presse</i><par n="SETimes__np"/></e>
     <e lm="razmatrati"><i>razmatr</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="razmatrati"><i>razmatr</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -33932,7 +33926,6 @@
     <e lm="glazben"><p><l>najglazben</l><r>neprimjeren</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="glazben"><p><l>najglazben</l><r>neprimjeren</r></p><par n="zdrav__ssup__adj"/></e>
 <!--    <e lm="PersonalPronoun"><i/><par n="personal_pronouns__prn"/></e> -->
-    <e lm="onaj"><i>onaj</i><par n="onaj__dem__prn"/></e>
     <e lm="pjevač"><i>pjevač</i><par n="orač__n"/></e>
     <e lm="početkom"><i>početkom</i><par n="ins__pr"/></e>
     <e lm="prvi"><i>prv</i><par n="mnog/i__adj"/></e>
@@ -33949,7 +33942,6 @@
 <!--    <e lm="s"><i>s</i><par n="/sa__pr"/></e> -->
     <e lm="stalno se"><i>stalno</i><i>se</i><par n="danas__adv"/></e>
     <e lm="svoj"><i/><par n="svoj__prn"/></e>
-    <e lm="to"><i>to</i><par n="taj__dem__prn"/></e>
     <e lm="četiri"><i>četiri</i><par n="numeros_con_inflexion"/></e>
     <e lm="istupati"><i>istup</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="komentirati"><i>komentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -33957,7 +33949,6 @@
     <e lm="parodirati"><i>parodir</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="postajati"><i>postaj</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="pratiti"><i>prat</i><par n="imperf_iv_traž/iti__vblex"/></e>
-    <e lm="se"><i>se</i><par n="reflexive_pronouns__clt__prn"/></e>
     <e lm="utemeljivati"><i>utemelj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
     <e lm="utemeljivati"><i>utemelj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
     <e lm="će"><i>će</i><par n="ću__clt"/></e>
