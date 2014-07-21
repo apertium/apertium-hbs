@@ -30533,7 +30533,7 @@
     </pardef>
 
     <pardef n="base_numerals">
-      <e><p><l>jedan</l><r>jedan<s n="num"/></r></p></e>
+<!--      <e><p><l>jedan</l><r>jedan<s n="num"/></r></p></e> -->
       <e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>jednog</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
       <e r="LR"><p><l>jednoga</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -30808,7 +30808,7 @@
       <e><i>devetnaest</i><par n="collective_numerals"/></e>
       <e><i>dvadeset</i><par n="collective_numerals"/></e>
 
-      <e><p><l>jedan</l><r>jedan<s n="num"/></r></p></e>
+<!--      <e><p><l>jedan</l><r>jedan<s n="num"/></r></p></e> -->
       <e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>jednog</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
       <e r="LR"><p><l>jednoga</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -33685,7 +33685,6 @@
     <e lm="dramaturški"><p><l>predramaturš</l><r>dramaturš</r></p><par n="pridjevs/ki__ssup__adj"/></e>
     <e lm="drugi"><i>drug</i><par n="garantn/i__adj"/></e>
     <e lm="država"><i>držav</i><par n="žen/a__n"/></e>
-    <e lm="dvije"><i>dvij</i><par n="base_numerals"/></e>
     <e lm="ekipa"><i>ekip</i><par n="žen/a__n"/></e>
     <e lm="fantastičan"><i>fantastič</i><par n="ruž/an__pst__adj"/></e>
     <e lm="fantastičan"><i>fantastič</i><par n="ruž/an__comp__adj"/></e>
@@ -33726,7 +33725,6 @@
     <e lm="javan"><p><l>najjav</l><r>jav</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="javan"><p><l>prejav</l><r>jav</r></p><par n="ruž/an__ssup__adj"/></e>
     <e lm="javnost"><i>javno</i><par n="ma/st__n"/></e>
-    <e lm="jedan"><i>jed</i><par n="base_numerals"/></e>
     <e lm="jezgra"><i>jezg</i><par n="sest/ra__n"/></e>
     <e lm="kao"><i>kao</i><par n="gen__pr"/></e>
     <e lm="karijera"><i>karijer</i><par n="žen/a__n"/></e>
@@ -33942,7 +33940,6 @@
 <!--    <e lm="s"><i>s</i><par n="/sa__pr"/></e> -->
     <e lm="stalno se"><i>stalno</i><i>se</i><par n="danas__adv"/></e>
     <e lm="svoj"><i/><par n="svoj__prn"/></e>
-    <e lm="četiri"><i>četiri</i><par n="numeros_con_inflexion"/></e>
     <e lm="istupati"><i>istup</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="komentirati"><i>komentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="obraditi"><i>obrad</i><par n="perf_tv_istraž/iti__vblex"/></e>
