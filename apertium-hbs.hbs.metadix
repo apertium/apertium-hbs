@@ -30704,6 +30704,9 @@
       <e><i>i</i><par n="numeros_romanos"/></e>
       <e><i>ii</i><par n="numeros_romanos"/></e>
       <e><i>iii</i><par n="numeros_romanos"/></e>
+      <e><i>iv</i><par n="numeros_romanos"/></e>
+      <e><i>v</i><par n="numeros_romanos"/></e>
+      <e><i>vi</i><par n="numeros_romanos"/></e>
       <e><i>vii</i><par n="numeros_romanos"/></e>
       <e><i>viii</i><par n="numeros_romanos"/></e>
       <e><i>ix</i><par n="numeros_romanos"/></e>
@@ -30712,8 +30715,11 @@
       <e><i>I</i><par n="numeros_romanos"/></e>
       <e><i>II</i><par n="numeros_romanos"/></e>
       <e><i>III</i><par n="numeros_romanos"/></e>
+      <e><i>IV</i><par n="numeros_romanos"/></e>
+      <e><i>V</i><par n="numeros_romanos"/></e>
+      <e><i>VI</i><par n="numeros_romanos"/></e>
       <e><i>VII</i><par n="numeros_romanos"/></e>
-      <e><i>VII</i><par n="numeros_romanos"/></e>
+      <e><i>VIII</i><par n="numeros_romanos"/></e>
       <e><i>IX</i><par n="numeros_romanos"/></e>
       <e><i>XX</i><par n="numeros_romanos"/></e>
 
