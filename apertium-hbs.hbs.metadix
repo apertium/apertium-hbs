@@ -33944,7 +33944,7 @@
     <e lm="razvijen"><p><l>najrazvijen</l><r>razvijen</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="razvijen"><p><l>najrazvijen</l><r>razvijen</r></p><par n="zdrav__ssup__adj"/></e>
 <!--    <e lm="s"><i>s</i><par n="/sa__pr"/></e> -->
-    <e lm="stalno se"><i>stalno</i><i>se</i><par n="danas__adv"/></e>
+    <e lm="stalno se"><i>stalno<b/>se</i><par n="danas__adv"/></e>
     <e lm="svoj"><i/><par n="svoj__prn"/></e>
     <e lm="istupati"><i>istup</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="komentirati"><i>komentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
