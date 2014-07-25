@@ -35528,7 +35528,7 @@
     <e lm="poletjeti"><i>polet</i><par n="perf_iv_požel/jeti__vblex"/></e>
     <e lm="vidjeti"><i>vi</i><par n="perf_tv_vi/djeti__vblex"/></e>
     <e lm="vidjeti"><i>vi</i><par n="perf_ref_vi/djeti__vblex"/></e>
-    <e lm="vidjeti"><i>vid</i><par n="imperf_iv_smr/djeti__vblex"/></e>
+    <e lm="vidjeti"><i>vi</i><par n="imperf_iv_smr/djeti__vblex"/></e>
     <e lm="predvidjeti"><i>predvi</i><par n="perf_tv_vi/djeti__vblex"/></e>
     <e lm="smrdjeti"><i>smr</i><par n="imperf_iv_smr/djeti__vblex"/></e>
     <e lm="previdjeti"><i>previ</i><par n="perf_tv_vi/djeti__vblex"/></e>
