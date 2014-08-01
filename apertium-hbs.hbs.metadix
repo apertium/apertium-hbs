@@ -41231,10 +41231,6 @@
     <e lm="plitak"><p><l>najpli</l><r>pli</r></p><par n="kra/tak__sup__adj"/></e>
     <e lm="plitak"><p><l>prepli</l><r>pli</r></p><par n="kra/tak__ssup__adj"/></e>
 
-    <!--<e lm="plitak"><i>pli</i><par n="krep/ak__comp__adj"/></e> ERROR PARADIGM? PLIAK?-->
-    <e lm="plitak"><p><l>najpli</l><r>pli</r></p><par n="krep/ak__sup__adj"/></e>
-    <e lm="plitak"><p><l>prepli</l><r>pli</r></p><par n="kra/tak__ssup__adj"/></e>
-
     <e lm="koristan"><i>kori</i><par n="izvje/stan__pst__adj"/></e>
     <e lm="koristan"><i>kori</i><par n="izvje/stan__comp__adj"/></e>
     <e lm="koristan"><p><l>najkori</l><r>kori</r></p><par n="izvje/stan__sup__adj"/></e>
