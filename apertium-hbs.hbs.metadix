@@ -33844,8 +33844,6 @@
     <e lm="popularan"><p><l>najpopular</l><r>popular</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="popularan"><p><l>prepopular</l><r>popular</r></p><par n="ruž/an__ssup__adj"/></e>
     <e lm="povijest"><i>pov</i><par n="e_ije__yat"/><i/><par n="ma/st__n"/></e>
-    <e lm="početak"><i>počet</i><par n="trenu/tak__n"/></e>
-    <e lm="početak"><i>poče</i><par n="trenu/tak__n"/></e>
     <e lm="početni"><i>početn</i><par n="garantn/i__adj"/></e>
     <e lm="praćen"><i>praćen</i><par n="zdrav__pst__adj"/></e>
     <e lm="praćen"><i>praćen</i><par n="zdrav__comp__adj"/></e>
@@ -48640,7 +48638,7 @@
     <e lm="pretpostavka"><i>pretpostav</i><par n="olov/ka__n"/></e>
     <e lm="školjka"><i>školj</i><par n="olov/ka__n"/></e>
     <e lm="tvrtka"><i>tvrt</i><par n="das/ka__n"/></e>
-    <e lm="ćipka"><i>ćip</i><par n="das/ka__n"/></e>
+    <e lm="čipka"><i>čip</i><par n="das/ka__n"/></e>
     <e lm="čistka"><i>čist</i><par n="das/ka__n"/></e>
     <e lm="pljačka"><i>pljač</i><par n="das/ka__n"/></e>
     <e lm="opaska"><i>opas</i><par n="das/ka__n"/></e>
