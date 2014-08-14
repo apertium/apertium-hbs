@@ -33942,9 +33942,6 @@
     <e lm="štovatelj"><i>štovatelj</i><par n="prijatelj__n"/></e>
     <e lm="bilježiti"><i>b</i><par n="e_i__yat"/><i>l</i><par n="e_je__yat"/><i>ž</i><par n="imperf_tv_traž/iti__vblex"/></e>
     <e lm="bilježiti"><i>b</i><par n="e_i__yat"/><i>l</i><par n="e_je__yat"/><i>ž</i><par n="imperf_ref_traž/iti__vblex"/></e>
-    <e lm="biti"><i/><par n="biti__vbser"/></e>
-    <e lm="biti"><i>bi</i><par n="imperf_tv_pi/ti__vblex"/></e>
-    <e lm="biti"><i>bi</i><par n="imperf_ref_pi/ti__vblex"/></e>
     <e lm="donirati"><i>donir</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="donirati"><i>donir</i><par n="perf_tv_ojač/ati__vblex"/></e>
     <e lm="mijenjati"><i>m</i><par n="e_ije__yat"/><i>nj</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -34745,8 +34742,8 @@
     <e lm="spuštati"><i>spušt</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="prisvajati"><i>prisvaj</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="pročitati"><i>pročit</i><par n="perf_tv_ojač/ati__vblex"/></e>
-    <e lm="probati"><i>probat</i><par n="perf_tv_ojač/ati__vblex"/></e>
-    <e lm="probati"><i>probat</i><par n="perf_ref_ojač/ati__vblex"/></e>
+    <e lm="probati"><i>prob</i><par n="perf_tv_ojač/ati__vblex"/></e>
+    <e lm="probati"><i>prob</i><par n="perf_ref_ojač/ati__vblex"/></e>
     <e lm="prohodati"><i>prohod</i><par n="perf_tv_ojač/ati__vblex"/></e>
     <e lm="prolijevati"><i>prol</i><par n="e_ije__yat"/><i>v</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="prolijevati"><i>prol</i><par n="e_ije__yat"/><i>v</i><par n="imperf_ref_bir/ati__vblex"/></e>
@@ -35083,8 +35080,8 @@
     <e lm="ležati"><i>lež</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="padati"><i>pad</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="pripadati"><i>pripad</i><par n="imperf_iv_bir/ati__vblex"/></e>
-    <e lm="stiskati"><i>stisk</i><par n="imperf_tv_sti/skati__vblex"/></e>
-    <e lm="stiskati"><i>stisk</i><par n="imperf_ref_sti/skati__vblex"/></e>
+    <e lm="stiskati"><i>sti</i><par n="imperf_tv_sti/skati__vblex"/></e>
+    <e lm="stiskati"><i>sti</i><par n="imperf_ref_sti/skati__vblex"/></e>
     <e lm="brisati"><i>bri</i><par n="imperf_tv_pi/sati__vblex"/></e>
     <e lm="brisati"><i>bri</i><par n="imperf_ref_pi/sati__vblex"/></e>
     <e lm="gurati"><i>gur</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -35098,16 +35095,16 @@
     <e lm="grebati"><i>greb</i><par n="imperf_tv_opominj/ati__vblex"/></e>
     <e lm="grebati"><i>greb</i><par n="imperf_iv_opominj/ati__vblex"/></e>
     <e lm="duvati"><i>duv</i><par n="imperf_iv_bir/ati__vblex"/></e>
-    <e lm="puhati"><i>puh</i><par n="imperf_iv_pu/hati__vblex"/></e>
-    <e lm="puhati"><i>puh</i><par n="imperf_tv_pu/hati__vblex"/></e>
-    <e lm="duhati"><i>duh</i><par n="imperf_iv_pu/hati__vblex"/></e>
-    <e lm="duhati"><i>duh</i><par n="imperf_tv_pu/hati__vblex"/></e>
+    <e lm="puhati"><i>pu</i><par n="imperf_iv_pu/hati__vblex"/></e>
+    <e lm="puhati"><i>pu</i><par n="imperf_tv_pu/hati__vblex"/></e>
+    <e lm="duhati"><i>du</i><par n="imperf_iv_pu/hati__vblex"/></e>
+    <e lm="duhati"><i>du</i><par n="imperf_tv_pu/hati__vblex"/></e>
     <e lm="udarati"><i>udar</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="udarati"><i>udar</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="udarati"><i>udar</i><par n="imperf_ref_bir/ati__vblex"/></e>
-    <e lm="pljuvati"><i>pljuv</i><par n="imperf_tv_plj/uvati__vblex"/></e>
-    <e lm="pljuvati"><i>pljuv</i><par n="imperf_iv_plj/uvati__vblex"/></e>
-    <e lm="pljuvati"><i>pljuv</i><par n="imperf_ref_plj/uvati__vblex"/></e>
+    <e lm="pljuvati"><i>plj</i><par n="imperf_tv_plj/uvati__vblex"/></e>
+    <e lm="pljuvati"><i>plj</i><par n="imperf_iv_plj/uvati__vblex"/></e>
+    <e lm="pljuvati"><i>plj</i><par n="imperf_ref_plj/uvati__vblex"/></e>
     <e lm="prozvati"><i>proz</i><par n="perf_tv_poz/vati__vblex"/></e>
     <e lm="nazvati"><i>naz</i><par n="perf_tv_poz/vati__vblex"/></e>
     <e lm="nazvati"><i>naz</i><par n="perf_ref_poz/vati__vblex"/></e>
@@ -49209,7 +49206,7 @@
     <e lm="oštrica"><i>oštric</i><par n="žen/a__n"/></e>
     <e lm="ovčica"><i>ovčic</i><par n="žen/a__n"/></e>
     <e lm="pahuljica"><i>pahuljic</i><par n="žen/a__n"/></e>
-    <e lm="palčica"><i>palčic</i><par n="žen/a__n"/></e>
+    <e lm="Palčica"><i>Palčic</i><par n="An/a__np"/></e>
     <e lm="partnerica"><i>partneric</i><par n="vodnic/a__n"/></e>
     <e lm="pećnica"><i>pećnic</i><par n="žen/a__n"/></e>
     <e lm="pekarnica"><i>pekarnic</i><par n="žen/a__n"/></e>
@@ -49865,7 +49862,7 @@
     <e lm="rehabilitacija"><i>rehabilitacij</i><par n="žen/a__n"/></e>
     <e lm="rotacija"><i>rotacij</i><par n="žen/a__n"/></e>
     <e lm="samoizolacija"><i>samoizolacij</i><par n="žen/a__n"/></e>
-    <e lm="sankcija"><i>sakcij</i><par n="žen/a__n"/></e>
+    <e lm="sankcija"><i>sankcij</i><par n="žen/a__n"/></e>
     <e lm="sekcija"><i>sekcij</i><par n="žen/a__n"/></e>
     <e lm="serija"><i>serij</i><par n="žen/a__n"/></e>
     <e lm="situacija"><i>situacij</i><par n="žen/a__n"/></e>
@@ -51448,14 +51445,14 @@
     <e lm="kultiviranje"><i>kultiviranj</i><par n="polj/e__n"/></e>
     <e lm="kultivisanje"><i>kultivisanj</i><par n="polj/e__n"/></e>
     <e lm="kupovanje"><i>kupovanj</i><par n="polj/e__n"/></e>
-    <e lm="kupovina"><i>kupovina</i><par n="žen/a__n"/></e>
+    <e lm="kupovina"><i>kupovin</i><par n="žen/a__n"/></e>
     <e lm="lakejstvo"><i>lakejst</i><par n="društ/vo__n"/></e>
     <e lm="lezbijka"><i>lezbijk</i><par n="žen/a__n"/></e>
     <e lm="lezbijstvo"><i>lezbijst</i><par n="društ/vo__n"/></e>
     <e lm="liberaliziranje"><i>liberaliziranj</i><par n="polj/e__n"/></e>
     <e lm="lice"><i>lic</i><par n="polj/e__n"/></e>
     <e lm="licemjerstvo"><i>licem</i><par n="e_je__yat"/><i>rst</i><par n="društ/vo__n"/></e> <!--FIX: Has a number of hits on Google -->
-    <e lm="licemjernost"><i>licem</i><par n="e_je__yat"/><i>rnost</i><par n="ma/st__n"/></e>
+    <e lm="licemjernost"><i>licem</i><par n="e_je__yat"/><i>rno</i><par n="ma/st__n"/></e>
     <e lm="licenciranje"><i>licenciranj</i><par n="polj/e__n"/></e>
     <e lm="ličilaštvo"><i>ličilašt</i><par n="društ/vo__n"/></e>
     <e lm="liderstvo"><i>liderst</i><par n="društ/vo__n"/></e>
@@ -51997,7 +51994,7 @@
     <e lm="zapovjedništvo"><i>zapov</i><par n="e_je__yat"/><i>dništ</i><par n="društ/vo__n"/></e>
     <e lm="zaražavanje"><i>zaražavanj</i><par n="polj/e__n"/></e>
     <e lm="zatajenje"><i>zatajenj</i><par n="polj/e__n"/></e>
-    <e lm="zatopljenje"><i>zatopljenje</i><par n="polj/e__n"/></e>
+    <e lm="zatopljenje"><i>zatopljenj</i><par n="polj/e__n"/></e>
     <e lm="zatopljivanje"><i>zatopljivanj</i><par n="polj/e__n"/></e>
     <e lm="zatvaranje"><i>zatvaranj</i><par n="polj/e__n"/></e>
     <e lm="završavanje"><i>završavanj</i><par n="polj/e__n"/></e>
