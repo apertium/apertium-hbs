@@ -9250,7 +9250,7 @@
       <e><p><l>st</l><r>sti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx_oh__vblex"/></e>
       <!--Participles-->
       <e><p><l>s</l><r>sti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_tao__sfx"/></e>
-      <e><p><l>stavši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+      <e><p><l>stavši</l><r>sti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
 
     <pardef n="imperf_iv_tre/sti__vblex">
@@ -9387,7 +9387,7 @@
       <e><p><l>s</l><r>sti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx_oh__vblex"/></e>
       <!--Participles-->
       <e><p><l>s</l><r>sti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_ao__sfx"/></e>
-      <e><p><l>savši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+      <e><p><l>savši</l><r>sti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
     <pardef n="perf_tv_potre/sti__vblex">
       <!--Infinitive-->
@@ -36988,11 +36988,11 @@
     <e lm="buniti"><i>bun</i><par n="imperf_ref_gul/iti__vblex"/></e>
     <e lm="baštiniti"><i>baštin</i><par n="imperf_tv_gul/iti__vblex"/></e>
     <e lm="progoniti"><i>progon</i><par n="imperf_tv_gul/iti__vblex"/></e>
-    <e lm="prazniti"><i>prazn</i><par n="imperf_tv_pra/zniti__vblex"/></e>
-    <e lm="prazniti"><i>prazn</i><par n="imperf_ref_pra/zniti__vblex"/></e>
+    <e lm="prazniti"><i>pra</i><par n="imperf_tv_pra/zniti__vblex"/></e>
+    <e lm="prazniti"><i>pra</i><par n="imperf_ref_pra/zniti__vblex"/></e>
     <e lm="zaplijeniti"><i>zaplijen</i><par n="perf_tv_ogul/iti__vblex"/></e>
-    <e lm="kazniti"><i>kazn</i><par n="perf_tv_ka/zniti__vblex"/></e>
-    <e lm="kazniti"><i>kazn</i><par n="perf_ref_ka/zniti__vblex"/></e>
+    <e lm="kazniti"><i>ka</i><par n="perf_tv_ka/zniti__vblex"/></e>
+    <e lm="kazniti"><i>ka</i><par n="perf_ref_ka/zniti__vblex"/></e>
     <e lm="izjasniti"><i>izjasn</i><par n="perf_ref_ogul/iti__vblex"/></e>
     <e lm="raniti"><i>ran</i><par n="perf_tv_ogul/iti__vblex"/></e>
     <e lm="raniti"><i>ran</i><par n="perf_ref_ogul/iti__vblex"/></e>
