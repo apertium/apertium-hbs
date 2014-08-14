@@ -35330,9 +35330,9 @@
     <e lm="piti"><i>pi</i><par n="imperf_tv_pi/ti__vblex"/></e>
     <e lm="biti"><i>bi</i><par n="imperf_tv_pi/ti__vblex"/></e><!--To beat someone-->
     <e lm="biti"><i>bi</i><par n="imperf_ref_pi/ti__vblex"/></e><!--To beat someone-->
-    <e lm="izbiti"><i>izbi</i><par n="perf_tv_saš/iti__vblex"/></e>
+    <e lm="izbiti"><i>izb</i><par n="perf_tv_saš/iti__vblex"/></e>
     <e lm="odbiti"><i>odb</i><par n="perf_tv_saš/iti__vblex"/></e>
-    <e lm="odbiti"><i>odbi</i><par n="perf_tv_saš/iti__vblex"/></e>
+    <e lm="odbiti"><i>odb</i><par n="perf_tv_saš/iti__vblex"/></e>
     <e lm="dobiti"><i>dob</i><par n="perf_tv_saš/iti__vblex"/></e>
     <e lm="kriti"><i>kr</i><par n="imperf_tv_š/iti__vblex"/></e>
     <e lm="kriti"><i>kr</i><par n="imperf_ref_š/iti__vblex"/></e>
