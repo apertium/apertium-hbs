@@ -33604,8 +33604,8 @@
     <e lm="cijenjen"><i>cjenjen</i><par n="zdrav__comp__adj"/></e>
     <e lm="cijenjen"><p><l>najcjenjen</l><r>cijenjen</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="cijenjen"><p><l>precjenjen</l><r>cijenjen</r></p><par n="zdrav__ssup__adj"/></e>
-    <e lm="posuditi"><i>posu</i><par n="imperf_iv_ra/diti__vblex"/></e>
-    <e lm="posuditi"><i>posu</i><par n="imperf_tv_ra/diti__vblex"/></e>
+    <e lm="posuditi"><i>posu</i><par n="perf_iv_izra/diti__vblex"/></e>
+    <e lm="posuditi"><i>posu</i><par n="perf_tv_izra/diti__vblex"/></e>
     <e lm="povjesničar"><i>povjesničar</i><par n="pisar__n"/></e>
     <e lm="dešifrirati"><i>dešifrir</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="dešifrirati"><i>dešifrir</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -33984,7 +33984,8 @@
     <e lm="komentirati"><i>komentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="obraditi"><i>obrad</i><par n="perf_tv_istraž/iti__vblex"/></e>
     <e lm="parodirati"><i>parodir</i><par n="imperf_iv_bir/ati__vblex"/></e>
-    <e lm="postajati"><i>postaj</i><par n="imperf_iv_bir/ati__vblex"/></e>
+    <e lm="postajati"><i>post</i><par n="imperf_iv__nast/ajati__vblex"/></e>
+    <e lm="postajati"><i>post</i><par n="imperf_tv__nast/ajati__vblex"/></e>
     <e lm="pratiti"><i>prat</i><par n="imperf_iv_traž/iti__vblex"/></e>
     <e lm="utemeljivati"><i>utemelj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
     <e lm="utemeljivati"><i>utemelj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
