@@ -7831,7 +7831,7 @@
 
     <pardef n="imperf_tv_s/jeći__vblex"> <!-- fix: does not take into account yat -->
       <!--Infinitive-->
-      <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__tv__vblex__imperf"/></e>
+      <e><p><l></l><r>je</r></p><par n="inf_ći+fiiI__sfx__tv__vblex__imperf"/></e>
       <!--Imperative-->
       <e><p><l>ijec</l><r>jeći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
@@ -7851,7 +7851,7 @@
     </pardef>
     <pardef n="imperf_iv_s/jeći__vblex">
       <!--Infinitive-->
-      <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
+      <e><p><l></l><r>je</r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
       <!--Imperative-->
       <e><p><l>ijec</l><r>jeći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
@@ -7871,7 +7871,7 @@
     </pardef>
     <pardef n="imperf_ref_s/jeći__vblex">
       <!--Infinitive-->
-      <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__ref__vblex__imperf"/></e>
+      <e><p><l></l><r>je</r></p><par n="inf_ći+fiiI__sfx__ref__vblex__imperf"/></e>
       <!--Imperative-->
       <e><p><l>ijec</l><r>jeći<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
@@ -7892,7 +7892,7 @@
 
     <pardef n="perf_tv_pos/jeći__vblex">
       <!--Infinitive-->
-      <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__tv__vblex__perf"/></e>
+      <e><p><l></l><r>je</r></p><par n="inf_ći+fiiI__sfx__tv__vblex__perf"/></e>
       <!--Imperative-->
       <e><p><l>ijec</l><r>jeći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
@@ -7916,7 +7916,7 @@
     </pardef>
     <pardef n="perf_iv_pos/jeći__vblex">	
       <!--Infinitive-->
-      <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__perf"/></e>
+      <e><p><l></l><r>je</r></p><par n="inf_ći+fiiI__sfx__iv__vblex__perf"/></e>
       <!--Imperative-->
       <e><p><l>ijec</l><r>jeći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
@@ -7940,7 +7940,7 @@
     </pardef>
     <pardef n="perf_ref_pos/jeći__vblex">	
       <!--Infinitive-->
-      <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__ref__vblex__perf"/></e>
+      <e><p><l></l><r>je</r></p><par n="inf_ći+fiiI__sfx__ref__vblex__perf"/></e>
       <!--Imperative-->
       <e><p><l>ijec</l><r>jeći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
       <!--Present-->
@@ -8019,7 +8019,7 @@
       <e><p><l>d</l><r>tići<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx_oh__vblex"/></e>
       <!--Participles-->
       <e><p><l>tiš</l><r>tići<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
-        <e><p><l>dući</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+        <e><p><l>dući</l><r>tići<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
 <!--       <e><p><l>tišavši</l><r>tići<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
 
@@ -9401,7 +9401,7 @@
       <!--Participles-->
       <e><p><l>s</l><r>sti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ao__sfx"/></e>
       <e><p><l>sen</l><r>sti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-      <e><p><l>savši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->	
+      <e><p><l>savši</l><r>sti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->	
     </pardef>
 
     <pardef n="perf_tv_sre/sti__vblex">
@@ -9873,8 +9873,8 @@
       <e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
       <!--Participles-->
       <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
-      <e><p><l>ijuæi</l><r>jeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
-<!--       <e><p><l>ijuæi</l><r>ijuæi<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
+      <e><p><l>ijući</l><r>jeti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+<!--       <e><p><l>ijući</l><r>ijući<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
 
     <pardef n="perf_tv_pu/stiti__vblex">
@@ -10602,8 +10602,8 @@
       <!--Participles-->
       <e><p><l>ha</l><r>hati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
       <e><p><l>han</l><r>hati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-        <e><p><l>šuæi</l><r>hati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
-<!--       <e><p><l>šuæi</l><r>šuæi<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
+        <e><p><l>šući</l><r>hati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+<!--       <e><p><l>šući</l><r>šući<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_tv_pu/hati__vblex">	
       <!--Infinitive-->
@@ -10617,8 +10617,8 @@
       <!--Participles-->
       <e><p><l>ha</l><r>hati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
       <e><p><l>han</l><r>hati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
-        <e><p><l>šuæi</l><r>hati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
-<!--       <e><p><l>šuæi</l><r>šuæi<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
+        <e><p><l>šući</l><r>hati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+<!--       <e><p><l>šući</l><r>šući<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>      
 
     <pardef n="imperf_tv_plj/uvati__vblex">	
@@ -10632,8 +10632,8 @@
       <e><p><l>uva</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
       <!--Participles-->
       <e><p><l>uva</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-        <e><p><l>ujuæi</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
-<!--       <e><p><l>ujuæi</l><r>ujuæi<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
+        <e><p><l>ujući</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+<!--       <e><p><l>ujući</l><r>ujući<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_iv_plj/uvati__vblex">	
       <!--Infinitive-->
@@ -10646,8 +10646,8 @@
       <e><p><l>uva</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
       <!--Participles-->
       <e><p><l>uva</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-        <e><p><l>ujuæi</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
-<!--       <e><p><l>ujuæi</l><r>ujuæi<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
+        <e><p><l>ujući</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+<!--       <e><p><l>ujući</l><r>ujući<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
     <pardef n="imperf_ref_plj/uvati__vblex">	
       <!--Infinitive-->
@@ -10660,8 +10660,8 @@
       <e><p><l>uva</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
       <!--Participles-->
       <e><p><l>uva</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
-        <e><p><l>ujuæi</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
-<!--       <e><p><l>ujuæi</l><r>ujuæi<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
+        <e><p><l>ujući</l><r>uvati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+<!--       <e><p><l>ujući</l><r>ujući<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
 
     <pardef n="imperf_iv_bir/ati__vblex">
@@ -35662,7 +35662,7 @@
     <e lm="ispunjavati"><i>ispunjav</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="izvršavati"><i>izvršav</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="naznačavati"><i>naznačav</i><par n="imperf_tv_bir/ati__vblex"/></e>
-    <e lm="naznačivati"><i>naznačav</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+    <e lm="naznačivati"><i>naznač</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
     <e lm="objedinjavati"><i>objedinjav</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="objedinjavati"><i>objedinjav</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="objašnjavati"><i>objašnjav</i><par n="imperf_tv_bir/ati__vblex"/></e>
