@@ -11414,19 +11414,19 @@
     </pardef>
     <pardef n="super__ssup__adj">
       <e><p><l/><r><s n="adj"/><s n="ssup"/></r></p><par n="super__pst__sfx"/></e>
-      <e><p><l/><r><s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l/><r><s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="super__sup__adj">
       <e><p><l/><r><s n="adj"/><s n="sup"/></r></p><par n="super__comp__sfx"/></e>
-      <e><p><l/><r><s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l/><r><s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="super__comp__adj">
       <e><p><l/><r><s n="adj"/><s n="comp"/></r></p><par n="super__comp__sfx"/></e>
-      <e><p><l/><r><s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l/><r><s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="super__pst__adj">
       <e><p><l/><r><s n="adj"/><s n="pst"/></r></p><par n="super__pst__sfx"/></e>
-      <e><p><l/><r><s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l/><r><s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'super'-->
 
@@ -11919,19 +11919,19 @@
 
     <pardef n="dobar__ssup__adj">
       <e><p><l></l><r>dobar<s n="adj"/><s n="ssup"/></r></p><par n="dobar__pst__sfx"/></e>
-      <e><p><l>dobro</l><r>dobro<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>dobro</l><r>dobro<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="dobar__sup__adj">
       <e><p><l></l><r>dobar<s n="adj"/><s n="sup"/></r></p><par n="dobar__comp__sfx"/></e>
-      <e><p><l>bolje</l><r>dobro<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>bolje</l><r>dobro<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="dobar__comp__adj">
       <e><p><l></l><r>dobar<s n="adj"/><s n="comp"/></r></p><par n="dobar__comp__sfx"/></e>
-      <e><p><l>bolje</l><r>dobro<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>bolje</l><r>dobro<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="dobar__pst__adj">
       <e><p><l></l><r>dobar<s n="adj"/><s n="pst"/></r></p><par n="dobar__pst__sfx"/></e>
-      <e><p><l>dobro</l><r>dobro<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>dobro</l><r>dobro<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'dobar'-->
     <pardef n="zao__pst__sfx">
@@ -12937,19 +12937,19 @@
     </pardef>
     <pardef n="velik__ssup__adj">
       <e><p><l></l><r>velik<s n="adj"/><s n="ssup"/></r></p><par n="velik__pst__sfx"/></e>
-      <e><p><l>veliko</l><r>veliko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>veliko</l><r>veliko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="velik__sup__adj">
       <e><p><l></l><r>velik<s n="adj"/><s n="sup"/></r></p><par n="velik__comp__sfx"/></e>
-      <e><p><l>veće</l><r>veliko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>veće</l><r>veliko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="velik__comp__adj">
       <e><p><l></l><r>velik<s n="adj"/><s n="comp"/></r></p><par n="velik__comp__sfx"/></e>
-      <e><p><l>veće</l><r>veliko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>veće</l><r>veliko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="velik__pst__adj">
       <e><p><l></l><r>velik<s n="adj"/><s n="pst"/></r></p><par n="velik__pst__sfx"/></e>
-      <e><p><l>veliko</l><r>veliko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>veliko</l><r>veliko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'velik'-->
     <!--Adjective paradigm 'malen'-->
@@ -13245,19 +13245,19 @@
     </pardef>
     <pardef n="malen__ssup__adj">
       <e><p><l></l><r>malen<s n="adj"/><s n="ssup"/></r></p><par n="malen__pst__sfx"/></e>
-      <e><p><l>maleno</l><r>maleno<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>maleno</l><r>maleno<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="malen__sup__adj">
       <e><p><l></l><r>malen<s n="adj"/><s n="sup"/></r></p><par n="malen__comp__sfx"/></e>
-      <e><p><l>manje</l><r>maleno<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>manje</l><r>maleno<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="malen__comp__adj">
       <e><p><l></l><r>malen<s n="adj"/><s n="comp"/></r></p><par n="malen__comp__sfx"/></e>
-      <e><p><l>manje</l><r>maleno<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>manje</l><r>maleno<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="malen__pst__adj">
       <e><p><l></l><r>malen<s n="adj"/><s n="pst"/></r></p><par n="malen__pst__sfx"/></e>
-      <e><p><l>maleno</l><r>maleno<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>maleno</l><r>maleno<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'malen'-->
     <!--Adjective paradigm 'mal'-->
@@ -14359,19 +14359,19 @@
     </pardef>
     <pardef n="zdrav__ssup__adj">
       <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="zdrav__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="zdrav__sup__adj">
       <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
-      <e><p><l>ije</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ije</l><r>o<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="zdrav__comp__adj">
       <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
-      <e><p><l>ije</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>ije</l><r>o<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="zdrav__pst__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="zdrav__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'zdrav'-->
 
@@ -14706,19 +14706,19 @@
     </pardef>
     <pardef n="bije/l__ssup__adj">
       <e><p><l></l><r>l<s n="adj"/><s n="ssup"/></r></p><par n="bije/l__pst__sfx"/></e>
-      <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="bije/l__sup__adj">
       <e><p><l></l><r>l<s n="adj"/><s n="sup"/></r></p><par n="bije/l__comp__sfx"/></e>
-      <e><p><l>lje</l><r>lo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lje</l><r>lo<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="bije/l__comp__adj">
       <e><p><l></l><r>l<s n="adj"/><s n="comp"/></r></p><par n="bije/l__comp__sfx"/></e>
-      <e><p><l>lje</l><r>lo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>lje</l><r>lo<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="bije/l__pst__adj">
       <e><p><l></l><r>l<s n="adj"/><s n="pst"/></r></p><par n="bije/l__pst__sfx"/></e>
-      <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'bije/l'-->
 
@@ -15015,19 +15015,19 @@
     </pardef>
     <pardef n="šir/ok__ssup__adj">
       <e><p><l></l><r>ok<s n="adj"/><s n="ssup"/></r></p><par n="šir/ok__pst__sfx"/></e>
-      <e><p><l>oko</l><r>oko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>oko</l><r>oko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="šir/ok__sup__adj">
       <e><p><l></l><r>ok<s n="adj"/><s n="sup"/></r></p><par n="šir/ok__comp__sfx"/></e>
-      <e><p><l>e</l><r>oko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>oko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="šir/ok__comp__adj">
       <e><p><l></l><r>ok<s n="adj"/><s n="comp"/></r></p><par n="šir/ok__comp__sfx"/></e>
-      <e><p><l>e</l><r>oko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>oko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="šir/ok__pst__adj">
       <e><p><l></l><r>ok<s n="adj"/><s n="pst"/></r></p><par n="šir/ok__pst__sfx"/></e>
-      <e><p><l>oko</l><r>oko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>oko</l><r>oko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'šir/ok'-->
     <!--Adjective paradigm 'že/stok'-->
@@ -15323,19 +15323,19 @@
     </pardef>
     <pardef n="že/stok__ssup__adj">
       <e><p><l></l><r>stok<s n="adj"/><s n="ssup"/></r></p><par n="že/stok__pst__sfx"/></e>
-      <e><p><l>stoko</l><r>stoko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>stoko</l><r>stoko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="že/stok__sup__adj">
       <e><p><l></l><r>stok<s n="adj"/><s n="sup"/></r></p><par n="že/stok__comp__sfx"/></e>
-      <e><p><l>šće</l><r>stoko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>šće</l><r>stoko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="že/stok__comp__adj">
       <e><p><l></l><r>stok<s n="adj"/><s n="comp"/></r></p><par n="že/stok__comp__sfx"/></e>
-      <e><p><l>šće</l><r>stoko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>šće</l><r>stoko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="že/stok__pst__adj">
       <e><p><l></l><r>stok<s n="adj"/><s n="pst"/></r></p><par n="že/stok__pst__sfx"/></e>
-      <e><p><l>stoko</l><r>stoko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>stoko</l><r>stoko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'že/stok'-->
 
@@ -15632,19 +15632,19 @@
     </pardef>
     <pardef n="či/st__ssup__adj">
       <e><p><l></l><r>st<s n="adj"/><s n="ssup"/></r></p><par n="či/st__pst__sfx"/></e>
-      <e><p><l>sto</l><r>sto<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>sto</l><r>sto<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="či/st__sup__adj">
       <e><p><l></l><r>st<s n="adj"/><s n="sup"/></r></p><par n="či/st__comp__sfx"/></e>
-      <e><p><l>šće</l><r>sto<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>šće</l><r>sto<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="či/st__comp__adj">
       <e><p><l></l><r>st<s n="adj"/><s n="comp"/></r></p><par n="či/st__comp__sfx"/></e>
-      <e><p><l>šće</l><r>sto<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>šće</l><r>sto<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="či/st__pst__adj">
       <e><p><l></l><r>st<s n="adj"/><s n="pst"/></r></p><par n="či/st__pst__sfx"/></e>
-      <e><p><l>sto</l><r>sto<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>sto</l><r>sto<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'či/st'-->
 
@@ -15941,19 +15941,19 @@
     </pardef>
     <pardef n="mla/d__ssup__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="ssup"/></r></p><par n="mla/d__pst__sfx"/></e>
-      <e><p><l>do</l><r>do<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>do</l><r>do<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="mla/d__sup__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="sup"/></r></p><par n="mla/d__comp__sfx"/></e>
-      <e><p><l>đe</l><r>do<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>đe</l><r>do<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="mla/d__comp__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="comp"/></r></p><par n="mla/d__comp__sfx"/></e>
-      <e><p><l>đe</l><r>do<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>đe</l><r>do<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="mla/d__pst__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="pst"/></r></p><par n="mla/d__pst__sfx"/></e>
-      <e><p><l>do</l><r>do<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>do</l><r>do<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'mla/d'-->
     <!--Adjective paradigm 'žu/t'-->
@@ -16249,19 +16249,19 @@
     </pardef>
     <pardef n="žu/t__ssup__adj">
       <e><p><l></l><r>t<s n="adj"/><s n="ssup"/></r></p><par n="žu/t__pst__sfx"/></e>
-      <e><p><l>to</l><r>to<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>to</l><r>to<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="žu/t__sup__adj">
       <e><p><l></l><r>t<s n="adj"/><s n="sup"/></r></p><par n="žu/t__comp__sfx"/></e>
-      <e><p><l>će</l><r>to<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>će</l><r>to<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="žu/t__comp__adj">
       <e><p><l></l><r>t<s n="adj"/><s n="comp"/></r></p><par n="žu/t__comp__sfx"/></e>
-      <e><p><l>će</l><r>to<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>će</l><r>to<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="žu/t__pst__adj">
       <e><p><l></l><r>t<s n="adj"/><s n="pst"/></r></p><par n="žu/t__pst__sfx"/></e>
-      <e><p><l>to</l><r>to<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>to</l><r>to<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'žu/t'-->
     <!--Adjective paradigm 'ja/k'-->
@@ -16557,19 +16557,19 @@
     </pardef>
     <pardef n="ja/k__ssup__adj">
       <e><p><l></l><r>k<s n="adj"/><s n="ssup"/></r></p><par n="ja/k__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="ja/k__sup__adj">
       <e><p><l></l><r>k<s n="adj"/><s n="sup"/></r></p><par n="ja/k__comp__sfx"/></e>
-      <e><p><l>če</l><r>ko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>če</l><r>ko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="ja/k__comp__adj">
       <e><p><l></l><r>k<s n="adj"/><s n="comp"/></r></p><par n="ja/k__comp__sfx"/></e>
-      <e><p><l>če</l><r>ko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>če</l><r>ko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="ja/k__pst__adj">
       <e><p><l></l><r>k<s n="adj"/><s n="pst"/></r></p><par n="ja/k__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'ja/k'-->
 
@@ -16867,19 +16867,19 @@
 
     <pardef n="zre/o__ssup__adj">
       <e><p><l></l><r>o<s n="adj"/><s n="ssup"/></r></p><par n="zre/o__pst__sfx"/></e>
-      <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="zre/o__sup__adj">
       <e><p><l></l><r>o<s n="adj"/><s n="sup"/></r></p><par n="zre/o__comp__sfx"/></e>
-      <e><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="zre/o__comp__adj">
       <e><p><l></l><r>o<s n="adj"/><s n="comp"/></r></p><par n="zre/o__comp__sfx"/></e>
-      <e><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="zre/o__pst__adj">
       <e><p><l></l><r>o<s n="adj"/><s n="pst"/></r></p><par n="zre/o__pst__sfx"/></e>
-      <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!-- end 'zre/o'-->
 
@@ -17177,19 +17177,19 @@
 
     <pardef n="okor/io__ssup__adj">
       <e><par n="e_i_right__yat"/><p><l></l><r>o<s n="adj"/><s n="ssup"/></r></p><par n="okor/io__pst__sfx"/></e>
-      <e><par n="e_je__yat"/><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><par n="e_je__yat"/><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="okor/io__sup__adj">
       <e><par n="e_i_right__yat"/><p><l></l><r>o<s n="adj"/><s n="sup"/></r></p><par n="okor/io__comp__sfx"/></e>
-      <e><par n="e_je__yat"/><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><par n="e_je__yat"/><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="okor/io__comp__adj">
       <e><par n="e_i_right__yat"/><p><l></l><r>o<s n="adj"/><s n="comp"/></r></p><par n="okor/io__comp__sfx"/></e>
-      <e><par n="e_je__yat"/><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><par n="e_je__yat"/><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="okor/io__pst__adj">
       <e><par n="e_i_right__yat"/><p><l></l><r>o<s n="adj"/><s n="pst"/></r></p><par n="okor/io__pst__sfx"/></e>
-      <e><par n="e_je__yat"/><p><l>lo</l><r>lo<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><par n="e_je__yat"/><p><l>lo</l><r>lo<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!-- end 'okor/io'-->
 
@@ -17487,19 +17487,19 @@
 
     <pardef n="top/ao__ssup__adj">
       <e><p><l></l><r>ao<s n="adj"/><s n="ssup"/></r></p><par n="top/ao__pst__sfx"/></e>
-      <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="top/ao__sup__adj">
       <e><p><l></l><r>ao<s n="adj"/><s n="sup"/></r></p><par n="top/ao__comp__sfx"/></e>
-      <e><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="top/ao__comp__adj">
       <e><p><l></l><r>ao<s n="adj"/><s n="comp"/></r></p><par n="top/ao__comp__sfx"/></e>
-      <e><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="top/ao__pst__adj">
       <e><p><l></l><r>ao<s n="adj"/><s n="pst"/></r></p><par n="top/ao__pst__sfx"/></e>
-      <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!-- end 'top/ao'-->
 
@@ -17797,19 +17797,19 @@
 
     <pardef n="tup__ssup__adj">
       <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="tup__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="tup__sup__adj">
       <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="tup__comp__sfx"/></e>
-      <e><p><l>lje</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lje</l><r>o<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="tup__comp__adj">
       <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="tup__comp__sfx"/></e>
-      <e><p><l>lje</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>lje</l><r>o<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="tup__pst__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="tup__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'tup'-->
     <!--Adjective paradigm 'mek'-->
@@ -18106,19 +18106,19 @@
 
     <pardef n="mek__ssup__adj">
       <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="mek__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="mek__sup__adj">
       <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="mek__comp__sfx"/></e>
-      <e><p><l>še</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>še</l><r>o<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="mek__comp__adj">
       <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="mek__comp__sfx"/></e>
-      <e><p><l>še</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>še</l><r>o<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="mek__pst__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="mek__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'mek'-->
     <pardef n="su/h__pst__sfx">
@@ -18414,19 +18414,19 @@
 
     <pardef n="su/h__ssup__adj">
       <e><p><l></l><r>h<s n="adj"/><s n="ssup"/></r></p><par n="su/h__pst__sfx"/></e>
-      <e><p><l>ho</l><r>ho<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ho</l><r>ho<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="su/h__sup__adj">
       <e><p><l></l><r>h<s n="adj"/><s n="sup"/></r></p><par n="su/h__comp__sfx"/></e>
-      <e><p><l>še</l><r>ho<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>še</l><r>ho<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="su/h__comp__adj">
       <e><p><l></l><r>h<s n="adj"/><s n="comp"/></r></p><par n="su/h__comp__sfx"/></e>
-      <e><p><l>še</l><r>ho<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>še</l><r>ho<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="su/h__pst__adj">
       <e><p><l></l><r>h<s n="adj"/><s n="pst"/></r></p><par n="su/h__pst__sfx"/></e>
-      <e><p><l>ho</l><r>ho<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ho</l><r>ho<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'su/h'-->
     <!--Adjective paradigm 'izvje/stan'--><!--with fleeting a-->
@@ -18723,19 +18723,19 @@
 
     <pardef n="izvje/stan__ssup__adj">
       <e><p><l></l><r>stan<s n="adj"/><s n="ssup"/></r></p><par n="izvje/stan__pst__sfx"/></e>
-      <e><p><l>sno</l><r>sno<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>sno</l><r>sno<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="izvje/stan__sup__adj">
       <e><p><l></l><r>stan<s n="adj"/><s n="sup"/></r></p><par n="izvje/stan__comp__sfx"/></e>
-      <e><p><l>snije</l><r>sno<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>snije</l><r>sno<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="izvje/stan__comp__adj">
       <e><p><l></l><r>stan<s n="adj"/><s n="comp"/></r></p><par n="izvje/stan__comp__sfx"/></e>
-      <e><p><l>snije</l><r>sno<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>snije</l><r>sno<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="izvje/stan__pst__adj">
       <e><p><l></l><r>stan<s n="adj"/><s n="pst"/></r></p><par n="izvje/stan__pst__sfx"/></e>
-      <e><p><l>sno</l><r>sno<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>sno</l><r>sno<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'izvje/stan'-->
 
@@ -19033,19 +19033,19 @@
 
     <pardef n="ruž/an__ssup__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="ssup"/></r></p><par n="ruž/an__pst__sfx"/></e>
-      <e><p><l>no</l><r>no<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>no</l><r>no<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="ruž/an__sup__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="sup"/></r></p><par n="ruž/an__comp__sfx"/></e>
-      <e><p><l>nije</l><r>no<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>nije</l><r>no<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="ruž/an__comp__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="comp"/></r></p><par n="ruž/an__comp__sfx"/></e>
-      <e><p><l>nije</l><r>no<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>nije</l><r>no<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="ruž/an__pst__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="pst"/></r></p><par n="ruž/an__pst__sfx"/></e>
-      <e><p><l>no</l><r>no<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>no</l><r>no<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'ruž/an'-->
     <!--Adjective paradigm 'od/an'--><!--without fleeting a-->
@@ -19342,19 +19342,19 @@
 
     <pardef n="od/an__ssup__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="ssup"/></r></p><par n="od/an__pst__sfx"/></e>
-      <e><p><l>ano</l><r>ano<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ano</l><r>ano<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="od/an__sup__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="sup"/></r></p><par n="od/an__comp__sfx"/></e>
-      <e><p><l>anije</l><r>ano<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>anije</l><r>ano<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="od/an__comp__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="comp"/></r></p><par n="od/an__comp__sfx"/></e>
-      <e><p><l>anije</l><r>ano<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>anije</l><r>ano<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="od/an__pst__adj">
       <e><p><l></l><r>an<s n="adj"/><s n="pst"/></r></p><par n="od/an__pst__sfx"/></e>
-      <e><p><l>ano</l><r>ano<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ano</l><r>ano<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'od/an'-->
 
@@ -19651,19 +19651,19 @@
 
     <pardef n="mud/ar__ssup__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="ssup"/></r></p><par n="mud/ar__pst__sfx"/></e>
-      <e><p><l>ro</l><r>ro<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ro</l><r>ro<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="mud/ar__sup__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="sup"/></r></p><par n="mud/ar__comp__sfx"/></e>
-      <e><p><l>rije</l><r>ro<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>rije</l><r>ro<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="mud/ar__comp__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="comp"/></r></p><par n="mud/ar__comp__sfx"/></e>
-      <e><p><l>rije</l><r>ro<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>rije</l><r>ro<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="mud/ar__pst__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="pst"/></r></p><par n="mud/ar__pst__sfx"/></e>
-      <e><p><l>ro</l><r>ro<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ro</l><r>ro<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'mud/ar'-->
     <!--Adjective paradigm 'st/ar'-->
@@ -19959,19 +19959,19 @@
 
     <pardef n="st/ar__ssup__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="ssup"/></r></p><par n="st/ar__pst__sfx"/></e>
-      <e><p><l>aro</l><r>aro<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>aro</l><r>aro<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="st/ar__sup__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="sup"/></r></p><par n="st/ar__comp__sfx"/></e>
-      <e><p><l>arije</l><r>aro<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>arije</l><r>aro<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="st/ar__comp__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="comp"/></r></p><par n="st/ar__comp__sfx"/></e>
-      <e><p><l>arije</l><r>aro<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>arije</l><r>aro<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="st/ar__pst__adj">
       <e><p><l></l><r>ar<s n="adj"/><s n="pst"/></r></p><par n="st/ar__pst__sfx"/></e>
-      <e><p><l>aro</l><r>aro<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>aro</l><r>aro<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'st/ar'-->
     <!--Adjective paradigm 'krep/ak'--><!--with fleeting a-->
@@ -20267,19 +20267,19 @@
 
     <pardef n="krep/ak__ssup__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="ssup"/></r></p><par n="krep/ak__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="krep/ak__sup__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="sup"/></r></p><par n="krep/ak__comp__sfx"/></e>
-      <e><p><l>kije</l><r>ko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>kije</l><r>ko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="krep/ak__comp__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="comp"/></r></p><par n="krep/ak__comp__sfx"/></e>
-      <e><p><l>kije</l><r>ko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>kije</l><r>ko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="krep/ak__pst__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="pst"/></r></p><par n="krep/ak__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'krep/ak'-->
     <!--Adjective paradigm 'tan/ak'--><!--fleeting a--><!--iotation-->
@@ -20576,19 +20576,19 @@
 
     <pardef n="tan/ak__ssup__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="ssup"/></r></p><par n="tan/ak__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="tan/ak__sup__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="sup"/></r></p><par n="tan/ak__comp__sfx"/></e>
-      <e><p><l>je</l><r>ko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>je</l><r>ko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="tan/ak__comp__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="comp"/></r></p><par n="tan/ak__comp__sfx"/></e>
-      <e><p><l>je</l><r>ko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>je</l><r>ko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="tan/ak__pst__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="pst"/></r></p><par n="tan/ak__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'tan/ak'-->
     <!--Adjective paradigm 'crn'-->
@@ -20885,19 +20885,19 @@
 
     <pardef n="crn__ssup__adj">
       <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="crn__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="crn__sup__adj">
       <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="crn__comp__sfx"/></e>
-      <e><p><l>je</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>je</l><r>o<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="crn__comp__adj">
       <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="crn__comp__sfx"/></e>
-      <e><p><l>je</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>je</l><r>o<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="crn__pst__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="crn__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'crn'-->
     <!--Adjective paradigm 'kra/tak'--><!--fleeting a--><!--iotation-->
@@ -21194,19 +21194,19 @@
 
     <pardef n="kra/tak__ssup__adj">
       <e><p><l></l><r>tak<s n="adj"/><s n="ssup"/></r></p><par n="kra/tak__pst__sfx"/></e>
-      <e><p><l>tko</l><r>tko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>tko</l><r>tko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="kra/tak__sup__adj">
       <e><p><l></l><r>tak<s n="adj"/><s n="sup"/></r></p><par n="kra/tak__comp__sfx"/></e>
-      <e><p><l>će</l><r>tko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>će</l><r>tko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="kra/tak__comp__adj">
       <e><p><l></l><r>tak<s n="adj"/><s n="comp"/></r></p><par n="kra/tak__comp__sfx"/></e>
-      <e><p><l>će</l><r>tko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>će</l><r>tko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="kra/tak__pst__adj">
       <e><p><l></l><r>tak<s n="adj"/><s n="pst"/></r></p><par n="kra/tak__pst__sfx"/></e>
-      <e><p><l>tko</l><r>tko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>tko</l><r>tko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'kra/tak'-->
     <!--Adjective paradigm 'sla/dak'--><!--fleeting a--><!--iotation-->
@@ -21502,19 +21502,19 @@
     </pardef>
     <pardef n="sla/dak__ssup__adj">
       <e><p><l></l><r>dak<s n="adj"/><s n="ssup"/></r></p><par n="sla/dak__pst__sfx"/></e>
-      <e><p><l>tko</l><r>tko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>tko</l><r>tko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="sla/dak__sup__adj">
       <e><p><l></l><r>dak<s n="adj"/><s n="sup"/></r></p><par n="sla/dak__comp__sfx"/></e>
-      <e><p><l>đe</l><r>tko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>đe</l><r>tko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="sla/dak__comp__adj">
       <e><p><l></l><r>dak<s n="adj"/><s n="comp"/></r></p><par n="sla/dak__comp__sfx"/></e>
-      <e><p><l>đe</l><r>tko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>đe</l><r>tko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="sla/dak__pst__adj">
       <e><p><l></l><r>dak<s n="adj"/><s n="pst"/></r></p><par n="sla/dak__pst__sfx"/></e>
-      <e><p><l>tko</l><r>tko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>tko</l><r>tko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'sla/dak'-->
     <!--Adjective paradigm 'gor/ak'--><!--fleeting a--><!--iotation-->
@@ -21810,19 +21810,19 @@
     </pardef>
     <pardef n="gor/ak__ssup__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="ssup"/></r></p><par n="gor/ak__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="gor/ak__sup__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="sup"/></r></p><par n="gor/ak__comp__sfx"/></e>
-      <e><p><l>če</l><r>ko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>če</l><r>ko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="gor/ak__comp__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="comp"/></r></p><par n="gor/ak__comp__sfx"/></e>
-      <e><p><l>če</l><r>ko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>če</l><r>ko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="gor/ak__pst__adj">
       <e><p><l></l><r>ak<s n="adj"/><s n="pst"/></r></p><par n="gor/ak__pst__sfx"/></e>
-      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ko</l><r>ko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'gor/ak'-->
     <!--Adjective paradigm 'tvr/d'--><!--fleeting a--><!--iotation-->
@@ -22118,19 +22118,19 @@
     </pardef>
     <pardef n="tvr/d__ssup__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="ssup"/></r></p><par n="tvr/d__pst__sfx"/></e>
-      <e><p><l>do</l><r>do<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>do</l><r>do<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="tvr/d__sup__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="sup"/></r></p><par n="tvr/d__comp__sfx"/></e>
-      <e><p><l>đe</l><r>do<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>đe</l><r>do<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="tvr/d__comp__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="comp"/></r></p><par n="tvr/d__comp__sfx"/></e>
-      <e><p><l>đe</l><r>do<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>đe</l><r>do<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="tvr/d__pst__adj">
       <e><p><l></l><r>d<s n="adj"/><s n="pst"/></r></p><par n="tvr/d__pst__sfx"/></e>
-      <e><p><l>do</l><r>do<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>do</l><r>do<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'tvr/d'-->
 
@@ -22427,19 +22427,19 @@
 
     <pardef n="u/zak__ssup__adj">
       <e><p><l></l><r>zak<s n="adj"/><s n="ssup"/></r></p><par n="u/zak__pst__sfx"/></e>
-      <e><p><l>sko</l><r>sko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>sko</l><r>sko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="u/zak__sup__adj">
       <e><p><l></l><r>zak<s n="adj"/><s n="sup"/></r></p><par n="u/zak__comp__sfx"/></e>
-      <e><p><l>že</l><r>sko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>sko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="u/zak__comp__adj">
       <e><p><l></l><r>zak<s n="adj"/><s n="comp"/></r></p><par n="u/zak__comp__sfx"/></e>
-      <e><p><l>že</l><r>sko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>sko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="u/zak__pst__adj">
       <e><p><l></l><r>zak<s n="adj"/><s n="pst"/></r></p><par n="u/zak__pst__sfx"/></e>
-      <e><p><l>sko</l><r>sko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>sko</l><r>sko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'u/zak'-->
     <pardef n="br/z__pst__sfx">
@@ -22734,19 +22734,19 @@
 
     <pardef n="br/z__ssup__adj">
       <e><p><l></l><r>z<s n="adj"/><s n="ssup"/></r></p><par n="br/z__pst__sfx"/></e>
-      <e><p><l>zo</l><r>zo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>zo</l><r>zo<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="br/z__sup__adj">
       <e><p><l></l><r>z<s n="adj"/><s n="sup"/></r></p><par n="br/z__comp__sfx"/></e>
-      <e><p><l>že</l><r>zo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>zo<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="br/z__comp__adj">
       <e><p><l></l><r>z<s n="adj"/><s n="comp"/></r></p><par n="br/z__comp__sfx"/></e>
-      <e><p><l>že</l><r>zo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>zo<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="br/z__pst__adj">
       <e><p><l></l><r>z<s n="adj"/><s n="pst"/></r></p><par n="br/z__pst__sfx"/></e>
-      <e><p><l>zo</l><r>zo<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>zo</l><r>zo<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'br/z'-->
     <pardef n="du/g__pst__sfx">
@@ -23041,19 +23041,19 @@
 
     <pardef n="du/g__ssup__adj">
       <e><p><l></l><r>g<s n="adj"/><s n="ssup"/></r></p><par n="du/g__pst__sfx"/></e>
-      <e><p><l>go</l><r>go<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>go</l><r>go<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="du/g__sup__adj">
       <e><p><l></l><r>g<s n="adj"/><s n="sup"/></r></p><par n="du/g__comp__sfx"/></e>
-      <e><p><l>že</l><r>go<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>go<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="du/g__comp__adj">
       <e><p><l></l><r>g<s n="adj"/><s n="comp"/></r></p><par n="du/g__comp__sfx"/></e>
-      <e><p><l>že</l><r>go<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>go<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="du/g__pst__adj">
       <e><p><l></l><r>g<s n="adj"/><s n="pst"/></r></p><par n="du/g__pst__sfx"/></e>
-      <e><p><l>go</l><r>go<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>go</l><r>go<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'du/g'-->
     <!--Adjective paradigm 'te/žak'--><!--fleeting a--><!--iotation-->
@@ -23349,19 +23349,19 @@
 
     <pardef n="te/žak__ssup__adj">
       <e><p><l></l><r>žak<s n="adj"/><s n="ssup"/></r></p><par n="te/žak__pst__sfx"/></e>
-      <e><p><l>ško</l><r>ško<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ško</l><r>ško<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="te/žak__sup__adj">
       <e><p><l></l><r>žak<s n="adj"/><s n="sup"/></r></p><par n="te/žak__comp__sfx"/></e>
-      <e><p><l>že</l><r>ško<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>ško<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="te/žak__comp__adj">
       <e><p><l></l><r>žak<s n="adj"/><s n="comp"/></r></p><par n="te/žak__comp__sfx"/></e>
-      <e><p><l>že</l><r>ško<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>že</l><r>ško<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="te/žak__pst__adj">
       <e><p><l></l><r>žak<s n="adj"/><s n="pst"/></r></p><par n="te/žak__pst__sfx"/></e>
-      <e><p><l>ško</l><r>ško<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ško</l><r>ško<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'te/žak'-->
     <!--Adjective paradigm 'pridjevs/ki'-->
@@ -23471,7 +23471,7 @@
     </pardef>
     <pardef n="pridjevs/ki__ssup__adj">
       <e><p><l></l><r>ki<s n="adj"/><s n="ssup"/></r></p><par n="pridjevs/ki__pst__sfx"/></e>
-      <e><p><l>ki</l><r>ki<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>ki</l><r>ki<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="pridjevs/ki__sup__adj">
       <e><p><l>k</l><r>ki<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
@@ -23481,7 +23481,7 @@
     </pardef>
     <pardef n="pridjevs/ki__pst__adj">
       <e><p><l></l><r>ki<s n="adj"/><s n="pst"/></r></p><par n="pridjevs/ki__pst__sfx"/></e>
-      <e><p><l>ki</l><r>ki<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>ki</l><r>ki<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--No comparative-->
     <!--No superlative-->
@@ -23586,7 +23586,7 @@
     </pardef>
     <pardef n="odlučujuć/i__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="odlučujuć/i__pst__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--No comparative-->
     <!--No superlative-->
@@ -23673,7 +23673,7 @@
       <!-- Neuter-->
       <!--Singular-->
       <e><p><l>o</l><r>i<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
-      <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/></r></p></e> removable-->
       <e r="LR"><p><l>og</l><r>i<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
       <e><p><l>oga</l><r>i<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>om</l><r>i<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
@@ -23807,7 +23807,7 @@
     </pardef>
     <pardef n="garantn/i__ssup__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="ssup"/></r></p><par n="garantn/i__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="garantn/i__sup__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
@@ -23817,11 +23817,135 @@
     </pardef>
     <pardef n="garantn/i__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="garantn/i__pst__sfx"/></e>
-      <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
     </pardef>
+    <!--No adverb-->
     <!--No comparative-->
     <!--No superlative-->
     <!--end 'garantn/i'-->
+
+    <!--adjective paradigm 'grupn/i'-->
+    <pardef n="grupn/i__pst__sfx">
+      <!--No indefinite aspect-->
+      <!-- Definite aspect -->
+      <!--Masculine-->
+      <!--Singular-->
+      <!--Animate-->
+      <e><p><l>i</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>og</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>oga</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>om</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>omu</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>ome</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>om</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>omu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>ome</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>og</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>oga</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>i</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="ma"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+      <!--Inanimate-->
+      <e><p><l>i</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>og</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>oga</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>om</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>omu</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>ome</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>om</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>omu</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>ome</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>i</l><r><s n="mi"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>i</l><r><s n="mi"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="mi"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+      <!--Plural-->
+      <!--Animate-->
+      <e><p><l>i</l><r><s n="ma"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ih</l><r><s n="ma"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="ma"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="ma"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="ma"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="ma"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e><p><l>e</l><r><s n="ma"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>i</l><r><s n="ma"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+
+      <!--Inanimate-->
+      <e><p><l>i</l><r><s n="mi"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ih</l><r><s n="mi"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="mi"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="mi"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="mi"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="mi"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e><p><l>e</l><r><s n="mi"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>i</l><r><s n="mi"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+
+      <!-- Feminine-->
+      <!--Singular-->
+      <e><p><l>a</l><r><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>e</l><r><s n="f"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>oj</l><r><s n="f"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>oj</l><r><s n="f"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>u</l><r><s n="f"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>a</l><r><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>om</l><r><s n="f"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+      <!--Plural-->
+      <e><p><l>e</l><r><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ih</l><r><s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="f"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="f"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="f"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="f"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e><p><l>e</l><r><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>e</l><r><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+
+      <!-- Neuter-->
+      <!--Singular-->
+      <e><p><l>o</l><r><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>og</l><r><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>oga</l><r><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>om</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>omu</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>ome</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>om</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>omu</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>ome</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>o</l><r><s n="nt"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>o</l><r><s n="nt"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="nt"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+      <!--Plural-->
+      <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ih</l><r><s n="nt"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+      <e><p><l>im</l><r><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+      <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+      <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+    </pardef>
+    <pardef n="grupn/i__ssup__adj">
+      <e><p><l></l><r>i<s n="adj"/><s n="ssup"/></r></p><par n="grupn/i__pst__sfx"/></e>
+<!--      <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e> removable-->
+    </pardef>
+    <pardef n="grupn/i__sup__adj">
+      <e><p><l></l><r>i<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
+    </pardef>
+    <pardef n="grupn/i__comp__adj">
+      <e><p><l></l><r>i<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
+    </pardef>
+    <pardef n="grupn/i__adj">
+      <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="grupn/i__pst__sfx"/></e>
+<!--      <e><p><l>o</l><r>o<s n="adv"/></r></p></e> removable-->
+    </pardef>
+    <!--No comparative-->
+    <!--No superlative-->
+    <!--end 'grupn/i'-->
+
     <!--adjective paradigm 'vodeć/i'-->
     <pardef n="vodeć/i__pst__sfx">
       <!--No indefinite aspect-->
@@ -23924,7 +24048,7 @@
     </pardef>
     <pardef n="vodeć/i__ssup__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="ssup"/></r></p><par n="vodeć/i__pst__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="vodeć/i__sup__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
@@ -23934,7 +24058,7 @@
     </pardef>
     <pardef n="vodeć/i__pst__adj">
       <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="vodeć/i__pst__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--No comparative-->
     <!--No superlative-->
@@ -24225,19 +24349,19 @@
     </pardef>
     <pardef n="vruć__ssup__adj">
       <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="vruć__pst__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="vruć__sup__adj">
       <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="vruć__comp__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="vruć__comp__adj">
       <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="vruć__comp__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="vruć__pst__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="vruć__pst__sfx"/></e>
-      <e><p><l>e</l><r>e<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>e</l><r>e<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'vruć'-->
 
@@ -24534,19 +24658,19 @@
     </pardef>
     <pardef n="da/lek__ssup__adj">
       <e><p><l></l><r>lek<s n="adj"/><s n="ssup"/></r></p><par n="da/lek__pst__sfx"/></e>
-      <e><p><l>leko</l><r>leko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+<!--      <e><p><l>leko</l><r>leko<s n="adv"/><s n="ssup"/></r></p></e> removable-->
     </pardef>
     <pardef n="da/lek__sup__adj">
       <e><p><l></l><r>lek<s n="adj"/><s n="sup"/></r></p><par n="da/lek__comp__sfx"/></e>
-      <e><p><l>lje</l><r>leko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+<!--      <e><p><l>lje</l><r>leko<s n="adv"/><s n="sup"/></r></p></e> removable-->
     </pardef>
     <pardef n="da/lek__comp__adj">
       <e><p><l></l><r>lek<s n="adj"/><s n="comp"/></r></p><par n="da/lek__comp__sfx"/></e>
-      <e><p><l>lje</l><r>leko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+<!--      <e><p><l>lje</l><r>leko<s n="adv"/><s n="comp"/></r></p></e> removable-->
     </pardef>
     <pardef n="da/lek__pst__adj">
       <e><p><l></l><r>lek<s n="adj"/><s n="pst"/></r></p><par n="da/lek__pst__sfx"/></e>
-      <e><p><l>leko</l><r>leko<s n="adv"/></r></p></e><!--removable-->
+<!--      <e><p><l>leko</l><r>leko<s n="adv"/></r></p></e> removable-->
     </pardef>
     <!--end 'da/lek'-->
     <!--end regular adjective paradigms-->
@@ -33978,7 +34102,6 @@
     <e lm="razvijen"><p><l>najrazvijen</l><r>razvijen</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="razvijen"><p><l>najrazvijen</l><r>razvijen</r></p><par n="zdrav__ssup__adj"/></e>
 <!--    <e lm="s"><i>s</i><par n="/sa__pr"/></e> -->
-    <e lm="stalno se"><i>stalno<b/>se</i><par n="danas__adv"/></e>
     <e lm="svoj"><i/><par n="svoj__prn"/></e>
     <e lm="istupati"><i>istup</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="komentirati"><i>komentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -53715,10 +53838,7 @@
     <e lm="savjetodavno"><i>savjetodavno</i><par n="danas__adv"/></e>
     <e lm="spolno"><i>spolno</i><par n="danas__adv"/></e>
     <e lm="sporedno"><i>sporedno</i><par n="danas__adv"/></e>
-    <e lm="svršeno"><i>svršeno</i><par n="danas__adv"/></e>
     <e lm="usmeno"><i>usmeno</i><par n="danas__adv"/></e>
-    <e lm="zemno"><i>zemno</i><par n="danas__adv"/></e>
-    <e lm="pojedino"><i>pojedino</i><par n="danas__adv"/></e>
 
     <e lm="čim više"><i>čim<b/>više</i><par n="danas__adv"/></e>
 
@@ -53960,6 +54080,7 @@
     <e lm="e"><p><l>e</l><r>e<s n="abbr"/></r></p></e>
     <e lm="itd"><p><l>itd</l><r>itd<s n="abbr"/></r></p></e>
     <e lm="vol"><p><l>vol</l><r>vol<s n="abbr"/></r></p></e>
+    <e lm="tj"><p><l>tj</l><r>tj<s n="abbr"/></r></p></e>
 
 	<e lm="ESMA"><i>ESMA</i><par n="EFTA__abbr"/></e>
 	<e lm="EES"><i>EES</i><par n="NATO__abbr"/></e>
@@ -54043,7 +54164,6 @@
     <e lm="natrag"><i>natrag</i><par n="danas__adv"/></e>
     <e lm="unaprijed"><i>unapr</i><par n="e_ije__yat"/><i>d</i><par n="danas__adv"/></e>
     <e lm="postepeno"><i>postepeno</i><par n="danas__adv"/></e>
-    <e lm="tj"><i>tj</i><par n="danas__adv"/></e>
     <e lm="višekratno"><i>višekratno</i><par n="danas__adv"/></e>
     <!-- <e lm="namjeravati"><i>nam</i><par n="e_je__yat"/><i>rav</i><par n="imperf_tv_bir/ati__vblex"/></e> -->
     <!-- <e lm="razvijati"><i>razvij</i><par n="imperf_tv_bir/ati__vblex"/></e> -->
@@ -54388,17 +54508,17 @@
 <e lm="emotivno"><i>emotivno</i><par n="danas__adv"/></e>
 <e lm="gušeći"><i>gušeći</i><par n="danas__adv"/></e>
 <e lm="hlapeći"><i>hlapeći</i><par n="danas__adv"/></e>
-<e lm="izbočeno"><i>izbočeno</i><par n="danas__adv"/></e>
-<e lm="jednakovrijedno"><i>jednakovrijedno</i><par n="danas__adv"/></e>
+<!-- <e lm="izbočeno"><i>izbočeno</i><par n="danas__adv"/></e>
+<e lm="jednakovrijedno"><i>jednakovrijedno</i><par n="danas__adv"/></e> -->
 <e lm="lutajući"><i>lutajući</i><par n="danas__adv"/></e>
-<e lm="mirisno"><i>mirisno</i><par n="danas__adv"/></e>
+<!-- <e lm="mirisno"><i>mirisno</i><par n="danas__adv"/></e> -->
 <e lm="naime"><i>naime</i><par n="danas__adv"/></e>
 <e lm="nedaleko"><i>nedaleko</i><par n="danas__adv"/></e>
 <e lm="obuhvaćajući"><i>obuhvaćajući</i><par n="danas__adv"/></e>
 <e lm="odbacivajući"><i>odbacivajući</i><par n="danas__adv"/></e>
 <e lm="odobravajući"><i>odobravajući</i><par n="danas__adv"/></e>
 <e lm="održavajući"><i>održavajući</i><par n="danas__adv"/></e>
-<e lm="plovno"><i>plovno</i><par n="danas__adv"/></e>
+<!-- <e lm="plovno"><i>plovno</i><par n="danas__adv"/></e> -->
 <e lm="počasno"><i>počasno</i><par n="danas__adv"/></e>
 <e lm="podsjećajući"><i>podsjećajući</i><par n="danas__adv"/></e>
 <e lm="pod uvjetom"><i>pod<b/>uvjetom</i><par n="danas__adv"/></e>
@@ -54412,7 +54532,7 @@
 <e lm="uzimajući u obzir"><i>uzimajući<b/>u<b/>obzir</i><par n="danas__adv"/></e>
 <e lm="uzlazno"><i>uzlazno</i><par n="danas__adv"/></e>
 <e lm="zamoreno"><i>zamoreno</i><par n="danas__adv"/></e>
-<e lm="kazneno"><i>kazneno</i><par n="danas__adv"/></e>
+<!-- <e lm="kazneno"><i>kazneno</i><par n="danas__adv"/></e> -->
 <e lm="nadasve"><i>nadasve</i><par n="danas__adv"/></e>
 <e lm="nizbrdo"><i>nizbrdo</i><par n="danas__adv"/></e>
 
