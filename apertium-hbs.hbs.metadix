@@ -26737,7 +26737,7 @@
     </pardef>
     <pardef n="studen/i__n">
       <e><p><l>i</l><r>i<s n="mi"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
-      <e r="LR"><p><l>og</l><r>i<s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>oga</l><r>i<s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
       <e><p><l>og</l><r>i<s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
       <e><p><l>om</l><r>i<s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>omu</l><r>i<s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
@@ -54500,7 +54500,7 @@
 <e lm="čarobno"><i>čarobno</i><par n="danas__adv"/></e>
 <e lm="časno"><i>časno</i><par n="danas__adv"/></e>
 <e lm="čedno"><i>čedno</i><par n="danas__adv"/></e>
-<e lm="čelno"><i>čelno</i><par n="danas__adv"/></e>
+<!--<e lm="čelno"><i>čelno</i><par n="danas__adv"/></e>-->
 <e lm="čipkasto"><i>čipkasto</i><par n="danas__adv"/></e>
 <e lm="čitljivo"><i>čitljivo</i><par n="danas__adv"/></e>
 <e lm="čučečke"><i>čučečke</i><par n="danas__adv"/></e>
