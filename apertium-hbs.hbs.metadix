@@ -33620,7 +33620,7 @@
     <e lm="u potpunosti"><i>u<b/>potpunosti</i><par n="danas__adv"/></e>
     <e lm="Mirče"><i>Mirče</i><par n="Mrle__np"/></e>
     <e lm="Gjorgoski"><i>Gjorgo</i><par n="Prezimen/ski__cog__np"/></e>
-    <e lm="Gjorgjoski"><i>Gjorgjo</i><par n="Prezimen/ski__cog__np"/></e>
+    <e lm="Gjorgjoski"><i>Gjorgo</i><par n="Prezimen/ski__cog__np"/></e>
     <e lm="zapovjedan"><i>zapovjed</i><par n="ruž/an__pst__adj"/></e>
     <e lm="Butmir"><i>Butmir</i><par n="Zagreb__np"/></e>
     <e lm="EUFOR"><i>EUFOR</i><par n="NATO__abbr"/></e>
@@ -34269,7 +34269,7 @@
     <e lm="ne"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/></r></p></e>
     <e lm="ni"><p><l>ni</l><r>ni<s n="part"/><s n="neg"/></r></p></e>
     <e lm="li"><p><l>li</l><r>li<s n="part"/><s n="itg"/></r></p></e>
-<!--    <e lm="je li"><p><l>je<b/>li</l><r>je<b/>li<s n="part"/><s n="itg"/></r></p></e> -->
+    <e lm="je li"><p><l>je<b/>li</l><r>je<b/>li<s n="part"/><s n="itg"/></r></p></e>
     <e lm="da li"><p><l>da<b/>li</l><r>da<b/>li<s n="part"/><s n="itg"/></r></p></e>
     <!--Prepositions-->
     <!--That go with Genitive -->
@@ -34397,6 +34397,7 @@
     <!--Subordinating-->
     <e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
     <e lm="da li"><i>da<b/>li</i><par n="subordinating__cnj"/></e>
+    <e lm="je li"><i>je<b/>li</i><par n="subordinating__cnj"/></e>
     <e lm="kako"><i>kako</i><par n="subordinating__cnj"/></e>
     <e lm="gdje"><i>gd</i><par n="e_je__yat"/><par n="subordinating__cnj"/></e>
     <e lm="čim"><i>čim</i><par n="subordinating__cnj"/></e>
