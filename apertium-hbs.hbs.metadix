@@ -29636,6 +29636,17 @@
 
       <e><p><l>ev</l><r><s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
     </pardef>
+    <pardef n="Enri__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ja</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ja</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ju</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ju</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>je</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>jem</l><r><s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+
+      <e><p><l>jev</l><r><s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+    </pardef>
     <!-- end Masculine antroponyms-->
     <pardef n="Ant/e__np">
       <e><p><l>e</l><r>e<s n="np"/><s n="ant"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -30874,7 +30885,7 @@
       <e><i>vii</i><par n="numeros_romanos"/></e>
       <e><i>viii</i><par n="numeros_romanos"/></e>
       <e><i>ix</i><par n="numeros_romanos"/></e>
-      <e><i>xx</i><par n="numeros_romanos"/></e>
+      <e><i>x</i><par n="numeros_romanos"/></e>
 
       <e><i>I</i><par n="numeros_romanos"/></e>
       <e><i>II</i><par n="numeros_romanos"/></e>
@@ -30885,7 +30896,7 @@
       <e><i>VII</i><par n="numeros_romanos"/></e>
       <e><i>VIII</i><par n="numeros_romanos"/></e>
       <e><i>IX</i><par n="numeros_romanos"/></e>
-      <e><i>XX</i><par n="numeros_romanos"/></e>
+      <e><i>X</i><par n="numeros_romanos"/></e>
 
       <!--Collective numerals-->
       <e><i>četv</i><par n="collective_numerals"/></e>
@@ -33599,6 +33610,87 @@
 
   <section id="main" type="standard">
 
+    <!-- final evaluation -->
+
+    <e lm="pomoćan"><i>pomoć</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="očuvanje mira"><i>očuvanj</i><par n="polj/e__n"/><p><l><b/>mira</l><r><g><b/>mira</g></r></p></e>
+    <e lm="uvelike"><i>uvelike</i><par n="danas__adv"/></e>
+    <e lm="kontingent"><i>kontingent</i><par n="program__n"/></e>
+    <e lm="ALTEA"><i>ALTEA</i><par n="NATO__abbr"/></e>
+    <e lm="u potpunosti"><i>u<b/>potpunosti</i><par n="danas__adv"/></e>
+    <e lm="Mirče"><i>Mirče</i><par n="Mrle__np"/></e>
+    <e lm="Gjorgoski"><i>Gjorgo</i><par n="Prezimen/ski__cog__np"/></e>
+    <e lm="Gjorgjoski"><i>Gjorgjo</i><par n="Prezimen/ski__cog__np"/></e>
+    <e lm="zapovjedan"><i>zapovjed</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="Butmir"><i>Butmir</i><par n="Zagreb__np"/></e>
+    <e lm="EUFOR"><i>EUFOR</i><par n="NATO__abbr"/></e>
+    <e lm="preuzimati"><i>preuzim</i><par n="imperf_iv_bir/ati__vblex"/></e>
+    <e lm="preuzimati"><i>preuzim</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="preuzimati"><i>preuzim</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="rizičan"><i>rizič</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="rizičan"><i>rizič</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="rizičan"><i>rizič</i><par n="ruž/an__sup__adj"/></e>
+    <e lm="rizičan"><i>rizič</i><par n="ruž/an__ssup__adj"/></e>
+    <e lm="Hadži"><i>Hadži</i><par n="Filipi__cog__np"/></e>
+    <e lm="Janev"><i>Jane</i><par n="Bulgako/v__cog__np"/></e>
+    <e lm="u sve većoj mjeri"><i>u<b/>sve<b/>većoj<b/>mjeri</i><par n="danas__adv"/></e>
+    <e lm="učinkovitost"><i>učinkovito</i><par n="ma/st__n"/></e>
+    <e lm="stav"><i>stav</i><par n="test__n"/></e>
+    <e lm="tim"><i>tim</i><par n="test__n"/></e>
+    <e lm="zapovjedan"><i>zapovjed</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="logistički"><i>logistič</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="postrojba"><i>postroj</i><par n="nared/ba__n"/></e>
+    <e lm="nadahnuti"><i>nadahn</i><par n="perf_iv_ukin/uti__vblex"/></e>
+    <e lm="nadahnuti"><i>nadahn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+    <e lm="pozornost"><i>pozorno</i><par n="ma/st__n"/></e>
+    <e lm="Alexander"><i>Alexander</i><par n="Mislav__np"/></e>
+    <e lm="Pehr"><i>Pehr</i><par n="Prezime__cog__np"/></e>
+    <e lm="primijetiti"><i>primije</i><par n="perf_iv_vra/titi__vblex"/></e>
+    <e lm="primijetiti"><i>primije</i><par n="perf_tv_vra/titi__vblex"/></e>
+    <e lm="rastući"><i>rastuć</i><par n="odlučujuć/i__adj"/></e>
+    <e lm="angažirati"><i>angažir</i><par n="perf_iv_ojač/ati__vblex"/></e>
+    <e lm="angažirati"><i>angažir</i><par n="perf_tv_ojač/ati__vblex"/></e>
+    <e lm="angažirati"><i>angažir</i><par n="perf_ref_ojač/ati__vblex"/></e>
+    <e lm="mirovnjak"><i>mirovnja</i><par n="učeni/k__n"/></e>
+    <e lm="Libanon"><i>Libanon</i><par n="Zagreb__np"/></e>
+    <e lm="časnica"><i>časnic</i><par n="žen/a__n"/></e>
+    <e lm="Bjeloš"><i>Bjeloš</i><par n="Prezime__cog__np"/></e>
+    <e lm="istraživačica"><i>istraživačic</i><par n="žen/a__n"/></e>
+    <e lm="muški"><i>muš</i><par n="pridjevs/ki__pst__adj"/></e>
+    <e lm="vojnikinja"><i>vojnikinj</i><par n="žen/a__n"/></e>
+    <e lm="prikupiti"><i>prikup</i><par n="perf_iv_isplov/iti__vblex"/></e>
+    <e lm="prikupiti"><i>prikup</i><par n="perf_tv_isplov/iti__vblex"/></e>
+    <e lm="napetost"><i>napeto</i><par n="ma/st__n"/></e>
+    <e lm="kulturalan"><i>kultural</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="kulturalan"><i>kultural</i><par n="ruž/an__comp__adj"/></e>
+    <e lm="kulturalan"><i>kultural</i><par n="ruž/an__sup__adj"/></e>
+    <e lm="kulturalan"><i>kultural</i><par n="ruž/an__ssup__adj"/></e>
+    <e lm="teren"><i>teren</i><par n="program__n"/></e>
+    <e lm="smještajan"><i>smještaj</i><par n="ruž/an__pst__adj"/></e>
+    <e lm="pružanje"><i>pružanj</i><par n="polj/e__n"/></e>
+    <e lm="motivirati"><i>motivir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+    <e lm="motivirati"><i>motivir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="motivirati"><i>motivir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="motivirati"><i>motivir</i><par n="perf_iv_ojač/ati__vblex"/></e>
+    <e lm="motivirati"><i>motivir</i><par n="perf_tv_ojač/ati__vblex"/></e>
+    <e lm="motivirati"><i>motivir</i><par n="perf_ref_ojač/ati__vblex"/></e>
+    <e lm="ujednačavanje"><i>ujednačavanj</i><par n="polj/e__n"/></e>
+    <e lm="Enri"><i>Enri</i><par n="Enri__np"/></e>
+    <e lm="Hide"><i>Hide</i><par n="Prezime__cog__np"/></e>
+    <e lm="ISAF"><i>ISAF</i><par n="NATO__abbr"/></e>
+    <e lm="povišen"><i>povišen</i><par n="zdrav__pst__adj"/></e>
+    <e lm="povišen"><i>povišen</i><par n="zdrav__comp__adj"/></e>
+    <e lm="povišen"><i>povišen</i><par n="zdrav__sup__adj"/></e>
+    <e lm="povišen"><i>povišen</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="pripremljenost"><i>pripremljeno</i><par n="ma/st__n"/></e>
+    <e lm="spremnost"><i>spremno</i><par n="ma/st__n"/></e>
+    <e lm="poboljšavati"><i>poboljšav</i><par n="imperf_iv_bir/ati__vblex"/></e>
+    <e lm="poboljšavati"><i>poboljšav</i><par n="imperf_tv_bir/ati__vblex"/></e>
+    <e lm="poboljšavati"><i>poboljšav</i><par n="imperf_ref_bir/ati__vblex"/></e>
+    <e lm="ugled"><i>ugled</i><par n="program__n"/></e>
+    <e lm="Linda"><i>Lind</i><par n="Anj/a__np"/></e>
+    <e lm="Karadaku"><i>Karadaku</i><par n="Prezime__cog__np"/></e>
+
     <!-- testvoc vbhaver -->
 
     <e lm="nemati"><par n="nemati__vbhaver"/></e>
@@ -33641,6 +33733,7 @@
     <e lm="tiskovni"><i>tiskovn</i><par n="garantn/i__adj"/></e>
     <e lm="posjet"><i>posjet</i><par n="program__n"/></e>
     <e lm="BBC"><p><l>BBC</l><r>BBC<s n="abbr"/></r></p></e>
+    <e lm="NEK"><p><l>NEK</l><r>NEK<s n="abbr"/></r></p></e>
     <e lm="Rehn"><i>Rehn</i><par n="Prezime__cog__np"/></e>
     <e lm="Atena"><i>Aten</i><par n="Bosn/a__np"/></e>
     <e lm="pregled"><i>pregled</i><par n="zrakoplov__n"/></e>
@@ -33941,6 +34034,7 @@
     <e lm="odmah"><i>odmah</i><par n="danas__adv"/></e>
     <e lm="oformljavanje"><i>oformljavanj</i><par n="polj/e__n"/></e>
     <e lm="okoliš"><i>okoliš</i><par n="zrakoplov__n"/></e>
+    <e lm="marš"><i>marš</i><par n="zrakoplov__n"/></e>
 <!--    <e lm="oni"><i>oni</i><par n="onaj__dem__prn"/></e> -->
     <e lm="općenit"><i>općeni</i><par n="žu/t__ssup__adj"/></e>
     <e lm="osjećaj"><i>os</i><par n="e_je__yat"/><i>ćaj</i><par n="namještaj__n"/></e>
@@ -34175,7 +34269,7 @@
     <e lm="ne"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/></r></p></e>
     <e lm="ni"><p><l>ni</l><r>ni<s n="part"/><s n="neg"/></r></p></e>
     <e lm="li"><p><l>li</l><r>li<s n="part"/><s n="itg"/></r></p></e>
-    <e lm="je li"><p><l>je<b/>li</l><r>je<b/>li<s n="part"/><s n="itg"/></r></p></e>
+<!--    <e lm="je li"><p><l>je<b/>li</l><r>je<b/>li<s n="part"/><s n="itg"/></r></p></e> -->
     <e lm="da li"><p><l>da<b/>li</l><r>da<b/>li<s n="part"/><s n="itg"/></r></p></e>
     <!--Prepositions-->
     <!--That go with Genitive -->
@@ -50967,19 +51061,19 @@
     <e lm="Jadran"><i>Jadran</i><par n="Zagreb__np"/></e>
     <e lm="Jakob"><i>Jakob</i><par n="Zagreb__np"/></e>
     <e lm="Jeruzalem"><i>Jeruzalem</i><par n="Zagreb__np"/></e>
-    <e lm="Kairo"><i>Kairo</i><par n="Zagreb__np"/></e>
+    <e lm="Kairo"><i>Kair</i><par n="Meksik/o__np"/></e>
     <e lm="Kent"><i>Kent</i><par n="Zagreb__np"/></e>
-    <e lm="Kongo"><i>Kongo</i><par n="Zagreb__np"/></e>
+    <e lm="Kongo"><i>Kong</i><par n="Meksik/o__np"/></e>
     <e lm="Koper"><i>Koper</i><par n="Zagreb__np"/></e>
     <e lm="London"><i>London</i><par n="Zagreb__np"/></e>
     <e lm="Lovrenc"><i>Lovrenc</i><par n="Zagreb__np"/></e>
     <e lm="Madrid"><i>Madrid</i><par n="Zagreb__np"/></e>
     <e lm="Maribor"><i>Maribor</i><par n="Zagreb__np"/></e>
-    <e lm="Maroko"><i>Maroko</i><par n="Zagreb__np"/></e>
+    <e lm="Maroko"><i>Marok</i><par n="Meksik/o__np"/></e>
     <e lm="Mozambik"><i>Mozambik</i><par n="Zagreb__np"/></e>
     <e lm="New York"><i>New<b/>York</i><par n="Zagreb__np"/></e>
     <e lm="Olimp"><i>Olimp</i><par n="Zagreb__np"/></e>
-    <e lm="Oslo"><i>Oslo</i><par n="Zagreb__np"/></e>
+    <e lm="Oslo"><i>Osl</i><par n="Meksik/o__np"/></e>
     <e lm="Pacifik"><i>Pacifik</i><par n="Zagreb__np"/></e>
     <e lm="Pad"><i>Pad</i><par n="Zagreb__np"/></e>
     <e lm="Pariz"><i>Pariz</i><par n="Zagreb__np"/></e>
@@ -50994,7 +51088,7 @@
     <e lm="Tibet"><i>Tibet</i><par n="Zagreb__np"/></e>
     <e lm="Tivoli"><i>Tivoli</i><par n="Zagreb__np"/></e>
     <e lm="Tolmin"><i>Tolmin</i><par n="Zagreb__np"/></e>
-    <e lm="Torino"><i>Torino</i><par n="Zagreb__np"/></e>
+    <e lm="Torino"><i>Torin</i><par n="Meksik/o__np"/></e>
     <e lm="Triglav"><i>Triglav</i><par n="Zagreb__np"/></e>
     <e lm="Trst"><i>Trst</i><par n="Zagreb__np"/></e>
     <e lm="Velebit"><i>Velebit</i><par n="Zagreb__np"/></e>
@@ -54314,7 +54408,7 @@
     <e lm="projekt"><i>projekt</i><par n="program__n"/></e>
     <e lm="standard"><i>standard</i><par n="program__n"/></e>
     <e lm="rast"><i>rast</i><par n="program__n"/></e>
-    <!-- <e lm="kapacitet"><i>kapacitet</i><par n="program__n"/></e> -->
+    <e lm="kapacitet"><i>kapacitet</i><par n="program__n"/></e>
     <e lm="paket"><i>paket</i><par n="program__n"/></e>
     <e lm="uvjet"><i>uvjet</i><par n="program__n"/></e>
     <e lm="preduvjet"><i>preduvjet</i><par n="program__n"/></e>
