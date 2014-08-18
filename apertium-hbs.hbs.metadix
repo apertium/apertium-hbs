@@ -33897,6 +33897,11 @@
      
     <!--New data-->
     
+    <e lm="Abdullah"><i>Abdullah</i><par n="Mislav__np"/></e>
+    <e lm="Olli"><i>Olli</i><par n="Enri__np"/></e>
+    <e lm="Gul"><i>Gul</i><par n="Prezime__cog__np"/></e>
+    <e lm="Thaci"><i>Thaci</i><par n="Filipi__cog__np"/></e>
+    <e lm="SAA"><i>SAA</i><par n="NATO__abbr"/></e>
     <e lm="Damir"><i>Damir</i><par n="Mislav__np"/></e>
     <e lm="Let 2"><p><l>Let</l><r>Let<b/>2</r></p><par n="SuperGaleb__np"/><p><l><b/>2</l><r></r></p></e>
     <e lm="Let 3"><p><l>Let</l><r>Let<b/>3</r></p><par n="SuperGaleb__np"/><p><l><b/>3</l><r></r></p></e>
@@ -33975,6 +33980,8 @@
     <e lm="iskustvo"><i>iskust</i><par n="društ/vo__n"/></e>
     <e lm="iz"><i>iz</i><par n="gen__pr"/></e>
     <e lm="izlaz"><i>izlaz</i><par n="program__n"/></e>
+    <e lm="entitet"><i>entitet</i><par n="program__n"/></e>
+    <e lm="zamjenik"><i>zamjeni</i><par n="učeni/k__n"/></e>
     <e lm="izuzetan"><i>izuzet</i><par n="ruž/an__pst__adj"/></e>
     <e lm="izuzetan"><i>izuzet</i><par n="ruž/an__comp__adj"/></e>
     <e lm="izuzetan"><p><l>najizuzet</l><r>izuzet</r></p><par n="ruž/an__sup__adj"/></e>
