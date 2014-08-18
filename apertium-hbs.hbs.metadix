@@ -33625,6 +33625,7 @@
     <e lm="zapovjedan"><i>zapovjed</i><par n="ruž/an__pst__adj"/></e>
     <e lm="Butmir"><i>Butmir</i><par n="Zagreb__np"/></e>
     <e lm="EUFOR"><i>EUFOR</i><par n="NATO__abbr"/></e>
+    <e lm="SEWRC"><i>WEWRC</i><par n="NATO__abbr"/></e>
     <e lm="preuzimati"><i>preuzim</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="preuzimati"><i>preuzim</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="preuzimati"><i>preuzim</i><par n="imperf_ref_bir/ati__vblex"/></e>
@@ -33646,6 +33647,8 @@
     <e lm="pozornost"><i>pozorno</i><par n="ma/st__n"/></e>
     <e lm="Alexander"><i>Alexander</i><par n="Mislav__np"/></e>
     <e lm="Pehr"><i>Pehr</i><par n="Prezime__cog__np"/></e>
+    <e lm="Tae-Se"><i>Tae-Se</i><par n="Prezime__cog__np"/></e>
+    <e lm="Sequi"><i>Sequi</i><par n="Tolstoj__cog__np"/></e>
     <e lm="primijetiti"><i>primije</i><par n="perf_iv_vra/titi__vblex"/></e>
     <e lm="primijetiti"><i>primije</i><par n="perf_tv_vra/titi__vblex"/></e>
     <e lm="rastući"><i>rastuć</i><par n="odlučujuć/i__adj"/></e>
@@ -34243,6 +34246,7 @@
     <!-- <e lm="Sjedinjene Američke Države"><i></i><par n="SAD__np"/></e> -->
     <e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="SETimes__np"/></e>
     <e lm="SETimes"><i>SETimes</i><par n="SETimes__np"/></e>
+    <e lm="SE Times"><i>SE<b/>Times</i><par n="SETimes__np"/></e>
     <!-- <e lm="Unilang"><i>Unilang</i><par n="SETimes__np"/></e> -->
 
     <!-- SL abbreviations --> 
