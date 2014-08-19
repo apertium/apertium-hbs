@@ -119,6 +119,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).metadix $(DESTDIR)$(apertium_hbs_srcdir)
 	$(INSTALL_DATA) $(BASENAME).cyr-lat.dix $(DESTDIR)$(apertium_hbs_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_hbs_srcdir)
+	$(INSTALL_DATA) alt.xsl $(DESTDIR)$(apertium_hbs_srcdir)
 
 ###############################################################################
 ## Cleanup

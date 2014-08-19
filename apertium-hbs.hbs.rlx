@@ -558,59 +558,59 @@ SELECT Toponim + $$CASE IF (0C Toponim) (-1 Cm LINK -1 Toponim + $$CASE) (1 CC L
 SELECT Toponim + $$CASE IF (0C Toponim) (-1 CC LINK -1 Toponim + $$CASE) (-3 Cm LINK 1 Toponim + $$CASE) ;
     ## Spomenik je otkriven u Zagrebu, Rijeci, Puli, Splitu i Ljubljani.
 
-SECTION
-# =========================================================================== #
-#   Syntactic function labelling                                              #
-# =========================================================================== #
+#SECTION
+## =========================================================================== #
+##   Syntactic function labelling                                              #
+## =========================================================================== #
+#
+#LIST @N← = @N← ; # Modifier of noun to the left
+#LIST @→N = @→N ; # Modifier of noun to the right 
+#LIST @A← = @A← ; # Modifier of adjective to the left
+#LIST @Adv← = @Adv← ; # Modifier of adverb to the left
+#LIST @V← = @V← ; # Modifier of verb to the left
+#LIST @V→ = @V→ ; # Modifier of verb to the right
+#
+## Partitive vs. possesive disambiguation
+#MAP:PartitiveAfterAdv ( @Adv← ) TARGET N + Gen (-1 Adv OR A + Neuter) ;
+#    ## U kući ima malo vode.
+#
+##MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
+#
+#MAP:GenitiveModN ( @N← ) TARGET N + Gen (-1C* N BARRIER NOT-NP-MEMBER) ;
+#
+#MAP:NounModPoss ( @→N ) TARGET PosPron (1C N) ;
+#
+## TODO: These rules are just rudimentary
+#MAP:NounModA ( @→N ) TARGET A + $$CASE (1*C N + $$CASE BARRIER WORD - N - A ) ;
+#MAP:NModA ( @→A ) TARGET A + $$CASE (1*C A + $$CASE BARRIER WORD - N - A ) ;
+#MAP:PrModN ( @→N ) TARGET Pr (1*C N BARRIER WORD - N - A ) ; 
+#MAP:PrModA ( @→A ) TARGET Pr (1*C A BARRIER WORD - N - A ) ;
+#
+#
+## Verb modifiers
+### Adverbs
+#MAP:Adverb→Verb (@V→) TARGET Adv (1C V)
+#MAP:Verb←Adverb (@V←) TARGET Adv (-1C V)
+#MAP:Verb←...←Adverb (@V←) TARGET Adv (-1*C V BARRIER BOS OR Cm) (1C Cm OR EOS)
+#MAP:Adverb→...→Verb (@V←) TARGET Adv (NOT -1*C V BARRIER BOS OR Cm) (1C V)
+### Participles and such Note: Looks like a copy paste, but was thought through :) Could perhaps be made more universal though
+#### l-participle
+#MAP:Lp→VBSer (@V→) TARGET Lp (1C VBSer + Clt)
+#MAP:VBSer←Lp (@V←) TARGET Lp (-1C VBSer + Clt)
+#MAP:Lp→...→VBSer (@V→) TARGET Lp (NOT -1*C VBSer + Clt BARRIER BOS) (1*C VBSer + Clt BARRIER EOS)
+#MAP:VBSer←...←Lp (@V←) TARGET Lp (-1*C VBSer + Clt BARRIER BOS)
+#MAP:Lp→FutureII (@V→) TARGET Lp (1C FutureII)
+#MAP:FutureII←Lp (@V←) TARGET Lp (-1C FutureII)
+#MAP:Lp→...→FutureII (@V→) TARGET Lp (NOT -1*C FutureII BARRIER BOS) (1*C FutureII BARRIER EOS)
+#MAP:FutureII←...←Lp (@V←) TARGET Lp (-1*C FutureII BARRIER BOS)
+#### infinitive
+#MAP:Infinitive→FutureI (@V→) TARGET Infinitive (1C FutureI)
+#MAP:FutureI←Infinitive (@V←) TARGET Infinitive (-1C FutureI)
+#MAP:Infinitive→...→FutureI (@V→) TARGET Infinitive (NOT -1*C FutureI BARRIER BOS) (1*C FutureI BARRIER EOS)
+#MAP:FutureI←...←Infinitive (@V←) TARGET Infinitive (-1*C FutureI BARRIER BOS)
+#
 
-LIST @N← = @N← ; # Modifier of noun to the left
-LIST @→N = @→N ; # Modifier of noun to the right 
-LIST @A← = @A← ; # Modifier of adjective to the left
-LIST @Adv← = @Adv← ; # Modifier of adverb to the left
-LIST @V← = @V← ; # Modifier of verb to the left
-LIST @V→ = @V→ ; # Modifier of verb to the right
-
-# Partitive vs. possesive disambiguation
-MAP:PartitiveAfterAdv ( @Adv← ) TARGET N + Gen (-1 Adv OR A + Neuter) ;
-    ## U kući ima malo vode.
-
-#MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
-
-MAP:GenitiveModN ( @N← ) TARGET N + Gen (-1C* N BARRIER NOT-NP-MEMBER) ;
-
-MAP:NounModPoss ( @→N ) TARGET PosPron (1C N) ;
-
-# TODO: These rules are just rudimentary
-MAP:NounModA ( @→N ) TARGET A + $$CASE (1*C N + $$CASE BARRIER WORD - N - A ) ;
-MAP:NModA ( @→A ) TARGET A + $$CASE (1*C A + $$CASE BARRIER WORD - N - A ) ;
-MAP:PrModN ( @→N ) TARGET Pr (1*C N BARRIER WORD - N - A ) ; 
-MAP:PrModA ( @→A ) TARGET Pr (1*C A BARRIER WORD - N - A ) ;
-
-
-# Verb modifiers
-## Adverbs
-MAP:Adverb→Verb (@V→) TARGET Adv (1C V)
-MAP:Verb←Adverb (@V←) TARGET Adv (-1C V)
-MAP:Verb←...←Adverb (@V←) TARGET Adv (-1*C V BARRIER BOS OR Cm) (1C Cm OR EOS)
-MAP:Adverb→...→Verb (@V←) TARGET Adv (NOT -1*C V BARRIER BOS OR Cm) (1C V)
-## Participles and such Note: Looks like a copy paste, but was thought through :) Could perhaps be made more universal though
-### l-participle
-MAP:Lp→VBSer (@V→) TARGET Lp (1C VBSer + Clt)
-MAP:VBSer←Lp (@V←) TARGET Lp (-1C VBSer + Clt)
-MAP:Lp→...→VBSer (@V→) TARGET Lp (NOT -1*C VBSer + Clt BARRIER BOS) (1*C VBSer + Clt BARRIER EOS)
-MAP:VBSer←...←Lp (@V←) TARGET Lp (-1*C VBSer + Clt BARRIER BOS)
-MAP:Lp→FutureII (@V→) TARGET Lp (1C FutureII)
-MAP:FutureII←Lp (@V←) TARGET Lp (-1C FutureII)
-MAP:Lp→...→FutureII (@V→) TARGET Lp (NOT -1*C FutureII BARRIER BOS) (1*C FutureII BARRIER EOS)
-MAP:FutureII←...←Lp (@V←) TARGET Lp (-1*C FutureII BARRIER BOS)
-### infinitive
-MAP:Infinitive→FutureI (@V→) TARGET Infinitive (1C FutureI)
-MAP:FutureI←Infinitive (@V←) TARGET Infinitive (-1C FutureI)
-MAP:Infinitive→...→FutureI (@V→) TARGET Infinitive (NOT -1*C FutureI BARRIER BOS) (1*C FutureI BARRIER EOS)
-MAP:FutureI←...←Infinitive (@V←) TARGET Infinitive (-1*C FutureI BARRIER BOS)
-
-
-SECTION
+#SECTION
 # =========================================================================== #
 #   Dependency grammar rules                                                  #
 # =========================================================================== #
@@ -618,18 +618,18 @@ SECTION
 # NOTE: This is really very rudimentary and experimental, shouldn't be continued until full (or non-semantic) disambiguation is achieved
 # 	and should also be redesigned afterwards
 
-SETPARENT:FuturI V + Infinitive (1C VBMod + Clt) TO (1C VBMod + Clt)
-SETPARENT:FuturI V + Infinitive (-1C VBMod + Clt) TO (-1C VBMod + Clt)
-
-SETPARENT:A→A (@→A) + $$CASE (0C A) (1*C A + $$CASE) TO (1*C A + $$CASE)
-SETPARENT:A←A (@A←) + $$CASE (0C A) (-1*C A + $$CASE) TO (-1*C A + $$CASE)
-
-SETPARENT:A→N (@→N) + $$CASE (0C A) (1*C N + $$CASE) TO (1*C N + $$CASE)
-SETPARENT:N←A (@N←) + $$CASE (0C A) (-1*C N + $$CASE) TO (-1*C N + $$CASE)
-
-SETPARENT:Pr→N (@→N) (0C Pr) (1*C N) TO (1*C N)
-SETPARENT:Pr→N (@→A) (0C Pr) (1*C A) TO (1*C A)
+#SETPARENT:FuturI V + Infinitive (1C VBMod + Clt) TO (1C VBMod + Clt)
+#SETPARENT:FuturI V + Infinitive (-1C VBMod + Clt) TO (-1C VBMod + Clt)
+#
+#SETPARENT:A→A (@→A) + $$CASE (0C A) (1*C A + $$CASE) TO (1*C A + $$CASE)
+#SETPARENT:A←A (@A←) + $$CASE (0C A) (-1*C A + $$CASE) TO (-1*C A + $$CASE)
+#
+#SETPARENT:A→N (@→N) + $$CASE (0C A) (1*C N + $$CASE) TO (1*C N + $$CASE)
+#SETPARENT:N←A (@N←) + $$CASE (0C A) (-1*C N + $$CASE) TO (-1*C N + $$CASE)
+#
+#SETPARENT:Pr→N (@→N) (0C Pr) (1*C N) TO (1*C N)
+#SETPARENT:Pr→N (@→A) (0C Pr) (1*C A) TO (1*C A)
 
  # Added automatically, to be removed once the syntactic mappings are taken into account in transfer 
-SECTION
-UNMAP UNSAFE (*);
+#SECTION
+#UNMAP UNSAFE (*);
