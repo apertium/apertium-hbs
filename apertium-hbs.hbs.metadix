@@ -47622,28 +47622,28 @@
     <e lm="iznos"><i>iznos</i><par n="program__n"/></e>
     <e lm="autobus"><i>autobus</i><par n="program__n"/></e>
     <e lm="vikend"><i>vikend</i><par n="program__n"/></e>
-    <e lm="grijač"><i>grijač</i><par n="zrakoplov__n"/></e>
-    <e lm="brojač"><i>brojač</i><par n="zrakoplov__n"/></e>
-    <e lm="minobacač"><i>minobacač</i><par n="zrakoplov__n"/></e>
+    <e lm="grijač"><i>grijač</i><par n="namještaj__n"/></e>
+    <e lm="brojač"><i>brojač</i><par n="namještaj__n"/></e>
+    <e lm="minobacač"><i>minobacač</i><par n="namještaj__n"/></e>
     <e lm="novčić"><i>novčić</i><par n="stolčić__n"/></e>
-    <e lm="odašiljač"><i>odašiljač</i><par n="zrakoplov__n"/></e>
+    <e lm="odašiljač"><i>odašiljač</i><par n="namještaj__n"/></e>
     <e lm="dobavljač"><i>dobavljač</i><par n="pilot__n"/></e>
-    <e lm="ogrtač"><i>ogrtač</i><par n="zrakoplov__n"/></e>
-    <e lm="otirač"><i>otirač</i><par n="zrakoplov__n"/></e>
-    <e lm="pokrivač"><i>pokrivač</i><par n="zrakoplov__n"/></e>
-    <e lm="sakupljač"><i>sakupljač</i><par n="zrakoplov__n"/></e>
-    <e lm="upaljač"><i>upaljač</i><par n="zrakoplov__n"/></e>
-    <e lm="izlučivač"><i>izlučivač</i><par n="zrakoplov__n"/></e>
-    <e lm="okidač"><i>okidač</i><par n="zrakoplov__n"/></e>
-    <e lm="omekšivač"><i>omekšivač</i><par n="zrakoplov__n"/></e>
-    <e lm="osigurač"><i>osigurač</i><par n="zrakoplov__n"/></e>
-    <e lm="otvarač"><i>otvarač</i><par n="zrakoplov__n"/></e>
-    <e lm="pokretač"><i>pokretač</i><par n="zrakoplov__n"/></e>
-    <e lm="prekidač"><i>prekidač</i><par n="zrakoplov__n"/></e>
-    <e lm="rastvarač"><i>rastvarač</i><par n="zrakoplov__n"/></e>
-    <e lm="razrjeđivač"><i>razrjeđivač</i><par n="zrakoplov__n"/></e>
-    <e lm="zatvarač"><i>zatvarač</i><par n="zrakoplov__n"/></e>
-    <e lm="zgušnjavač"><i>zgušnjavač</i><par n="zrakoplov__n"/></e>
+    <e lm="ogrtač"><i>ogrtač</i><par n="namještaj__n"/></e>
+    <e lm="otirač"><i>otirač</i><par n="namještaj__n"/></e>
+    <e lm="pokrivač"><i>pokrivač</i><par n="namještaj__n"/></e>
+    <e lm="sakupljač"><i>sakupljač</i><par n="namještaj__n"/></e>
+    <e lm="upaljač"><i>upaljač</i><par n="namještaj__n"/></e>
+    <e lm="izlučivač"><i>izlučivač</i><par n="namještaj__n"/></e>
+    <e lm="okidač"><i>okidač</i><par n="namještaj__n"/></e>
+    <e lm="omekšivač"><i>omekšivač</i><par n="namještaj__n"/></e>
+    <e lm="osigurač"><i>osigurač</i><par n="namještaj__n"/></e>
+    <e lm="otvarač"><i>otvarač</i><par n="namještaj__n"/></e>
+    <e lm="pokretač"><i>pokretač</i><par n="namještaj__n"/></e>
+    <e lm="prekidač"><i>prekidač</i><par n="namještaj__n"/></e>
+    <e lm="rastvarač"><i>rastvarač</i><par n="namještaj__n"/></e>
+    <e lm="razrjeđivač"><i>razrjeđivač</i><par n="namještaj__n"/></e>
+    <e lm="zatvarač"><i>zatvarač</i><par n="namještaj__n"/></e>
+    <e lm="zgušnjavač"><i>zgušnjavač</i><par n="namještaj__n"/></e>
     <e lm="okvir"><i>okvir</i><par n="zrakoplov__n"/></e>
     <e lm="savez"><i>savez</i><par n="zrakoplov__n"/></e>
     <e lm="porez"><i>porez</i><par n="zrakoplov__n"/></e>
