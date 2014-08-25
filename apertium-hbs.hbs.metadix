@@ -7605,7 +7605,7 @@
       <e><p><l>kavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
 
-    <pardef n="perf_ref__nagla/siti__vblex">
+    <pardef n="perf_ref_nagla/siti__vblex">
       <!--Infinitive-->
       <e><p><l>si</l><r>si</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
       <!--Imperative-->
@@ -8406,7 +8406,7 @@
 <!--       <e><p><l>sleći</l><r>sleći<s n="vblex"/><s n="adv"/></r></p></e> --><!--simple adverbs-->
     </pardef>
 
-    <pardef n="perf_tv__nagla/siti__vblex">
+    <pardef n="perf_tv_nagla/siti__vblex">
       <!--Infinitive-->
       <e><p><l>si</l><r>si</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
       <!--Imperative-->
@@ -8420,7 +8420,7 @@
       <e><p><l>šen</l><r>siti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
       <e><p><l>sivši</l><r>siti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
-    <pardef n="perf_iv__nagla/siti__vblex">
+    <pardef n="perf_iv_nagla/siti__vblex">
       <!--Infinitive-->
       <e><p><l>si</l><r>si</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
       <!--Imperative-->
@@ -35590,16 +35590,16 @@
     <e lm="hapsiti"><i>hap</i><par n="imperf_tv_ga/siti__vblex"/></e>
     <e lm="resiti"><i>re</i><par n="imperf_tv_ga/siti__vblex"/></e>
     <e lm="resiti"><i>re</i><par n="imperf_ref_ga/siti__vblex"/></e>
-    <e lm="uhapsiti"><i>uhap</i><par n="perf_tv__nagla/siti__vblex"/></e>
-    <e lm="uhapsiti"><i>uhap</i><par n="perf_tv__nagla/siti__vblex"/></e>
-    <e lm="naglasiti"><i>nagla</i><par n="perf_tv__nagla/siti__vblex"/></e>
-    <e lm="proglasiti"><i>progla</i><par n="perf_tv__nagla/siti__vblex"/></e>
-    <e lm="proglasiti"><i>progla</i><par n="perf_ref__nagla/siti__vblex"/></e>
-    <e lm="naglasiti"><i>nagla</i><par n="perf_tv__nagla/siti__vblex"/></e>
-    <e lm="naglasiti"><i>nagla</i><par n="perf_iv__nagla/siti__vblex"/></e>
-    <e lm="proglasiti"><i>progla</i><par n="perf_tv__nagla/siti__vblex"/></e>
-    <e lm="proglasiti"><i>progla</i><par n="perf_iv__nagla/siti__vblex"/></e>
-    <e lm="proglasiti"><i>progla</i><par n="perf_ref__nagla/siti__vblex"/></e>
+    <e lm="uhapsiti"><i>uhap</i><par n="perf_tv_nagla/siti__vblex"/></e>
+    <e lm="uhapsiti"><i>uhap</i><par n="perf_tv_nagla/siti__vblex"/></e>
+    <e lm="naglasiti"><i>nagla</i><par n="perf_tv_nagla/siti__vblex"/></e>
+    <e lm="proglasiti"><i>progla</i><par n="perf_tv_nagla/siti__vblex"/></e>
+    <e lm="proglasiti"><i>progla</i><par n="perf_ref_nagla/siti__vblex"/></e>
+    <e lm="naglasiti"><i>nagla</i><par n="perf_tv_nagla/siti__vblex"/></e>
+    <e lm="naglasiti"><i>nagla</i><par n="perf_iv_nagla/siti__vblex"/></e>
+    <e lm="proglasiti"><i>progla</i><par n="perf_tv_nagla/siti__vblex"/></e>
+    <e lm="proglasiti"><i>progla</i><par n="perf_iv_nagla/siti__vblex"/></e>
+    <e lm="proglasiti"><i>progla</i><par n="perf_ref_nagla/siti__vblex"/></e>
     <e lm="donositi"><i>dono</i><par n="imperf_tv_ga/siti__vblex"/></e>
     <e lm="odnositi"><i>odno</i><par n="imperf_ref_ga/siti__vblex"/></e>
     <e lm="prenositi"><i>preno</i><par n="imperf_tv_ga/siti__vblex"/></e>
