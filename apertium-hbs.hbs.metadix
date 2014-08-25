@@ -33836,10 +33836,10 @@
     <e lm="sjećati"><i>s</i><par n="e_je__yat"/><i>ć</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="prognati"><i>progn</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="prognati"><i>progn</i><par n="imperf_ref_bir/ati__vblex"/></e>
-    <e lm="prognan"><i>progn</i><par n="od/an__pst__adj"/></e>
-    <e lm="prognan"><i>progn</i><par n="od/an__comp__adj"/></e>
-    <e lm="prognan"><i>progn</i><par n="od/an__sup__adj"/></e>
-    <e lm="prognan"><i>progn</i><par n="od/an__ssup__adj"/></e>
+    <e lm="prognan"><i>prognan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="prognan"><i>prognan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="prognan"><p><l>najprognan</l><r>prognan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="prognan"><p><l>preprognan</l><r>prognan</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="tadašnji"><i>tadašnj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="prosovjetski"><i>prosovjets</i><par n="pridjevs/ki__pst__adj"/></e>
     <e lm="Petru"><i>Petru</i><par n="Mislav__np"/></e>
