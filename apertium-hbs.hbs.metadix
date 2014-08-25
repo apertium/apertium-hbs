@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?><!--<!DOCTYPE dictionary SYSTEM "/usr/share/apertium/dix.dtd">--><dictionary>
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE dictionary SYSTEM "/usr/share/apertium/dix.dtd">--><dictionary>
   <alphabet>ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽabcčćddžđefghijklljmnnjoprsštuvwxyzž</alphabet>
   <sdefs>
     <!--POS Categories -->
@@ -34115,10 +34115,10 @@
     <e lm="vidljiv"><i>vidljiv</i><par n="zdrav__comp__adj"/></e>
     <e lm="vidljiv"><p><l>najvidljiv</l><r>vidljiv</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="vidljiv"><p><l>previdljiv</l><r>vidljiv</r></p><par n="zdrav__ssup__adj"/></e>
-    <e lm="visok"><i>visok</i><par n="mek__pst__adj"/></e>
+    <e lm="visok"><i>visok</i><par n="zdrav__pst__adj"/></e>
     <e lm="visok"><p><l>vi</l><r>visok</r></p><par n="mek__comp__adj"/></e>
     <e lm="visok"><p><l>najvi</l><r>visok</r></p><par n="mek__sup__adj"/></e>
-    <e lm="visok"><p><l>previsok</l><r>visok</r></p><par n="mek__ssup__adj"/></e>
+    <e lm="visok"><p><l>previsok</l><r>visok</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="više"><i>više</i><par n="super__pst__adj"/></e>
     <e lm="višegodišnji"><i>višegodišnj</i><par n="odlučujuć/i__adj"/></e>
     <e lm="vjeran"><i>vjer</i><par n="ruž/an__pst__adj"/></e>
@@ -37647,17 +37647,17 @@
     <e lm="smeđ"><p><l>najsmeđ</l><r>smeđ</r></p><par n="vruć__sup__adj"/></e>
     <e lm="smeđ"><p><l>presmeđ</l><r>smeđ</r></p><par n="vruć__ssup__adj"/></e>
 
-    <e lm="gorak"><i>gor</i><par n="gor/ak__pst__adj"/></e>
+    <e lm="gorak"><i>gor</i><par n="tan/ak__pst__adj"/></e>
     <e lm="gorak"><i>gor</i><par n="gor/ak__comp__adj"/></e>
     <e lm="gorak" r="LR"><i>gor</i><par n="krep/ak__comp__adj"/></e>
     <e lm="gorak"><p><l>najgor</l><r>gor</r></p><par n="gor/ak__sup__adj"/></e>
     <e lm="gorak" r="LR"><p><l>najgor</l><r>gor</r></p><par n="krep/ak__sup__adj"/></e>
-    <e lm="gorak"><p><l>pregor</l><r>gor</r></p><par n="gor/ak__ssup__adj"/></e>
+    <e lm="gorak"><p><l>pregor</l><r>gor</r></p><par n="tan/ak__ssup__adj"/></e>
 
-    <e lm="žarak"><i>žar</i><par n="gor/ak__pst__adj"/></e>
+    <e lm="žarak"><i>žar</i><par n="tan/ak__pst__adj"/></e>
     <e lm="žarak"><i>žar</i><par n="gor/ak__comp__adj"/></e>
     <e lm="žarak"><p><l>najžar</l><r>žar</r></p><par n="gor/ak__sup__adj"/></e>
-    <e lm="žarak"><p><l>prežar</l><r>žar</r></p><par n="gor/ak__ssup__adj"/></e>
+    <e lm="žarak"><p><l>prežar</l><r>žar</r></p><par n="tan/ak__ssup__adj"/></e>
 
     <e lm="krepak"><i>krep</i><par n="krep/ak__pst__adj"/></e>
     <e lm="krepak"><i>krep</i><par n="krep/ak__comp__adj"/></e>
@@ -40270,10 +40270,10 @@
     <e lm="mlad"><p><l>najmla</l><r>mla</r></p><par n="mla/d__sup__adj"/></e>
     <e lm="mlad"><p><l>premla</l><r>mla</r></p><par n="mla/d__ssup__adj"/></e>
 
-    <e lm="crn"><i>crn</i><par n="crn__pst__adj"/></e>
+    <e lm="crn"><i>crn</i><par n="zdrav__pst__adj"/></e>
     <e lm="crn"><i>crn</i><par n="crn__comp__adj"/></e>
     <e lm="crn"><p><l>najcrn</l><r>crn</r></p><par n="crn__sup__adj"/></e>
-    <e lm="crn"><p><l>precrn</l><r>crn</r></p><par n="crn__ssup__adj"/></e>
+    <e lm="crn"><p><l>precrn</l><r>crn</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="žut"><i>žu</i><par n="žu/t__pst__adj"/></e>
     <e lm="žut"><i>žu</i><par n="žu/t__comp__adj"/></e>
@@ -40367,30 +40367,30 @@
     <e lm="motivisan"><p><l>najmotivis</l><r>motivis</r></p><par n="od/an__sup__adj"/></e>
     <e lm="motivisan"><p><l>premotivis</l><r>motivis</r></p><par n="od/an__ssup__adj"/></e>
 
-    <e lm="tup"><i>tup</i><par n="tup__pst__adj"/></e>
+    <e lm="tup"><i>tup</i><par n="zdrav__pst__adj"/></e>
     <e lm="tup"><i>tup</i><par n="tup__comp__adj"/></e>
     <e lm="tup"><p><l>najtup</l><r>tup</r></p><par n="tup__sup__adj"/></e>
-    <e lm="tup"><p><l>pretup</l><r>tup</r></p><par n="tup__ssup__adj"/></e>
+    <e lm="tup"><p><l>pretup</l><r>tup</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="živ"><i>živ</i><par n="tup__pst__adj"/></e>
+    <e lm="živ"><i>živ</i><par n="zdrav__pst__adj"/></e>
     <e lm="živ"><i>živ</i><par n="tup__comp__adj"/></e>
     <e lm="živ"><p><l>najživ</l><r>živ</r></p><par n="tup__sup__adj"/></e>
-    <e lm="živ"><p><l>preživ</l><r>živ</r></p><par n="tup__ssup__adj"/></e>
+    <e lm="živ"><p><l>preživ</l><r>živ</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="grub"><i>grub</i><par n="tup__pst__adj"/></e>
+    <e lm="grub"><i>grub</i><par n="zdrav__pst__adj"/></e>
     <e lm="grub"><i>grub</i><par n="tup__comp__adj"/></e>
     <e lm="grub"><p><l>najgrub</l><r>grub</r></p><par n="tup__sup__adj"/></e>
-    <e lm="grub"><p><l>pregrub</l><r>grub</r></p><par n="tup__ssup__adj"/></e>
+    <e lm="grub"><p><l>pregrub</l><r>grub</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="glup"><i>glup</i><par n="tup__pst__adj"/></e>
+    <e lm="glup"><i>glup</i><par n="zdrav__pst__adj"/></e>
     <e lm="glup"><i>glup</i><par n="tup__comp__adj"/></e>
     <e lm="glup"><p><l>najglup</l><r>glup</r></p><par n="tup__sup__adj"/></e>
-    <e lm="glup"><p><l>preglup</l><r>glup</r></p><par n="tup__ssup__adj"/></e>
+    <e lm="glup"><p><l>preglup</l><r>glup</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="skup"><i>skup</i><par n="tup__pst__adj"/></e>
+    <e lm="skup"><i>skup</i><par n="zdrav__pst__adj"/></e>
     <e lm="skup"><i>skup</i><par n="tup__comp__adj"/></e>
     <e lm="skup"><p><l>najskup</l><r>skup</r></p><par n="tup__sup__adj"/></e>
-    <e lm="skup"><p><l>preskup</l><r>skup</r></p><par n="tup__ssup__adj"/></e>
+    <e lm="skup"><p><l>preskup</l><r>skup</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="brz"><i>br</i><par n="br/z__pst__adj"/></e>
     <e lm="brz"><i>br</i><par n="br/z__comp__adj"/></e>
@@ -40515,10 +40515,10 @@
     <e lm="mekan"><p><l>najmek</l><r>mek</r></p><par n="od/an__sup__adj"/></e>
     <e lm="mekan"><p><l>premek</l><r>mek</r></p><par n="od/an__ssup__adj"/></e>
 
-    <e lm="mek"><i>mek</i><par n="mek__pst__adj"/></e>
+    <e lm="mek"><i>mek</i><par n="zdrav__pst__adj"/></e>
     <e lm="mek"><i>mek</i><par n="mek__comp__adj"/></e>
     <e lm="mek"><p><l>najmek</l><r>mek</r></p><par n="mek__sup__adj"/></e>
-    <e lm="mek"><p><l>premek</l><r>mek</r></p><par n="mek__ssup__adj"/></e>
+    <e lm="mek"><p><l>premek</l><r>mek</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="suh"><i>su</i><par n="su/h__pst__adj"/></e>
     <e lm="suh"><i>su</i><par n="su/h__comp__adj"/></e>
@@ -40534,20 +40534,20 @@
 
 
 
-    <e lm="lijep"><i>l</i><par n="e_ije__yat"/><i>p</i><par n="mek__pst__adj"/></e>
+    <e lm="lijep"><i>l</i><par n="e_ije__yat"/><i>p</i><par n="zdrav__pst__adj"/></e>
     <e lm="lijep"><i>l</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><i>p</i><par n="mek__comp__adj"/></e>
     <e lm="lijep"><p><l>najl</l><r>l</r></p><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><i>p</i><par n="mek__sup__adj"/></e>
-    <e lm="lijep"><p><l>prel</l><r>l</r></p><par n="e_ije__yat"/><i>p</i><par n="mek__ssup__adj"/></e>
+    <e lm="lijep"><p><l>prel</l><r>l</r></p><par n="e_ije__yat"/><i>p</i><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="visok"><i>visok</i><par n="mek__pst__adj"/></e>
+    <e lm="visok"><i>visok</i><par n="zdrav__pst__adj"/></e>
     <e lm="visok"><p><l>vi</l><r>visok</r></p><par n="mek__comp__adj"/></e>
     <e lm="visok"><p><l>najvi</l><r>visok</r></p><par n="mek__sup__adj"/></e>
-    <e lm="visok"><p><l>previsok</l><r>visok</r></p><par n="mek__ssup__adj"/></e>
+    <e lm="visok"><p><l>previsok</l><r>visok</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="lak"><i>lak</i><par n="mek__pst__adj"/></e>
+    <e lm="lak"><i>lak</i><par n="zdrav__pst__adj"/></e>
     <e lm="lak"><i>lak</i><par n="mek__comp__adj"/></e>
     <e lm="lak"><p><l>najlak</l><r>lak</r></p><par n="mek__sup__adj"/></e>
-    <e lm="lak"><p><l>prelak</l><r>lak</r></p><par n="mek__ssup__adj"/></e>
+    <e lm="lak"><p><l>prelak</l><r>lak</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="lagan"><i>lag</i><par n="od/an__pst__adj"/></e>
     <e lm="lagan"><i>lag</i><par n="od/an__comp__adj"/></e>
@@ -41397,10 +41397,10 @@
     <e lm="prosvjećen"><p><l>najprosvjećen</l><r>prosvjećen</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="prosvjećen"><p><l>preprosvjećen</l><r>prosvjećen</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="kriv"><i>kriv</i><par n="tup__pst__adj"/></e>
+    <e lm="kriv"><i>kriv</i><par n="zdrav__pst__adj"/></e>
     <e lm="kriv"><i>kriv</i><par n="tup__comp__adj"/></e>
     <e lm="kriv"><p><l>najkriv</l><r>kriv</r></p><par n="tup__sup__adj"/></e>
-    <e lm="kriv"><p><l>prekriv</l><r>kriv</r></p><par n="tup__ssup__adj"/></e>
+    <e lm="kriv"><p><l>prekriv</l><r>kriv</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="sumnjiv"><i>sumnjiv</i><par n="zdrav__pst__adj"/></e>
     <e lm="sumnjiv"><i>sumnjiv</i><par n="zdrav__comp__adj"/></e>
@@ -41697,10 +41697,10 @@
     <e lm="sladak"><p><l>najsla</l><r>sla</r></p><par n="sla/dak__sup__adj"/></e>
     <e lm="sladak"><p><l>presla</l><r>sla</r></p><par n="sla/dak__ssup__adj"/></e>
 
-    <e lm="tvrd"><i>tvr</i><par n="tvr/d__pst__adj"/></e>
-    <e lm="tvrd"><i>tvr</i><par n="tvr/d__comp__adj"/></e>
-    <e lm="tvrd"><p><l>najtvr</l><r>tvr</r></p><par n="tvr/d__sup__adj"/></e>
-    <e lm="tvrd"><p><l>pretvr</l><r>tvr</r></p><par n="tvr/d__ssup__adj"/></e>
+    <e lm="tvrd"><i>tvr</i><par n="mla/d__pst__adj"/></e>
+    <e lm="tvrd"><i>tvr</i><par n="mla/d__comp__adj"/></e>
+    <e lm="tvrd"><p><l>najtvr</l><r>tvr</r></p><par n="mla/d__sup__adj"/></e>
+    <e lm="tvrd"><p><l>pretvr</l><r>tvr</r></p><par n="mla/d__ssup__adj"/></e>
 
     <e lm="mudar"><i>mud</i><par n="mud/ar__pst__adj"/></e>
     <e lm="mudar"><i>mud</i><par n="mud/ar__comp__adj"/></e>
@@ -48362,7 +48362,7 @@
     <e lm="kuli"><i>kuli</i><par n="taksi__n"/></e>
     <e lm="žiri"><i>žiri</i><par n="taksi__n"/></e>
     <e lm="taxi"><i>taxi</i><par n="taksi__n"/></e>
-    <e lm="arhiv"><i>arhiv</i><par n="arhiv__n"/></e>
+    <e lm="arhiv"><i>arhiv</i><par n="program__n"/></e>
     <e lm="pomoćnik"><i>pomoćni</i><par n="učeni/k__n"/></e>
     <e lm="letač"><i>letač</i><par n="ptić__n"/></e>
     <e lm="vršitelj"><i>vršitelj</i><par n="ptić__n"/></e>
