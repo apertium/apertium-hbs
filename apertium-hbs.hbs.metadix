@@ -52723,6 +52723,9 @@
     <e lm="točnost"><i>točno</i><par n="ma/st__n"/></e>
     <e lm="vidljivost"><i>vidljivo</i><par n="ma/st__n"/></e>
 
+    <e lm="pradjed"><i>pradjed</i><par n="trut__n"/></e>
+    <e lm="djed"><i>djed</i><par n="trut__n"/></e>
+
 
     <!-- Trim -->
     <!-- SH words with no appropriate translation in SL (TO DO)
