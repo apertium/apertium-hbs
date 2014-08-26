@@ -9015,6 +9015,21 @@
       <e><p><l>ivši</l><r>iti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
     </pardef>
 
+    <pardef n="perf_tv_obra/diti__vblex">
+      <!--Infinitive-->
+      <e><p><l>di</l><r>di</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+      <!--Imperative-->
+      <e><p><l>d</l><r>diti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+      <!--Present-->
+      <e><p><l>d</l><r>diti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+      <!--Aorist-->
+      <e><p><l>di</l><r>diti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+      <!--Participles-->
+      <e><p><l>di</l><r>diti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+      <e><p><l>đen</l><r>diti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp_sfx_extra__vblex"/></e>
+      <e><p><l>divši</l><r>diti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e><!--verbose adverbs-->
+    </pardef>
+
     <pardef n="imperf_tv_traž/iti__vblex">
       <!--Infinitive-->
       <e><p><l>i</l><r>i</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
@@ -34174,7 +34189,7 @@
     <e lm="svoj"><i/><par n="svoj__prn"/></e>
     <e lm="istupati"><i>istup</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="komentirati"><i>komentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
-    <e lm="obraditi"><i>obrad</i><par n="perf_tv_istraž/iti__vblex"/></e>
+    <e lm="obraditi"><i>obra</i><par n="perf_tv_obra/diti__vblex"/></e>
     <e lm="parodirati"><i>parodir</i><par n="imperf_iv_bir/ati__vblex"/></e>
     <e lm="postajati"><i>post</i><par n="imperf_iv__nast/ajati__vblex"/></e>
     <e lm="postajati"><i>post</i><par n="imperf_tv__nast/ajati__vblex"/></e>
