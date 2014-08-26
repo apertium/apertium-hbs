@@ -13958,7 +13958,7 @@
 
     </pardef>
     <pardef n="marij/ev__adj">
-      <e><p><l/><r>ev<s n="adj"/><s n="ssup"/></r></p><par n="marij/ev__pst__sfx"/></e>
+      <e><p><l/><r>ev<s n="adj"/><s n="pst"/></r></p><par n="marij/ev__pst__sfx"/></e>
     </pardef>
     <!--end 'marij/ev'-->
     <!--possesive adjective paradigm--><!--Todo: find out if these are the only suffixes it takes-->
