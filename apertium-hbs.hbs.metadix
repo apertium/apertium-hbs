@@ -29361,7 +29361,7 @@
       <e><p><l>ge</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
       <e><p><l>gama</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
-    <pardef n="Rije/ka__n"><!--With sibilarization-->
+    <pardef n="Afri/ka__np"><!--With sibilarization-->
       <e><p><l>ka</l><r>ka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ke</l><r>ka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>ku</l><r>ka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -51093,12 +51093,12 @@
     <!-- <e lm="Samokov"><i>Samoko</i><par n="Samoko/v__top__np"/></e> -->
     <!-- <e lm="Svištov"><i>Svišto</i><par n="Samoko/v__top__np"/></e> -->
 
-    <e lm="Afrika"><i>Afri</i><par n="Rije/ka__n"/></e>
-    <e lm="Antarktika"><i>Antarkti</i><par n="Rije/ka__n"/></e>
-    <e lm="Amerika"><i>Ameri</i><par n="Rije/ka__n"/></e>
-    <e lm="Korzika"><i>Korzi</i><par n="Rije/ka__n"/></e>
-    <e lm="Vrhnika"><i>Vrhni</i><par n="Rije/ka__n"/></e>
-    <!-- <e lm="Rijeka"><i>Rije</i><par n="Rije/ka__n"/></e> -->
+    <e lm="Afrika"><i>Afri</i><par n="Afri/ka__np"/></e>
+    <e lm="Antarktika"><i>Antarkti</i><par n="Afri/ka__np"/></e>
+    <e lm="Amerika"><i>Ameri</i><par n="Afri/ka__np"/></e>
+    <e lm="Korzika"><i>Korzi</i><par n="Afri/ka__np"/></e>
+    <e lm="Vrhnika"><i>Vrhni</i><par n="Afri/ka__np"/></e>
+    <!-- <e lm="Rijeka"><i>Rije</i><par n="Afri/ka__np"/></e> -->
     <!--Antroponyms-->
     <e lm="Jasenka"><i>Jasen</i><par n="Jasen/ka__np"/></e>
     <e lm="Lucija"><i>Lucij</i><par n="An/a__np"/></e>
