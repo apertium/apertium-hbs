@@ -34020,7 +34020,7 @@
     <e lm="nikada"><i>nikada</i><par n="danas__adv"/></e>
     <e lm="nivo"><i>nivo</i><par n="program__n"/></e>
     <e lm="od"><i>od</i><par n="gen__pr"/></e>
-    <e lm="odabran"><i>odabr</i><par n="od/an__ssup__adj"/></e>
+    <e lm="odabran"><p><l>preodabran</l><r>odabran</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="odmah"><i>odmah</i><par n="danas__adv"/></e>
     <e lm="oformljavanje"><i>oformljavanj</i><par n="polj/e__n"/></e>
     <e lm="okoliš"><i>okoliš</i><par n="ološ__n"/></e>
@@ -34035,7 +34035,7 @@
     <e lm="otkriven"><i>otkriven</i><par n="zdrav__comp__adj"/></e>
     <e lm="otkriven"><p><l>najotkriven</l><r>otkriven</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="otkriven"><p><l>preotkriven</l><r>otkriven</r></p><par n="zdrav__ssup__adj"/></e>
-    <e lm="očaran"><i>očar</i><par n="od/an__pst__adj"/></e>
+    <e lm="očaran"><i>očaran</i><par n="zdrav__pst__adj"/></e>
     <e lm="pas"><i>p</i><par n="p/as__n"/></e>
     <e lm="pažnja"><i>pažnj</i><par n="žen/a__n"/></e>
     <e lm="perfektan"><i>perfekt</i><par n="ruž/an__pst__adj"/></e>
@@ -40100,150 +40100,150 @@
     <e lm="trajan"><p><l>najtraj</l><r>traj</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="trajan"><p><l>pretraj</l><r>traj</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="naoružan"><i>naoruž</i><par n="od/an__pst__adj"/></e>
-    <e lm="naoružan"><i>naoruž</i><par n="od/an__comp__adj"/></e>
-    <e lm="naoružan"><p><l>najnaoruž</l><r>naoruž</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="naoružan"><p><l>prenaoruž</l><r>naoruž</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="naoružan"><i>naoružan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="naoružan"><i>naoružan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="naoružan"><p><l>najnaoružan</l><r>naoružan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="naoružan"><p><l>prenaoružan</l><r>naoružan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="ekstradiran"><i>ekstradir</i><par n="od/an__pst__adj"/></e>
-    <e lm="ekstradiran"><i>ekstradir</i><par n="od/an__comp__adj"/></e>
-    <e lm="ekstradiran"><p><l>najekstradir</l><r>ekstradir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="ekstradiran"><p><l>preekstradir</l><r>ekstradir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="ekstradiran"><i>ekstradiran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="ekstradiran"><i>ekstradiran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="ekstradiran"><p><l>najekstradiran</l><r>ekstradiran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="ekstradiran"><p><l>preekstradiran</l><r>ekstradiran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="zainteresiran"><i>zainteresir</i><par n="od/an__pst__adj"/></e>
-    <e lm="zainteresiran"><i>zainteresir</i><par n="od/an__comp__adj"/></e>
-    <e lm="zainteresiran"><p><l>najzainteresir</l><r>zainteresir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="zainteresiran"><p><l>prezainteresir</l><r>zainteresir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="zainteresiran"><i>zainteresiran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="zainteresiran"><i>zainteresiran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="zainteresiran"><p><l>najzainteresiran</l><r>zainteresiran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="zainteresiran"><p><l>prezainteresiran</l><r>zainteresiran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="zakazan"><i>zakaz</i><par n="od/an__pst__adj"/></e>
-    <e lm="zakazan"><i>zakaz</i><par n="od/an__comp__adj"/></e>
-    <e lm="zakazan"><p><l>najzakaz</l><r>zakaz</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="zakazan"><p><l>prezakaz</l><r>zakaz</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="zakazan"><i>zakazan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="zakazan"><i>zakazan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="zakazan"><p><l>najzakazan</l><r>zakazan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="zakazan"><p><l>prezakazan</l><r>zakazan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="povećan"><i>poveć</i><par n="od/an__pst__adj"/></e>
-    <e lm="povećan"><i>poveć</i><par n="od/an__comp__adj"/></e>
-    <e lm="povećan"><p><l>najpoveć</l><r>poveć</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="povećan"><p><l>prepoveć</l><r>poveć</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="povećan"><i>povećan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="povećan"><i>povećan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="povećan"><p><l>najpovećan</l><r>povećan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="povećan"><p><l>prepovećan</l><r>povećan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="izabran"><i>izabr</i><par n="od/an__pst__adj"/></e>
-    <e lm="izabran"><i>izabr</i><par n="od/an__comp__adj"/></e>
-    <e lm="izabran"><p><l>najizabr</l><r>izabr</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="izabran"><p><l>preizabr</l><r>izabr</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="izabran"><i>izabran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="izabran"><i>izabran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="izabran"><p><l>najizabran</l><r>izabran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="izabran"><p><l>preizabran</l><r>izabran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="kontinuiran"><i>kontinuir</i><par n="od/an__pst__adj"/></e>
-    <e lm="kontinuiran"><i>kontinuir</i><par n="od/an__comp__adj"/></e>
-    <e lm="kontinuiran"><p><l>najkontinuir</l><r>kontinuir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="kontinuiran"><p><l>prekontinuir</l><r>kontinuir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="kontinuiran"><i>kontinuiran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="kontinuiran"><i>kontinuiran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="kontinuiran"><p><l>najkontinuiran</l><r>kontinuiran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="kontinuiran"><p><l>prekontinuiran</l><r>kontinuiran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="kontinuisan"><i>kontinuis</i><par n="od/an__pst__adj"/></e>
-    <e lm="kontinuisan"><i>kontinuis</i><par n="od/an__comp__adj"/></e>
-    <e lm="kontinuisan"><p><l>najkontinuis</l><r>kontinuis</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="kontinuisan"><p><l>prekontinuis</l><r>kontinuis</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="kontinuisan"><i>kontinuisan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="kontinuisan"><i>kontinuisan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="kontinuisan"><p><l>najkontinuisan</l><r>kontinuisan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="kontinuisan"><p><l>prekontinuisan</l><r>kontinuisan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="zvan"><i>zv</i><par n="od/an__pst__adj"/></e>
-    <e lm="zvan"><i>zv</i><par n="od/an__comp__adj"/></e>
-    <e lm="zvan"><p><l>najzv</l><r>zv</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="zvan"><p><l>prezv</l><r>zv</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="zvan"><i>zvan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="zvan"><i>zvan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="zvan"><p><l>najzvan</l><r>zvan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="zvan"><p><l>prezvan</l><r>zvan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="organiziran"><i>organizir</i><par n="od/an__pst__adj"/></e>
-    <e lm="organiziran"><i>organizir</i><par n="od/an__comp__adj"/></e>
-    <e lm="organiziran"><p><l>najorganizir</l><r>organizir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="organiziran"><p><l>preorganizir</l><r>organizir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="organiziran"><i>organiziran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="organiziran"><i>organiziran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="organiziran"><p><l>najorganiziran</l><r>organiziran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="organiziran"><p><l>preorganiziran</l><r>organiziran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="penzionisan"><i>penzionis</i><par n="od/an__pst__adj"/></e>
-    <e lm="penzionisan"><i>penzionis</i><par n="od/an__comp__adj"/></e>
-    <e lm="penzionisan"><p><l>najpenzionis</l><r>penzionis</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="penzionisan"><p><l>prepenzionis</l><r>penzionis</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="penzionisan"><i>penzionisan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="penzionisan"><i>penzionisan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="penzionisan"><p><l>najpenzionisan</l><r>penzionisan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="penzionisan"><p><l>prepenzionisan</l><r>penzionisan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="planiran"><i>planir</i><par n="od/an__pst__adj"/></e>
-    <e lm="planiran"><i>planir</i><par n="od/an__comp__adj"/></e>
-    <e lm="planiran"><p><l>najplanir</l><r>planir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="planiran"><p><l>preplanir</l><r>planir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="planiran"><i>planiran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="planiran"><i>planiran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="planiran"><p><l>najplaniran</l><r>planiran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="planiran"><p><l>preplaniran</l><r>planiran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="povezan"><i>povez</i><par n="od/an__pst__adj"/></e>
-    <e lm="povezan"><i>povez</i><par n="od/an__comp__adj"/></e>
-    <e lm="povezan"><p><l>najpovez</l><r>povez</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="povezan"><p><l>prepovez</l><r>povez</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="povezan"><i>povezan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="povezan"><i>povezan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="povezan"><p><l>najpovezan</l><r>povezan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="povezan"><p><l>prepovezan</l><r>povezan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="postojan"><i>postoj</i><par n="od/an__pst__adj"/></e>
-    <e lm="postojan"><i>postoj</i><par n="od/an__comp__adj"/></e>
-    <e lm="postojan"><p><l>najpostoj</l><r>postoj</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="postojan"><p><l>prepostoj</l><r>postoj</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="postojan"><i>postojan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="postojan"><i>postojan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="postojan"><p><l>najpostojan</l><r>postojan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="postojan"><p><l>prepostojan</l><r>postojan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="potpisan"><i>potpis</i><par n="od/an__pst__adj"/></e>
-    <e lm="potpisan"><i>potpis</i><par n="od/an__comp__adj"/></e>
-    <e lm="potpisan"><p><l>najpotpis</l><r>potpis</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="potpisan"><p><l>prepotpis</l><r>potpis</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="potpisan"><i>potpisan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="potpisan"><i>potpisan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="potpisan"><p><l>najpotpisan</l><r>potpisan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="potpisan"><p><l>prepotpisan</l><r>potpisan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="prikazan"><i>prikaz</i><par n="od/an__pst__adj"/></e>
-    <e lm="prikazan"><i>prikaz</i><par n="od/an__comp__adj"/></e>
-    <e lm="prikazan"><p><l>najprikaz</l><r>prikaz</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="prikazan"><p><l>preprikaz</l><r>prikaz</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="prikazan"><i>prikazan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="prikazan"><i>prikazan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="prikazan"><p><l>najprikazan</l><r>prikazan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="prikazan"><p><l>preprikazan</l><r>prikazan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="svečan"><i>sveč</i><par n="od/an__pst__adj"/></e>
-    <e lm="svečan"><i>sveč</i><par n="od/an__comp__adj"/></e>
-    <e lm="svečan"><p><l>najsveč</l><r>sveč</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="svečan"><p><l>presveč</l><r>sveč</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="svečan"><i>svečan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="svečan"><i>svečan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="svečan"><p><l>najsvečan</l><r>svečan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="svečan"><p><l>presvečan</l><r>svečan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="formiran"><i>formir</i><par n="od/an__pst__adj"/></e>
-    <e lm="formiran"><i>formir</i><par n="od/an__comp__adj"/></e>
-    <e lm="formiran"><p><l>najformir</l><r>formir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="formiran"><p><l>preformir</l><r>formir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="formiran"><i>formiran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="formiran"><i>formiran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="formiran"><p><l>najformiran</l><r>formiran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="formiran"><p><l>preformiran</l><r>formiran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="umiješan"><i>umiješ</i><par n="od/an__pst__adj"/></e>
-    <e lm="umiješan"><i>umiješ</i><par n="od/an__comp__adj"/></e>
-    <e lm="umiješan"><p><l>najumiješ</l><r>umiješ</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="umiješan"><p><l>preumiješ</l><r>umiješ</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="umiješan"><i>umiješan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="umiješan"><i>umiješan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="umiješan"><p><l>najumiješan</l><r>umiješan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="umiješan"><p><l>preumiješan</l><r>umiješan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="pozvan"><i>pozv</i><par n="od/an__pst__adj"/></e>
-    <e lm="pozvan"><i>pozv</i><par n="od/an__comp__adj"/></e>
-    <e lm="pozvan"><p><l>najpozv</l><r>pozv</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="pozvan"><p><l>prepozv</l><r>pozv</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="pozvan"><i>pozvan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="pozvan"><i>pozvan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="pozvan"><p><l>najpozvan</l><r>pozvan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="pozvan"><p><l>prepozvan</l><r>pozvan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="registriran"><i>registrir</i><par n="od/an__pst__adj"/></e>
-    <e lm="registriran"><i>registrir</i><par n="od/an__comp__adj"/></e>
-    <e lm="registriran"><p><l>najregistrir</l><r>registrir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="registriran"><p><l>preregistrir</l><r>registrir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="registriran"><i>registriran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="registriran"><i>registriran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="registriran"><p><l>najregistriran</l><r>registriran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="registriran"><p><l>preregistriran</l><r>registriran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="registrovan"><i>registrov</i><par n="od/an__pst__adj"/></e>
-    <e lm="registrovan"><i>registrov</i><par n="od/an__comp__adj"/></e>
-    <e lm="registrovan"><p><l>najregistrov</l><r>registrov</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="registrovan"><p><l>preregistrov</l><r>registrov</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="registrovan"><i>registrovan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="registrovan"><i>registrovan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="registrovan"><p><l>najregistrovan</l><r>registrovan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="registrovan"><p><l>preregistrovan</l><r>registrovan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="nominiran"><i>nominir</i><par n="od/an__pst__adj"/></e>
-    <e lm="nominiran"><i>nominir</i><par n="od/an__comp__adj"/></e>
-    <e lm="nominiran"><p><l>najnominir</l><r>nominir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="nominiran"><p><l>prenominir</l><r>nominir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="nominiran"><i>nominiran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="nominiran"><i>nominiran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="nominiran"><p><l>najnominiran</l><r>nominiran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="nominiran"><p><l>prenominiran</l><r>nominiran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="sponzoriran"><i>sponzorir</i><par n="od/an__pst__adj"/></e>
-    <e lm="sponzoriran"><i>sponzorir</i><par n="od/an__comp__adj"/></e>
-    <e lm="sponzoriran"><p><l>najsponzorir</l><r>sponzorir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="sponzoriran"><p><l>presponzorir</l><r>sponzorir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="sponzoriran"><i>sponzoriran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="sponzoriran"><i>sponzoriran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="sponzoriran"><p><l>najsponzoriran</l><r>sponzoriran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="sponzoriran"><p><l>presponzoriran</l><r>sponzoriran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="sponzorisan"><i>sponzoris</i><par n="od/an__pst__adj"/></e>
-    <e lm="sponzorisan"><i>sponzoris</i><par n="od/an__comp__adj"/></e>
-    <e lm="sponzorisan"><p><l>najsponzoris</l><r>sponzoris</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="sponzorisan"><p><l>presponzoris</l><r>sponzoris</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="sponzorisan"><i>sponzorisan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="sponzorisan"><i>sponzorisan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="sponzorisan"><p><l>najsponzorisan</l><r>sponzorisan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="sponzorisan"><p><l>presponzorisan</l><r>sponzorisan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="postojan"><i>postoj</i><par n="od/an__pst__adj"/></e>
-    <e lm="postojan"><i>postoj</i><par n="od/an__comp__adj"/></e>
-    <e lm="postojan"><p><l>najpostoj</l><r>postoj</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="postojan"><p><l>prepostoj</l><r>postoj</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="postojan"><i>postojan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="postojan"><i>postojan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="postojan"><p><l>najpostojan</l><r>postojan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="postojan"><p><l>prepostojan</l><r>postojan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="održan"><i>održ</i><par n="od/an__pst__adj"/></e>
-    <e lm="održan"><i>održ</i><par n="od/an__comp__adj"/></e>
-    <e lm="održan"><p><l>najodrž</l><r>održ</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="održan"><p><l>preodrž</l><r>održ</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="održan"><i>održan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="održan"><i>održan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="održan"><p><l>najodržan</l><r>održan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="održan"><p><l>preodržan</l><r>održan</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="jednostran"><i>jednostr</i><par n="od/an__pst__adj"/></e>
-    <e lm="jednostran"><i>jednostr</i><par n="od/an__comp__adj"/></e>
-    <e lm="jednostran"><p><l>najjednostr</l><r>jednostr</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="jednostran"><p><l>prejednostr</l><r>jednostr</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="jednostran"><i>jednostran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="jednostran"><i>jednostran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="jednostran"><p><l>najjednostran</l><r>jednostran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="jednostran"><p><l>prejednostran</l><r>jednostran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="zakazan"><i>zakaz</i><par n="od/an__pst__adj"/></e>
-    <e lm="zakazan"><i>zakaz</i><par n="od/an__comp__adj"/></e>
-    <e lm="zakazan"><p><l>najzakaz</l><r>zakaz</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="zakazan"><p><l>prezakaz</l><r>zakaz</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="zakazan"><i>zakazan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="zakazan"><i>zakazan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="zakazan"><p><l>najzakazan</l><r>zakazan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="zakazan"><p><l>prezakazan</l><r>zakazan</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="žestok"><i>že</i><par n="že/stok__pst__adj"/></e>
     <e lm="žestok"><i>že</i><par n="že/stok__comp__adj"/></e>
@@ -40372,15 +40372,15 @@
     <e lm="strm"><p><l>najstrm</l><r>strm</r></p><par n="zdrav__sup__adj"/></e>
     <e lm="strm"><p><l>prestrm</l><r>strm</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="motiviran"><i>motivir</i><par n="od/an__pst__adj"/></e>
-    <e lm="motiviran"><i>motivir</i><par n="od/an__comp__adj"/></e>
-    <e lm="motiviran"><p><l>najmotivir</l><r>motivir</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="motiviran"><p><l>premotivir</l><r>motivir</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="motiviran"><i>motiviran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="motiviran"><i>motiviran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="motiviran"><p><l>najmotiviran</l><r>motiviran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="motiviran"><p><l>premotiviran</l><r>motiviran</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="motivisan"><i>motivis</i><par n="od/an__pst__adj"/></e>
-    <e lm="motivisan"><i>motivis</i><par n="od/an__comp__adj"/></e>
-    <e lm="motivisan"><p><l>najmotivis</l><r>motivis</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="motivisan"><p><l>premotivis</l><r>motivis</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="motivisan"><i>motivisan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="motivisan"><i>motivisan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="motivisan"><p><l>najmotivisan</l><r>motivisan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="motivisan"><p><l>premotivisan</l><r>motivisan</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="tup"><i>tup</i><par n="zdrav__pst__adj"/></e>
     <e lm="tup"><i>tup</i><par n="tup__comp__adj"/></e>
@@ -40525,10 +40525,10 @@
     <e lm="zgodan"><p><l>najzgod</l><r>zgod</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="zgodan"><p><l>prezgod</l><r>zgod</r></p><par n="ruž/an__ssup__adj"/></e>
 
-    <e lm="mekan"><i>mek</i><par n="od/an__pst__adj"/></e>
-    <e lm="mekan"><i>mek</i><par n="od/an__comp__adj"/></e>
-    <e lm="mekan"><p><l>najmek</l><r>mek</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="mekan"><p><l>premek</l><r>mek</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="mekan"><i>mekan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="mekan"><i>mekan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="mekan"><p><l>najmekan</l><r>mekan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="mekan"><p><l>premekan</l><r>mekan</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="mek"><i>mek</i><par n="zdrav__pst__adj"/></e>
     <e lm="mek"><i>mek</i><par n="mek__comp__adj"/></e>
@@ -40564,10 +40564,10 @@
     <e lm="lak"><p><l>najlak</l><r>lak</r></p><par n="mek__sup__adj"/></e>
     <e lm="lak"><p><l>prelak</l><r>lak</r></p><par n="zdrav__ssup__adj"/></e>
 
-    <e lm="lagan"><i>lag</i><par n="od/an__pst__adj"/></e>
-    <e lm="lagan"><i>lag</i><par n="od/an__comp__adj"/></e>
-    <e lm="lagan"><p><l>najlag</l><r>lag</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="lagan"><p><l>prelag</l><r>lag</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="lagan"><i>lagan</i><par n="zdrav__pst__adj"/></e>
+    <e lm="lagan"><i>lagan</i><par n="zdrav__comp__adj"/></e>
+    <e lm="lagan"><p><l>najlagan</l><r>lagan</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="lagan"><p><l>prelagan</l><r>lagan</r></p><par n="zdrav__ssup__adj"/></e>
 
     <e lm="blizak"><i>bli</i><par n="u/zak__pst__adj"/></e>
     <e lm="blizak"><i>bli</i><par n="u/zak__comp__adj"/></e>
@@ -53327,10 +53327,10 @@
     <e lm="istočan"><p><l>najistoč</l><r>istoč</r></p><par n="ruž/an__sup__adj"/></e>
     <e lm="istočan"><p><l>preistoč</l><r>istoč</r></p><par n="ruž/an__ssup__adj"/></e>
 	
-    <e lm="reizabran"><i>reizabr</i><par n="od/an__pst__adj"/></e>
-    <e lm="reizabran"><i>reizabr</i><par n="od/an__comp__adj"/></e>
-    <e lm="reizabran"><p><l>najreizabr</l><r>reizabr</r></p><par n="od/an__sup__adj"/></e>
-    <e lm="reizabran"><p><l>prereizabr</l><r>reizabr</r></p><par n="od/an__ssup__adj"/></e>
+    <e lm="reizabran"><i>reizabran</i><par n="zdrav__pst__adj"/></e>
+    <e lm="reizabran"><i>reizabran</i><par n="zdrav__comp__adj"/></e>
+    <e lm="reizabran"><p><l>najreizabran</l><r>reizabran</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="reizabran"><p><l>prereizabran</l><r>reizabran</r></p><par n="zdrav__ssup__adj"/></e>
 
 
 
