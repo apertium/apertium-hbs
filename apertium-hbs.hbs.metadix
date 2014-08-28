@@ -6028,6 +6028,7 @@
       <group alt="hbs">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
 	<e><p><l/><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
       </group>
       <group alt="hbs_BS">
@@ -6037,6 +6038,7 @@
       <group alt="hbs_HR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
       </group>
       <group alt="hbs_SR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
@@ -6047,6 +6049,7 @@
       <group alt="hbs">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
 	<e><p><l/><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
       </group>
       <group alt="hbs_BS">
@@ -6056,6 +6059,7 @@
       <group alt="hbs_HR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
       </group>
       <group alt="hbs_SR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
@@ -6066,6 +6070,7 @@
       <group alt="hbs">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
 	<e><p><l/><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
       </group>
       <group alt="hbs_BS">
@@ -6075,6 +6080,7 @@
       <group alt="hbs_HR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
       </group>
       <group alt="hbs_SR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
@@ -6085,6 +6091,7 @@
       <group alt="hbs">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
 	<e><p><l/><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
       </group>
       <group alt="hbs_BS">
@@ -6094,6 +6101,7 @@
       <group alt="hbs_HR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
       </group>
       <group alt="hbs_SR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
@@ -6104,6 +6112,7 @@
       <group alt="hbs">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
 	<e><p><l/><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
       </group>
       <group alt="hbs_BS">
@@ -6113,6 +6122,7 @@
       <group alt="hbs_HR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
       </group>
       <group alt="hbs_SR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
@@ -6123,6 +6133,7 @@
       <group alt="hbs">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
 	<e><p><l/><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
       </group>
       <group alt="hbs_BS">
@@ -6132,6 +6143,7 @@
       <group alt="hbs_HR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
 	<e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+	<e r="LR" c="sub"><p><l>t</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
       </group>
       <group alt="hbs_SR">
 	<e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
@@ -33663,8 +33675,12 @@
     <e lm="ISAF"><i>ISAF</i><par n="NATO__abbr"/></e>
     <e lm="povišen"><i>povišen</i><par n="zdrav__pst__adj"/></e>
     <e lm="povišen"><i>povišen</i><par n="zdrav__comp__adj"/></e>
-    <e lm="povišen"><i>povišen</i><par n="zdrav__sup__adj"/></e>
-    <e lm="povišen"><i>povišen</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="povišen"><p><l>najpovišen</l><r>povišen</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="povišen"><p><l>prepovišen</l><r>povišen</r></p><par n="zdrav__ssup__adj"/></e>
+    <e lm="pitom"><i>pitom</i><par n="zdrav__pst__adj"/></e>
+    <e lm="pitom"><i>pitom</i><par n="zdrav__comp__adj"/></e>
+    <e lm="pitom"><p><l>najpitom</l><r>pitom</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="pitom"><p><l>prepitom</l><r>pitom</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="pripremljenost"><i>pripremljeno</i><par n="ma/st__n"/></e>
     <e lm="spremnost"><i>spremno</i><par n="ma/st__n"/></e>
     <e lm="poboljšavati"><i>poboljšav</i><par n="imperf_iv_bir/ati__vblex"/></e>
@@ -33819,8 +33835,8 @@
     <e lm="Isacescu"><i>Isacescu</i><par n="Prezime__cog__np"/></e>
     <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__pst__adj"/></e>
     <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__comp__adj"/></e>
-    <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__sup__adj"/></e>
-    <e lm="izgovoren"><i>izgovoren</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="izgovoren"><p><l>najizgovoren</l><r>izgovoren</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="izgovoren"><p><l>preizgovoren</l><r>izgovoren</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="slučajno"><i>slučajno</i><par n="danas__adv"/></e>
     <e lm="dotaknuti"><i>dotakn</i><par n="perf_iv_ukin/uti__vblex"/></e>
     <e lm="dotaknuti"><i>dotakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
@@ -33832,8 +33848,8 @@
     <e lm="prošlost"><i>prošlo</i><par n="ma/st__n"/></e>
     <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__pst__adj"/></e>
     <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__comp__adj"/></e>
-    <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__sup__adj"/></e>
-    <e lm="neostvaren"><i>neostvaren</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="neostvaren"><p><l>najneostvaren</l><r>neostvaren</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="neostvaren"><p><l>preneostvaren</l><r>neostvaren</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="obavljati"><i>obavlj</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="obavljati"><i>obavlj</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="Rumunj"><i>Rumunj</i><par n="lupež__n"/></e>
@@ -33845,8 +33861,8 @@
     <e lm="srušiti"><i>sruš</i><par n="perf_ref_istraž/iti__vblex"/></e>
     <e lm="srušen"><i>srušen</i><par n="zdrav__pst__adj"/></e>
     <e lm="srušen"><i>srušen</i><par n="zdrav__comp__adj"/></e>
-    <e lm="srušen"><i>srušen</i><par n="zdrav__sup__adj"/></e>
-    <e lm="srušen"><i>srušen</i><par n="zdrav__ssup__adj"/></e>
+    <e lm="srušen"><p><l>najsrušen</l><r>srušen</r></p><par n="zdrav__sup__adj"/></e>
+    <e lm="srušen"><p><l>presrušen</l><r>srušen</r></p><par n="zdrav__ssup__adj"/></e>
     <e lm="sjećati"><i>s</i><par n="e_je__yat"/><i>ć</i><par n="imperf_tv_bir/ati__vblex"/></e>
     <e lm="sjećati"><i>s</i><par n="e_je__yat"/><i>ć</i><par n="imperf_ref_bir/ati__vblex"/></e>
     <e lm="prognati"><i>progn</i><par n="imperf_tv_bir/ati__vblex"/></e>
