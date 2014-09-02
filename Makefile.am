@@ -24,6 +24,10 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1a).autogen.bin $(LANG1b).autogen.b
 ## Serbo-Croatian transducer
 ###############################################################################
 
+
+# TODO: due to the <group> element, we can't use lt-comp --alt --var for these, but are stuck with alt.xsl, should turn all <group --alt="x"> into <e alt="x">
+
+# Generators:
 .deps/$(BASENAME).$(LANG1a).dix: $(BASENAME).$(LANG1).metadix .deps/.d
 	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
@@ -45,6 +49,19 @@ $(LANG1c).autogen.bin: .deps/$(BASENAME).$(LANG1c).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
+# Analyser:
+.deps/$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix .deps/.d
+	xsltproc --stringparam alt $(LANG1) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
+
+$(LANG1).automorf.bin: .deps/$(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
+
+
+# att.gz:
+$(LANG1).automorf.att.gz: $(LANG1).automorf.bin
+	lt-print $< | gzip -9 -c > $@
+
 $(LANG1a).autogen.att.gz: $(LANG1a).autogen.bin
 	lt-print $< | gzip -9 -c > $@
 
@@ -54,30 +71,15 @@ $(LANG1b).autogen.att.gz: $(LANG1b).autogen.bin
 $(LANG1c).autogen.att.gz: $(LANG1c).autogen.bin
 	lt-print $< | gzip -9 -c > $@
 
-.deps/$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix .deps/.d
-	xsltproc --stringparam alt $(LANG1) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
-
-$(LANG1).automorf.bin: .deps/$(BASENAME).$(LANG1).dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
-
-$(LANG1).automorf.att.gz: $(LANG1).automorf.bin
-	lt-print $< | gzip -9 -c > $@
-
+# Post-gen:
 $(LANG1a).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
-	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1a).dix
-	apertium-validate-dictionary .deps/post-$(LANG1a).dix
-	lt-comp lr .deps/post-$(LANG1a).dix $@ 
+	lt-comp lr --alt $(LANG1a) --var $(VAR1) $< $@ 
 
 $(LANG1b).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
-	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1b).dix
-	apertium-validate-dictionary .deps/post-$(LANG1b).dix
-	lt-comp lr .deps/post-$(LANG1b).dix $@ 
+	lt-comp lr --alt $(LANG1b) --var $(VAR1) $< $@ 
 
 $(LANG1c).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
-	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR1) alt.xsl $(BASENAME).post-$(LANG1).dix >.deps/post-$(LANG1c).dix
-	apertium-validate-dictionary .deps/post-$(LANG1c).dix
-	lt-comp lr .deps/post-$(LANG1c).dix $@ 
+	lt-comp lr --alt $(LANG1c) --var $(VAR1) $< $@ 
 
 
 ###############################################################################
