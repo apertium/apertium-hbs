@@ -7991,7 +7991,7 @@
       <!--Infinitive-->
       <e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
       <!--Imperative-->
-      <e><p><l>a</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__ji__vblex"/></e> <!-- apparently, the imperative is "daji" -->
+      <e><p><l>a</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
       <!--Present-->
       <e><p><l>a</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
       <!--Imperfect-->
