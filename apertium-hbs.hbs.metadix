@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE dictionary SYSTEM "/usr/share/apertium/dix.dtd">--><dictionary>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE dictionary SYSTEM "/usr/share/apertium/dix.dtd">-->
+<dictionary>
   <alphabet>ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽabcčćddžđefghijklljmnnjoprsštuvwxyzž</alphabet>
   <sdefs>
     <!--POS Categories -->
@@ -33778,6 +33780,8 @@
     <e lm="unapređenje"><i>unapr</i><par n="e_je__yat"/><i>đenj</i><par n="polj/e__n"/></e>
     <e lm="prioritet"><i>prioritet</i><par n="program__n"/></e>
 
+    <e lm="partizan"><i>partizan</i><par n="Škot__n"/></e>
+
     <!-- Midterm -->
     
     <e lm="odisati"><i>odi</i><par n="imperf_tv_pi/sati__vblex"/></e>
@@ -48656,6 +48660,7 @@
     <e lm="zasjeda"><i>zas</i><par n="e_je__yat"/><i>d</i><par n="žen/a__n"/></e>    
     <e lm="afera"><i>afer</i><par n="žen/a__n"/></e>
     <e lm="zora"><i>zor</i><par n="žen/a__n"/></e>
+    <e lm="gora"><i>gor</i><par n="žen/a__n"/></e><!-- CHECK-->
     <e lm="spora"><i>spor</i><par n="žen/a__n"/></e>    
     <e lm="ruža"><i>ruž</i><par n="žen/a__n"/></e>    
     <e lm="prikaza"><i>prikaz</i><par n="žen/a__n"/></e>   
