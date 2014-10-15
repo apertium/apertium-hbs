@@ -93,6 +93,7 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 ## Distribution
 ###############################################################################
 EXTRA_DIST=$(BASENAME).$(LANG1).metadix \
+	   $(BASENAME).cyr-lat.dix \
 	   $(BASENAME).post-$(LANG1).dix  \
 	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).$(LANG1).rlx  \
