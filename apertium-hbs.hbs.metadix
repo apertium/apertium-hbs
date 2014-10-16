@@ -54675,9 +54675,16 @@
 	
   </section>
 
+
+  <section id="regexp" type="standard">
+
+      <e><par n="numeros"/></e>
+
+  </section>
+
+
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>
-    <e><par n="numeros"/></e>
     <e><par n="coma"/></e>
     <e><par n="cometa"/></e>
     <e><par n="paresq"/></e>
