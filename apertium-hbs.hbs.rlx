@@ -1,11 +1,6 @@
 # Authors: Hrvoje Peradin, Francis Tyers
 # email: hperadin@gmail.com
 # =========================================================================== #
-#    Table of contents                                                        #
-# =========================================================================== #
-# TODO: DO
-# =========================================================================== #
-
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 
 SOFT-DELIMITERS = "<,>" ;
@@ -60,9 +55,8 @@ LIST FutureII = futII ;
 LIST Infinitive = inf ; 
 LIST PassiveParticiple = pp ;
 LIST PresParticiple = pprs ;
-LIST Participle = lp opt pprs pp ;
+LIST Participle = lp pprs pp ;
 LIST Aorist = aor ;
-LIST Optative = opt ; 
 LIST Imperative = imp ;
 LIST Intransitive = iv ;
 LIST Transitive = tv ;
@@ -181,6 +175,7 @@ SET S-BOUNDARY = CS | Interr | (n voc) | EOS;
 # =========================================================================== #
 
 SECTION
+
 REMOVE:NotInterjection Interjection (NOT 1* ("<!>") BARRIER EOS);
     ## Interjections should have an exclamation mark
 
@@ -196,7 +191,7 @@ REMOVE:jeIsNotGenitive Gen IF (0C ("<je>")) (NOT -1 VBHaver );
 REMOVE:jeIsNotAccusative Acc IF (0 ("<je>")) (NOT -1 V + Transitive ) (NOT 1* V + Transitive BARRIER EOS);
 REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>"))  (1 Pron + Acc) ;  
     ## je is not a pronoun if there's already a pronoun before it
-REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>"))  (1 Lp OR Optative) ;
+REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>"))  (1 Lp) ;
     ## je is not a pronoun if it's before a participle.
 ## REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>")) (NOT -1 V + Transitive) (NOT 1* V + Transitive BARRIER MARK) ;
     ## je is not a pronoun in accusative if it's not an argument of a transitive verb. True, but not when formulated like this.
@@ -218,15 +213,9 @@ REMOVE:vbserORvblex VBLex IF (0 VBSer OR VBLex) (NEGATE -1* (Nomen + Acc LINK 1 
 SELECT VBSer IF (-1* Lp );
 SELECT VBSer IF (1* Lp BARRIER V - Lp - PresParticiple );
 
-SELECT:PerfectNotOptative Lp (0C Lp OR Optative) (-1* VBSer BARRIER BOS) ;
-SELECT:PerfectNotOptative Lp (0C Lp OR Optative) (1* VBSer BARRIER EOS) ;
-SELECT:PerfectNotOptative Lp (0C Lp OR Optative) (-1 MeTeSePron) ;
-SELECT:PerfectNotOptative Lp (0C Lp OR Optative) (1 MeTeSePron) ;    
-    ## These are all ways how perfect can be made    
+SELECT:l-participleNumber $$NUMBER (0C Lp) ( (-1* VBSer + $$NUMBER BARRIER BOS) OR  (1* VBSer + $$NUMBER BARRIER EOS) );
 
-SELECT:l-participleNumber $$NUMBER (0C Lp OR Optative) ( (-1* VBSer + $$NUMBER BARRIER BOS) OR  (1* VBSer + $$NUMBER BARRIER EOS) );
-
-SELECT:LpAfterNumber Lp (0C Lp OR Optative) (-1* Num BARRIER BOS);
+SELECT:LpAfterNumber Lp (0C Lp) (-1* Num BARRIER BOS);
 
 SELECT:NeuterAdjectiveIsAdverb Adv IF (0 A-OR-ADV + Neuter ) ( 1C V ) ;
 SELECT Adv (0 ("<samo>"i) ) (1C ("<da>"i) + Particle ) ;
@@ -332,7 +321,7 @@ SELECT Masculine IF (0 Cog + ("<Stanković>") ) ;
 ###################################################
 
 # pas==dog pâs == waist
-SELECT Animate (0 ("pas"i) + Nom);
+SELECT Animate (0 ("pas"i) + Nom); ## TODO: this is I think a heuristic
     
 # =========================================================================== #
 #   PP disambiguation                                                         #
@@ -349,7 +338,7 @@ SELECT Animate (0 ("pas"i) + Nom);
 # The easiest one, if it comes' after an adverb it's partitive:
 SELECT:AdvB4Partitive Adv (1 (@PAR) ) ;
 
-# Preposition based case disambiguation:
+# Preposition based case disambiguation (This section are some really exact rules):
 REMOVE:PrepositionCase KEEPORDER Pr + $$CASE (1 Nomen - $$CASE) (NOT 1 Nomen + $$CASE)
 REMOVE:PrepositionCase KEEPORDER Pr + $$CASE (2 Nomen - $$CASE) (NOT 2 Nomen + $$CASE) (1 Skippable)
 REMOVE:PrepositionCase KEEPORDER Nomen + $$CASE (-1 Pr - $$CASE) (NOT -1 Pr + $$CASE)
@@ -361,22 +350,23 @@ REMOVE:ModifierCase Nomen + $$CASE (-2 Modifier - $$CASE) (NOT -2 Modifier + $$C
 REMOVE:ModifierCase Modifier + $$CASE (1 Nomen - $$CASE - Clt) (NOT 1 Nomen + $$CASE - Clt) 
 REMOVE:ModifierCase Modifier + $$CASE (2 Nomen - $$CASE - Clt) (NOT 2 Nomen + $$CASE - Clt) (1 Skippable)
 
-
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
 SELECT Gen IF (0 Num) (-1C ("<prije>"i) + Pr);
 
+## TODO: [Check and delete or update]
+# Old rules, written before we started marking cases on the prepositions
 SELECT:NumberChainIns Gen (0 Num) (-1* GEN-PREP BARRIER WORD - Modifier) ;
 SELECT:NumberChainIns Dat (0 Num) (-1* DAT-PREP BARRIER WORD - Modifier) ;
 SELECT:NumberChainIns Acc (0 Num) (-1* ACC-PREP BARRIER WORD - Modifier) ;
 SELECT:NumberChainIns Loc (0 Num) (-1* LOC-PREP BARRIER WORD - Modifier) ;
 SELECT:NumberChainIns Ins (0 Num) (-1* INS-PREP BARRIER WORD - Modifier) ;
-    ## TODO: Expand this for all cases, currently they don't appear
-
-
+## TODO: [/Check and delete or update]
 
 SELECT:Modifier-Nom Nom IF (-1C Modifier + Nom);
 SELECT:Modifier-Clt-Nom Nom IF (-1 Pron + Clt) (-2C Modifier + Nom);
 
+# TODO: Check and delete or update, this should be covered by the PrepositionCase rules, or written as their extension
+# Locative prepositional phrase skips conjunctions, example: Na<pr><loc> nebu<n><loc> i<cnj> zemlji<n><loc>
 # SELECT:Pr-Loc-pristanek Loc IF (-2 ("pristanek"))(-1C ("na") OR Modifier + Loc);
 	## … in pristanku na Zemlji.
 	# To be generalized… see also the "agree" meaning :-/
@@ -385,32 +375,29 @@ SELECT:Modifier-Clt-Nom Nom IF (-1 Pron + Clt) (-2C Modifier + Nom);
 SELECT Singular + Gen ((1* DualNum BARRIER (*) - Modifier) OR (-1* DualNum BARRIER (*) - Modifier))
 SELECT Plural + Gen ((1C* PluralNum BARRIER (*) - Modifier) OR (-1C* PluralNum BARRIER (*) - Modifier))
 
-
-	
+# TODO: [Check and delete]
+# These rules have been compressed and replaced by ModifierCase and PrepositionCase group above
 #SELECT:Pr-Acc-chain Acc IF (-1C ACC-PREP OR Modifier + Acc);
 #SELECT:Pr-Acc-chain Acc IF (-2C Nomen + Acc) (-1C CNJ);
 #SELECT:Pr-Acc-chain Acc IF (-2*C Nomen + Acc BARRIER WORD - Adv - CNJ) (-1C CNJ);
 #SELECT:Pr-Acc-Clt-chain Acc IF (-1 Pron + Clt OR Num)(-2C ACC-PREP OR Modifier + Acc);
-
 #SELECT:Pr-Gen-chain Gen IF (-1C GEN-PREP OR Modifier + Gen);
 #SELECT:Pr-Gen-chain Gen IF (-2C Nomen + Gen) (-1C CNJ);
 #SELECT:Pr-Gen-chain Gen IF (-2*C Nomen + Gen BARRIER WORD - Adv - CNJ) (-1C CNJ);
 #SELECT:Pr-Gen-Clt-chain Gen IF (-1 Pron + Clt OR Num)(-2C GEN-PREP OR Modifier + Gen);
-
 #SELECT:Pr-Dat-chain Dat IF (-1C DAT-PREP OR Modifier + Dat);
 #SELECT:Pr-Dat-chain Dat IF (-2C Nomen + Dat)(-1C CNJ);
 #SELECT:Pr-Dat-chain Dat IF (-2*C Nomen + Dat BARRIER WORD - Adv - CNJ) (-1C CNJ);
 #SELECT:Pr-Dat-Clt-chain Dat IF (-1 Pron + Clt OR Num)(-2C DAT-PREP OR Modifier + Dat);
-
 #SELECT:Pr-Loc-chain Loc IF (-1C LOC-PREP OR Modifier + Loc);
 #SELECT:Pr-Loc-chain Loc IF (-2C Nomen + Loc)(-1C CNJ);
 #SELECT:Pr-Loc-chain Loc IF (-2*C Nomen + Loc BARRIER WORD - Adv - CNJ) (-1C CNJ);
 #SELECT:Pr-Loc-Clt-chain Loc IF (-1 Pron + Clt OR Num)(-2C LOC-PREP OR Modifier + Loc);
-
 #SELECT:Pr-Ins-chain Ins IF (-1C INS-PREP OR Modifier + Ins);
 #SELECT:Pr-Ins-chain Ins IF (-2C Nomen + Ins)(-1C CNJ);
 #SELECT:Pr-Ins-chain Ins IF (-2*C Nomen + Ins BARRIER WORD - Adv - CNJ) (-1C CNJ); # Note and possibly TODO: Adv is here only because of 'kao<adv> i<cnjcoo>', but probably it should be a compound conjunction
 #SELECT:Pr-Ins-Clt-chain Ins IF (-1 Pron + Clt OR Num)(-2C INS-PREP OR Modifier + Ins);
+# TODO: [/Check and delete]
 
 SELECT:Ant+Cog $$NUMBER + $$GENDER + $$CASE IF (-1 Ant + $$NUMBER + $$GENDER + $$CASE ) (0 Cog + $$NUMBER + $$GENDER + $$CASE ) ;
 SELECT:Cog+Ant $$NUMBER + $$GENDER + $$CASE IF (1 Ant + $$NUMBER + $$GENDER + $$CASE ) (0 Cog + $$NUMBER + $$GENDER + $$CASE ) ;
@@ -563,6 +550,9 @@ SELECT Toponim + $$CASE IF (0C Toponim) (-1 CC LINK -1 Toponim + $$CASE) (-3 Cm 
 ##   Syntactic function labelling                                              #
 ## =========================================================================== #
 #
+# NOTE: 
+# This section is mostly composed of rudimentary
+#
 #LIST @N← = @N← ; # Modifier of noun to the left
 #LIST @→N = @→N ; # Modifier of noun to the right 
 #LIST @A← = @A← ; # Modifier of adjective to the left
@@ -580,7 +570,6 @@ SELECT Toponim + $$CASE IF (0C Toponim) (-1 CC LINK -1 Toponim + $$CASE) (-3 Cm 
 #
 #MAP:NounModPoss ( @→N ) TARGET PosPron (1C N) ;
 #
-## TODO: These rules are just rudimentary
 #MAP:NounModA ( @→N ) TARGET A + $$CASE (1*C N + $$CASE BARRIER WORD - N - A ) ;
 #MAP:NModA ( @→A ) TARGET A + $$CASE (1*C A + $$CASE BARRIER WORD - N - A ) ;
 #MAP:PrModN ( @→N ) TARGET Pr (1*C N BARRIER WORD - N - A ) ; 
