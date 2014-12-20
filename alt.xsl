@@ -24,24 +24,23 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
   <xsl:param name="alt"/>
   <xsl:param name="var"/>
 
-  <xsl:template match="/">
-    <xsl:apply-templates select="@*|node()"/>
-  </xsl:template>
-  
+  <!-- For the e element ignore the lang attribute, output everything else -->
   <xsl:template match="e">
     <e>
-      <xsl:apply-templates select="@*[name()!='lang']" /><!-- Ignore the e/@lang attribute, it's metadix only -->
+      <xsl:apply-templates select="@*[name()!='lang']" />
       <xsl:apply-templates select="node()" />
     </e>
   </xsl:template>
-  
+
+  <!-- Do not output the group tag, output contents only if it has the right var/alt parameter -->
   <xsl:template match="group">
     <xsl:if test="(./@var and @var=$var) or (./@alt and @alt=$alt)">
       <xsl:apply-templates select="node()"/>
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="@*|node()">
+  <!-- Identity transform -->
+  <xsl:template match="/|@*|node()">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
