@@ -33,7 +33,7 @@
       <xsl:value-of select="string('&lt;')"/> <!-- -->
       <xsl:value-of select="local-name(.)"/> <!-- --> 
       <xsl:for-each select="./@*"> <!-- for each of the attributes? --> 
-        <xsl:if test="not(local-name(.)=string('alt')) and not(local-name(.)=string('var'))"> <!-- if the attribute is not alt/var -->
+          <xsl:if test="not(local-name(.)=string('lang') and name(..)=string('e')) and not(local-name(.)=string('alt')) and not(local-name(.)=string('var'))"> <!-- if the attribute is not alt/var, and not e/@lang -->
           <xsl:value-of select="string(' ')"/> <!-- -->
           <xsl:value-of select="local-name(.)"/> <!-- -->
           <xsl:value-of select="string('=&quot;')"/> <!-- -->
