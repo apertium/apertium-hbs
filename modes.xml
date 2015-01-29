@@ -47,5 +47,19 @@
     </pipeline>
   </mode>
 
+  <mode name="hbs-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hbs.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="hbs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="hbs.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 </modes>

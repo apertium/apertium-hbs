@@ -15,4 +15,5 @@
 /apertium-hbs.post-hbs.dix -text
 /autogen.sh -text
 /configure.ac -text
+/hbs.prob -text svneol=unset#unset
 /modes.xml -text
