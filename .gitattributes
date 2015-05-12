@@ -11,9 +11,18 @@
 /apertium-hbs.hbs.acx -text
 /apertium-hbs.hbs.metadix -text
 /apertium-hbs.hbs.rlx -text
+/apertium-hbs.hbs.tsx -text
 /apertium-hbs.pc.in -text
 /apertium-hbs.post-hbs.dix -text
 /autogen.sh -text
 /configure.ac -text
+/hbs-supervised.make -text
+hbs-tagger-data/hbs.crp -text
+hbs-tagger-data/hbs.crp.txt -text
+hbs-tagger-data/hbs.dic -text
+hbs-tagger-data/hbs.tagged -text
+hbs-tagger-data/hbs.tagged.txt -text
+hbs-tagger-data/hbs.untagged -text
+hbs-tagger-data/sentencize.py -text
 /hbs.prob -text svneol=unset#unset
 /modes.xml -text
