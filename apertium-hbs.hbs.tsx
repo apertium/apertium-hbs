@@ -2985,6 +2985,21 @@
   <def-label name="prn.ref.pers.mfn.sp.loc" closed="true">
     <tags-item tags="prn.ref.pers.mfn.sp.loc"/>
   </def-label>
+  <def-label name="prn.ref.clt.pers.mfn.sp.acc" closed="true">
+    <tags-item tags="prn.ref.clt.pers.mfn.sp.acc"/>
+  </def-label>
+  <def-label name="prn.ref.clt.pers.mfn.sp.dat" closed="true">
+    <tags-item tags="prn.ref.clt.pers.mfn.sp.dat"/>
+  </def-label>
+  <def-label name="prn.ref.clt.pers.mfn.sp.gen" closed="true">
+    <tags-item tags="prn.ref.clt.pers.mfn.sp.gen"/>
+  </def-label>
+  <def-label name="prn.ref.clt.pers.mfn.sp.ins" closed="true">
+    <tags-item tags="prn.ref.clt.pers.mfn.sp.ins"/>
+  </def-label>
+  <def-label name="prn.ref.clt.pers.mfn.sp.loc" closed="true">
+    <tags-item tags="prn.ref.pers.mfn.sp.loc"/>
+  </def-label>  
   <def-label name="prn.ref.pos.f.pl.acc" closed="true">
     <tags-item tags="prn.ref.pos.f.pl.acc"/>
   </def-label>
@@ -4021,6 +4036,9 @@
   <def-label name="num" closed="true">
     <tags-item tags="num"/>
   </def-label>
+  <def-label name="abbr" closed="false">
+    <tags-item tags="abbr"/>
+  </def-label>  
   <def-label name="abbr.acc" closed="false">
     <tags-item tags="abbr.acc"/>
   </def-label>
@@ -5911,7 +5929,343 @@
   <def-label name="NUMERAL" closed="true">
     <tags-item tags="num.*"/>
   </def-label>       
-  
+
+  <def-mult name="abbr+adj.f.pl.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.acc"/>
+    </sequence>
+  </def-mult> 
+  <def-mult name="abbr+adj.f.pl.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.pl.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.pl.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.pl.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.pl.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.pl.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.pl.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.f.sg.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.f.sg.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.pl.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.pl.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.ma.sg.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.ma.sg.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.pl.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.pl.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.mi.sg.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.mi.sg.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.pl.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.pl.voc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.acc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.acc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.dat" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.dat"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.gen" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.gen"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.ins" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.ins"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.loc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.loc"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.nom" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.nom"/>
+    </sequence>
+  </def-mult>
+  <def-mult name="abbr+adj.nt.sg.voc" closed="false">
+    <sequence>
+      <tags-item tags="abbr"/>
+      <tags-item tags="adj.nt.sg.voc"/>
+    </sequence>
+  </def-mult>  
   <def-mult name="np.ant.f+adj.f.pl.acc" closed="false">
     <sequence>
       <tags-item tags="np.ant.f"/>
