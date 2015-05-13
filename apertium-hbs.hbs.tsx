@@ -5920,12 +5920,18 @@
   <def-label name="vbser.inf" closed="true">
     <tags-item tags="vbser.inf"/>
   </def-label>  
+<!-- 
   <def-label name="VOCATIVE" closed="false">
     <tags-item tags="*.voc.*"/>
   </def-label>
   <def-label name="NOMINATIVE" closed="false">
     <tags-item tags="*.nom.*"/>
-  </def-label>    
+  </def-label>    RETRAIN FOR COMPARISON PURPOSES and then write coarser tags if nothing happens 
+  nouns not taking into account gender and number, but taking into account case
+  adjectives the same
+  n.*.nom - for all cases; adj as well; pronouns as well? (prn.type.*.case)
+  so general rule: ignore (.*.) number and gender - in vb.pp and numerals and pronouns and abbreviations and proper nouns (but leave type) 
+  -->
   <def-label name="NUMERAL" closed="true">
     <tags-item tags="num.*"/>
   </def-label>       
@@ -9436,6 +9442,7 @@
   </def-mult>
 </tagset>
 
+<!--
 <forbid>
   <label-sequence>
     <label-item label="pr"/>
@@ -9446,7 +9453,7 @@
     <label-item label="VOCATIVE"/>
   </label-sequence>  
 </forbid>
-
+-->
 <enforce-rules>
   <enforce-after label="num">
     <label-set>
@@ -9461,5 +9468,10 @@
     </label-set>
   </enforce-after>
 </enforce-rules>
+
+<preferences>
+  <prefer tags="n.*.nom"/>
+  <prefer tags="adj.*.nom.*"/>
+</preferences>
 
 </tagger>

@@ -5022,8 +5022,6 @@
 ^naveo/navesti<vblex><perf><tv><lp><m><sg>$
 ^kao/kao<pr><gen>$
 ^jedan/jedan<num><mi><sg><nom>$
-^jedan/jedan<num><mi><sg><acc>$
-^jedan/jedan<num><mi><sg><voc>$
 ^od/od<pr><gen>$
 ^glavnih/glavni<adj><pst><mi><pl><gen><def>$
 ^prioriteta/prioritet<n><mi><pl><gen>$
@@ -5209,8 +5207,6 @@
 ^parlamentu/parlament<n><mi><sg><loc>$
 
 ^Jedan/jedan<num><mi><sg><nom>$
-^Jedan/jedan<num><mi><sg><acc>$
-^Jedan/jedan<num><mi><sg><voc>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^opozicijski/opozicijski<adj><pst><mi><sg><nom><def>$
 ^zakonodavac/zakonodavac<n><ma><sg><nom>$
@@ -7939,8 +7935,7 @@
 ^postojao/postojati<vblex><imperf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^još jedan/još jedan<adv>$
-^jedan/jedan<num><mi><sg><acc>$
-^jedan/jedan<num><mi><sg><voc>$
+^jedan/jedan<num><mi><sg><nom>$
 ^kandidat/kandidat<n><ma><sg><nom>$
 ^-/-<guio>$
 ^-/-<guio>$
@@ -8854,8 +8849,6 @@
 ^mjeseca/mjesec<n><mi><sg><gen>$
 ^očekuje/očekivati<vblex><imperf><tv><pres><p3><sg>$
 ^još jedan/još jedan<adv>$
-^jedan/jedan<num><mi><sg><acc>$
-^jedan/jedan<num><mi><sg><voc>$
 ^krug/krug<n><mi><sg><nom>$
 ^razgovora/razgovor<n><mi><pl><gen>$
 ^o/o<pr><loc>$
@@ -12494,8 +12487,6 @@
 ^pitanju/pitanje<n><nt><sg><loc>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^jedan/jedan<num><mi><sg><nom>$
-^jedan/jedan<num><mi><sg><acc>$
-^jedan/jedan<num><mi><sg><voc>$
 ^od/od<pr><gen>$
 ^najstarijih/star<adj><sup><mi><pl><gen>$
 ^mamuta/mamut<n><ma><pl><gen>$
@@ -13727,8 +13718,6 @@
 ^srbijanskog/srbijanski<adj><pst><nt><sg><gen><def>$
 ^gospodarstva/gospodarstvo<n><nt><sg><gen>$
 ^jedan/jedan<num><mi><sg><nom>$
-^jedan/jedan<num><mi><sg><acc>$
-^jedan/jedan<num><mi><sg><voc>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^od/od<pr><gen>$
 ^glavnih/glavni<adj><pst><ma><pl><gen><def>$
@@ -17596,9 +17585,8 @@
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^razbijena/razbiti<vblex><perf><tv><pp><nt><pl><nom><def>$
 ^jedan/jedan<num><mi><sg><nom>$
-^jedan/jedan<num><mi><sg><acc>$
-^jedan/jedan<num><mi><sg><voc>$
 ^ili/ili<cnjcoo>$
+^dva/dva<num><mi><sg><nom>$
 ^prozora/prozor<n><mi><pl><gen>$
 ^,/,<cm>$
 ^te/te<cnjcoo>$
