@@ -3838,6 +3838,102 @@
   <def-label name="vblex.perf.tv.pii" closed="false">
     <tags-item tags="vblex.perf.tv.pii.*"/>
   </def-label>
+  <def-label name="vblex.imperf.tv.pp.ma.sg.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.ma.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.ma.sg.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.ma.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.ma.sg.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.ma.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.ma.sg.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.ma.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.mi.sg.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.mi.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.mi.sg.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.mi.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.mi.sg.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.mi.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.mi.sg.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.mi.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.ma.pl.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.ma.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.ma.pl.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.ma.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.ma.pl.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.ma.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.ma.pl.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.ma.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.mi.pl.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.mi.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.mi.pl.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.mi.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.mi.pl.voc" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.mi.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.imperf.tv.pp.sfx.mi.pl.nom" closed="false">
+    <tags-item tags="vblex.imperf.tv.pp.sfx.mi.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.ma.sg.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.ma.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.ma.sg.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.ma.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.ma.sg.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.ma.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.ma.sg.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.ma.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.mi.sg.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.mi.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.mi.sg.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.mi.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.mi.sg.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.mi.sg.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.mi.sg.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.mi.sg.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.ma.pl.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.ma.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.ma.pl.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.ma.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.ma.pl.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.ma.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.ma.pl.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.ma.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.mi.pl.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.mi.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.mi.pl.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.mi.pl.nom.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.mi.pl.voc" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.mi.pl.voc.*"/>
+  </def-label>  
+  <def-label name="vblex.perf.tv.pp.sfx.mi.pl.nom" closed="false">
+    <tags-item tags="vblex.perf.tv.pp.sfx.mi.pl.nom.*"/>
+  </def-label>  
   <def-label name="vblex.perf.tv.pp.f.pl" closed="false">
     <tags-item tags="vblex.perf.tv.pp.f.pl.*"/>
   </def-label>
