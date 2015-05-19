@@ -1,0 +1,916 @@
+# Copyright (C) 2012 Hrvoje Peradin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Based on the CG used in the apertium-sh-mk language pair for
+# the Apertium platform.
+# Disambiguation rules have been developed and tested on a set of
+# independent sentences, so in general rules do not span across
+# multiple sentences.
+
+#=============================================================================================================#
+# Legend:
+#   [H] - Heuristic rule
+#   [Mod] - Modifies the morphological analyser output, analyser dependent
+#   @ - syntactic tag prefix
+#   ¢ - morphological tag prefix
+#=============================================================================================================#
+
+DELIMITERS = ("<.>" sent) "<!>" "<?>" "<...>" "<¶>" ;
+# Bad juju:PARENTHESES = ( "<unk>"i "<unk>"i);
+
+SOFT-DELIMITERS = "<,>" ;
+
+SETS
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+LIST Noun = n np ;
+LIST NounProper = np ;
+LIST NounCommon = n ;
+LIST Adj = adj ;
+LIST Verb = vblex vbcop vbaux vbhaver vbmod ;
+LIST VBLex = vblex ;
+LIST VBAux = vbaux ;
+LIST Copula = vbcop ;
+LIST Adverb = adv ;
+LIST Numeral = num ;
+LIST Cardinal = crd ;
+LIST Ordinal = ord ;
+LIST Pronoun = prn ;
+LIST Demonstrative = dem ;
+LIST Personal = pers ;
+LIST Reflexive = ref rfx ;
+LIST RefPers = refpers;
+LIST Possesive = pos ;
+LIST Particle = part ;
+LIST Preposition = pr ;
+LIST CS = cnj sub ;
+LIST CC = cnj coo ;
+LIST Conjunction = cnj coo sub ;
+LIST Interrogative = itg ;
+LIST Affirmative = aff ;
+LIST Negative = neg ;
+LIST Interjection = ij ;
+LIST Cm = "," cm ;
+
+#===========================================================================#
+
+LIST Clitic = clt ;
+LIST L-Participle = lp (pp pres);
+LIST Infinitive = inf ;
+LIST PassiveParticiple = pp ;
+LIST PresentParticiple = pprs ;
+LIST Participle = lp pprs pp pst pres;
+LIST PrilogProsli = pst ; # Glagolski prilog prošli
+LIST PrilogSadasnji = pres; # Glagolski prilog sadašnji
+LIST Aorist = aor ;
+LIST Imperative = imp ;
+LIST Intransitive = iv ;
+LIST Transitive = tv;
+LIST Relative = rel ;
+LIST Totalising = tot ;
+LIST Imperative = imp ;
+LIST Definite = def ;
+LIST Indefinite = ind ¢IND ;
+
+LIST ProblemPronouns = "onaj"i "oni"i "on"i "ovaj"i "taj"i "takav"i
+
+LIST Masculine = m ma mi ;
+LIST Feminine = f ;
+LIST Neuter = nt ;
+
+LIST MFN = mfn ;
+
+LIST Singular = sg ;
+LIST Plural = pl ;
+
+LIST Antroponym = ant ;
+LIST Cogname = cog ;
+LIST ProperNoun = np ;
+
+# Words that have Gender, Number and Case:
+LIST Nomen = cog n np prn adj num;
+
+# Animacy
+LIST Animate = ma ;
+LIST Inanimate = mi ;
+
+# Cases:
+LIST Nominative = nom ;
+LIST Genitive = gen ;
+LIST Dative = dat ;
+LIST Accusative = acc ;
+LIST Vocative = voc ;
+LIST Locative = loc ;
+LIST Instrumental = ins ;
+
+# All parts of speech:
+LIST POS = n np vblex vbaux vbmod vbcop adj pr prn adv cnj ij num ;
+
+#===========================================================================#
+# The lemmas of numbers that act dually
+SET UnaryNum = ("[0-9]*[02-9]?1"r) + Cardinal; # 'Jedan' is excluded because it is already being treated as an adjective
+SET DualNum = ("dva"i "tri"i "četiri"i) + Cardinal ; # TODO: Expand with regexen
+SET PluralNum = Numeral + Cardinal - DualNum ;
+
+#===========================================================================#
+
+LIST Gender = ma mi f nt mf mfn m ;
+LIST Number = sg pl sp ;
+LIST Case = nom gen dat acc ins loc voc ;
+LIST Case-G = nom dat acc ins loc voc ;
+LIST Padez = nom gen dat acc ins loc voc tupko ; # tupko - dummy tag, so that the CG doesn't see these two sets as aliases
+#LIST FIN-TEMPS = pres aor ipf ;
+
+LIST RelativePronoun = "tko"i "što"i "koji"i "kakav"i "čiji"i ;
+
+LIST Sentence = sent ;
+
+#===========================================================================#
+
+#SET V-FIN = FIN-TEMPS + V ;
+
+SET Adjective = Adj - Pronoun ;  # This is analyser specific, since some pronouns are marked as adjectives
+
+# All possible Word categories
+SET Word = Noun | Verb | Adjective | Preposition | Pronoun | Adverb | Conjunction | Interjection | Numeral | ("\?") ;
+
+# Categories that can come before the head noun in an Noun Phrase
+SET PRE-N = Adjective | Numeral | (n gen) | (prn gen) | CC | Pronoun + Demonstrative ;
+SET Modifier = Adjective | Numeral | Pronoun + Demonstrative | Pronoun + Possesive | Pronoun + Indefinite ; # Words that agree in Case, Number, Gender with the following Word.
+	# (differs from PRE-N in that it always agrees with the headWord)
+SET NOT-Modifier = Word - Modifier ;
+
+SET Mark = Cm | ("\\") | ("\ ;") | ("!") | ("?") | ("!?") | ("?!") | (lqt) | (rqt) | (fxq);
+
+SET WordMark = Word | Mark ; # ??
+
+SET CardNum = Numeral + Cardinal ;
+SET OrdNum = Numeral + Ordinal ;
+
+# Categories which cannot be part of a noun phrase
+SET NPNH = WordMark - PRE-N ;
+SET NPNHA = WordMark - PRE-N - Adverb ;
+SET NOT-ADV = WordMark - Adverb ;
+
+# Phrase member sets, and complements
+SET NP-MEMBER = PRE-N | Noun | Pronoun ;
+SET PP-MEMBER = NP-MEMBER | Preposition ;
+
+SET NOT-NP-MEMBER = WordMark - NP-MEMBER ;
+SET NOT-PP-MEMBER = WordMark - PP-MEMBER ;
+
+# Categories which can be the head of a noun phrase
+SET NP-HEAD = Noun | Pronoun | ProperNoun ;
+
+SET Clause-Boundary = CS | Noun + Vocative | EOS | BOS | Cm ;
+
+SET NP-Boundary = Word - Nomen - Conjunction - Cm - Clitic ;
+
+SET nonCaseNumeral = Numeral - Case ;
+
+#SET NOT-NumPhraseC = Word - Modifier - Case - Number - Gender ;
+SET NOT-NumPhraseC = Word - Modifier ;
+
+SET VerbFinite = Verb - Infinitive - PrilogProsli - PrilogSadasnji;
+
+SET Conditional = ("biti"i) + Copula + Aorist ; 
+
+# Common ambiguities:
+SET Adv-OR-Adj = Adverb | Adjective ;
+
+# Quantitative adverbs encountered in the workset
+SET QuantitativeAdverb = ("<imalo>"i) | ("<koliko>"i) | ("<kolikogod>"i) | ("<malo>"i) | ("<mnogo>"i) | ("<nedovoljno>"i) | ("<nekoliko>"i) | ("<nimalo>"i) | ("<odveć>"i) | ("<onoliko>"i) | ("<pola>"i) |  ("<puno>"i); 
+# ("<premalo>"i) | ("<previše>"i) | ("<podjednako>"i) # These do not work
+SET QuantitativeAdverbPlural =  ("<nekoliko>"i) ;
+
+# |Rules| #
+
+BEFORE-SECTIONS
+#=============================================================================================================#
+# [Cleanup and modifications of analyser output]:
+# [Mod]
+#=============================================================================================================#
+
+# The rules in this section are specific to the morphological analyser
+# used. Some of them can be reused universally, and other are just to
+# clean-up analyser artifacts.
+
+# Conversion of cardinal numbers that are followed by a non-sentence ending dot into ordinal numbers
+#SUBSTITUTE:[Mod]Theres_aDot_isOrdinalAppendDot ("<\\d+>"r) ("<$1.>"v)  TARGET CardNum IF (1C ("." fxq) - Sentence)
+SUBSTITUTE:[Mod]Theres_aDot_isOrdinal (crd) (ord) TARGET CardNum IF (1C ("." fxq) - Sentence)
+# Cleanup the cohort, so that it doesn't get in the way later
+REMCOHORT:[Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 OrdNum )
+
+
+# Conversion of numbers that behave like adjectives into adjectives:
+# The number 'jedan':
+# Remove the caseless analysis, since we are seeing it as an adjective:
+REMOVE:[Mod]JedanAsAdjective Numeral - Case (0 ("jedan"i num crd ltr) ) ; 
+SUBSTITUTE:[Mod]JedanAsAdjective (num crd) (adj) TARGET ("jedan"i num crd) ; #
+
+# Cleanup of imperfectivity and transitivity for htjeti as vbaux ("ću, ćeš, će, ćemo, ćete, će")
+# [Since it's just the auxilliary verb for making a future tense, and does not receive a real object in accusative]
+REMOVE:[Mod]VBAux_Cleanup Intransitive (0C ("htjeti"i vbaux)) ;
+SUBSTITUTE:[Mod]VBAux_Cleanup (tv) (*) TARGET ("htjeti"i vbaux) ;
+SUBSTITUTE:[Mod]VBAux_Cleanup (iv) (*) TARGET ("htjeti"i vbaux) ;
+SUBSTITUTE:[Mod]VBAux_Cleanup (imperf) (*) TARGET ("htjeti"i vbaux) ;	
+SUBSTITUTE:[Mod]VBAux_Cleanup (vbaux) (vbaux clt) TARGET ("htjeti"i vbaux) ;
+	
+# Most adjective definite/indefinite forms are identical,
+# the difference is either semantic or predicative/non-predicative
+# Predicative vs. non-predicative needs to be resolved semantically
+# Give adjective readings not containing the Mark 'def' the reading ind,
+# this is to make things easier later:
+ADD:[Mod]definite/indefinite? (¢IND) TARGET Adjective - Definite - (def?)
+	
+# Substitute the definite reading with the def? where
+# there is the (non-morphological) def/ind ambiguity:
+# The $$Gender+$$Number+$$Case element is quite important,
+# since the rule mustn't cut out all indefinite readings,
+# but just the ones with the GenNumCase ambiguity:
+SUBSTITUTE:[H][Mod]definite/indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
+	
+# Remove all the indefinite readings from the def?/ind ambiguity
+REMOVE:[H][Mod]definite/indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
+		(0 Adjective + $$Gender + $$Number + $$Case  + (def?) )
+		(0 Adjective + $$Gender + $$Number + $$Case + Indefinite) ;
+
+# The l-participle mods:
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt sg) TARGET Verb + (pp pres) + (".*lo>"r);
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m sg) TARGET Verb + (pp pres) + (".*o>"r);
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f sg) TARGET Verb + (pp pres) + (".*la>"r);
+
+# TODO: see what to do with <mfn>
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*li>"r);
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f pl) TARGET Verb + (pp pres) + (".*le>"r);
+
+# dual:
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*la>"r);
+SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt pl) TARGET Verb + (pp pres) + (".*la>"r);
+
+# Some words contain a 'mi' 'ma' reading, some don't (especially nouns),
+# so they are all normalized to 'm':
+SUBSTITUTE:[Mod]MiMa→M (mi) (m) TARGET (mi)
+SUBSTITUTE:[Mod]MiMa→M (ma) (m) TARGET (ma)
+
+# For some reason, perhaps because of a tagset conversion error some
+# masculine pronouns are genderless, and this messes up disambiguation.
+SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ProblemPronouns + Singular - Gender - Clitic
+SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ProblemPronouns + Plural - Gender - Clitic
+SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ("on"i) + Clitic - Gender
+SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ("on"i) + Clitic - Gender
+
+# Proper names recognition:
+
+# Everything inside a sentence beginning with a capital letter is a proper noun.
+# Naive, so it's a heuristic:	
+SUBSTITUTE:[H][Mod]ProperNoun $$Nomen $$Nomen + (np) TARGET ("<[A-ZČĆŽŠĐ].*>"r) + $$Nomen
+		(0 Noun OR Adjective)
+		(NOT -1 BOS) (NEGATE -1 Mark LINK -1 BOS)
+		(NOT 0 ProperNoun)
+		(NOT 0 Pronoun)			
+# Very heuristic, an adjective with a np is suddenly just a noun
+# Unless it modifies another noun
+SUBSTITUTE:[H][Mod]NpAdj_isAdj (adj np) (np) TARGET Adjective + ProperNoun + $$Gender + $$Number + $$Case
+		(NOT 1 Nomen + $$Case + $$Gender + $$Number)
+
+# Readings immediately before a non-sentence fullstop are proper nouns    
+SUBSTITUTE:[H][Mod]Theres_aDot_isInitial (<unk>) (abbr np) TARGET (<unk>) IF (1C ("." fxq) - Sentence)
+REMCOHORT:[H][Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 (abbr np) )
+
+# Analyser error. Sometimes there's a non-clitic with <dat> without <loc>
+ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
+	(NOT 0 Clitic) (NOT 0 Locative)
+
+#=============================================================================================================#
+# [Syntactic function candidate mapping]:
+# [And other convenient mappings]
+#=============================================================================================================#
+
+# NumPhrase Preposition Marking:
+ADD:Direct (@NumPhPr) TARGET Preposition - (@NumPhPr) IF (1C CardNum)
+ADD:LongDist (@NumPhPr) TARGET Preposition IF (1*C CardNum CBARRIER Clause-Boundary OR WordMark - Modifier ) (NOT 0 (@NumPhPr))
+		(NOT 1C Case-G); # Unless there is an unambiguous non-genitive reading right next to the right
+
+# Determine whether it's a plural or dual number phrase preposition
+ADD:DualNumPhrase (@Dual) TARGET (@NumPhPr) IF (1*C CardNum + DualNum CBARRIER Clause-Boundary OR WordMark - Modifier) (NOT 0 (@Dual)) 
+ADD:PluralNumPhrase (@Plural) TARGET (@NumPhPr) IF (1*C CardNum + PluralNum CBARRIER Clause-Boundary OR WordMark - Modifier) (NOT 0 (@Plural)) 
+
+# NumPhrase Constituents Marking:
+ADD:ItsANumber (@NumPhC) TARGET CardNum - (@NumPhC)
+ADD:Direct_FromPr KeepOrder (@NumPhC) TARGET Nomen - (@NumPhC) IF (-1 (@NumPhPr) )
+ADD:Direct_FromNumLeft KeepOrder (@NumPhC) TARGET Nomen + Genitive - (@NumPhC) IF (-1 CardNum - Case)
+ADD:Direct_FromNumLeft KeepOrder (@NumPhC) TARGET Nomen + $$Case - (@NumPhC) IF (-1 CardNum + $$Case)
+ADD:Direct_FromNumRight KeepOrder (@NumPhC) TARGET Modifier + Genitive - (@NumPhC) IF (1 CardNum - Case)
+ADD:Direct_FromNumRight KeepOrder (@NumPhC) TARGET Modifier + $$Case - (@NumPhC) IF (1 CardNum + $$Case)
+ADD:Direct_FromCL KeepOrder (@NumPhC) TARGET Nomen + $$Case + $$Number - (@NumPhC) IF (-1 Modifier + $$Case + $$Number + (@NumPhC))
+ADD:Direct_FromCR KeepOrder (@NumPhC) TARGET Nomen + $$Case + $$Number - (@NumPhC) IF (1 Modifier + $$Case + $$Number + (@NumPhC))
+
+ADD:Direct_FromPr KeepOrder (@Plural) TARGET Nomen + (@NumPhC) - (@Plural) IF (-1 (@NumPhPr) + (@Plural) )
+ADD:Direct_FromNumLeft KeepOrder (@Plural) TARGET Nomen + Genitive + (@NumPhC) - (@Plural) IF (-1 CardNum + PluralNum - Case)
+ADD:Direct_FromNumLeft KeepOrder (@Plural) TARGET Nomen + $$Case + (@NumPhC) - (@Plural) IF (-1 CardNum + PluralNum + $$Case)
+ADD:Direct_FromNumRight KeepOrder (@Plural) TARGET Modifier + Genitive + (@NumPhC) - (@Plural) IF (1 CardNum + PluralNum - Case)
+ADD:Direct_FromNumRight KeepOrder (@Plural) TARGET Modifier + $$Case + (@NumPhC) - (@Plural) IF (1 CardNum + PluralNum + $$Case)
+ADD:Direct_FromCL KeepOrder (@Plural) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Plural) IF (-1 Modifier + $$Case + $$Number)  (-1 (@Plural) )
+ADD:Direct_FromCR KeepOrder (@Plural) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Plural) IF (1 Modifier + $$Case + $$Number)  (1 (@Plural) )  
+
+ADD:Direct_FromPr KeepOrder (@Dual) TARGET Nomen + (@NumPhC) - (@Dual) IF (-1 (@NumPhPr) + (@Dual) )
+ADD:Direct_FromNumLeft KeepOrder (@Dual) TARGET Nomen + Genitive + (@NumPhC) - (@Dual) IF (-1 CardNum + DualNum - Case)
+ADD:Direct_FromNumLeft KeepOrder (@Dual) TARGET Nomen + $$Case + (@NumPhC) - (@Dual) IF (-1 CardNum + DualNum + $$Case)
+ADD:Direct_FromNumRight KeepOrder (@Dual) TARGET Modifier + Genitive + (@NumPhC) - (@Dual) IF (1 CardNum + DualNum - Case)
+ADD:Direct_FromNumRight KeepOrder (@Dual) TARGET Modifier + $$Case + (@NumPhC) - (@Dual) IF (1 CardNum + DualNum + $$Case)
+ADD:Direct_FromCL KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (-1 Modifier + $$Case + $$Number)  (-1 (@Dual) )
+ADD:Direct_FromCR KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (1 Modifier + $$Case + $$Number)  (1 (@Dual) )  
+
+# For the fromNoun_Direct rules
+# @N→ - the reading can modify a noun right next to it
+# @Mod→ - the reading can modify a modifier right next to it
+# @cltN→ - the reading can modify a noun after a clitic right next to it
+# @cltMod→ - the reading can modify a modifier after a clitic right next to it
+ADD:@N→ KeepOrder	(@N→) Target Modifier + $$Gender + $$Number + $$Case (1 Noun + $$Gender + $$Number + $$Case ) 
+	(NOT 0 (@N→));
+ADD:@cltN→ KeepOrder (@cltN→) Target Modifier + $$Gender + $$Number + $$Case (2 Noun + $$Gender + $$Number + $$Case ) (1 Clitic)
+	(NOT 0 (@cltN→));
+# For the fromModifier_Direct rules:
+ADD:Mod→Num KeepOrder (@Mod→) TARGET Modifier + Genitive IF (1 CardNum) (NOT 0 (@Mod→));
+ADD:cltMod→Num KeepOrder (@cltMod→) TARGET Modifier + Genitive IF (2 CardNum) (1 Clitic)
+		      (NOT 0 (@cltMod→))
+ADD:Mod→Num KeepOrder	(@Mod→)	TARGET Modifier + Genitive IF (1 CardNum) (0 Adjective + Indefinite) 
+			 (NOT 0 (@Mod→))
+ADD:cltMod→Num KeepOrder (@cltMod→) TARGET Modifier + Genitive IF (2 CardNum) (0 Adjective + Indefinite) (1 Clitic)
+		      (NOT 0 (@cltMod→))
+ADD:Mod→Mod KeepOrder	(@Mod→)	TARGET Modifier + $$Gender + $$Number + $$Case IF (1 Modifier + $$Gender + $$Number + $$Case ) 
+			 (NOT 0 (@Mod→))
+ADD:cltMod→Mod KeepOrder (@cltMod→) TARGET Modifier + $$Gender + $$Number + $$Case IF (2 Modifier + $$Gender + $$Number + $$Case ) (1 Clitic)
+		      (NOT 0 (@cltMod→)) (NOT -1 Nomen + $$Gender + $$Number + $$Case )
+
+
+SECTION
+#=============================================================================================================#
+# |Disambiguation rules|:
+#=============================================================================================================#
+# |SAFE RULES|
+
+#-------------------------------------------------------------------------------------------------------------#
+# Rules for num-phrase constituents:
+#-------------------------------------------------------------------------------------------------------------#
+
+# Arabic numerals as heads of phrases (nonCaseNumeral):
+# To the right (different scan BARRIER):
+
+# Direct:
+# if the head Number ends in [5-9] or [11-19] or {0} select gen pl
+SELECT:PluralNumeral[11-14]_Right_Direct Genitive + Plural (1C (".*[11-14]"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:PluralNumeral[5-9]_Right_Direct Genitive + Plural (1C (".*[5-9]"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:PluralNumeral[0]_Right_Direct Genitive + Plural (1C (".*0"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:PluralNumeral[Ltr]_Right_Direct Genitive + Plural (1C PluralNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+# elif the head Number ends in 1-4 select gen sg
+SELECT:DualNumeral[2-4]_Right_Direct Genitive + Singular (1C (".*[2-4]"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:DualNumeral[Ltr]_Right_Direct Genitive + Singular (1C DualNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+
+# Long distance:
+# if the head Number ends in [5-9] or [11-19] or {0} select gen pl
+SELECT:PluralNumeral[11-14]_Right_Long Genitive + Plural (1*C (".*[11-14]"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:PluralNumeral[5-9]_Right_Long Genitive + Plural (1*C (".*[5-9]"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:PluralNumeral[0]_Right_Long Genitive + Plural (1*C (".*0"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:PluralNumeral[Ltr]_Right_Long Genitive + Plural (1*C PluralNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+# elif the head Number ends in 1-4 select gen sg
+SELECT:DualNumeral[2-4]_Right_Long Genitive + Singular (1*C (".*[2-4]"r) + CardNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+SELECT:DualNumeral[Ltr]_Right_Long Genitive + Singular (1*C DualNum BARRIER Word LINK -1 Noun) (NOT 0 Noun) ;
+
+# To the left (different scan BARRIER than the rules up):
+# Direct:
+SELECT:PluralNumeral[11-14]_Left_Direct Genitive + Plural (-1C (".*[11-14]"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:PluralNumeral[5-9]_Left_Direct Genitive + Plural (-1C (".*[5-9]"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:PluralNumeral[0]_Left_Direct Genitive + Plural (-1C (".*0"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:PluralNumeral[ltr]_Left_Direct Genitive + Plural (-1C PluralNum BARRIER NOT-NumPhraseC) ;
+SELECT:DualNumeral[2-4]_Left_Direct Genitive + Singular (-1C (".*[2-4]"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:DualNumeral[ltr]_Left_Direct Genitive + Singular (-1C DualNum BARRIER NOT-NumPhraseC) ;
+# Long distance:
+SELECT:PluralNumeral[11-14]_Left_Long Genitive + Plural (-1*C (".*[11-14]"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:PluralNumeral[5-9]_Left_Long Genitive + Plural (-1*C (".*[5-9]"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:PluralNumeral[0]_Left_Long Genitive + Plural (-1*C (".*0"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:PluralNumeral[ltr]_Left_Long Genitive + Plural (-1*C PluralNum BARRIER NOT-NumPhraseC) ;
+SELECT:DualNumeral[2-4]_Left_Long Genitive + Singular (-1*C (".*[2-4]"r) + CardNum BARRIER NOT-NumPhraseC) ;
+SELECT:DualNumeral[ltr]_Left_Long Genitive + Singular (-1*C DualNum BARRIER NOT-NumPhraseC) ;
+
+# Unary numerals prepositional phrase (ending in one, and not ending in eleven)
+REMOVE:UnaryNumeral[1]Preposition KeepOrder Preposition + $$Case (1 UnaryNum) (NEGATE 2 Nomen + $$Case)
+		(NOT 2 Noun - Case) # This is analyser specific, i.e. "posto" ("percent") is caseless
+		(0 Preposition - $$Case)
+REMOVE:UnaryNumeral[1]_Left_Preposition KeepOrder Nomen + $$Case (-1 UnaryNum) (NEGATE -2 Preposition + $$Case)
+		(0 Nomen - $$Case)
+
+
+#-------------------------------------------------------------------------------------------------------------#
+# Letter numerals as heads of phrases:
+# if a preposition preceeds the phrase and it does not agree in Case with the head numeral select the zero Case reading
+REMOVE:ØCaseNumeral_Direct KeepOrder Case (0 Numeral + $$Case) (-1 Preposition) (NEGATE -1 Preposition + $$Case) ;
+REMOVE:ØCaseNumeral_LongDist KeepOrder Case (0 Numeral + $$Case) (-1* Preposition BARRIER NOT-NumPhraseC) (NEGATE -1* Preposition + $$Case BARRIER NOT-NumPhraseC)
+# if a preposition preceeds the phrase agreeing in Case with the head numeral select the Case(s) of the preposition
+# TODO: if no preposition preceeds the phrase (I think this is done already)
+# rules analogous to the nominative/accusative/vocative ambiguity with nouns
+# TODO: Roman numerals
+
+#-------------------------------------------------------------------------------------------------------------#
+# Noun and nominal Words disambiguation:
+#-------------------------------------------------------------------------------------------------------------#
+
+# The clitic pronoun "je" genitive
+# It can be genitive only after the 3rd person singular imati/nemati
+REMOVE:Je_Not_Genitive Genitive (0 ("<je>"i) + Pronoun) (NOT -1 ("imati"i) + Verb + Singular + (p3) ) ;
+REMOVE:Je_Not_Genitive Genitive (0 ("<je>"i) + Pronoun) (NOT -1 ("nemati"i) + Verb + Singular + (p3) ) ;
+REMOVE:Se_Not_Genitive Genitive (0 ("<se>"i) + Pronoun) (NOT -1 ("imati"i) + Verb + Singular + (p3) ) ;
+REMOVE:Se_Not_Genitive Genitive (0 ("<se>"i) + Pronoun) (NOT -1 ("nemati"i) + Verb + Singular + (p3) ) ;
+
+# Experimental: Clitic is not genitive
+REMOVE:Clitic_Not_Genitive Clitic + Genitive (0 Clitic + Genitive) (0 Clitic + Case-G ) 
+	(NOT -1 ("imati"i) + Verb + Singular + (p3) ) 
+	(NOT 1 ("imati"i) + Verb + Singular + (p3) )
+REMOVE:Clitic_Not_Genitive Clitic + Genitive (0 Clitic + Genitive) (0 Clitic + Case-G ) 
+	(NOT -1 ("nemati"i) + Verb + Singular + (p3) )
+	(NOT 1 ("nemati"i) + Verb + Singular + (p3) )
+
+# The clitic pronoun "je" accusative (? This was perhaps a TODO:)
+
+# Preposition based Case disambiguation:
+
+# TODO: for ordinal numbers, they behave more meekly. Already done some heuristics.
+
+# Prepositional phrases:
+
+# It is a non-nominal word if it's unambiguously preceded by a preposition
+# Unless it's an adverb ()
+REMOVE:NominalAfterPr Word - Nomen - Adverb
+	(-1C Preposition)
+
+# A preposition / noun ambiguity.
+# It is not a preposition unless it's followed by a nominal word
+REMOVE:NoNoun Preposition (NOT 1 Nomen)
+# It is not a preposition if it's preceded by a preposition
+REMOVE:PrepPrep_is_PrepNoun KeepOrder Preposition (-1 Preposition + $$Case) (0 Noun + $$Case)
+
+# I Prepositional chain without a numeral inside
+# For the preposition:
+REMOVE:PrPhrase_Preposition_Case_Cleaning Preposition + $$Case (NOT 0 (@NumPhPr) )
+		(NOT 1 Nomen + $$Case) ;
+# When there's an adverb after the preposition ("Pred jarko osvijetljenom kućom.")
+REMOVE:PrPhrase_Preposition_Case_Cleaning Preposition + $$Case (NOT 0 (@NumPhPr) ) (1C Adverb) (2 Nomen)
+		(NOT 2 Nomen + $$Case) ;
+# For the constituents:
+# Ovdje se traži -1C zbog eventualnih proper ambiguitija, ali možda bi se komotno moglo staviti ovdje, ili pod neku heuristiku bez C
+REMOVE:PrPhrase_Constituent_Case_Cleaning_Direct $$Case (-1C Preposition) (NOT 0 (@NumPhC) )
+	(NOT -1 Preposition + $$Case) ;
+REMOVE:PrPhrase_Constituent_Case_Cleaning_Direct $$Case (-2C Preposition) (NOT 0 (@NumPhC) ) (-1C Adverb)
+	(NOT -2 Preposition + $$Case) ;
+
+# II Prepositional chain with a numeral inside
+# For the preposition.
+# TODO: Try thinking of a counter example, this looks suspicious.
+# The 1st number found is the head of the num-phrase, and it must exist, since this preposition is Marked @NumPhPr
+REMOVE:PrNumPhrase_Preposition_Case_Cleaning_Direct Preposition + $$Case (0 (@NumPhPr) )
+	(0 Preposition ) (1 CardNum)
+	(NEGATE 1 Number + $$Case)
+	(0 Preposition - $$Case) ;
+REMOVE:PrNumPhrase_Preposition_Case_Cleaning_LongDist Preposition + $$Case (0 (@NumPhPr) )
+	(0 Preposition )
+	(NEGATE 1* CardNum + $$Case)
+	(0 Preposition - $$Case) ;
+	
+# For the constituents clean out all grammatical cases save genitive:
+# The dual remnant occurences will be unaffected, since there is no such ortographical ambiguity
+REMOVE:PrNumPhrase_Constituent_Case_Cleaning_Direct Case - Genitive (-1 (@NumPhPr) ) (NOT 0 Numeral)
+	(0C Nomen) ; 
+REMOVE:PrNumPhrase_Constituent_Case_Cleaning Case - Genitive (0 (@NumPhC) ) (NOT 0 Numeral)
+	(0C Nomen) ;
+
+# Rules that apply to prepositionless and prepositional phrases:
+
+# Directly after a DualNum remove Genitive Plural:
+REMOVE:Number_Cleaning_afterDualNum_Direct Genitive + Plural (0 Singular) (0 Plural) (0 Genitive) (-1 DualNum) ;
+REMOVE:Number_Cleaning_afterPluralNum_Direct Genitive + Singular (0 Singular) (0 Plural) (0 Genitive) (-1 PluralNum) ;
+
+# Modifier receives the Number, Gender and Case of the Noun:
+# i.e "Lijepa Janja"
+
+# For a modifier remove any gender/number/case which cannot be a part of the agreement with the noun right next to it
+# !!! if there is any possibility of a concordance at all !!!
+
+# The cleaning rules, go in pair with the @N→ Markings:
+# REMOVE all the Modifier readings that do not have the @N→ or @cltN→ Marking
+# If they do modify something
+REMOVE:Modifier_Cleaning_fromNoun_Direct KeepOrder Modifier + (*) - (@N→) (1 Noun) (0 Modifier + (@N→));
+REMOVE:Modifier_Cleaning_fromNoun_Direct KeepOrder Modifier + (*) - (@cltN→) (1 Clitic)(2 Noun) (0 Modifier + (clt@N→));
+
+# Similar but for numbers with gender:
+REMOVE:Number_Cleaning_fromNoun_Direct KeepOrder CardNum - $$Gender (0 CardNum + $$Gender) (1 Noun + $$Gender)
+REMOVE:Number_Cleaning_fromNoun_Across_Clitic KeepOrder CardNum - $$Gender (0 CardNum + $$Gender) (2 Noun + $$Gender) (1 Clitic)
+
+# Two Modifiers in a row Modify each other
+# i.e. "...naš dobar..."
+# Is there a possibility of a concordance?
+
+# Analogous, only "...Modifier Modifier..."
+# Note: This rule has an interesting side effect with the current rule, it kills of all the adjective readings where there is the adjective / adverb ambiguity, and leaves only the adverb!
+REMOVE:Modifier_Cleaning_fromModifier_Direct KeepOrder Modifier + (*) - (@Mod→) (1 Modifier) (0 Modifier + (@Mod→))
+REMOVE:Modifier_Cleaning_fromModifier_Direct KeepOrder Modifier + (*) - (@cltMod→) (1 Clitic) (2 Modifier) (0 Modifier + (@cltMod→))
+# The rule also requires further disambiguation, since only the Modifier adjacent to the noun is completely disambiguated:
+REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Gender
+	(0C (@Mod→))
+	(NOT 1 Modifier + $$Gender) ;
+REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Number
+	(0C (@Mod→))
+	(NOT 1 Modifier + $$Number) ;
+REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Case
+	(0C (@Mod→))
+	(NOT 1 Modifier + $$Case) ;
+REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Gender
+	(0C (@cltMod→))
+	(NOT 2 Modifier + $$Gender) ;
+REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Number
+	(0C (@cltMod→))
+	(NOT 2 Modifier + $$Number) ;
+REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Case
+	(0C (@cltMod→))
+	(NOT 2 Modifier + $$Case) ;
+
+# Modifier transfers number,gender,and case
+REMOVE:Noun_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
+	 (0 Noun + $$Gender + $$Number + $$Case)
+	 (-1 Modifier + (@N→))
+	 (NOT -1 Modifier + (@N→) + $$Gender + $$Number + $$Case) ;
+REMOVE:Noun_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
+	 (0 Noun + $$Gender + $$Number + $$Case)
+	 (-2 Modifier + (@cltN→))
+	 (NOT -2 Modifier + (@cltN→) + $$Gender + $$Number + $$Case) ;
+
+REMOVE:Modifier_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
+	 (0 Modifier + $$Gender + $$Number + $$Case)
+	 (-1 Modifier + (@Mod→))
+	 (NOT -1 Modifier + (@Mod→) + $$Gender + $$Number + $$Case) ;
+REMOVE:Modifier_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
+	 (0 Modifier + $$Gender + $$Number + $$Case)
+	 (-2 Modifier + (@cltMod→))
+	 (NOT -2 Modifier + (@cltMod→) + $$Gender + $$Number + $$Case) ;
+
+# The special case with the genderless number
+REMOVE:Number_Cleaning_byModifier_Direct $$Gender
+	 (0 CardNum + $$Gender)
+	 (-1 Modifier + (@Mod→))
+	 (NOT -1 Modifier + (@Mod→) + $$Gender) ;
+REMOVE:Number_Cleaning_byModifier_Direct $$Gender
+	 (0 CardNum + $$Gender)
+	 (-2 Modifier + (@cltMod→))
+	 (NOT -2 Modifier + (@cltMod→) + $$Gender) ;
+
+# Vocative rules:
+# Vocative does not rule.
+# Has to be separated from the rest of the sentence by a comma
+# Also, if the sentence contains vocative alone, then it must end with a "!"
+# TODO: In practice this is more complicated
+
+# Examples:
+# "Draga majko!"
+# "Draga majko, pišem ti pismo ..."
+# "Pišem ti pismo, Draga majko, jer ..."
+# "Pišem ti pismo, draga majko!"
+
+REMOVE:IsVocative! Case - Vocative
+	(-1 BOS)
+	(1* ("!") CBARRIER Word - Nomen OR Nomen - Vocative)
+
+
+REMOVE:NotVocative Vocative
+	(-1 Cm OR BOS)
+	(NOT 1* Mark - (".") CBARRIER Word - Nomen or Nomen - Vocative)
+REMOVE:NotVocative Vocative
+	(NOT -1 Cm OR BOS or Particle)
+
+
+# Prepositionless Case disambiguation:
+# Dative / Locative ambiguity. Locative is always preceded by a preposition
+REMOVE:NoPreposition Locative (0 Nomen + Dative) (0 Nomen + Locative)
+	(NOT -1 Preposition + Locative)
+	(NOT -1 Modifier + Locative)
+	(NEGATE -1 Cm OR Conjunction OR Clitic LINK -1 Modifier + Locative)
+	(NEGATE -2 Preposition + Locative LINK 1 UnaryNum)
+	(NEGATE -2 Preposition + Locative LINK 1C Adverb)
+
+# Dative / Locative to undo the possible damage done by dative/locative [Mod] rule
+SUBSTITUTE:[Mod]ThisIsLocative (dat loc) (loc) Nomen (-1 Preposition + Locative) (NEGATE -1 Preposition + Dative)
+SUBSTITUTE:[Mod]ThisIsLocative (dat loc) (loc) Nomen (-1 Modifier + Locative) (NEGATE -1 Modifier + Dative)
+SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (-1 Preposition + Dative) (NEGATE -1 Preposition + Locative)
+SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (-1 Modifier + Dative) (NEGATE -1 Modifier + Locative)
+SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (0 Nomen + Dative) (0 Nomen + Locative)
+	(NOT -1 Preposition + Locative)
+	(NOT -1 Modifier + Locative)
+	(NEGATE -1 Cm OR Conjunction OR Clitic LINK -1 Modifier + Locative)
+	(NEGATE -2 Preposition LINK 1 UnaryNum)
+	(NEGATE -2 Preposition + Locative LINK 1C Adverb)
+
+#-------------------------------------------------------------------------------------------------------------#
+# Disambiguation for verbs:
+#-------------------------------------------------------------------------------------------------------------#
+
+# Verb htjeti:
+# Htjeti vblex vs. vbaux:
+# Lexical
+REMOVE:htjetiIsLexical VBAux (0 VBLex) (0 VBAux) (0 ("htjeti"i)) (1C Nomen + Accusative) (NOT 1 RefPers)
+REMOVE:htjetiIsLexical VBAux (0 VBLex) (0 VBAux) (0 ("htjeti"i)) (-1C Nomen + Accusative) (NOT 1 RefPers)
+# Clitic
+REMOVE:htjetiIsClitic VBLex (0 VBLex) (0 VBAux) (0 ("htjeti"i)) (1 Verb + Infinitive)
+REMOVE:htjetiIsClitic VBLex (0 VBLex) (0 VBAux) (0 ("htjeti"i)) (1 Clitic) (2 Verb + Infinitive)
+REMOVE:htjetiIsClitic VBLex (0 VBLex) (0 VBAux) (0 ("htjeti"i)) (-1 Verb + Infinitive)
+
+# The clitic 'će', ambiguous for singular/plural
+SELECT:htjetiSubject_isRight VBAux + $$Number (0 VBAux + Singular) (0 VBAux + Plural) (-1 Conjunction) 
+		(1C* Noun + Nominative + $$Number OR Pronoun + Nominative + $$Number BARRIER Clause-Boundary)
+
+# Verbs in general:
+# Remove reflexivity analysis if there's no pronoun 'se' in the Clause
+REMOVE:no_Reflexive_Pronoun Reflexive
+	(NOT 1* Pronoun + Reflexive + Clitic BARRIER Clause-Boundary OR VerbFinite)
+	(NOT -1* Pronoun + Reflexive + Clitic BARRIER Clause-Boundary OR VerbFinite) ;
+REMOVE:Reflexive_Pronoun Verb - Reflexive (0 Verb + Reflexive) (1C Pronoun + Reflexive)
+REMOVE:Reflexive_Pronoun Verb - Reflexive (0 Verb + Reflexive) (-1C Pronoun + Reflexive)
+REMOVE:Reflexive_Pronoun_Long Verb - Reflexive (0 Verb + Reflexive) (1*C Pronoun + Reflexive BARRIER VerbFinite OR EOS OR CS OR VBAux)
+REMOVE:Reflexive_Pronoun_Long Verb - Reflexive (0 Verb + Reflexive) (-1*C Pronoun + Reflexive BARRIER VerbFinite OR EOS OR CS OR VBAux)
+
+# Remove transitive analysis if there's no accusative in the sentence
+REMOVE:no_Accusative Verb + Transitive (0 Verb - Transitive)
+	(NOT 1* Nomen + Accusative BARRIER Clause-Boundary OR VerbFinite)
+	(NOT -1* Nomen + Accusative BARRIER Clause-Boundary OR VerbFinite);
+# Some promoted heuristics:
+REMOVE:ObjectOfATransitiveVerb← Nomen + Nominative
+	(0 Nominative) (0 Accusative)
+	( (-1C Verb + Transitive) OR (-2C Verb + Transitive LINK 1 Clitic) )
+REMOVE:ObjectOfATransitiveVerb→ Nomen + Nominative
+	(0 Nomen)
+	(0 Nominative) (0 Accusative)
+	( (1C Verb + Transitive) OR (2C Verb + Transitive LINK -1 Clitic) )
+		
+REMOVE:VerbWithATransitiveObject Verb + Intransitive (0 Verb + Transitive) (0 Verb + Intransitive)
+	((1C Nomen + Accusative) OR (-1C Nomen + Accusative) )
+REMOVE:VerbWithATransitiveObject Verb + Intransitive (0 Verb + Transitive) (0 Verb + Intransitive)
+	(1C Clitic Link 1 Nomen + Accusative)
+REMOVE:VerbWithATransitiveObject Verb + Intransitive (0 Verb + Transitive) (0 Verb + Intransitive)
+	(-1C Clitic Link -1 Nomen + Accusative)
+
+# Verb "dati" 3rd person singular versus particle da
+REMOVE:NotDatiAfterVerb Verb
+	(0 ("<da>"i) )
+	(-1*C Verb BARRIER Word - Clitic - Conjunction)
+
+# Conditional marking verb "to be" aorist:
+SELECT:ConditionalNumber $$Number
+	(0 Conditional + $$Number )
+	((1 L-Participle + $$Number) OR (-1 L-Participle + $$Number) )
+
+SELECT:ConditionalL-Participle L-Participle (-1 Conditional)
+SELECT:ConditionalL-Participle L-Participle (-1* Conditional BARRIER Word - Clitic)
+
+SELECT:ConditionalL-Participle L-Participle (1 Conditional)
+SELECT:ConditionalL-Participle L-Participle (1* Conditional BARRIER Word - Clitic)
+
+SELECT:[H]BiBilo Copula ((-1 Conditional) OR (1 Conditional))
+
+# Bi bilo X / Bilo bi X : if X is adverb/adjective sometimes it's unambiguously an adjective
+SELECT:[H]BiBiloX Adjective + Nominative IF (0 Adverb) (0 Adjective + $$Gender + $$Number + $$Case) (NOT 1 Adjective)
+		((-2 Conditional LINK 1 Copula) OR (-2 Copula LINK 1 Conditional))
+
+SELECT:[H]BiloBiX Conditional + (p3) (-1 Copula LINK -1 Clause-Boundary)
+
+
+#-------------------------------------------------------------------------------------------------------------#
+# Disambiguation for particles:
+#-------------------------------------------------------------------------------------------------------------#
+
+# Particle "da"
+REMOVE:NotAffirmativePart Particle + Affirmative
+	(0 ("<da>"i) )
+	(NOT 1 Mark);
+
+# Particles "ne", "zar", and "li" are unambiguous
+
+# TODOs:
+# Particles "evo", "eto", "eno"
+# Particle "god"
+
+# Currently no other particles appear in the corpus
+
+#=============================================================================================================#
+# |Heuristic| #
+# [The following rules also cut out semantic ('proper') ambiguity, based on human intuition on what is
+# 'default' in natural language, or in the type of texts on which the CG was tested]
+#=============================================================================================================#
+
+# Numeral Heuristics
+REMOVE:[H]Numerals_inaRow_noCase Case (0 Numeral) (-1 Numeral) ; #TODO: Oprez!
+REMOVE:[H]Numerals_inaRow_noCase Case (0 Numeral) (1 Numeral) ; #TODO: Oprez!
+
+SELECT:[H]isSingular_afterOrdinal Singular (0C Singular | Plural) (-1 OrdNum) ;
+
+# Preposition/noun ambiguity
+# If it's a num phrase preposition it's most likely not a noun
+# Kod "put" je problem što "prvi put" nije označen kao priložna oznaka
+# Kod "zaradi" točno miče "zarada", a ostaje glagol
+# Za "među" funkcionira ispravno
+REMOVE:[H]PrepositionNumeral Noun
+	(0 Preposition + (@NumPhPr) ) (0 Noun)
+
+# This works only with quantitative adverbs
+# TODO: List quantitative adverbs
+REMOVE:[H]Nomen_afterAdverb_Genitive Nomen + Case-G (-1 QuantitativeAdverb) (NOT 0 Clitic);
+REMOVE:[H]Nomen_afterAdverb_GenitivePlural Nomen + Singular (-1 QuantitativeAdverbPlural) (NOT 0 Clitic);
+#REMOVE:[H]Nomen_afterAdverb_Genitive Nomen + Case-G (-1 Cm) (-2 Modifier LINK -1 QuantitativeAdverb) (NOT 0 Clitic);
+#REMOVE:[H]Nomen_afterAdverb_Genitive Nomen + Case-G (-1* Cm BARRIER Word - Modifier LINK -1 Nomen LINK -1* QuantitativeAdverb BARRIER Word - Modifier) (NOT 0 Clitic)
+
+#REMOVE:[H]Nomen_afterAdverb_Genitive Nomen + Singular (-1 Cm) (-2 Modifier LINK -1 QuantitativeAdverbPlural) (NOT 0 Clitic);
+#REMOVE:[H]Nomen_afterAdverb_Genitive Nomen + Singular (-1* Cm BARRIER Word - Modifier LINK -1 Nomen LINK -1* QuantitativeAdverbPlural BARRIER Word - Modifier) (NOT 0 Clitic)
+
+# TODO: The following batch is correct in most cases (in the current corpus no counter example encountered), however works better when backed up by less heuristic machinery
+
+#SELECT:[H]Noun_afterNoun_Genitive Genitive (0C Noun) (-1C Noun) (NOT -1 Preposition); This one below is a cleaner version
+REMOVE:[H]Noun_afterNoun_Genitive Noun + $$Case-G (0 Noun + Genitive) (-1C Noun) (NOT -1 Preposition + $$Case-G);
+
+SELECT:[H]Modifier_afterNoun_GenNumCase KeepOrder $$Gender + $$Number + $$Case (0 Modifier + $$Gender + $$Number + $$Case ) (-1 Noun + $$Gender + $$Number + $$Case) (NOT 1 Copula) ; # Ne valja za "stanare Jagićeve 5", ali zato što je Jagićeva analizirana samo kao pridjev
+SELECT:[H]Adjective_afterNoun_Genitive Genitive (0C Adjective) (-1C Noun) (not -1 Verb) (NOT 1 Copula) (1* Noun + Genitive BARRIER Word - Nomen OR Nomen LINK -1 Noun) (NOT 1 Copula);
+# Note: This also works for pronouns
+REMOVE:[H]Pronoun_afterNoun_Genitive Pronoun + Case-G (0 Pronoun) (-1 Noun) (NOT 0 RelativePronoun) (NOT 0 Clitic);
+
+# Well intended, but work differently in reality:
+#SELECT:[H]Noun_afterNoun2Cm_Genitive Genitive (-2 Noun) (-1 Cm) (0 Noun) (1 Cm) ;
+#SELECT:[H]Adjective_afterNoun2Cm_Genitive Genitive (-2 Noun) (-1 Cm) (0 Adjective) (1 Cm) ;
+#SELECT:[H]Pronoun_afterNoun2Cm_Genitive Genitive (-2 Noun) (-1 Cm) (0 Pronoun) (1 Cm) ;
+
+# Proper noun ambiguities:
+# A proper noun is always just a noun
+SELECT:[H]ProperNoun_isNoun Noun (0C ProperNoun)
+# A proper does something to the noun after it?
+
+# A proper noun receives case from a noun directly preceding it "u gradu Zagrebu"
+SELECT:[H]Noun→ProperNoun $$Case (0 ProperNoun) (-1C Noun + $$Case)
+SELECT:[H]ProperNoun→ProperNoun $$Case (0 ProperNoun) (1C ProperNoun + $$Case)
+SELECT:[H]ProperNoun→ProperNoun $$Case (0 ProperNoun) (-1C ProperNoun + $$Case)
+# Sometimes also Gender
+SELECT:[H]Noun→ProperNoun $$Gender (0 ProperNoun) (-1 Noun + $$Gender)
+
+# Proper nouns are mostly singular, in the development corpus:
+REMOVE:[H]ProperNoun_isSingular ProperNoun + Plural
+
+# Adverb or neuter adjective:
+# A neuter adjective followed by a verb is an adverb
+# (It can of course also be accusative/nominative neuter, but TODO: should be backed up by safe rules earlier)
+# Also TODO: This rule is to be promoted to non heuristic later!
+REMOVE:[H]Adv|Adj Adjective IF (0C Adverb | Adjective) (1 Verb - Copula)
+# An adverb can also precede an adjective, in which case there'll be no agreement, so this will automatically vanish by rules in the last section.
+
+# Heuristics that jump over conjunctions and commas "U<loc> srednjim<loc> školama<loc> i učeničkim<dat?loc?> domovima<dat?loc?>"
+
+SELECT:[H]Case_Skips_Over_Comma_Left $$Case (0 $$Case + $$Gender + $$Number) (-2 Modifier + $$Case + $$Gender + $$Number) (-1 Cm) ;
+SELECT:[H]Case_Skips_Over_Comma_Right $$Case (0 $$Case + $$Gender + $$Number) (2 Modifier + $$Case + $$Gender + $$Number) (1 Cm) ;
+SELECT:[H]Genitive_Skips_Over_Comma_Left Genitive (0 Genitive + $$Gender + $$Number) (-2 Modifier + Genitive + $$Gender + $$Number) (-1 Cm) ;
+SELECT:[H]Genitive_Skips_Over_Comma_Right Genitive (0 Genitive + $$Gender + $$Number) (-2 Modifier + Genitive + $$Gender + $$Number) (-1 Cm) ;
+
+SELECT:[H]Genitive_Skips_Over_Conjunction_Left Genitive (0 Genitive + $$Gender + $$Number) (-2 Modifier + Genitive + $$Gender + $$Number) (-1 Conjunction) 
+SELECT:[H]Case_Skips_Over_Conjunction_Left $$Case (0 $$Case + $$Gender + $$Number) (-2 Modifier + $$Case + $$Gender + $$Number) (-1 Conjunction) ;
+SELECT:[H]Genitive_Skips_Over_Conjunction_Right Genitive (0 Genitive + $$Gender + $$Number) (2 Modifier + Genitive + $$Gender + $$Number) (1 Conjunction) ;
+SELECT:[H]Case_Skips_Over_Conjunction_Right $$Case (0 $$Case + $$Gender + $$Number) (2 Modifier + $$Case + $$Gender + $$Number) (1 Conjunction) ;
+
+# Nominative / Accusative ambiguity (inanimate masculine nouns and neuter nouns)
+# Demoted to heuristics, since it doesn't work as expected
+REMOVE:[H]NoTransitiveVerb Nomen + Accusative
+	(NEGATE 1* Verb + Transitive BARRIER EOS)
+	(NEGATE -1* Verb + Transitive BARRIER BOS)
+	(NEGATE 1* Verb + (tv?) BARRIER EOS)
+	(NEGATE -1* Verb + (tv?) BARRIER BOS)
+	(NEGATE -1 Modifier + Accusative)
+	(NEGATE -1 Preposition + Accusative)
+
+# Verbal heuristics:
+REMOVE:[H]NotVerbAfterPreposition Verb (0 Nomen) (-1C Preposition) # smallTODO: See if maybe also works without C (think of a counter example)
+REMOVE:[H]IsVerbAfterLp Pronoun (0 ("<je>"i)) (-1 L-Participle) ;
+
+# The Adjective | L-Participle ambiguity
+REMOVE:[H]CopulaAdjNom KeepOrder Verb (0 Adjective) (0 L-Participle)
+	(-1 Copula) (1 Noun + $$Gender + $$Number + $$Case) 
+	(NEGATE 2 Modifier + $$Gender + $$Number + $$Case)
+
+# This is something similar:
+REMOVE:[H]CopulaAdj $$Number (0 Adjective OR L-Participle)
+	(-1 Copula)(NEGATE -1 Copula + $$Number)
+	(NEGATE -2 L-Participle)
+REMOVE:[H]CopulaAdj_isNominative Adjective + Case - Nominative (0C Adjective)
+	(-1 Copula)
+	(NEGATE -2 L-Participle)
+
+REMOVE:[H]AdjCopula $$Number (0 Adjective OR L-Participle)
+	(1 Copula) (NEGATE 1 Copula + $$Number)
+	(NEGATE 2 L-Participle)
+REMOVE:[H]AdjCopula_isNominative Adjective + Case - Nominative (0C Adjective)
+	(1 Copula)
+	(NEGATE 2 L-Participle)
+
+# Big TODO: For now we renounce aorist and imperfect since they don't appear in this type of text.
+REMOVE:[H]noAoristHere Aorist
+#REMOVE:[H]noImperfectHere Imperfect
+
+# Imperative sentences must end with a "!"
+# It's a heuristic, since there are possible exceptions to this rule, however, none in this corpus.
+REMOVE:[H]notImperative! Imperative (NOT 1* ("!") BARRIER EOS);
+
+SELECT:[H]verb+se Reflexive (0C Verb) (0 Verb + Reflexive) (0 Verb - Reflexive) (-1C ("<se>"i) + Reflexive);
+SELECT:[H]verb+se Reflexive (0C Verb) (0 Verb + Reflexive) (0 Verb - Reflexive) (1C ("<se>"i) + Reflexive);
+
+# Conjunction vs. adverb vs. other stuff
+	
+SELECT:[H]već Adverb (NOT -1 Cm) (0 ("već"i))
+SELECT:[H]već Conjunction (-1 Cm) (0 ("već"i))
+
+SELECT:[H]osim Conjunction (1 ("što"i)) (0 ("osim"i))
+SELECT:[H]osim Conjunction (1 ("ako"i)) (0 ("osim"i))
+SELECT:[H]osim Conjunction (1 ("da"i)) (0 ("osim"i))
+SELECT:[H]osim Conjunction (1 ("kad"i)) (0 ("osim"i))
+SELECT:[H]osim Preposition (1 Nomen) (0 ("osim"i))
+SELECT:[H]osim Adverb (0 ("osim"i)) # This should function as an 'else' statement
+
+SELECT:[H]tek Adverb (0 ("tek"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+SELECT:[H]zato Adverb (0 ("zato"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+SELECT:[H]dakle Adverb (0 ("dakle"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+SELECT:[H]koliko Adverb (0 ("koliko"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
+SELECT:[H]kuda Adverb (0 ("kuda"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
+SELECT:[H]odakle Adverb (0 ("odakle"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
+
+REMOVE:[H]stoga Conjunction (0 ("stoga"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+REMOVE:[H]stoga Noun (-1 BOS OR Mark)
+REMOVE:[H]stoga Noun (NOT -1 Preposition)
+
+SELECT:[H]budući Conjunction (1 ("da"i)) (0 ("budući"i))
+REMOVE:[H]budući Conjunction (NOT 1 ("da"i)) (0 ("budući"i))
+
+SELECT:[H]dokle Conjunction (1 ("god"i)) (0 ("dokle"i))
+REMOVE:[H]dokle Conjunction (NOT 1 ("god"i)) (0 ("dokle"i))
+
+SELECT:[H]jedino Conjunction (1 ("što"i)) (0 ("jedino"i) LINK -1 Cm)
+REMOVE:[H]jedino Conjunction (0 ("jedino"i))
+
+REMOVE:[H]neka KeepOrder Conjunction (0 ("neka"i)) (0 $$Case) (-1 Preposition + $$Case )
+REMOVE:[H]neka KeepOrder Conjunction (0 ("neka"i)) (0 $$Gender + $$Number + $$Case) (1* Nomen + $$Gender + $$Number + $$Case BARRIER Word - Mark - Clitic)
+SELECT:[H]neka KeepOrder Conjunction (0 ("neka"i)) (1* Verb - Clitic BARRIER Word - Mark - Clitic)
+
+SELECT:[H]te CS (0 ("te"i)) # Te nije subordinating
+
+SELECT:[H]no CS (0 ("no"i)) (NOT -1 Cm) (NOT 1 Cm)
+SELECT:[H]no CC (0 ("no"i)) ((-1 Cm) OR (1 Cm))
+
+# TODO: Cover "nit", the lexicon is missing the noun analysis.
+
+# "kad" is semantically ambiguous conjunction vs adverb
+# "kada" is either a noun or same as "kad"
+REMOVE:[H]kada ("kada"i) + Noun + $$Gender + $$Number + $$Case 
+	(NOT -1 Modifier + $$Gender + $$Number + $$Case)
+	(NOT 1 Modifier + $$Gender + $$Number + $$Case)
+
+SELECT:[H]Conjunction_after_comma Conjunction (-1 Cm) (NOT 1 Mark) (NOT 1 EOS) (0 Conjunction)(0 Adverb);
+SELECT:[H]Adverb_Without_comma Adverb (NOT -1 Cm) (NOT 1 BOS)(0 Conjunction) (0 Adverb);
+
+#SELECT:[H]Conjunction_vs_Adverb Adverb (0 Conjunction) (0 Adverb) (1* ("?") BARRIER Clause-Boundary OR Mark)
+
+# Modifier in plural that does not modify anything is a general gender (mfn)
+# TODO: For brighter days
+#SUBSTITUTE:[H]SoleModifierPlural_mfn Gender (mfn) TARGET Modifier + Plural
+#(0 Modifier + $$Number + $$Case)
+#(NOT 1* Noun + $$Number + $$Case CBARRIER NP-Boundary OR Noun - $$Number - $$Case)
+#(NOT -1* Noun + $$Number + $$Case CBARRIER NP-Boundary OR Noun - $$Number - $$Case)
+
+# Analyser specific ambiguity cutting:
+# Possesive or non-possesive adjective is always possesive (there is no real morphological ambiguity (?) )
+SELECT:[H]isPossesive Possesive (0C Adjective + Possesive OR Adjective - Possesive) ; # Provjeri!
+
+# Frequent phrases:
+# "Prošle godine", "last year" adverbial phrase:
+SELECT:[H]ProšleGodine KeepOrder Adjective + Genitive 
+	(0 $$Gender + $$Number + $$Case) (NEGATE 2 Modifier + $$Gender + $$Number + $$Case)
+	(0 ("prošle"i)) (1 ("godine"i))
+SELECT:[H]ProšleGodine KeepOrder Noun + Genitive 
+	(0 $$Gender + $$Number + $$Case) (NEGATE 1 Modifier + $$Gender + $$Number + $$Case)
+	(-1 ("prošle"i)) (0 ("godine"i))
+
+#=============================================================================================================#
+# |/Heuristic| #
+#=============================================================================================================#
+
+# |/Rules| #

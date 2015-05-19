@@ -16,6 +16,7 @@
 /apertium-hbs.post-hbs.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/ConstraintGrammar-Croatian.rlx -text
 /hbs-supervised.make -text
 hbs-tagger-data/hbs.crp -text
 hbs-tagger-data/hbs.crp.txt -text
