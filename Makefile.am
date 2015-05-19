@@ -53,6 +53,7 @@ $(LANG1c).autogen.bin: .deps/$(BASENAME).$(LANG1c).dix
 .deps/$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix .deps/.d
 	xsltproc --stringparam alt $(LANG1) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
 
+
 $(LANG1).automorf.bin: .deps/$(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
