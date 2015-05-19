@@ -14,10 +14,25 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Based on the CG used in the apertium-sh-mk language pair for
-# the Apertium platform.
-# Disambiguation rules have been developed and tested on a set of
-# independent sentences, so in general rules do not span across
-# multiple sentences.
+# the Apertium platform. Disambiguation rules have been developed 
+# and tested on a set of independent sentences, so in general rules 
+# do not span across multiple sentences.
+#
+# For evaluation and discussion see the paper:
+# Peradin, Šnajder: "Towards a constraint grammar based morphological tagger for Croatian." 
+# Text, Speech and Dialogue. 
+# Springer Berlin Heidelberg, 2012.
+#
+# Note for Apertium users:
+# This Constraint Grammar was written as a part of a master thesis,
+# and uses a different tagset and a morphological lexicon than Apertium. 
+# To be used with Apertium, some work needs to be done to adjust for 
+# the tagset differences.
+#
+# Moreover, some of the rules here are written specifically for the
+# morphological lexicon used, mostly for cleanup of artefacts. They
+# make no sence when used with Apertium, and spoil disambiguation, 
+# and likewise need to be removed for better performance.
 
 #=============================================================================================================#
 # Legend:
