@@ -64,7 +64,7 @@
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
 ^dogodilo/dogoditi<vblex><perf><ref><lp><nt><sg>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^On/ja<prn><pers><p3><m><sg><nom>$
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
@@ -101,7 +101,7 @@
 ^koji/koji<prn><rel><ma><sg><nom>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^uložili/uložiti<vblex><perf><tv><lp><m><pl>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -117,7 +117,7 @@
 ^izgubljenih/izgubljen<adj><pst><f><pl><gen><def>$
 ^mogućnosti/mogućnost<n><f><pl><gen>$
 ^:/:<sent>$
-^"/"$
+^"/"<quote>$
 ^U/u<pr><loc>$
 ^nekim/neki<prn><ind><ma><pl><loc>$
 ^slučajevima/slučaj<n><mi><pl><loc>$
@@ -131,9 +131,9 @@
 ^i/i<cnjcoo>$
 ^učinkovitost/učinkovitost<n><f><sg><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
-^"/"$
+^"/"<quote>$
 ^Ovdje/ovdje<adv>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^glavni/glavni<adj><pst><mi><sg><nom><def>$
@@ -174,9 +174,9 @@
 ^,/,<cm>$
 ^pod/pod<pr><ins>$
 ^nazivom/naziv<n><mi><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^mreža/mreža<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^predstavlja/predstavljati<vblex><imperf><tv><pres><p3><sg>$
 ^borbu/borba<n><f><sg><acc>$
@@ -224,11 +224,11 @@
 ^naveo/navesti<vblex><perf><tv><lp><m><sg>$
 ^na/na<pr><loc>$
 ^adresi/adresa<n><f><sg><loc>$
-^A1/A1$
+^A1/A1<abbr>$
 ^TV/TV<abbr><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Želite/željeti<vblex><imperf><tv><pres><p2><pl>$
 ^li/li<part><itg>$
 ^da/da<cnjsub>$
@@ -339,7 +339,7 @@
 ^Jeremiću/Jeremić<np><cog><ma><sg><dat>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Bilo/biti<vbser><lp><nt><sg>$
 ^bi/biti<vbser><clt><aor><p3><sg>$
 ^dobro/dobro<adv>$
@@ -386,7 +386,7 @@
 ^stranke/stranka<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Lagumdžija/Lagumdžija<np><cog><ma><sg><nom>$
 ^i/i<cnjcoo>$
 ^Komšić/Komšić<np><cog><ma><sg><nom>$
@@ -407,14 +407,14 @@
 ^odavno/odavno<adv>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Stranka/stranka<n><f><sg><nom>$
 ^zaboravlja/zaboravljati<vblex><imperf><tv><pres><p3><sg>$
 ^načela/načelo<n><nt><pl><acc>$
 ^socijaldemokracije/socijaldemokracija<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^On/ja<prn><pers><p3><m><sg><nom>$
 ^nikada/nikada<adv>$
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
@@ -432,7 +432,7 @@
 ^BiH/BiH<abbr>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Zemlji/zemlja<n><f><sg><dat>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^potrebni/potreban<adj><pst><mi><pl><nom><def>$
@@ -501,7 +501,7 @@
 ^nestabilnosti/nestabilnost<n><f><sg><gen>$
 ^i/i<cnjcoo>$
 ^neizvjesnosti/neizvjesnost<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -586,7 +586,7 @@
 ^./.<sent>$
 
 ^U/u<pr><loc>$
-^studenom/studeni<n><mi><sg><loc><def>$
+^studenom/studeni<n><mi><sg><loc>$
 ^2011./2011.<num>$
 ^godine/godina<n><f><sg><gen>$
 ^,/,<cm>$
@@ -648,7 +648,7 @@
 ^uložiti/uložiti<vblex><perf><tv><inf>$
 ^određene/određen<adj><pst><mi><pl><acc><def>$
 ^napore/napor<n><mi><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -708,7 +708,7 @@
 ^problem/problem<n><mi><sg><acc>$
 ^?/?<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Bio/biti<vbser><lp><m><sg>$
 ^sam/biti<vbser><clt><pres><p1><sg>$
 ^u/u<pr><loc>$
@@ -1282,21 +1282,21 @@
 ^dodana/dodati<vblex><perf><tv><pp><f><sg><nom><def>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^formulacija/formulacija<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^žene/žena<n><f><pl><nom>$
 ^i/i<cnjcoo>$
 ^muškarci/muškarac<n><ma><pl><nom>$
 ^imaju/imati<vbhaver><imperf><tv><pres><p3><pl>$
 ^jednaka/jednak<adj><pst><nt><pl><acc><def>$
 ^prava/pravo<n><nt><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Izvršenje/izvršenje<n><nt><sg><nom>$
 ^smrtne/smrtan<adj><pst><f><sg><gen><def>$
 ^kazne/kazna<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^izbačeno/izbaciti<vblex><perf><tv><pp><nt><sg><nom><def>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^iz/iz<pr><gen>$
@@ -1318,7 +1318,7 @@
 ^,/,<cm>$
 ^kao i/kao i<cnjsub>$
 ^rečenica/rečenica<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^tijekom/tijekom<pr><gen>$
 ^provedbe/provedba<n><f><sg><gen>$
 ^naputaka/naputak<n><mi><pl><gen>$
@@ -1328,7 +1328,7 @@
 ^vrijeme/vrijeme<n><nt><sg><acc>$
 ^izvanrednog/izvanredan<adj><pst><nt><sg><gen><def>$
 ^stanja/stanje<n><nt><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Ova/ovaj<prn><dem><f><sg><nom>$
@@ -1531,7 +1531,7 @@
 ^lipnja/lipanj<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Spremni/spreman<adj><pst><mi><pl><nom><def>$
 ^smo/biti<vbser><clt><pres><p1><pl>$
 ^za/za<pr><acc>$
@@ -1541,7 +1541,7 @@
 ^ćemo/htjeti<vbmod><clt><futI><p1><pl>$
 ^i/i<cnjcoo>$
 ^učiniti/učiniti<vblex><perf><tv><inf>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -1661,10 +1661,11 @@
 ^spora/spor<n><mi><sg><gen>$
 ^./.<sent>$
 
+^Govoreći/govoriti<vblex><imperf><iv><pprs><adv>$
 ^u/u<pr><loc>$
 ^Zagrebu/Zagreb<np><top><mi><sg><loc>$
 ^,/,<cm>$
-^Bush/Bush$
+^Bush/Bush<np><cog><ma><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^izrazio/izraziti<vblex><perf><tv><lp><m><sg>$
 ^žaljenje/žaljenje<n><nt><sg><acc>$
@@ -1709,7 +1710,7 @@
 ^spora/spor<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ono/ja<prn><pers><p3><nt><sg><nom>$
 ^što/što<prn><rel><mfn><sp><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -1733,7 +1734,7 @@
 ^prihvatljivo/prihvatljiv<adj><pst><nt><sg><acc><def>$
 ^objema/oba<num><f><dat>$
 ^stranama/strana<n><f><pl><dat>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -1854,7 +1855,7 @@
 ^zemalja/zemlja<n><f><pl><gen>$
 ^./.<sent>$
 
-^SETimes/SETimes$
+^SETimes/SETimes<np><org><mi><sg><nom>$
 ^:/:<sent>$
 ^U/u<pr><loc>$
 ^kojoj/koji<prn><rel><f><sg><loc>$
@@ -1883,7 +1884,7 @@
 ^tržištu/tržište<n><nt><sg><loc>$
 ^./.<sent>$
 
-^SETimes/SETimes$
+^SETimes/SETimes<np><org><mi><sg><nom>$
 ^:/:<sent>$
 ^Jeste/biti<vbser><pres><p2><pl>$
 ^li/li<part><itg>$
@@ -1914,7 +1915,7 @@
 ^carina/carina<n><f><pl><gen>$
 ^./.<sent>$
 
-^SETimes/SETimes$
+^SETimes/SETimes<np><org><mi><sg><nom>$
 ^:/:<sent>$
 ^Možemo/moći<vbmod><pres><p1><pl>$
 ^li/li<part><itg>$
@@ -1968,7 +1969,7 @@
 ^trgovine/trgovina<n><f><sg><gen>$
 ^./.<sent>$
 
-^SETimes/SETimes$
+^SETimes/SETimes<np><org><mi><sg><nom>$
 ^:/:<sent>$
 ^Bi/biti<vbser><clt><aor><p3><sg>$
 ^li/li<part><itg>$
@@ -2024,7 +2025,7 @@
 ^mogla/moći<vbmod><lp><f><sg>$
 ^započeti/započeti<vblex><perf><tv><inf>$
 ^1./1.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^,/,<cm>$
 ^pratit će/pratiti<vblex><imperf><iv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^skupina/skupina<n><f><sg><nom>$
@@ -2052,7 +2053,7 @@
 ^priznanja/priznanje<n><nt><sg><gen>$
 ^neovisnosti/neovisnost<n><f><sg><gen>$
 ^Prištine/Priština<np><top><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -2075,7 +2076,7 @@
 ^prošlogodišnju/prošlogodišnji<adj><pst><f><sg><acc><def>$
 ^kobnu/koban<adj><pst><f><sg><acc><def>$
 ^misiju/misija<n><f><sg><acc>$
-^Flotile/Flotile$
+^Flotile/Flotile<np><al><f><sg><gen>$
 ^slobode/sloboda<n><f><sg><gen>$
 ^./.<sent>$
 
@@ -2096,7 +2097,7 @@
 ^obilježena/obilježiti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^prva/prvi<adj><pst><f><sg><nom><def>$
 ^godišnjica/godišnjica<n><f><sg><nom>$
-^Flotile/Flotile$
+^Flotile/Flotile<np><al><f><sg><gen>$
 ^slobode/sloboda<n><f><sg><gen>$
 ^,/,<cm>$
 ^koja/koji<prn><rel><f><sg><nom>$
@@ -2166,13 +2167,13 @@
 ^konvoja/konvoj<n><mi><pl><gen>$
 ^kao/kao<pr><gen>$
 ^razlog/razlog<n><mi><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^birokratske/birokratski<adj><pst><f><pl><acc><def>$
 ^poteškoće/poteškoća<n><f><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Pozdravljam/pozdravljati<vblex><imperf><tv><pres><p1><sg>$
 ^sve/sav<prn><tot><mi><pl><acc>$
 ^napore/napor<n><mi><pl><acc>$
@@ -2181,7 +2182,7 @@
 ^zaustavljanje/zaustavljanje<n><nt><sg><acc>$
 ^tog/taj<prn><dem><mi><sg><gen>$
 ^konvoja/konvoj<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -2259,7 +2260,7 @@
 ^godine/godina<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Europska/europski<adj><pst><f><sg><nom><def>$
 ^i/i<cnjcoo>$
 ^demokratska/demokratski<adj><pst><f><sg><nom><def>$
@@ -2270,7 +2271,7 @@
 ^od/od<pr><gen>$
 ^naše/naš<prn><pos><p1><f><sg><gen>$
 ^neovisnosti/neovisnost<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazala/kazati<vblex><perf><iv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -2298,7 +2299,7 @@
 ^EU/EU<abbr><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadgledanjem/nadgledanje<n><nt><sg><ins>$
 ^reformskih/reformski<adj><pst><mi><pl><gen><def>$
 ^koraka/korak<n><mi><pl><gen>$
@@ -2314,7 +2315,7 @@
 ^zemljama/zemlja<n><f><pl><dat>$
 ^članicama/članica<n><f><pl><dat>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Iako/iako<cnjsub>$
 ^su/biti<vbser><clt><pres><p3><pl>$
@@ -2333,7 +2334,7 @@
 ^jedinstveno/jedinstven<adj><pst><nt><sg><nom><def>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^problem/problem<n><mi><sg><nom>$
@@ -2364,27 +2365,27 @@
 ^i/i<cnjcoo>$
 ^stranačkih/stranački<adj><pst><f><pl><gen><def>$
 ^borbi/borba<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Makedonija/Makedonija<np><top><f><sg><nom>$
 ^domaćin/domaćin<n><ma><sg><nom>$
 ^foruma/forum<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^Dijalog/dijalog<n><mi><sg><nom>$
 ^civilizacija/civilizacija<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 
 ^Dvodnevni/dvodnevan<adj><pst><mi><sg><nom><def>$
 ^regionalni/regionalan<adj><pst><mi><sg><nom><def>$
 ^forum/forum<n><mi><sg><nom>$
 ^pod/pod<pr><ins>$
 ^nazivom/naziv<n><mi><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^Dijalog/dijalog<n><mi><sg><nom>$
 ^među/među<pr><ins>$
 ^civilizacijama/civilizacija<n><f><pl><ins>$
-^"/"$
+^"/"<quote>$
 ^bit će/biti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^29./29.<num>$
 ^kolovoza/kolovoz<n><mi><sg><gen>$
@@ -2417,7 +2418,7 @@
 ^skupštine/skupština<n><f><sg><gen>$
 ^UN-a/UN<abbr><gen>$
 ^9./9.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^2001./2001.<num>$
 ^godine/godina<n><f><sg><gen>$
 ^,/,<cm>$
@@ -2455,7 +2456,7 @@
 ^zasjedanju/zasjedanje<n><nt><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Razumijem/razumjeti<vblex><imperf><tv><pres><p1><sg>$
 ^da/da<cnjsub>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -2501,7 +2502,7 @@
 ^i/i<cnjcoo>$
 ^međunarodnoj/međunarodan<adj><pst><f><sg><loc><def>$
 ^razini/razina<n><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^istaknuo/istaknuti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -2522,9 +2523,9 @@
 
 ^Primjerice/primjerice<adv>$
 ^,/,<cm>$
-^"/"$
+^"/"<quote>$
 ^inauguracijska/inauguracijski<adj><pst><f><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^mobilizacija/mobilizacija<n><f><sg><nom>$
 ^u/u<pr><acc>$
 ^četvrtak/četvrtak<n><mi><sg><acc>$
@@ -2545,7 +2546,7 @@
 ^Atene/Atena<np><top><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Uopće/uopće<adv>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^ne/ne<part><neg>$
@@ -2560,7 +2561,7 @@
 ^legaliteta/legalitet<n><mi><sg><gen>$
 ^i/i<cnjcoo>$
 ^ustavnosti/ustavnost<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -2569,18 +2570,18 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^ipak/ipak<adv>$
 ^spomenuo/spomenuti<vblex><perf><ref><lp><m><sg>$
-^"/"$
+^"/"<quote>$
 ^stajalište/stajalište<n><nt><sg><nom>$
 ^o/o<pr><loc>$
 ^ustavnosti/ustavnost<n><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^koje/koji<prn><rel><nt><sg><acc>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^iznijeli/iznijeti<vblex><perf><tv><lp><m><pl>$
 ^suparnici/suparnik<n><ma><pl><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nažalost/nažalost<part>$
 ^,/,<cm>$
 ^jedini/jedini<adj><pst><mi><sg><nom><def>$
@@ -2621,7 +2622,7 @@
 ^vode/voditi<vblex><imperf><tv><pres><p3><pl>$
 ^ogranke/ogranak<n><mi><pl><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Prva/prvi<adj><pst><f><sg><nom><def>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
@@ -2734,7 +2735,7 @@
 ^uspostavljena/uspostaviti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^prije/prije<pr><gen>$
 ^siječnja/siječanj<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodaje/dodavati<vblex><imperf><tv><pres><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -2812,7 +2813,7 @@
 ^zemalja/zemlja<n><f><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Znači/značiti<vblex><imperf><tv><pres><p3><sg>$
 ^li/li<part><itg>$
 ^to/taj<prn><dem><nt><sg><nom>$
@@ -2826,7 +2827,7 @@
 ^Vjerojatno/vjerojatno<part>$
 ^ne/ne<part><neg>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Vijest/vijest<n><f><sg><nom>$
 ^o/o<pr><loc>$
@@ -2928,28 +2929,28 @@
 ^visokih/visok<adj><pst><mi><pl><gen><def>$
 ^standarda/standard<n><mi><pl><gen>$
 ^pristojnosti/pristojnost<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^naglasio/naglasiti<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^Bush/Bush<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kao/kao<pr><gen>$
 ^europska/europski<adj><pst><f><sg><nom><def>$
 ^sila/sila<n><f><sg><nom>$
 ^Turska/Turska<np><top><f><sg><nom>$
 ^pripada/pripadati<vblex><imperf><iv><pres><p3><sg>$
 ^Uniji/unija<n><f><sg><dat>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^Bush/Bush<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Vaše/vaš<prn><pos><p2><nt><sg><nom>$
 ^članstvo/članstvo<n><nt><sg><nom>$
 ^također/također<adv>$
@@ -2972,7 +2973,7 @@
 ^dio/dio<n><mi><sg><nom>$
 ^obaju/oba<num><mi><gen>$
 ^svjetova/svijet<n><mi><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Izaslanik/izaslanik<n><ma><sg><nom>$
@@ -3084,7 +3085,7 @@
 ^UN/UN<abbr><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Postoje/postojati<vblex><imperf><iv><pres><p3><pl>$
 ^korisni/koristan<adj><pst><mi><pl><nom><def>$
 ^kontakti/kontakt<n><mi><pl><nom>$
@@ -3112,7 +3113,7 @@
 ^na/na<pr><acc>$
 ^drugu/drugi<adj><pst><f><sg><acc><def>$
 ^stranu/strana<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -3147,7 +3148,7 @@
 ^pratiti/pratiti<vblex><imperf><iv><inf>$
 ^svoje/svoj<prn><ref><pos><mi><pl><acc>$
 ^pristaše/pristaša<n><ma><pl><nom>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Sveukupna/sveukupan<adj><pst><f><sg><nom><def>$
@@ -3222,7 +3223,7 @@
 ^godine/godina<n><f><pl><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Volim/voljeti<vblex><imperf><tv><pres><p1><sg>$
 ^dobivati/dobivati<vblex><imperf><tv><inf>$
 ^plaću/plaća<n><f><sg><acc>$
@@ -3271,7 +3272,7 @@
 ^bit će/biti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^potopljen/potopiti<vblex><perf><tv><pp><mi><sg><nom><ind>$
 
-^"/"$
+^"/"<quote>$
 ^Povijest/povijest<n><f><sg><nom>$
 ^duga/dug<adj><pst><f><sg><nom><def>$
 ^2.000/2.000<num>$
@@ -3418,7 +3419,7 @@
 ^slučajeva/slučaj<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Transparentnost/transparentnost<n><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^najučinkovitiji/učinkovit<adj><sup><mi><sg><nom>$
@@ -3440,7 +3441,7 @@
 ^prava/pravo<n><nt><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^U/u<pr><loc>$
 ^ovoj/ovaj<prn><dem><f><sg><loc>$
 ^su/biti<vbser><clt><pres><p3><pl>$
@@ -3489,7 +3490,7 @@
 ^Južne/južan<adj><pst><f><sg><gen><def>$
 ^Osetije/Osetija<np><top><f><sg><gen>$
 
-^"/"$
+^"/"<quote>$
 ^Oni/onaj<prn><dem><ma><pl><nom>$
 ^koji/koji<prn><rel><mi><pl><nom>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -3512,7 +3513,7 @@
 ^nešto/nešto<prn><ind><mfn><sp><acc>$
 ^sasvim/sasvim<adv>$
 ^suprotno/suprotan<adj><pst><nt><sg><acc><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -3530,7 +3531,7 @@
 ^neprilikama/neprilika<n><f><pl><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Međutim/međutim<adv>$
 ^,/,<cm>$
 ^Beograd/Beograd<np><top><mi><sg><nom>$
@@ -3555,14 +3556,14 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^svijet/svijet<n><mi><sg><nom>$
 ^dobio/dobiti<vblex><perf><tv><lp><m><sg>$
-^"/"$
+^"/"<quote>$
 ^lekciju/lekcija<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^iz/iz<pr><gen>$
 ^sukoba/sukob<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Međunarodni/međunarodan<adj><pst><mi><pl><nom><def>$
 ^sukobi/sukob<n><mi><pl><nom>$
 ^ne/ne<part><neg>$
@@ -3576,13 +3577,13 @@
 ^kršenjem/kršenje<n><nt><sg><ins>$
 ^međunarodnih/međunarodan<adj><pst><nt><pl><gen><def>$
 ^prava/pravo<n><nt><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kosovo/Kosovo<np><top><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^bilo/biti<vbser><lp><nt><sg>$
@@ -3618,7 +3619,7 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Svugdje/svugdje<adv>$
 ^postoje/postojati<vblex><imperf><iv><pres><p3><pl>$
 ^manjine/manjina<n><f><pl><nom>$
@@ -3642,7 +3643,7 @@
 ^ozbiljno/ozbiljno<adv>$
 ^ugrožen/ugroziti<vblex><perf><tv><pp><mi><sg><nom><ind>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Ministarstvo/ministarstvo<n><nt><sg><nom>$
 ^vanjskih/vanjski<adj><pst><mi><pl><gen><def>$
@@ -4021,10 +4022,10 @@
 ^Olimpijske/olimpijski<adj><pst><f><pl><nom><def>$
 ^igre/igra<n><f><pl><nom>$
 ^:/:<sent>$
-^"/"$
+^"/"<quote>$
 ^Crvene/crven<adj><pst><f><pl><nom><def>$
 ^ajkule/ajkula<n><f><pl><nom>$
-^"/"$
+^"/"<quote>$
 ^pobijedile/pobijediti<vblex><perf><tv><lp><f><pl>$
 ^Grčku/Grčka<np><top><f><sg><acc>$
 
@@ -4524,7 +4525,7 @@
 ^mogućnost/mogućnost<n><f><sg><acc>$
 ^političkog/politički<adj><pst><mi><sg><gen><def>$
 ^kaosa/kaos<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^EU/EU<abbr><nom>$
@@ -4538,7 +4539,7 @@
 ^događaja/događaj<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^U/u<pr><loc>$
 ^normalnoj/normalan<adj><pst><f><sg><loc><def>$
 ^europskoj/europski<adj><pst><f><sg><loc><def>$
@@ -4559,7 +4560,7 @@
 ^ne/ne<part><neg>$
 ^u/u<pr><loc>$
 ^sudnici/sudnica<n><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -4611,7 +4612,7 @@
 ^zgradu/zgrada<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ti/taj<prn><dem><mi><pl><nom>$
 ^će/htjeti<vbmod><clt><futI><p3><pl>$
 ^kukavički/kukavički<adj><pst><mi><pl><nom><def>$
@@ -4621,7 +4622,7 @@
 ^pred/pred<pr><acc>$
 ^lice/lice<n><nt><sg><acc>$
 ^pravde/pravda<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -4634,7 +4635,7 @@
 ^policiju/policija<n><f><sg><acc>$
 ^u/u<pr><loc>$
 ^nastojanjima/nastojanje<n><nt><pl><loc>$
-^"/"$
+^"/"<quote>$
 ^da/da<cnjsub>$
 ^očuvaju/očuvati<vblex><perf><tv><pres><p3><pl>$
 ^sigurnost/sigurnost<n><f><sg><acc>$
@@ -4645,7 +4646,7 @@
 ^četvrti/četvrt<n><f><pl><gen>$
 ^i/i<cnjcoo>$
 ^gradova/grad<n><mi><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Ipak/ipak<adv>$
@@ -4838,7 +4839,7 @@
 ^dovele/dovesti<vblex><perf><tv><lp><f><pl>$
 ^do/do<pr><gen>$
 ^otkazivanja/otkazivanje<n><nt><sg><gen>$
-^gay/gay$
+^gay/gay<adj><pst><f><sg><gen><def>$
 ^Parade/parada<n><f><sg><gen>$
 ^ponosa/ponos<n><mi><sg><gen>$
 ^u/u<pr><loc>$
@@ -4865,7 +4866,7 @@
 ^parade/parada<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ministarstvo/ministarstvo<n><nt><sg><nom>$
 ^unutarnjih/unutarnji<adj><pst><mi><pl><gen><def>$
 ^poslova/posao<n><mi><pl><gen>$
@@ -4906,7 +4907,7 @@
 ^jedan/jedan<num><mi><sg><acc>$
 ^ljudski/ljudski<adj><pst><mi><sg><acc><def>$
 ^život/život<n><mi><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -4923,7 +4924,7 @@
 ^odbili/odbiti<vblex><perf><tv><lp><m><pl>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Tradicija/tradicija<n><f><sg><nom>$
 ^u/u<pr><loc>$
 ^svim/sav<prn><tot><mi><pl><loc>$
@@ -4947,7 +4948,7 @@
 ^da/da<cnjsub>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^članovi/član<n><ma><pl><nom>$
-^gay/gay$
+^gay/gay<adj><pst><mi><sg><gen><def>$
 ^i/i<cnjcoo>$
 ^lezbijskog/lezbijski<adj><pst><mi><sg><gen><def>$
 ^dijela/dio<n><mi><sg><gen>$
@@ -4969,7 +4970,7 @@
 ^ostavku/ostavka<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Niti/niti<cnjcoo>$
 ^jedna/jedan<num><f><sg><nom>$
 ^zemlja/zemlja<n><f><sg><nom>$
@@ -5029,7 +5030,7 @@
 ^zemlje/zemlja<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Imamo/imati<vbhaver><imperf><tv><pres><p1><pl>$
 ^jednu/jedan<num><f><sg><acc>$
 ^vrlo/vrlo<adv>$
@@ -5099,13 +5100,13 @@
 ^zaštitu/zaštita<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nema/nemati<vbhaver><neg><imperf><tv><pres><p3><sg>$
 ^razloga/razlog<n><mi><sg><gen>$
 ^za/za<pr><acc>$
 ^njihovu/njihov<prn><pos><p3><f><sg><acc>$
 ^zaštitu/zaštita<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -5121,7 +5122,7 @@
 ^AFP/AFP<abbr><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Naša/naš<prn><pos><p1><f><sg><nom>$
 ^srbijanska/srbijanski<adj><pst><f><sg><nom><def>$
 ^nacionalna/nacionalan<adj><pst><f><sg><nom><def>$
@@ -5154,11 +5155,11 @@
 ^izložbi/izložba<n><f><sg><loc>$
 ^pod/pod<pr><ins>$
 ^nazivom/naziv<n><mi><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^Kreatori/kreator<n><ma><pl><nom>$
 ^dviju/dva<num><f><sg><gen>$
 ^kultura/kultura<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^predstavljeni/predstaviti<vblex><perf><tv><pp><mi><sg><nom><def>$
 ^su/biti<vbser><clt><pres><p3><pl>$
@@ -5190,7 +5191,7 @@
 ^otvorena/otvoriti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^do/do<pr><gen>$
 ^4./4.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^,/,<cm>$
 ^a/a<cnjcoo>$
 ^potom/potom<adv>$
@@ -5253,7 +5254,7 @@
 ^kako/kako<cnjsub>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
 ^biti/biti<vbser><inf>$
-^"/"$
+^"/"<quote>$
 ^kažnjena/kazniti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^zbog/zbog<pr><gen>$
 ^lošeg/loš<adj><pst><nt><sg><gen><def>$
@@ -5263,7 +5264,7 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^promašila/promašiti<vblex><perf><tv><lp><f><sg>$
 ^potpredsjednicu/potpredsjednica<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Ipak/ipak<adv>$
@@ -5418,14 +5419,15 @@
 ^,/,<cm>$
 ^koji/koji<prn><rel><ma><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
+^održan/održan<adj><pst><mi><sg><nom><ind>$
 ^u/u<pr><loc>$
 ^sklopu/sklop<n><mi><sg><loc>$
 ^turneje/turneja<n><f><sg><gen>$
-^Big/Big$
-^Bang/Bang$
+^Big Bang/Big Bang<np><al><mi><sg><nom>$
 ^,/,<cm>$
 ^trajao/trajati<vblex><imperf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
+^dva/dva<num><sg>$
 ^sata/sat<n><mi><sg><gen>$
 ^./.<sent>$
 
@@ -5450,9 +5452,7 @@
 ^,/,<cm>$
 ^plivanju/plivanje<n><nt><sg><loc>$
 ^,/,<cm>$
-^tae/tae$
-^kwon/kwon$
-^dou/dou$
+^taekwondou/taekwondo<n><mi><sg><dat>$
 ^,/,<cm>$
 ^atletici/atletika<n><f><sg><loc>$
 ^,/,<cm>$
@@ -5660,7 +5660,7 @@
 ^okruženje/okruženje<n><nt><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Zanima/zanimati<vblex><perf><tv><pres><p3><sg>$
 ^me/ja<prn><pers><clt><p1><mfn><sg><acc>$
 ^ta/taj<prn><dem><f><sg><nom>$
@@ -5682,7 +5682,7 @@
 ^tu/taj<prn><dem><f><sg><acc>$
 ^razinu/razina<n><f><sg><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Novi/nov<adj><pst><ma><sg><nom><def>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
@@ -5735,7 +5735,7 @@
 ^povratka/povratak<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^velika/velik<adj><pst><f><sg><nom><def>$
@@ -5751,7 +5751,7 @@
 ^mramornih/mramoran<adj><pst><mi><pl><gen><def>$
 ^kipova/kip<n><mi><pl><gen>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Uklonjeni/ukloniti<vblex><perf><tv><pp><mi><pl><nom><def>$
 ^su/biti<vbser><clt><pres><p3><pl>$
@@ -5803,10 +5803,10 @@
 ^dobio/dobiti<vblex><perf><tv><lp><m><sg>$
 ^za/za<pr><acc>$
 ^roman/roman<n><mi><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^Pogrešna/pogrešan<adj><pst><f><sg><nom><def>$
 ^večera/večera<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Natjecanje/natjecanje<n><nt><sg><nom>$
@@ -6171,7 +6171,7 @@
 ^rad/rad<n><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadam/nadati<vblex><imperf><ref><pres><p1><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^kako/kako<cnjsub>$
@@ -6187,7 +6187,7 @@
 ^odabrati/odabrati<vblex><perf><iv><inf>$
 ^najbolje/dobar<adj><sup><mi><pl><acc>$
 ^kandidate/kandidat<n><ma><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Dodao/dodati<vblex><perf><tv><lp><m><sg>$
@@ -6317,7 +6317,7 @@
 ^prema/prema<pr><loc>$
 ^Cipru/Cipar<np><top><mi><sg><loc>$
 
-^"/"$
+^"/"<quote>$
 ^Ako/ako<cnjsub>$
 ^ne/ne<part><neg>$
 ^bude/biti<vbser><futII><pres><p3><sg>$
@@ -6338,7 +6338,7 @@
 ^priključenja/priključenje<n><nt><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ukoliko/ukoliko<adv>$
 ^ne/ne<part><neg>$
 ^bude/biti<vbser><futII><pres><p3><sg>$
@@ -6367,7 +6367,7 @@
 ^značit će/značiti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^neizvjesnu/neizvjestan<adj><pst><f><sg><acc><def>$
 ^budućnost/budućnost<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Međutim/međutim<adv>$
@@ -6425,7 +6425,7 @@
 ^prosinca/prosinac<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Odluke/odluka<n><f><pl><nom>$
 ^će/htjeti<vbmod><clt><futI><p3><pl>$
 ^biti/biti<vbser><inf>$
@@ -6444,10 +6444,10 @@
 ^predstavi/predstaviti<vblex><perf><tv><pres><p3><sg>$
 ^svoje/svoj<prn><ref><pos><f><pl><acc>$
 ^preporuke/preporuka<n><f><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Posljednji/posljednji<adj><pst><mi><sg><nom><def>$
 ^sastanak/sastanak<n><mi><sg><nom>$
 ^Komisije/komisija<n><f><sg><gen>$
@@ -6473,7 +6473,7 @@
 ^ispunila/ispuniti<vblex><perf><tv><lp><f><sg>$
 ^svoje/svoj<prn><ref><pos><f><pl><acc>$
 ^obveze/obveza<n><f><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^U međuvremenu/u međuvremenu<adv>$
@@ -6489,7 +6489,7 @@
 ^embargo/embargo<n><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Politika/politika<n><f><sg><nom>$
 ^Turske/Turska<np><top><f><sg><gen>$
 ^vrlo/vrlo<adv>$
@@ -6606,12 +6606,12 @@
 ^skup/skup<n><mi><sg><nom>$
 ^pod/pod<pr><ins>$
 ^nazivom/naziv<n><mi><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^Vidimo/vidjeti<vblex><imperf><tv><imp><p1><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^u/u<pr><loc>$
 ^budućnosti/budućnost<n><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^u/u<pr><loc>$
 ^beogradskom/beogradski<adj><pst><mi><sg><loc><def>$
@@ -6941,14 +6941,14 @@
 ^života/život<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nema/nemati<vbhaver><neg><imperf><tv><pres><p3><sg>$
 ^ideala/ideal<n><mi><pl><gen>$
 ^,/,<cm>$
 ^samo/samo<adv>$
 ^čist/čist<adj><pst><mi><sg><nom><ind>$
 ^pragmatizam/pragmatizam<n><mi><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -7087,7 +7087,7 @@
 ^sporna/sporan<adj><pst><f><sg><nom><def>$
 ^internet/internet<n><mi><sg><nom>$
 ^stranica/stranica<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^originalna/originalan<adj><pst><f><sg><nom><def>$
 ^,/,<cm>$
 ^legalna/legalan<adj><pst><f><sg><nom><def>$
@@ -7095,7 +7095,7 @@
 ^moderna/moderan<adj><pst><f><sg><nom><def>$
 ^i/i<cnjcoo>$
 ^proročanska/proročanski<adj><pst><f><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^načinjena/načiniti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^po/po<pr><loc>$
@@ -7143,7 +7143,7 @@
 ^radu/rad<n><mi><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Prema/prema<pr><loc>$
 ^zakonu/zakon<n><mi><sg><loc>$
 ^,/,<cm>$
@@ -7158,7 +7158,7 @@
 ^mobinga/mobing<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Cilj/cilj<n><mi><sg><nom>$
 ^zakona/zakon<n><mi><sg><gen>$
 ^rješavanje/rješavanje<n><nt><sg><nom>$
@@ -7677,7 +7677,7 @@
 ^regije/regija<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nakon/nakon<pr><gen>$
 ^ovog/ovaj<prn><dem><mi><sg><gen>$
 ^posjeta/posjet<n><mi><sg><gen>$
@@ -7688,7 +7688,7 @@
 ^o/o<pr><loc>$
 ^statusu/status<n><mi><sg><loc>$
 ^Kosova/Kosovo<np><top><nt><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -7725,7 +7725,7 @@
 ^Balkanu/Balkan<np><top><mi><sg><dat>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadamo/nadati<vblex><imperf><ref><pres><p1><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^kako/kako<cnjsub>$
@@ -7741,7 +7741,7 @@
 ^ili/ili<cnjcoo>$
 ^onaj/onaj<prn><dem><mi><sg><acc>$
 ^način/način<n><mi><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -7817,9 +7817,7 @@
 ^kandidat/kandidat<n><ma><sg><nom>$
 ^-/-<guio>$
 ^-/-<guio>$
-^British/British$
-^American/American$
-^Tobacco/Tobacco$
+^British American Tobacco/British American Tobacco<np><org><mi><sg><nom>$
 ^-/-<guio>$
 ^-/-<guio>$
 ^koji/koji<prn><rel><ma><sg><nom>$
@@ -7868,7 +7866,7 @@
 ^Koridoru/koridor<n><mi><sg><loc>$
 ^10/10<num>$
 
-^"/"$
+^"/"<quote>$
 ^Izgradnjom/izgradnja<n><f><sg><ins>$
 ^dionice/dionica<n><f><sg><gen>$
 ^koridora/koridor<n><mi><sg><gen>$
@@ -7886,7 +7884,7 @@
 ^najvažniju/važan<adj><sup><f><sg><acc>$
 ^prometnu/prometan<adj><pst><f><sg><acc><def>$
 ^rutu/ruta<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -7903,7 +7901,7 @@
 ^Završetak/završetak<n><mi><sg><nom>$
 ^koridora/koridor<n><mi><sg><gen>$
 ^nudi/nuditi<vblex><imperf><ref><pres><p3><sg>$
-^"/"$
+^"/"<quote>$
 ^izvanrednu/izvanredan<adj><pst><f><sg><acc><def>$
 ^prigodu/prigoda<n><f><sg><acc>$
 ^za/za<pr><acc>$
@@ -7911,7 +7909,7 @@
 ^konkurentnosti/konkurentnost<n><f><sg><gen>$
 ^makedonskih/makedonski<adj><pst><f><pl><gen><def>$
 ^tvrtki/tvrtka<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -7967,7 +7965,7 @@
 ^'/'<apos>$
 ^u/u<pr><loc>$
 ^Makedoniji/Makedonija<np><top><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kaže/kazati<vblex><perf><iv><pres><p3><sg>$
 ^Zoran/Zoran<np><ant><ma><sg><nom>$
@@ -8063,7 +8061,7 @@
 ^te/te<cnjcoo>$
 ^recikliranja/recikliranje<n><nt><sg><gen>$
 ^otpada/otpad<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavila/izjaviti<vblex><perf><tv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -8088,7 +8086,7 @@
 ^godine/godina<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Moj/moj<prn><pos><p1><ma><sg><nom>$
 ^život/život<n><mi><sg><nom>$
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
@@ -8098,7 +8096,7 @@
 ^prije/prije<adv>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ako/ako<cnjsub>$
 ^želite/željeti<vblex><imperf><tv><pres><p2><pl>$
 ^dobiti/dobiti<vblex><perf><tv><inf>$
@@ -8111,7 +8109,7 @@
 ^tražiti/tražiti<vblex><imperf><tv><inf>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Albanci/Albanac<n><ma><pl><nom>$
 ^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
 ^imati/imati<vbhaver><imperf><tv><inf>$
@@ -8135,7 +8133,7 @@
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^trebalo/trebati<vblex><imperf><tv><lp><nt><sg>$
 ^poticati/poticati<vblex><imperf><tv><inf>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -8327,7 +8325,7 @@
 ^tvrtku/tvrtka<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nailazila/nailaziti<vblex><imperf><iv><lp><f><sg>$
 ^sam/biti<vbser><clt><pres><p1><sg>$
 ^na/na<pr><acc>$
@@ -8564,7 +8562,7 @@
 ^godine/godina<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$ 
+^"/"<quote>$ 
 ^Cjelokupna/cjelokupan<adj><pst><f><sg><nom><def>$ 
 ^EU/EU<abbr><nom>$
 ^usmjerava/usmjeravati<vblex><imperf><tv><pres><p3><sg>$
@@ -8581,7 +8579,7 @@
 ^drugu/drugi<adj><pst><f><sg><acc><def>$
 ^nuklearnu/nuklearan<adj><pst><f><sg><acc><def>$
 ^elektranu/elektrana<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -8595,7 +8593,7 @@
 ^Belene/Belene<np><org><mi><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Bugarska/Bugarska<np><top><f><sg><nom>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
 ^morati/morati<vblex><imperf><iv><inf>$
@@ -8609,7 +8607,7 @@
 ^konj/konj<n><ma><sg><nom>$
 ^u/u<pr><loc>$
 ^EU/EU<abbr><loc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Ne/ne<part><neg>$
@@ -8663,7 +8661,7 @@
 ^taj/taj<prn><dem><mi><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^rizik/rizik<n><mi><sg><nom>$
@@ -8671,7 +8669,7 @@
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
 ^preuzeti/preuzeti<vblex><perf><tv><inf>$
 ^kreditor/kreditor<n><ma><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -8845,7 +8843,7 @@
 ^UN/UN<abbr><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Najvažnija/važan<adj><sup><nt><pl><nom>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^standarda/standard<n><mi><pl><gen>$
@@ -8865,7 +8863,7 @@
 ^predanost/predanost<n><f><sg><acc>$
 ^tim/taj<prn><dem><nt><pl><dat>$
 ^pitanjima/pitanje<n><nt><pl><dat>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -8919,12 +8917,12 @@
 ^pokrajinom/pokrajina<n><f><sg><ins>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Važne/važan<adj><pst><f><pl><nom><def>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^dvije/dva<num><f><sg><nom>$
 ^stvari/stvar<n><f><pl><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kaže/kazati<vblex><perf><tv><pres><p3><sg>$
 ^redatelj/redatelj<n><ma><sg><nom>$
@@ -8978,9 +8976,9 @@
 ^U/u<pr><loc>$
 ^njegovu/njegov<prn><pos><p3><mi><sg><loc>$
 ^filmu/film<n><mi><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^Prašina/prašina<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^glavne/glavni<adj><pst><f><pl><nom><def>$
 ^uloge/uloga<n><f><pl><nom>$
 ^bile/biti<vbser><lp><f><pl>$
@@ -9140,7 +9138,7 @@
 ^obitelji/obitelj<n><f><sg><gen>$
 ^i/i<cnjcoo>$
 ^prijateljstva/prijateljstvo<n><nt><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -9167,11 +9165,11 @@
 ^Hercegovini/Hercegovina<np><top><f><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kao/kao<pr><gen>$
 ^pozitivan/pozitivan<adj><pst><mi><sg><nom><ind>$
 ^zaokret/zaokret<n><mi><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^Grossman/Grossman<np><cog><ma><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^pozdravio/pozdraviti<vblex><perf><tv><lp><m><sg>$
@@ -9185,7 +9183,7 @@
 ^dodajući/dodavati<vblex><imperf><tv><pprs><adv>$
 ^kako/kako<cnjsub>$
 ^je/biti<vbser><clt><pres><p3><sg>$
-^"/"$
+^"/"<quote>$
 ^sada/sada<adv>$
 ^ključna/ključan<adj><pst><f><sg><nom><def>$
 ^stvar/stvar<n><f><sg><nom>$
@@ -9195,7 +9193,7 @@
 ^slanje/slanje<n><nt><sg><nom>$
 ^u/u<pr><acc>$
 ^Haag/Haag<np><top><mi><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Vjeruje/vjerovati<vblex><imperf><tv><pres><p3><sg>$
@@ -9227,7 +9225,7 @@
 ^realizaciju/realizacija<n><f><sg><acc>$
 ^te/taj<prn><dem><f><sg><gen>$
 ^zadaće/zadaća<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Hrvatska/Hrvatska<np><top><f><sg><nom>$
@@ -9248,7 +9246,7 @@
 ^godine/godina<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^dokaz/dokaz<n><mi><sg><nom>$
@@ -9258,7 +9256,7 @@
 ^Europskoj/europski<adj><pst><f><sg><dat><def>$
 ^uniji/unija<n><f><sg><dat>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Sanader/Sanader<np><cog><ma><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -9284,7 +9282,7 @@
 ^parlamentarnim/parlamentaran<adj><pst><ma><pl><loc><def>$
 ^izborima/izbor<n><mi><pl><loc>$
 ^u/u<pr><loc>$
-^studenom/studeni<n><mi><sg><loc><def>$
+^studenom/studeni<n><mi><sg><loc>$
 ^./.<sent>$
 
 ^Hrvatska/Hrvatska<np><top><f><sg><nom>$
@@ -9315,7 +9313,7 @@
 ^ožujka/ožujak<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadamo/nadati<vblex><imperf><ref><pres><p1><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^službenom/služben<adj><pst><nt><sg><loc><def>$
@@ -9328,7 +9326,7 @@
 ^početka/početak<n><mi><sg><gen>$
 ^2005./2005.<num>$
 ^godine/godina<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -9445,7 +9443,7 @@
 ^inozemstvu/inozemstvo<n><nt><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Riječ/riječ<n><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^o/o<pr><loc>$
@@ -9494,7 +9492,7 @@
 ^prema/prema<pr><loc>$
 ^EU/EU<abbr><loc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Iako/iako<cnjsub>$
 ^imam/imati<vbhaver><imperf><tv><pres><p1><sg>$
@@ -9541,12 +9539,12 @@
 ^zemljama/zemlja<n><f><pl><ins>$
 ^članicama/članica<n><f><pl><ins>$
 ^,/,<cm>$
-^tzv/tzv$
-^"/"$
+^tzv/tzv<abbr>$
+^"/"<quote>$
 ^Balkanske/balkanski<adj><pst><f><sg><gen><def>$
 ^schengenske/schengenski<adj><pst><f><sg><gen><def>$
 ^zone/zona<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^ohrabrena/ohrabriti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^pozitivnim/pozitivan<adj><pst><nt><pl><ins><def>$
@@ -9605,7 +9603,7 @@
 ^EU/EU<abbr><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Moramo/morati<vblex><imperf><iv><pres><p1><pl>$
 ^odlučiti/odlučiti<vblex><perf><tv><inf>$
 ^unutar/unutar<adv>$
@@ -9617,7 +9615,7 @@
 ^očekivanja/očekivanje<n><nt><pl><nom>$
 ^glede/glede<adv>$
 ^Turske/Turska<np><top><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Osim/osim<pr><gen>$
@@ -9634,10 +9632,10 @@
 ^treba/trebati<vblex><imperf><tv><pres><p3><sg>$
 ^biti/biti<vbser><inf>$
 ^ponuđeno/ponuditi<vblex><perf><tv><pp><nt><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^povlašteno/povlašten<adj><pst><nt><sg><nom><def>$
 ^partnerstvo/partnerstvo<n><nt><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^umjesto/umjesto<pr><gen>$
 ^punopravnog/punopravan<adj><pst><nt><sg><gen><def>$
 ^članstva/članstvo<n><nt><sg><gen>$
@@ -9652,7 +9650,7 @@
 ^pitanje/pitanje<n><nt><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ne/ne<part><neg>$
 ^dovodim/dovoditi<vblex><imperf><ref><pres><p1><sg>$
 ^u/u<pr><acc>$
@@ -9662,7 +9660,7 @@
 ^neke/neki<prn><ind><f><pl><nom>$
 ^države/država<n><f><pl><nom>$
 ^imaju/imati<vbhaver><imperf><tv><pres><p3><pl>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kaže/kazati<vblex><perf><iv><pres><p3><sg>$
 ^Droutsas/Droutsas<np><cog><ma><sg><nom>$
@@ -9745,7 +9743,7 @@
 ^promjene/promjena<n><f><pl><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Znam/znati<vblex><imperf><tv><pres><p1><sg>$
 ^da/da<cnjsub>$
 ^kada/kada<adv>$
@@ -9765,7 +9763,7 @@
 ^o/o<pr><loc>$
 ^današnjoj/današnji<adj><pst><f><sg><loc><def>$
 ^Turskoj/Turska<np><top><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -9790,7 +9788,7 @@
 ^unutar/unutar<adv>$
 ^njezinih/njezin<prn><pos><p3><f><pl><gen>$
 ^granica/granica<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Kako/kako<adv>$
@@ -10110,7 +10108,7 @@
 ^vojske/vojska<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Prvo/prvo<adv>$
 ^smo/biti<vbser><clt><pres><p1><pl>$
 ^prije/prije<pr><gen>$
@@ -10181,7 +10179,7 @@
 ^EU/EU<abbr><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Procjenjujemo/procjenjivati<vblex><imperf><tv><pres><p1><pl>$
 ^da/da<cnjsub>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
@@ -10203,7 +10201,7 @@
 ^što/što<prn><rel><mfn><sp><acc>$
 ^dozvoljava/dozvoljavati<vblex><imperf><iv><pres><p3><sg>$
 ^zakon/zakon<n><mi><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -10309,7 +10307,7 @@
 ^kriminala/kriminal<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Balkan/Balkan<np><top><mi><sg><nom>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^udaljava/udaljavati<vblex><imperf><tv><pres><p3><sg>$
@@ -10338,7 +10336,7 @@
 ^cigareta/cigareta<n><f><pl><gen>$
 ^i/i<cnjcoo>$
 ^narkotika/narkotik<n><mi><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^navodi/navoditi<vblex><imperf><tv><pres><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -10354,7 +10352,7 @@
 ^./.<sent>$
 
 ^Međutim/međutim<adv>$
-^"/"$
+^"/"<quote>$
 ^stalna/stalan<adj><pst><f><sg><nom><def>$
 ^veza/veza<n><f><sg><nom>$ 
 ^između/između<pr><gen>$ 
@@ -10364,7 +10362,7 @@
 ^i/i<cnjcoo>$
 ^organiziranog/organiziran<adj><pst><ma><sg><gen><def>$
 ^kriminala/kriminal<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^ostaje/ostajati<vblex><imperf><iv><pres><p3><sg>$
 ^ozbiljan/ozbiljan<adj><pst><mi><sg><nom><ind>$
 ^izazov/izazov<n><mi><sg><nom>$
@@ -10376,7 +10374,7 @@
 ^Costa/Costa<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Profiteri/profiter<n><ma><pl><nom>$
 ^iz/iz<pr><gen>$
 ^prošlosti/prošlost<n><f><sg><gen>$
@@ -10389,7 +10387,7 @@
 ^poduzetništva/poduzetništvo<n><nt><sg><gen>$
 ^i/i<cnjcoo>$
 ^politike/politika<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -10401,12 +10399,12 @@
 ^kako/kako<cnjsub>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^korupcija/korupcija<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^javni/javan<adj><pst><mi><sg><nom><def>$
 ^neprijatelj/neprijatelj<n><ma><sg><nom>$
 ^broj/broj<n><mi><sg><nom>$
 ^jedan/jedan<num><mi><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^na/na<pr><loc>$
 ^Balkanu/Balkan<np><top><mi><sg><loc>$
 ^./.<sent>$
@@ -10636,11 +10634,11 @@
 ^statusa/status<n><mi><sg><gen>$
 ^Kosova/Kosovo<np><top><nt><sg><gen>$
 ^kao/kao<pr><gen>$
-^"/"$
+^"/"<quote>$
 ^fer/fer<adj><pst><mi><sg><nom><def>$
 ^i/i<cnjcoo>$
 ^uravnotežen/uravnotežen<adj><pst><mi><sg><nom><ind>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^posebni/poseban<adj><pst><mi><sg><nom><def>$
 ^izaslanik/izaslanik<n><ma><sg><nom>$
@@ -10702,7 +10700,7 @@
 ^angažmana/angažman<n><mi><sg><gen>$
 ^na/na<pr><loc>$
 ^Kosovu/Kosovo<np><top><nt><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Kosovo/Kosovo<np><top><nt><sg><acc>$
@@ -10727,7 +10725,7 @@
 ^autonomija/autonomija<n><f><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Predviđen/predvidjeti<vblex><perf><tv><pp><mi><sg><nom><ind>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^budući/budući<adj><pst><mi><sg><nom><def>$
@@ -10754,7 +10752,7 @@
 ^posebni/poseban<adj><pst><mi><sg><nom><def>$
 ^predstavnik/predstavnik<n><ma><sg><nom>$
 ^EU/EU<abbr><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Iako/iako<cnjsub>$
@@ -10796,7 +10794,7 @@
 ^bi/biti<vbser><clt><aor><p3><sg>$
 ^provela/provesti<vblex><perf><tv><lp><f><sg>$
 ^odredbe/odredba<n><f><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Izaslanik/izaslanik<n><ma><sg><nom>$
@@ -10850,7 +10848,7 @@
 ^završnica/završnica<n><f><sg><nom>$
 ^ovog/ovaj<prn><dem><ma><sg><gen>$
 ^procesa/proces<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Očekuje/očekivati<vblex><imperf><tv><pres><p3><sg>$
@@ -11035,12 +11033,12 @@
 ^romskom/romski<adj><pst><mi><sg><loc><def>$
 ^jeziku/jezik<n><mi><sg><loc>$
 ^znači/značiti<vblex><imperf><tv><pres><p3><sg>$
-^"/"$
+^"/"<quote>$
 ^putujem/putovati<vblex><imperf><iv><pres><p1><sg>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Fehmiu/Fehmiu<np><cog><ma><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^bio/biti<vbser><lp><m><sg>$
@@ -11053,7 +11051,7 @@
 ^Albanac/Albanac<n><ma><sg><nom>$
 ^među/među<pr><ins>$
 ^Srbima/Srbin<n><ma><pl><ins>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -11249,7 +11247,7 @@
 ^./.<sent>$
 
 ^Početkom/početak<n><mi><sg><ins>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^,/,<cm>$
 ^vlada/vlada<n><f><sg><nom>$
 ^Kosova/Kosovo<np><top><nt><sg><gen>$
@@ -11368,10 +11366,10 @@
 ^ove godine/ove godine<adv>$
 ^tema/tema<n><f><sg><nom>$
 ^bila/biti<vbser><lp><f><sg>$
-^"/"$
+^"/"<quote>$
 ^Vjetrovi/vjetar<n><mi><pl><nom>$
 ^promjena/promjena<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^jedan/jedan<num><ma><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -11461,7 +11459,7 @@
 ^predsjednik/predsjednik<n><ma><sg><nom>$
 ^EK/EK<abbr>$
 ^u/u<pr><loc>$
-^studenom/studeni<n><mi><sg><loc><def>$
+^studenom/studeni<n><mi><sg><loc>$
 ^2004./2004.<num>$
 ^godine/godina<n><f><sg><gen>$
 ^,/,<cm>$
@@ -11565,7 +11563,7 @@
 ^režimom/režim<n><mi><sg><ins>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nostalgija/nostalgija<n><f><sg><nom>$
 ^za/za<pr><ins>$
 ^komunizmom/komunizam<n><mi><sg><ins>$
@@ -11595,7 +11593,7 @@
 ^prostor/prostor<n><mi><sg><acc>$
 ^za/za<pr><acc>$
 ^nostalgiju/nostalgija<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Toliko/toliko<adv>$
@@ -11656,7 +11654,7 @@
 ^pitanja/pitanje<n><nt><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kada/kada<adv>$
 ^ćete/htjeti<vbmod><clt><futI><p2><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -11665,19 +11663,19 @@
 ^takve/takav<prn><dem><f><sg><gen>$
 ^retorike/retorika<n><f><sg><gen>$
 ^?/?<sent>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^zapitao/zapitati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^Biden/Biden<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^mora/morati<vblex><imperf><iv><pres><p3><sg>$
 ^prestati/prestati<vblex><perf><iv><inf>$
 ^!/!<sent>$
-^"/"$
+^"/"<quote>$
 ^Umjesto/umjesto<pr><gen>$
 ^zapaljivih/zapaljiv<adj><pst><f><pl><gen><def>$
 ^izjava/izjava<n><f><pl><gen>$
@@ -11704,7 +11702,7 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Možete/moći<vbmod><pres><p2><pl>$
 ^pratiti/pratiti<vblex><imperf><iv><inf>$
 ^ovaj/ovaj<prn><dem><mi><sg><acc>$
@@ -11749,7 +11747,7 @@
 ^integraciju/integracija<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Načiniti/načiniti<vblex><perf><tv><inf>$
 ^pravi/prav<adj><pst><mi><sg><acc><def>$
 ^izbor/izbor<n><mi><sg><acc>$
@@ -11766,7 +11764,7 @@
 ^i/i<cnjcoo>$
 ^političke/politički<adj><pst><mi><pl><acc><def>$
 ^interese/interes<n><mi><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -11787,7 +11785,7 @@
 ^pridruživanja/pridruživanje<n><nt><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Vrata/vrata<n><f><pl><nom>$ 
 ^EU/EU<abbr><gen>$ 
 ^otvorena/otvoren<adj><pst><nt><pl><nom><def>$
@@ -11805,7 +11803,7 @@
 ^dio/dio<n><mi><sg><nom>$
 ^slobodne/slobodan<adj><pst><f><sg><gen><def>$
 ^Europe/Europa<np><top><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -11908,7 +11906,7 @@
 ^registriranje/registriranje<n><nt><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Prije/prije<pr><gen>$
 ^svega/sav<prn><tot><nt><sg><gen>$
 ^,/,<cm>$
@@ -11939,7 +11937,7 @@
 ^unutar/unutar<adv>$
 ^ustavne/ustavan<adj><pst><f><sg><gen><def>$
 ^strukture/struktura<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^pojasnio/pojasniti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -12121,10 +12119,10 @@
 ^moglo/moći<vbmod><lp><nt><sg>$
 ^doći/doći<vblex><perf><iv><inf>$
 ^28./28.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Stići ćemo/stići<vblex><perf><iv><inf>+htjeti<vbmod><clt><futI><p1><pl>$
 ^tamo/tamo<adv>$
 ^na/na<pr><acc>$
@@ -12133,7 +12131,7 @@
 ^drugi/drugi<adj><pst><mi><sg><acc><def>$
 ^način/način<n><mi><sg><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Prijedlog/prijedlog<n><mi><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -12214,8 +12212,7 @@
 ^,/,<cm>$
 ^Kosovo/Kosovo<np><top><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
-^de/de$
-^facto/facto$
+^de facto/de facto<adv>$
 ^pod/pod<pr><ins>$
 ^upravom/uprava<n><f><sg><ins>$
 ^UN-a/UN<abbr><gen>$
@@ -12227,7 +12224,7 @@
 ^1999/1999<num>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Trebamo/trebati<vblex><imperf><tv><pres><p1><pl>$
 ^krenuti/krenuti<vblex><perf><iv><inf>$
 ^naprijed/naprijed<adv>$
@@ -12254,7 +12251,7 @@
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^događa/događati<vblex><imperf><ref><pres><p3><sg>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Kontakt/kontakt<n><mi><sg><nom>$
 ^skupina/skupina<n><f><sg><nom>$
@@ -12265,7 +12262,7 @@
 ^srijedu/srijeda<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Stići ćemo/stići<vblex><perf><iv><inf>+htjeti<vbmod><clt><futI><p1><pl>$
 ^tamo/tamo<adv>$
 ^na/na<pr><acc>$
@@ -12274,9 +12271,9 @@
 ^drugi/drugi<adj><pst><mi><sg><acc><def>$
 ^način/način<n><mi><sg><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
-^"/"$
+^"/"<quote>$
 ^Ako/ako<cnjsub>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^rezolucija/rezolucija<n><f><sg><nom>$
@@ -12290,7 +12287,7 @@
 ^neovisnost/neovisnost<n><f><sg><acc>$
 ^ove godine/ove godine<adv>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Znanost/znanost<n><f><sg><nom>$
 ^i/i<cnjcoo>$
@@ -12639,7 +12636,7 @@
 ^podizanje/podizanje<n><nt><sg><acc>$
 ^etničkih/etnički<adj><pst><f><pl><gen><def>$
 ^napetosti/napetost<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^navela/navesti<vblex><perf><tv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -12770,9 +12767,9 @@
 
 ^Prvi/prvi<adj><pst><mi><sg><nom><def>$
 ^je/biti<vbser><clt><pres><p3><sg>$
-^"/"$
+^"/"<quote>$
 ^neslužbeni/neslužben<adj><pst><ma><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^EXIT/EXIT<np><org><mi><sg><nom>$
 ^festival/festival<n><mi><sg><nom>$
 ^u/u<pr><acc>$
@@ -12859,7 +12856,7 @@
 
 ^Nikada/nikada<adv>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 ^-/-<guio>$
 ^glasio/glasiti<vblex><imperf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -12889,11 +12886,11 @@
 ^što/što<prn><rel><mfn><sp><acc>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^svirali/svirati<vblex><imperf><tv><lp><m><pl>$
-^"/"$
+^"/"<quote>$
 ^Ne/ne<part><neg>$
 ^mogu/moći<vbmod><pres><p1><sg>$
 ^oprostiti/oprostiti<vblex><perf><tv><inf>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^pjesmu/pjesma<n><f><sg><acc>$
 ^o/o<pr><loc>$
@@ -12920,7 +12917,7 @@
 ^radimo/raditi<vblex><imperf><tv><pres><p1><pl>$
 ^bude/biti<vbser><futII><pres><p3><sg>$
 ^ispolitizirano/ispolitizirati<vblex><perf><tv><pp><nt><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -13212,7 +13209,7 @@
 ^prezentacija/prezentacija<n><f><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Područje/područje<n><nt><sg><nom>$
 ^Balkana/Balkan<np><top><mi><sg><gen>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -13246,13 +13243,13 @@
 ^i/i<cnjcoo>$
 ^dodatnih/dodatan<adj><pst><f><pl><gen><def>$
 ^2/2<num>$
-^mlrd/mlrd$
+^mlrd/mlrd<abbr>$
 ^eura/euro<n><mi><pl><gen>$
 ^izravnih/izravan<adj><pst><f><pl><gen><def>$
 ^investicija/investicija<n><f><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Sada/sada<adv>$
 ^smo/biti<vbser><clt><pres><p1><pl>$
 ^daleko/daleko<adv>$
@@ -13264,7 +13261,7 @@
 ^strane/stran<adj><pst><f><pl><acc><def>$
 ^investicije/investicija<n><f><pl><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Posebne/poseban<adj><pst><mi><pl><acc><def>$
 ^napore/napor<n><mi><pl><acc>$
@@ -13512,14 +13509,14 @@
 ^i/i<cnjcoo>$
 ^na/na<pr><loc>$
 ^dijeti/dijeta<n><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^Berisha/Berisha<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Osamnaest/osamnaest<num><sg>$
 ^ministarstava/ministarstvo<n><nt><pl><gen>$
 ^koja/koji<prn><rel><nt><pl><nom>$
@@ -13540,7 +13537,7 @@
 ^logičnu/logičan<adj><pst><f><sg><acc><def>$
 ^proporciju/proporcija<n><f><sg><acc>$
 ^administracije/administracija<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Svakog/svaki<prn><tot><mi><sg><gen>$
@@ -13557,7 +13554,7 @@
 ^objavljuju/objavljivati<vblex><imperf><tv><pres><p3><pl>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^U/u<pr><loc>$
 ^procesu/proces<n><mi><sg><loc>$
 ^promjene/promjena<n><f><sg><gen>$
@@ -13723,7 +13720,7 @@
 ^pitanju/pitanje<n><nt><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Srbija/Srbija<np><top><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^u/u<pr><acc>$
@@ -13802,7 +13799,7 @@
 ^objavilo/objaviti<vblex><perf><ref><lp><nt><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^7./7.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^2009./2009.<num>$
 ^godine/godina<n><f><sg><gen>$
 ^rezultate/rezultat<n><mi><pl><acc>$
@@ -13910,7 +13907,7 @@
 ^raspala/raspasti<vblex><perf><ref><lp><f><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Vjerovali/vjerovati<vblex><imperf><tv><lp><m><pl>$
 ^smo/biti<vbser><clt><pres><p1><pl>$
 ^kako/kako<cnjsub>$
@@ -13931,10 +13928,10 @@
 ^preuzela/preuzeti<vblex><perf><tv><lp><f><sg>$
 ^vlast/vlast<n><f><sg><acc>$
 ^od/od<pr><gen>$
-^"/"$
+^"/"<quote>$
 ^stare/star<adj><pst><f><sg><gen><def>$
 ^garde/garda<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^mnogi/mnogi<adj><pst><mi><pl><nom><def>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^vjerovali/vjerovati<vblex><imperf><tv><lp><m><pl>$
@@ -14003,7 +14000,7 @@
 ^raspada/raspad<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Većina/većina<n><f><sg><nom>$
 ^ljudi/čovjek<n><ma><pl><gen>$
 ^imala/imati<vbhaver><imperf><tv><lp><f><sg>$
@@ -14011,7 +14008,7 @@
 ^bolji/dobar<adj><comp><mi><sg><acc>$
 ^život/život<n><mi><sg><acc>$
 ^tada/tada<adv>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kaže/kazati<vblex><perf><tv><pres><p3><sg>$
 ^ona/ja<prn><pers><p3><f><sg><nom>$
@@ -14076,7 +14073,7 @@
 ^dogodilo/dogoditi<vblex><perf><ref><lp><nt><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Svi/sav<prn><tot><ma><pl><nom>$
 ^ljudi/čovjek<n><ma><pl><nom>$
 ^,/,<cm>$
@@ -14090,7 +14087,7 @@
 ^spavati/spavati<vblex><imperf><iv><inf>$
 ^ispod/ispod<pr><gen>$
 ^mosta/most<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Povjerenje/povjerenje<n><nt><sg><nom>$
@@ -14109,10 +14106,10 @@
 
 ^Izvješće/izvješće<n><nt><sg><nom>$
 ^:/:<sent>$
-^"/"$
+^"/"<quote>$
 ^Velika/velik<adj><pst><nt><pl><nom><def>$
 ^poboljšanja/poboljšanje<n><nt><pl><nom>$
-^"/"$
+^"/"<quote>$
 ^slobode/sloboda<n><f><sg><gen>$
 ^na/na<pr><loc>$
 ^Balkanu/Balkan<np><top><mi><sg><loc>$
@@ -14160,8 +14157,7 @@
 ^za/za<pr><acc>$
 ^praćenje/praćenje<n><nt><sg><acc>$
 ^demokracije/demokracija<n><f><sg><gen>$
-^Freedom/Freedom$
-^House/House$
+^Freedom House/Freedom House<np><org><mi><sg><nom>$
 ^u/u<pr><loc>$
 ^svojem/svoj<prn><ref><pos><nt><sg><loc>$
 ^godišnjem/godišnji<adj><pst><nt><sg><loc><def>$
@@ -14175,8 +14171,7 @@
 ^)/)<rpar>$
 ^./.<sent>$
 
-^Freedom/freedom$
-^House/house$
+^Freedom House/Freedom House<np><org><mi><sg><nom>$
 ^objavljuje/objavljivati<vblex><imperf><tv><pres><p3><sg>$
 ^svoju/svoj<prn><ref><pos><f><sg><acc>$
 ^godišnju/godišnji<adj><pst><f><sg><acc><def>$
@@ -14363,7 +14358,7 @@
 ^krizom/kriza<n><f><sg><ins>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Izvješće/izvješće<n><nt><sg><nom>$
 ^pokazuje/pokazivati<vblex><imperf><ref><pres><p3><sg>$
 ^kako/kako<cnjsub>$
@@ -14389,10 +14384,10 @@
 ^iz/iz<pr><gen>$
 ^2009./2009.<num>$
 ^godine/godina<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^poglavlja/poglavlje<n><nt><pl><nom>$
 ^ključna/ključan<adj><pst><nt><pl><nom><def>$
 ^su/biti<vbser><clt><pres><p3><pl>$
@@ -14421,7 +14416,7 @@
 ^izvješće/izvješće<n><nt><sg><nom>$
 ^vrlo/vrlo<adv>$
 ^kritično/kritičan<adj><pst><nt><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Procjena/procjena<n><f><sg><nom>$
@@ -14429,18 +14424,17 @@
 ^Brusselsa/Brussels<np><top><mi><sg><gen>$
 ^najnovija/nov<adj><sup><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
+^u/u<pr><loc>$
 ^nizu/niz<n><mi><sg><loc>$
 ^izvješća/izvješće<n><nt><pl><gen>$
 ^-/-<guio>$
 ^od/od<pr><gen>$
-^Freedom/Freedom$
-^Housea/House$
+^Freedom Housea/Freedom House<np><org><mi><sg><gen>$
 ^,/,<cm>$
 ^Svjetske/svjetski<adj><pst><f><sg><gen><def>$
 ^banke/banka<n><f><sg><gen>$
 ^do/do<pr><gen>$
-^Transparency/Transparency$
-^Internationala/International$
+^Transparency Internationala/Transparency International<np><org><mi><sg><gen>$
 ^-/-<guio>$
 ^u/u<pr><loc>$
 ^kojima/koji<prn><rel><nt><pl><loc>$
@@ -14472,7 +14466,7 @@
 ^koja/koji<prn><rel><nt><pl><nom>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^kritizirana/kritizirati<vblex><imperf><tv><pp><nt><pl><nom><def>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Gospodarstvo/gospodarstvo<n><nt><sg><nom>$
@@ -14547,14 +14541,14 @@
 ^protokol/protokol<n><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Albanija/Albanija<np><top><f><sg><nom>$
 ^postiže/postizati<vblex><imperf><tv><pres><p3><sg>$
 ^znatan/znatan<adj><pst><mi><sg><acc><ind>$
 ^napredak/napredak<n><mi><sg><acc>$
 ^u/u<pr><loc>$
 ^reformama/reforma<n><f><pl><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -14575,7 +14569,7 @@
 ^./.<sent>$
 
 ^Devetnaestog/devetnaesti<num><ord><mi><sg><gen>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^uhićeno/uhititi<vblex><perf><tv><pp><nt><sg><nom><def>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^15/15<num>$
@@ -14600,7 +14594,7 @@
 ^kluba/klub<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kao što/kao što<cnjsub>$
 ^smo/biti<vbser><clt><pres><p1><pl>$
 ^bili/biti<vbser><lp><m><pl>$
@@ -14624,7 +14618,7 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^naša/naš<prn><pos><p1><f><sg><nom>$
 ^dužnost/dužnost<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -14703,13 +14697,13 @@
 ^tako/tako<adv>$
 ^da/da<cnjsub>$
 ^dozvoljava/dozvoljavati<vblex><imperf><tv><pres><p3><sg>$
-^"/"$
+^"/"<quote>$
 ^odcjepljenje/odcjepljenje<n><nt><sg><acc>$
 ^jednog/jedan<num><mi><sg><gen>$
 ^dijela/dio<n><mi><sg><gen>$
 ^suverene/suveren<adj><pst><f><sg><gen><def>$
 ^države/država<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^U/u<pr><acc>$
@@ -14835,7 +14829,7 @@
 ^izvješću/izvješće<n><nt><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadam/nadati<vblex><imperf><ref><pres><p1><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^kako/kako<cnjsub>$
@@ -14851,7 +14845,7 @@
 ^i/i<cnjcoo>$
 ^zaštiti/zaštita<n><f><sg><loc>$
 ^svjedoka/svjedok<n><ma><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazala/kazati<vblex><perf><iv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -15119,7 +15113,7 @@
 ^flora/flora<n><f><sg><nom>$
 ^i/i<cnjcoo>$
 ^fauna/fauna<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^vrlo/vrlo<adv>$
 ^osjetljive/osjetljiv<adj><pst><f><pl><nom><def>$
 ^na/na<pr><acc>$
@@ -15129,7 +15123,7 @@
 ^i/i<cnjcoo>$
 ^svojim/svoj<prn><ref><pos><ma><pl><loc>$
 ^ekosustavima/ekosustav<n><mi><pl><loc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Budući/biti<vbser><imperf><pprs><adv>$
@@ -15166,9 +15160,9 @@
 ^imalo/imati<vbhaver><imperf><tv><lp><nt><sg>$
 ^posljedice/posljedica<n><f><pl><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
-^"/"$
+^"/"<quote>$
 ^Postojeći/postojeći<adj><pst><mi><pl><nom><def>$
 ^pogoni/pogon<n><mi><pl><nom>$
 ^u/u<pr><loc>$
@@ -15195,7 +15189,7 @@
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
 ^počela/početi<vblex><perf><tv><lp><f><sg>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Bacanje/bacanje<n><nt><sg><nom>$
 ^otpada/otpad<n><mi><sg><gen>$
@@ -15228,7 +15222,7 @@
 ^ulova/ulov<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Dio/dio<n><mi><sg><nom>$
 ^te/taj<prn><dem><f><sg><gen>$
 ^količine/količina<n><f><sg><gen>$
@@ -15245,7 +15239,7 @@
 ^stiže/stizati<vblex><imperf><iv><pres><p3><sg>$
 ^rijekom/rijeka<n><f><sg><ins>$
 ^Dunav/Dunav<np><top><mi><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodaje/dodavati<vblex><imperf><tv><pres><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -15393,7 +15387,7 @@
 ^petak/petak<n><mi><sg><acc>$
 ^(/(<lpar>$
 ^9./9.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^)/)<rpar>$
 ^da/da<cnjsub>$
 ^ne/ne<part><neg>$
@@ -15422,7 +15416,7 @@
 ^podršku/podrška<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kosovo/Kosovo<np><top><nt><sg><nom>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^nalazi/nalaziti<vblex><imperf><tv><pres><p3><sg>$
@@ -15536,7 +15530,7 @@
 ^socioekonomska/socioekonomski<adj><pst><f><sg><nom><def>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kosovska/kosovski<adj><pst><f><sg><nom><def>$
 ^država/država<n><f><sg><nom>$
 ^mora/morati<vblex><imperf><iv><pres><p3><sg>$
@@ -15577,7 +15571,7 @@
 ^posla/posao<n><mi><sg><gen>$
 ^nema/nemati<vbhaver><neg><imperf><tv><pres><p3><sg>$
 ^novca/novac<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kaže/kazati<vblex><perf><iv><pres><p3><sg>$
 ^on/ja<prn><pers><p3><m><sg><nom>$
@@ -15596,7 +15590,7 @@
 ^pitanja/pitanje<n><nt><pl><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Umjesto/umjesto<pr><gen>$
 ^toga/taj<prn><dem><nt><sg><gen>$
 ^,/,<cm>$
@@ -15978,7 +15972,7 @@
 ^politički/politički<adj><pst><mi><sg><nom><def>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Svjesni/svjestan<adj><pst><mi><pl><nom><def>$
 ^smo/biti<vbser><clt><pres><p1><pl>$
 ^napora/napor<n><mi><pl><gen>$
@@ -16011,7 +16005,7 @@
 ^zemlje/zemlja<n><f><pl><nom>$
 ^,/,<cm>$
 ^dobrodošla/dobrodošao<adj><pst><f><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^navodi/navoditi<vblex><imperf><tv><pres><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -16052,7 +16046,7 @@
 ^slobodu/sloboda<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Glasnogovornik/glasnogovornik<n><ma><sg><nom>$
 ^crnogorske/crnogorski<adj><pst><f><sg><gen><def>$
 ^Komisije/komisija<n><f><sg><gen>$
@@ -16078,12 +16072,11 @@
 ^ugrožavaju/ugrožavati<vblex><imperf><tv><pres><p3><pl>$
 ^ljudske/ljudski<adj><pst><mi><pl><acc><def>$
 ^živote/život<n><mi><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^prenio/prenijeti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
-^Canadian/Canadian$
-^Press/Press$
+^Canadian Press/Canadian Press<np><org><mi><sg><nom>$
 ^./.<sent>$
 
 ^Podrijetlom/podrijetlo<n><nt><sg><ins>$
@@ -16138,7 +16131,7 @@
 ^pozorni/pozoran<adj><pst><mi><pl><nom><def>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Vodenkonji/vodenkonj<n><ma><pl><nom>$
 ^znaju/znati<vblex><imperf><tv><pres><p3><pl>$
 ^biti/biti<vbser><inf>$
@@ -16202,7 +16195,7 @@
 ^eura/euro<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Mikro/mikro<adj><pst><nt><pl><dat><def>$
 ^,/,<cm>$
 ^malim/mal<adj><pst><nt><pl><dat><def>$
@@ -16264,7 +16257,7 @@
 ^posto/posto<adv>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nove/nov<adj><pst><f><pl><nom><def>$
 ^ideje/ideja<n><f><pl><nom>$
 ^zahtijevaju/zahtijevati<vblex><imperf><tv><pres><p3><pl>$
@@ -16280,7 +16273,7 @@
 ^o/o<pr><loc>$
 ^ostavci/ostavka<n><f><sg><loc>$
 
-^"/"$
+^"/"<quote>$
 ^Hrabar/hrabar<adj><pst><mi><sg><nom><ind>$
 ^čelnik/čelnik<n><ma><sg><nom>$
 ^ne/ne<part><neg>$
@@ -16291,14 +16284,14 @@
 ^u/u<pr><loc>$
 ^teškom/težak<adj><pst><nt><sg><loc><def>$
 ^razdoblju/razdoblje<n><nt><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^Tariceanu/Tariceanu<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kada/kada<cnjsub>$
 ^bi/biti<vbser><clt><aor><p3><sg>$
 ^danas/danas<adv>$
@@ -16309,10 +16302,10 @@
 ^bio/biti<vbser><lp><m><sg>$
 ^znak/znak<n><mi><sg><nom>$
 ^slabosti/slabost<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Tražit ću/tražiti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p1><sg>$
 ^održavanje/održavanje<n><nt><sg><acc>$
 ^zajedničke/zajednički<adj><pst><f><sg><gen><def>$
@@ -16332,7 +16325,7 @@
 ^riječi/riječ<n><f><pl><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Svaki/svaki<prn><tot><ma><sg><nom>$
 ^dan/dan<n><mi><sg><nom>$
 ^,/,<cm>$
@@ -16345,7 +16338,7 @@
 ^u/u<pr><loc>$
 ^smjeru/smjer<n><mi><sg><loc>$
 ^integracije/integracija<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -16496,9 +16489,9 @@
 ^obavljala/obavljati<vblex><imperf><tv><lp><f><sg>$
 ^bušenja/bušenje<n><nt><pl><nom>$
 ^nazivaju/nazivati<vblex><imperf><tv><pres><p3><pl>$
-^"/"$
+^"/"<quote>$
 ^žitnicom/žitnica<n><f><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^Bugarske/Bugarska<np><top><f><sg><gen>$
 ^i/i<cnjcoo>$
 ^vjerojatno/vjerojatno<part>$
@@ -16509,7 +16502,7 @@
 ^države/država<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Tim/taj<prn><dem><mi><sg><ins>$
 ^bi/biti<vbser><clt><aor><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -16549,13 +16542,13 @@
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^uvjeri/uvjeriti<vblex><perf><tv><pres><p3><sg>$
 ^ljude/čovjek<n><ma><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^objasnio/objasniti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Predlažemo/predlagati<vblex><imperf><tv><pres><p1><pl>$
 ^održavanje/održavanje<n><nt><sg><acc>$
 ^ozbiljne/ozbiljan<adj><pst><f><sg><gen><def>$
@@ -16700,8 +16693,7 @@
 ^nacionalna/nacionalan<adj><pst><f><sg><nom><def>$
 ^TV/TV<abbr><nom>$
 ^postaja/postaja<n><f><sg><nom>$
-^Top/Top$
-^Channel/Channel$
+^Top Channel/Top Channel<np><al><mi><sg><nom>$
 ^ima/imati<vbhaver><imperf><tv><pres><p3><sg>$
 ^urede/ured<n><mi><pl><acc>$
 ^i/i<cnjcoo>$
@@ -16725,7 +16717,7 @@
 ^smjeru/smjer<n><mi><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Za/za<pr><acc>$
 ^mlade/mlad<adj><pst><ma><pl><acc><def>$
 ^ljude/čovjek<n><ma><pl><acc>$
@@ -16738,7 +16730,7 @@
 ^javnog/javan<adj><pst><mi><sg><gen><def>$
 ^prostora/prostor<n><mi><sg><gen>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Blogeri/bloger<n><ma><pl><nom>$
 ^postavljaju/postavljati<vblex><imperf><tv><pres><p3><pl>$
@@ -16812,7 +16804,7 @@
 ^troškova/trošak<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^bilo/biti<vbser><lp><nt><sg>$
@@ -16824,16 +16816,16 @@
 ^'/'<apos>$
 ^ultraši/ultraš<n><ma><pl><nom>$
 ^'/'<apos>$
-^(/($
+^(/(<lpar>$
 ^huligani/huligan<n><ma><pl><nom>$
-^)/)$
+^)/)<rpar>$
 ^izašli/izaći<vblex><perf><iv><lp><m><pl>$
 ^i/i<cnjcoo>$
 ^posijali/posijati<vblex><perf><tv><lp><m><pl>$
 ^nasilje/nasilje<n><nt><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Marihuana/marihuana<n><f><sg><nom>$
 ^,/,<cm>$
 ^prostitucija/prostitucija<n><f><sg><nom>$
@@ -16852,7 +16844,7 @@
 ^kontekstu/kontekst<n><mi><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Šteta/šteta<n><f><sg><nom>$
 ^što/što<prn><rel><mfn><sp><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -16861,7 +16853,7 @@
 ^ovoga/ovaj<prn><dem><nt><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ipak/ipak<adv>$
 ^su/biti<vbser><clt><pres><p3><pl>$
 ^ti/taj<prn><dem><ma><pl><nom>$
@@ -16887,7 +16879,7 @@
 ^prilično/prilično<adv>$
 ^inertnoj/inertan<adj><pst><f><sg><loc><def>$
 ^demokraciji/demokracija<n><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -16979,10 +16971,10 @@
 ^pokret/pokret<n><mi><sg><acc>$
 ^zbog/zbog<pr><gen>$
 ^nepodupiranja/nepodupiranje<n><nt><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^kurdskog/kurdski<adj><pst><nt><sg><gen><def>$
 ^otvaranja/otvaranje<n><nt><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^turske/turski<adj><pst><f><sg><gen><def>$
 ^vlade/vlada<n><f><sg><gen>$
 ^,/,<cm>$
@@ -16999,7 +16991,7 @@
 ^godine/godina<n><f><pl><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ukoliko/ukoliko<adv>$
 ^to/taj<prn><dem><nt><sg><acc>$
 ^ne/ne<part><neg>$
@@ -17024,7 +17016,7 @@
 ^utjecajnog/utjecajan<adj><pst><mi><sg><gen><def>$
 ^političkog/politički<adj><pst><mi><sg><gen><def>$
 ^komentatora/komentator<n><ma><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17055,10 +17047,10 @@
 ^posjeta/posjet<n><mi><sg><gen>$
 ^bio/biti<vbser><lp><m><sg>$
 ^svjedokom/svjedok<n><ma><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^tužne/tužan<adj><pst><f><sg><gen><def>$
 ^podjele/podjela<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^otoka/otok<n><mi><sg><gen>$
 ^./.<sent>$
 
@@ -17165,7 +17157,7 @@
 ^teroristička/teroristički<adj><pst><f><sg><nom><def>$
 ^organizacija/organizacija<n><f><sg><nom>$
 ^17./17.<num>$
-^Studeni/studeni<n><mi><sg><nom><def>$
+^Studeni/studeni<n><mi><sg><nom>$
 ^,/,<cm>$
 ^koja/koji<prn><rel><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17266,7 +17258,7 @@
 ^izlazima/izlaz<n><mi><pl><dat>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Izgredi/izgred<n><mi><pl><nom>$
 ^kao što/kao što<cnjsub>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17284,7 +17276,7 @@
 ^u/u<pr><loc>$
 ^smislu/smisao<n><mi><sg><loc>$
 ^prestiža/prestiž<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^ukazala/ukazati<vblex><perf><tv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17293,7 +17285,7 @@
 ^poslova/posao<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Grčka/Grčka<np><top><f><sg><nom>$
 ^vlada/vlada<n><f><sg><nom>$
 ^odlučna/odlučan<adj><pst><f><sg><nom><def>$
@@ -17317,7 +17309,7 @@
 ^ponavljanje/ponavljanje<n><nt><sg><nom>$
 ^ovakvih/ovakav<prn><dem><ma><pl><gen>$
 ^izgreda/izgred<n><mi><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Vojvodina/Vojvodina<np><top><f><sg><nom>$
@@ -17403,7 +17395,7 @@
 ^pokrajine/pokrajina<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Temeljna/temeljan<adj><pst><nt><pl><nom><def>$
 ^pravila/pravilo<n><nt><pl><nom>$
 ^,/,<cm>$
@@ -17509,7 +17501,7 @@
 ^preporučila/preporučiti<vblex><perf><tv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^početkom/početak<n><mi><sg><ins>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^da/da<cnjsub>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^to/taj<prn><dem><nt><sg><nom>$
@@ -17541,7 +17533,7 @@
 ^ponedjeljka/ponedjeljak<n><mi><sg><gen>$
 ^(/(<lpar>$
 ^17./17.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^)/)<rpar>$
 ^do/do<pr><gen>$
 ^nedjelje/nedjelja<n><f><sg><gen>$
@@ -17630,7 +17622,7 @@
 ^pregovore/pregovor<n><mi><pl><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Reakcija/reakcija<n><f><sg><nom>$
 ^kosovskih/kosovski<adj><pst><f><pl><gen><def>$
 ^ili/ili<cnjcoo>$
@@ -17659,7 +17651,7 @@
 ^reagirati/reagirati<vblex><imperf><iv><inf>$
 ^na/na<pr><acc>$
 ^to/taj<prn><dem><nt><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17674,7 +17666,7 @@
 ^pitanje/pitanje<n><nt><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Organizirani/organiziran<adj><pst><mi><sg><nom><def>$
 ^kriminal/kriminal<n><mi><sg><nom>$
 ^ne/ne<part><neg>$
@@ -17690,7 +17682,7 @@
 ^za/za<pr><acc>$
 ^njihovo/njihov<prn><pos><p3><nt><sg><acc>$
 ^nerješavanje/nerješavanje<n><nt><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17711,7 +17703,7 @@
 ^Balkanu/Balkan<np><top><mi><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Srpska/srpski<adj><pst><f><sg><nom><def>$
 ^politika/politika<n><f><sg><nom>$
 ^sada/sada<adv>$
@@ -17752,7 +17744,7 @@
 ^to/taj<prn><dem><nt><sg><acc>$
 ^učiniti/učiniti<vblex><perf><tv><inf>$
 ^sada/sada<adv>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17761,7 +17753,7 @@
 ^SETimes/SETimes<np><org><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ne/ne<part><neg>$
 ^postoji/postojati<vblex><imperf><iv><pres><p3><sg>$
 ^izravna/izravan<adj><pst><f><sg><nom><def>$
@@ -17815,7 +17807,7 @@
 ^Srbi/Srbin<n><ma><pl><nom>$
 ^i/i<cnjcoo>$
 ^Albanci/Albanac<n><ma><pl><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17843,18 +17835,18 @@
 ^čak/čak<adv>$
 ^i/i<cnjcoo>$
 ^nasilju/nasilje<n><nt><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^uvodni/uvodan<adj><pst><mi><sg><nom><def>$
 ^sastanak/sastanak<n><mi><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -17865,7 +17857,7 @@
 ^poslova/posao<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Cilj/cilj<n><mi><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^uspostava/uspostava<n><f><sg><nom>$
@@ -17878,7 +17870,7 @@
 ^o/o<pr><loc>$
 ^planovima/plan<n><mi><pl><loc>$
 ^posjeta/posjet<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Međutim/međutim<adv>$
@@ -17896,7 +17888,7 @@
 ^većine/većina<n><f><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Građani/građanin<n><ma><pl><nom>$
 ^Kosova/Kosovo<np><top><nt><sg><gen>$
 ^imaju/imati<vbhaver><imperf><tv><pres><p3><pl>$
@@ -17954,7 +17946,7 @@
 ^dobili/dobiti<vblex><perf><tv><lp><m><pl>$
 ^rješenje/rješenje<n><nt><sg><acc>$
 ^statusa/status<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Središnja/središnji<adj><pst><f><sg><nom><def>$
@@ -18215,7 +18207,7 @@
 ^pozadinu/pozadina<n><f><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Cilj/cilj<n><mi><sg><nom>$
 ^ovog/ovaj<prn><dem><ma><sg><gen>$
 ^IT/IT<abbr><nom>$
@@ -18223,17 +18215,17 @@
 ^prenošenje/prenošenje<n><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^građanima/građanin<n><ma><pl><dat>$
-^temelja/temelj<n><mi><sg><gen>$
+^temelje/temelj<n><mi><pl><acc>$
 ^IT-a/IT<abbr><gen>$
 ^,/,<cm>$
 ^operativnih/operativan<adj><pst><mi><pl><gen><def>$
 ^sustava/sustav<n><mi><pl><gen>$
 ^,/,<cm>$
-^office/office$
+^Office/Office<np><al><mi><sg><nom>$
 ^aplikacija/aplikacija<n><f><pl><gen>$
 ^i/i<cnjcoo>$
 ^interneta/internet<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^pojasnio/pojasniti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -18297,13 +18289,9 @@
 ^internetu/internet<n><mi><sg><dat>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^slogan/slogan<n><mi><sg><nom>$
-^VMRODPMNE/VMRODPMNE$
-^"/"$
-^Ostvaruvame/Ostvaruvame$
-^"/"$
-^(/($
+^"/"<quote>$
 ^Ostvarujemo/ostvarivati<vblex><imperf><tv><pres><p1><pl>$
-^)/)$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Islamska/islamski<adj><pst><f><sg><nom><def>$
@@ -18316,7 +18304,7 @@
 ^za/za<pr><acc>$
 ^terorizam/terorizam<n><mi><sg><acc>$
 
-^"/"$
+^"/"<quote>$
 ^Zemlja/zemlja<n><f><sg><nom>$
 ^koja/koji<prn><rel><f><sg><nom>$
 ^ne/ne<part><neg>$
@@ -18366,7 +18354,7 @@
 ^prevenciji/prevencija<n><f><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Naša/naš<prn><pos><p1><f><sg><nom>$
 ^zajednica/zajednica<n><f><sg><nom>$
 ^zna/znati<vblex><imperf><tv><pres><p3><sg>$
@@ -18572,7 +18560,7 @@
 ^pljačkom/pljačka<n><f><sg><ins>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ono/ja<prn><pers><p3><nt><sg><nom>$
 ^što/što<prn><rel><mfn><sp><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -18585,9 +18573,9 @@
 ^i/i<cnjcoo>$
 ^procesuiraju/procesuirati<vblex><imperf><tv><pres><p3><pl>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
-^"/"$
+^"/"<quote>$
 ^Nažalost/nažalost<part>$
 ^,/,<cm>$
 ^kada/kada<cnjsub>$
@@ -18613,7 +18601,7 @@
 ^i/i<cnjcoo>$
 ^u/u<pr><loc>$
 ^Mitrovici/Mitrovica<np><top><f><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^izjavio/izjaviti<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -18621,7 +18609,7 @@
 ^SETimes/SETimes<np><org><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Iznenada/iznenada<adv>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^došlo/doći<vblex><perf><iv><lp><nt><sg>$
@@ -18646,7 +18634,7 @@
 ^mirno/miran<adj><pst><nt><sg><nom><def>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadamo/nadati<vblex><imperf><ref><pres><p1><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^da/da<cnjsub>$
@@ -18659,19 +18647,19 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^izgred/izgred<n><mi><sg><acc>$
 ^nazvao/nazvati<vblex><perf><tv><lp><m><sg>$
-^"/"$
+^"/"<quote>$
 ^terorističkim/teroristički<adj><pst><mi><sg><ins><def>$
 ^činom/čin<n><mi><sg><ins>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^koji/koji<prn><rel><mi><sg><nom>$
 ^bi/biti<vbser><clt><aor><p3><sg>$
-^"/"$
+^"/"<quote>$
 ^trebao/trebati<vblex><imperf><tv><lp><m><sg>$
 ^biti/biti<vbser><inf>$
 ^razotkriven/razotkriti<vblex><perf><tv><pp><mi><sg><nom><ind>$
 ^prije/prije<adv>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Kosovska/kosovski<adj><pst><f><sg><nom><def>$
@@ -18696,7 +18684,7 @@
 ^i/i<cnjcoo>$
 ^lokalnim/lokalan<adj><pst><f><pl><dat><def>$
 ^institucijama/institucija<n><f><pl><dat>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^rekao/reći<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -18705,7 +18693,7 @@
 ^SETimes/SETimes<np><org><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Temeljna/temeljan<adj><pst><nt><pl><nom><def>$
 ^,/,<cm>$
 ^neriješena/neriješen<adj><pst><nt><pl><nom><def>$
@@ -18893,7 +18881,7 @@
 ^i/i<cnjcoo>$
 ^procedura/procedura<n><f><pl><gen>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Ulaganja/ulaganje<n><nt><pl><nom>$
 ^u/u<pr><loc>$
@@ -18965,7 +18953,7 @@
 ^)/)<rpar>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Na/na<pr><loc>$
 ^temelju/temelj<n><mi><sg><loc>$
 ^ranijeg/ran<adj><comp><mi><sg><gen>$
@@ -18999,14 +18987,14 @@
 ^od/od<pr><gen>$
 ^do/do<pr><gen>$
 ^šest/šest<num><sg>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^ministar/ministar<n><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Drugim/drugi<adj><pst><f><pl><ins><def>$
 ^riječima/riječ<n><f><pl><ins>$
 ^,/,<cm>$
@@ -19025,10 +19013,10 @@
 ^manjih/mal<adj><comp><mi><pl><gen>$
 ^troškova/trošak<n><mi><pl><gen>$
 ^kredita/kredit<n><mi><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^U/u<pr><loc>$
 ^2006/2006<num>$
 ^godini/godina<n><f><sg><loc>$
@@ -19051,7 +19039,7 @@
 ^lisnice/lisnica<n><f><sg><gen>$
 ^Akcijskog/akcijski<adj><pst><mi><sg><gen><def>$
 ^fonda/fond<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -19312,7 +19300,7 @@
 ^zemljama/zemlja<n><f><pl><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Slovenska/slovenski<adj><pst><f><sg><nom><def>$
 ^vlada/vlada<n><f><sg><nom>$
 ^predložit će/predložiti<vblex><perf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
@@ -19333,7 +19321,7 @@
 ^o/o<pr><loc>$
 ^pridruživanju/pridruživanje<n><nt><sg><loc>$
 ^EU/EU<abbr><dat>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazalo/kazati<vblex><perf><tv><lp><nt><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -19345,7 +19333,7 @@
 ^sastanka/sastanak<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ovo/ovaj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^situacija/situacija<n><f><sg><nom>$
@@ -19353,7 +19341,7 @@
 ^kojoj/koji<prn><rel><f><sg><loc>$
 ^svi/sav<prn><tot><mi><pl><nom>$
 ^pobjeđuju/pobjeđivati<vblex><imperf><tv><pres><p3><pl>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazala/kazati<vblex><perf><tv><lp><f><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -19367,7 +19355,7 @@
 ^sporazumom/sporazum<n><mi><sg><ins>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ovo/ovaj<prn><dem><nt><sg><nom>$
 ^predstavlja/predstavljati<vblex><imperf><tv><pres><p3><sg>$
 ^uspjeh/uspjeh<n><mi><sg><acc>$
@@ -19382,7 +19370,7 @@
 ^i/i<cnjcoo>$
 ^njihovih/njihov<prn><pos><p3><ma><pl><gen>$
 ^naroda/narod<n><mi><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Pahor/Pahor<np><cog><ma><sg><nom>$
@@ -19498,7 +19486,7 @@
 ^ljude/čovjek<n><ma><pl><acc>$
 ^na/na<pr><loc>$
 ^Kosovu/Kosovo<np><top><nt><sg><loc>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Da/da<cnjsub>$
@@ -19529,7 +19517,7 @@
 ^EULEX/EULEX<abbr><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Kosovska/kosovski<adj><pst><f><sg><nom><def>$
 ^policija/policija<n><f><sg><nom>$
 ^bit će/biti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
@@ -19540,7 +19528,7 @@
 ^u/u<pr><acc>$
 ^razmjenu/razmjena<n><f><sg><acc>$
 ^informacija/informacija<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodaje/dodavati<vblex><imperf><tv><pres><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -19609,7 +19597,7 @@
 ^rujna/rujan<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Zajedno/zajedno<adv>$
 ^ćemo/htjeti<vbmod><clt><futI><p1><pl>$
 ^kazati/kazati<vblex><perf><iv><inf>$
@@ -19627,7 +19615,7 @@
 ^a/a<cnjcoo>$
 ^ne/ne<part><neg>$
 ^EU/EU<abbr><dat>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^naveli/navesti<vblex><perf><tv><lp><m><pl>$
 ^su/biti<vbser><clt><pres><p3><pl>$
@@ -19668,7 +19656,7 @@
 ^zemalja/zemlja<n><f><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Razgovaramo/razgovarati<vblex><imperf><tv><pres><p1><pl>$
 ^o/o<pr><loc>$
 ^razvitku/razvitak<n><mi><sg><loc>$
@@ -19688,13 +19676,13 @@
 ^uzajamnog/uzajaman<adj><pst><nt><sg><gen><def>$
 ^povjerenja/povjerenje<n><nt><sg><gen>$
 ^,/,<cm>$
-^"/"$
+^"/"<quote>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^Konjanovski/Konjanovski<np><cog><ma><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Sve/sav<prn><tot><f><pl><nom>$
 ^zemlje/zemlja<n><f><pl><nom>$
 ^u/u<pr><loc>$
@@ -19708,7 +19696,7 @@
 ^procesima/proces<n><mi><pl><loc>$
 ^euroatlantskih/euroatlantski<adj><pst><f><pl><gen><def>$
 ^integracija/integracija<n><f><pl><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Srbija/Srbija<np><top><f><sg><nom>$
@@ -19739,7 +19727,7 @@
 ^pitanja/pitanje<n><nt><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Želio/željeti<vblex><imperf><tv><lp><m><sg>$
 ^bih/biti<vbser><clt><aor><p1><sg>$
 ^istaknuti/istaknuti<vblex><perf><tv><inf>$
@@ -19768,9 +19756,9 @@
 
 ^Galeb/galeb<n><ma><sg><nom>$
 ^ponovno/ponovno<adv>$
-^"/"$
+^"/"<quote>$
 ^plovi/ploviti<vblex><imperf><iv><pres><p3><sg>$
-^"/"$
+^"/"<quote>$
 
 ^Međutim/međutim<adv>$
 ^,/,<cm>$
@@ -19865,7 +19853,7 @@
 ^eura/euro<n><mi><pl><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Jahta/jahta<n><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^spašena/spasiti<vblex><perf><tv><pp><f><sg><nom><def>$
@@ -20028,10 +20016,10 @@
 
 ^Strah/strah<n><mi><sg><nom>$
 ^od/od<pr><gen>$
-^"/"$
+^"/"<quote>$
 ^gorke/gorak<adj><pst><f><sg><gen><def>$
 ^pilule/pilula<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^MMF-a/MMF<abbr><gen>$
 ^podijelio/podijeliti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -20100,7 +20088,7 @@
 ^poreza/porez<n><mi><sg><gen>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^PDV/PDV<abbr><nom>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
 ^stvoriti/stvoriti<vblex><perf><tv><inf>$
@@ -20128,7 +20116,7 @@
 ^bi/biti<vbser><clt><aor><p3><sg>$
 ^zaštitila/zaštititi<vblex><perf><tv><lp><f><sg>$
 ^siromašne/siromašan<adj><pst><mi><pl><acc><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -20371,7 +20359,7 @@
 ^nedjelju/nedjelja<n><f><sg><acc>$
 ^,/,<cm>$
 ^28./28.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^,/,<cm>$
 ^bit će/biti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p3><pl>$
 ^treći/treći<num><ord><mi><pl><nom>$
@@ -20404,7 +20392,7 @@
 ^predsjednika/predsjednik<n><ma><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Već/već<adv>$
 ^20/20<num>$
 ^godina/godina<n><f><pl><gen>$
@@ -20433,7 +20421,7 @@
 ^Moskvi/Moskva<np><top><f><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^vrlo/vrlo<adv>$
@@ -20451,7 +20439,7 @@
 ^shvatili/shvatiti<vblex><perf><tv><lp><m><pl>$
 ^vijesti/vijest<n><f><pl><acc>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^I/i<cnjcoo>$
 ^međunarodna/međunarodan<adj><pst><f><sg><nom><def>$
@@ -20499,7 +20487,7 @@
 ^izborima/izbor<n><mi><pl><dat>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Nadam/nadati<vblex><imperf><ref><pres><p1><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^kako/kako<cnjsub>$
@@ -20507,7 +20495,7 @@
 ^narod/narod<n><mi><sg><nom>$
 ^Moldavije/Moldavija<np><top><f><sg><gen>$
 ^28./28.<num>$
-^studenog/studeni<n><mi><sg><gen><def>$
+^studenog/studeni<n><mi><sg><gen>$
 ^održati/održati<vblex><perf><tv><inf>$
 ^izbore/izbor<n><mi><pl><acc>$
 ^na/na<pr><loc>$
@@ -20525,7 +20513,7 @@
 ^nastavak/nastavak<n><mi><sg><acc>$
 ^nužnih/nužan<adj><pst><f><pl><gen><def>$
 ^./.<sent>$
-^"/"$
+^"/"<quote>$
 
 ^Ipak/ipak<adv>$
 ^,/,<cm>$
@@ -20714,9 +20702,7 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^dio/dio<n><mi><sg><nom>$
 ^programa/program<n><mi><sg><gen>$
-^World/World$
-^Vision/Vision$
-^Internationala/International$
+^World Vision Internationala/World Vision International<np><org><mi><sg><gen>$
 ^čiji/čiji<prn><rel><mi><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^cilj/cilj<n><mi><sg><nom>$
@@ -20796,20 +20782,20 @@
 ^pomoć/pomoć<n><f><sg><nom>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Mislim/misliti<vblex><imperf><iv><pres><p1><sg>$
 ^da/da<cnjsub>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
 ^to/taj<prn><dem><nt><sg><nom>$
 ^biti/biti<vbser><inf>$
 ^dovoljno/dovoljan<adj><pst><nt><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ništa/ništa<prn><neg><mfn><sp><nom>$
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
 ^dogovoreno/dogovoriti<vblex><perf><tv><pp><nt><sg><nom><def>$
@@ -20817,7 +20803,7 @@
 ^nije/ne<part><neg>+biti<vbser><clt><pres><p3><sg>$
 ^sve/sav<prn><tot><nt><sg><nom>$
 ^dogovoreno/dogovoriti<vblex><perf><tv><pp><nt><sg><nom><def>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^ukazao/ukazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -20895,7 +20881,7 @@
 ^glasovati/glasovati<vblex><imperf><iv><inf>$
 ^o/o<pr><loc>$
 ^njihovoj/njihov<prn><pos><p3><f><sg><loc>$
-^smeni/smeni$
+^smjeni/smjena<n><f><sg><loc>$
 ^./.<sent>$
 
 ^Sukob/sukob<n><mi><sg><nom>$
@@ -20998,16 +20984,16 @@
 ^opstanak/opstanak<n><mi><sg><nom>$
 ^vladajuće/vladajući<adj><pst><f><sg><gen><def>$
 ^koalicije/koalicija<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^neiskrena/neiskren<adj><pst><f><sg><nom><def>$
 ^odluka/odluka<n><f><sg><nom>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^kazao/kazati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Stranke/stranka<n><f><pl><nom>$
 ^sadašnje/sadašnji<adj><pst><f><sg><gen><def>$
 ^vlade/vlada<n><f><sg><gen>$
@@ -21059,7 +21045,7 @@
 ^G17/G17<abbr>$
 ^Plus/plus<n><mi><sg><nom>$
 ^oštar/oštar<adj><pst><mi><sg><nom><ind>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^istaknuo/istaknuti<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -21081,10 +21067,10 @@
 ^Turska/Turska<np><top><f><sg><nom>$
 ^započinje/započinjati<vblex><imperf><iv><pres><p3><sg>$
 ^strategiju/strategija<n><f><sg><acc>$
-^"/"$
+^"/"<quote>$
 ^blagog/blag<adj><pst><mi><sg><gen><def>$
 ^utjecaja/utjecaj<n><mi><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^na/na<pr><loc>$
 ^Balkanu/Balkan<np><top><mi><sg><loc>$
 
@@ -21098,7 +21084,7 @@
 ^Balkanu/Balkan<np><top><mi><sg><loc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Ova/ovaj<prn><dem><f><sg><nom>$
 ^regija/regija<n><f><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
@@ -21108,7 +21094,7 @@
 ^naše/naš<prn><pos><p1><f><sg><gen>$
 ^vanjske/vanjski<adj><pst><f><sg><gen><def>$
 ^politike/politika<n><f><sg><gen>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
 ^Iako/iako<cnjsub>$
@@ -21135,7 +21121,7 @@
 ^Balkan/Balkan<np><top><mi><sg><acc>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Razlog/razlog<n><mi><sg><nom>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^što/što<prn><rel><mfn><sp><nom>$
@@ -21159,10 +21145,10 @@
 ^ne/ne<part><neg>$
 ^može/moći<vbmod><pres><p3><sg>$
 ^isporučiti/isporučiti<vblex><perf><tv><inf>$
-^"/"$
+^"/"<quote>$
 ^./.<sent>$
 
-^"/"$
+^"/"<quote>$
 ^Pretpostavljam/pretpostavljati<vblex><imperf><tv><pres><p1><sg>$
 ^da/da<cnjsub>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
@@ -21187,7 +21173,7 @@
 ^traži/tražiti<vblex><imperf><tv><pres><p3><sg>$
 ^nova/nov<adj><pst><nt><pl><acc><def>$
 ^ulaganja/ulaganje<n><nt><pl><acc>$
-^"/"$
+^"/"<quote>$
 ^,/,<cm>$
 ^dodao/dodati<vblex><perf><tv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$

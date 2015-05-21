@@ -19,7 +19,7 @@
 ^kontingente/kontingent<n><mi><pl><acc>/kontingent<n><mi><sg><voc>$
 ^kontingenti/kontingent<n><mi><pl><nom>/kontingent<n><mi><pl><voc>$
 ^kontingentov/kontingentov<n><mi>+pos<adj><mi><sg><acc>/kontingentov<n><mi>+pos<adj><ma><sg><nom>/kontingentov<n><mi>+pos<adj><ma><sg><voc>$
-^kontingentovoga/kontingentov<n><mi>+pos<adj><ma><sg><acc>/kontingentov<n><mi>+pos<adj><nt><sg><gen>$
+^kontingentovog/kontingentov<n><mi>+pos<adj><ma><sg><acc>/kontingentov<n><mi>+pos<adj><nt><sg><gen>$
 ^kontingentovome/kontingentov<n><mi>+pos<adj><nt><sg><dat>/kontingentov<n><mi>+pos<adj><nt><sg><loc>$
 ^kontingentovim/kontingentov<n><mi>+pos<adj><mi><pl><dat>/kontingentov<n><mi>+pos<adj><mi><sg><ins>/kontingentov<n><mi>+pos<adj><mi><pl><loc>$
 ^kontingentovi/kontingentov<n><mi>+pos<adj><mi><pl><nom>/kontingentov<n><mi>+pos<adj><mi><pl><voc>$
@@ -33,7 +33,7 @@
 ^ALTEA-o/ALTEA<abbr><voc>$
 ^ALTEA-om/ALTEA<abbr><ins>$
 ^ALTEA-in/ALTEA-in<abbr>+pos<adj><mi><sg><acc>/ALTEA-in<abbr>+pos<adj><ma><sg><nom>/ALTEA-in<abbr>+pos<adj><ma><sg><voc>$
-^ALTEA-inoga/ALTEA-in<abbr>+pos<adj><ma><sg><acc>/ALTEA-in<abbr>+pos<adj><nt><sg><gen>$
+^ALTEA-inog/ALTEA-in<abbr>+pos<adj><ma><sg><acc>/ALTEA-in<abbr>+pos<adj><nt><sg><gen>$
 ^ALTEA-inome/ALTEA-in<abbr>+pos<adj><nt><sg><dat>/ALTEA-in<abbr>+pos<adj><nt><sg><loc>$
 ^ALTEA-inim/ALTEA-in<abbr>+pos<adj><mi><pl><dat>/ALTEA-in<abbr>+pos<adj><mi><sg><ins>/ALTEA-in<abbr>+pos<adj><mi><pl><loc>$
 ^ALTEA-ini/ALTEA-in<abbr>+pos<adj><mi><pl><nom>/ALTEA-in<abbr>+pos<adj><mi><pl><voc>$
@@ -101,7 +101,7 @@
 ^Hadžiji/Hadžija<n><ma><sg><dat>/Hadžija<n><ma><sg><loc>/Hadži<np><cog><ma><pl><nom>/Hadži<np><cog><ma><pl><voc>$
 ^Hadžije/Hadžija<n><ma><pl><acc>/Hadžija<n><ma><sg><gen>/Hadžija<n><ma><pl><nom>/Hadžija<n><ma><pl><voc>/Hadži<np><cog><ma><pl><acc>$
 ^Hadžijev/Hadžijev<np><cog><ma>+pos<adj><mi><sg><acc>/Hadžijev<np><cog><ma>+pos<adj><ma><sg><nom>/Hadžijev<np><cog><ma>+pos<adj><ma><sg><voc>$
-^Hadžijevoga/Hadžijev<np><cog><ma>+pos<adj><ma><sg><acc>/Hadžijev<np><cog><ma>+pos<adj><nt><sg><gen>$
+^Hadžijevog/Hadžijev<np><cog><ma>+pos<adj><ma><sg><acc>/Hadžijev<np><cog><ma>+pos<adj><nt><sg><gen>$
 ^Hadžijevome/Hadžijev<np><cog><ma>+pos<adj><nt><sg><dat>/Hadžijev<np><cog><ma>+pos<adj><nt><sg><loc>$
 ^Hadžijevim/Hadžijev<np><cog><ma>+pos<adj><mi><pl><dat>/Hadžijev<np><cog><ma>+pos<adj><mi><sg><ins>/Hadžijev<np><cog><ma>+pos<adj><mi><pl><loc>$
 ^Hadžijevi/Hadžijev<np><cog><ma>+pos<adj><mi><pl><nom>/Hadžijev<np><cog><ma>+pos<adj><mi><pl><voc>$
@@ -143,12 +143,12 @@
 ^nadahnutih/nadahnut<adj><ssup><ma><pl><gen><ind>/nadahnuti<vblex><perf><tv><pp><mi><pl><gen><ind>$
 ^nadahnutoj/nadahnut<adj><ssup><f><sg><dat><ind>/nadahnut<adj><ssup><f><sg><loc><ind>/nadahnuti<vblex><perf><tv><pp><f><sg><dat><ind>$
 ^nadahnuto/nadahnut<adj><ssup><nt><sg><acc><ind>/nadahnut<adj><ssup><nt><sg><nom><def>/nadahnut<adj><ssup><nt><sg><voc><ind>/nadahnuti<vblex><perf><tv><pp><nt><sg><voc><ind>/nadahnuti<vblex><perf><tv><pp><nt><sg><nom><ind>/nadahnuti<vblex><perf><tv><pp><nt><sg><acc><ind>$
-^nadahnutoga/nadahnut<adj><ssup><ma><sg><acc><def>/nadahnut<adj><ssup><ma><sg><gen><def>/nadahnuti<vblex><perf><tv><pp><nt><sg><gen><def>$
+^nadahnutog/nadahnut<adj><ssup><ma><sg><acc><def>/nadahnut<adj><ssup><ma><sg><gen><def>/nadahnuti<vblex><perf><tv><pp><nt><sg><gen><def>$
 ^Alexander/Alexander<np><ant><ma><sg><nom>$
 ^Alexanderu/Alexander<np><ant><ma><sg><dat>/Alexander<np><ant><ma><sg><loc>$
 ^Alexandere/Alexander<np><ant><ma><sg><voc>$
 ^Alexanderov/Alexanderov<np><ant><ma>+pos<adj><mi><sg><acc>/Alexanderov<np><ant><ma>+pos<adj><ma><sg><nom>/Alexanderov<np><ant><ma>+pos<adj><ma><sg><voc>$
-^Alexanderovoga/Alexanderov<np><ant><ma>+pos<adj><ma><sg><acc>/Alexanderov<np><ant><ma>+pos<adj><nt><sg><gen>$
+^Alexanderovog/Alexanderov<np><ant><ma>+pos<adj><ma><sg><acc>/Alexanderov<np><ant><ma>+pos<adj><nt><sg><gen>$
 ^Alexanderovome/Alexanderov<np><ant><ma>+pos<adj><nt><sg><dat>/Alexanderov<np><ant><ma>+pos<adj><nt><sg><loc>$
 ^Alexanderovim/Alexanderov<np><ant><ma>+pos<adj><mi><pl><dat>/Alexanderov<np><ant><ma>+pos<adj><mi><sg><ins>/Alexanderov<np><ant><ma>+pos<adj><mi><pl><loc>$
 ^Alexanderovi/Alexanderov<np><ant><ma>+pos<adj><mi><pl><nom>/Alexanderov<np><ant><ma>+pos<adj><mi><pl><voc>$
@@ -201,7 +201,7 @@
 ^motiviranih/motiviran<adj><pst><ma><pl><gen><ind>/motivirati<vblex><imperf><tv><pp><mi><pl><gen><ind>/motivirati<vblex><perf><tv><pp><mi><pl><gen><ind>$
 ^motiviranoj/motiviran<adj><pst><f><sg><dat><ind>/motiviran<adj><pst><f><sg><loc><ind>/motivirati<vblex><imperf><tv><pp><f><sg><dat><ind>/motivirati<vblex><perf><tv><pp><f><sg><dat><ind>$
 ^motivirano/motiviran<adj><pst><nt><sg><acc><ind>/motiviran<adj><pst><nt><sg><nom><def>/motiviran<adj><pst><nt><sg><voc><ind>/motivirati<vblex><imperf><tv><pp><nt><sg><nom><ind>/motivirati<vblex><perf><tv><pp><nt><sg><voc><ind>/motivirati<vblex><perf><tv><pp><nt><sg><nom><ind>/motivirati<vblex><perf><tv><pp><nt><sg><acc><ind>$
-^motiviranoga/motiviran<adj><pst><ma><sg><acc><def>/motiviran<adj><pst><ma><sg><gen><def>/motivirati<vblex><imperf><tv><pp><nt><sg><gen><def>/motivirati<vblex><perf><tv><pp><nt><sg><gen><def>$
+^motiviranog/motiviran<adj><pst><ma><sg><acc><def>/motiviran<adj><pst><ma><sg><gen><def>/motivirati<vblex><imperf><tv><pp><nt><sg><gen><def>/motivirati<vblex><perf><tv><pp><nt><sg><gen><def>$
 ^Enrija/Enri<np><ant><ma><sg><acc>/Enri<np><ant><ma><sg><gen>/Enri<np><ant><ma><sg><voc>$
 ^Enrije/Enri<np><ant><ma><pl><acc>/Enri<np><ant><ma><pl><voc>$
 ^povišen/povišen<adj><pst><mi><sg><acc><ind>/povišen<adj><pst><mi><sg><nom><ind>/povišen<adj><pst><ma><sg><voc><ind>/povisiti<vblex><perf><tv><pp><sfx><ma><sg><voc><ind>/povisiti<vblex><perf><tv><pp><sfx><ma><sg><nom><ind>/povisiti<vblex><perf><tv><pp><mi><sg><voc><ind>/povisiti<vblex><perf><tv><pp><mi><sg><nom><ind>/povisiti<vblex><perf><tv><pp><mi><sg><acc><ind>$
@@ -212,7 +212,7 @@
 ^povišenoj/povišen<adj><pst><f><sg><dat><ind>/povišen<adj><pst><f><sg><loc><ind>/povisiti<vblex><perf><tv><pp><f><sg><dat><ind>$
 ^povišenom/povišen<adj><pst><nt><sg><dat><def>/povišen<adj><pst><f><sg><ins><ind>/povišen<adj><pst><nt><sg><loc><def>/povisiti<vblex><perf><tv><pp><f><sg><ins><ind>$
 ^povišeno/povišen<adj><pst><nt><sg><acc><ind>/povišen<adj><pst><nt><sg><nom><def>/povišen<adj><pst><nt><sg><voc><ind>/povisiti<vblex><perf><tv><pp><nt><sg><voc><ind>/povisiti<vblex><perf><tv><pp><nt><sg><nom><ind>/povisiti<vblex><perf><tv><pp><nt><sg><acc><ind>$
-^povišenoga/povišen<adj><pst><ma><sg><acc><def>/povišen<adj><pst><nt><sg><gen><def>/povisiti<vblex><perf><tv><pp><nt><sg><gen><def>$
+^povišenog/povišen<adj><pst><ma><sg><acc><def>/povišen<adj><pst><nt><sg><gen><def>/povisiti<vblex><perf><tv><pp><nt><sg><gen><def>$
 ^pitom/pitom<adj><pst><mi><sg><acc><ind>/pitom<adj><pst><mi><sg><nom><ind>/pitom<adj><pst><ma><sg><voc><ind>/pita<n><f><sg><ins>/piti<vblex><imperf><tv><pp><f><sg><ins><ind>$
 ^pitomu/pitom<adj><pst><f><sg><acc><ind>/pitom<adj><pst><ma><sg><dat><ind>/pitom<adj><pst><ma><sg><loc><ind>/piti<vblex><imperf><tv><pp><nt><sg><dat><def>$
 ^pitomim/pitom<adj><comp><nt><sg><ins>/pitom<adj><pst><mi><pl><dat><ind>/pitom<adj><pst><mi><sg><ins><ind>/pitom<adj><pst><mi><pl><loc><ind>$
@@ -240,7 +240,7 @@
 ^Microsoftu/Microsoft<np><org><mi><sg><dat>/Microsoft<np><org><mi><sg><loc>/Microsoft<np><org><mi><sg><voc>$
 ^Microsoftom/Microsoft<np><org><mi><sg><ins>$
 ^Microsoftov/Microsoftov<np><org><mi>+pos<adj><mi><sg><acc>/Microsoftov<np><org><mi>+pos<adj><ma><sg><nom>/Microsoftov<np><org><mi>+pos<adj><ma><sg><voc>$
-^Microsoftovoga/Microsoftov<np><org><mi>+pos<adj><ma><sg><acc>/Microsoftov<np><org><mi>+pos<adj><nt><sg><gen>$
+^Microsoftovog/Microsoftov<np><org><mi>+pos<adj><ma><sg><acc>/Microsoftov<np><org><mi>+pos<adj><nt><sg><gen>$
 ^Microsoftovome/Microsoftov<np><org><mi>+pos<adj><nt><sg><dat>/Microsoftov<np><org><mi>+pos<adj><nt><sg><loc>$
 ^Microsoftovim/Microsoftov<np><org><mi>+pos<adj><mi><pl><dat>/Microsoftov<np><org><mi>+pos<adj><mi><sg><ins>/Microsoftov<np><org><mi>+pos<adj><mi><pl><loc>$
 ^Microsoftovi/Microsoftov<np><org><mi>+pos<adj><mi><pl><nom>/Microsoftov<np><org><mi>+pos<adj><mi><pl><voc>$
@@ -323,7 +323,7 @@
 ^Sanaderi/Sanader<n><ma><pl><nom>/Sanader<n><ma><pl><voc>/Sanader<np><cog><ma><pl><nom>/Sanader<np><cog><ma><pl><voc>$
 ^Sanaderima/Sanader<n><ma><pl><dat>/Sanader<n><ma><pl><ins>/Sanader<n><ma><pl><loc>/Sanader<np><cog><ma><pl><dat>/Sanader<np><cog><ma><pl><ins>/Sanader<np><cog><ma><pl><loc>$
 ^Sanaderov/Sanaderov<n><ma>+pos<adj><mi><sg><acc>/Sanaderov<n><ma>+pos<adj><ma><sg><nom>/Sanaderov<n><ma>+pos<adj><ma><sg><voc>/Sanaderov<np><cog><ma>+pos<adj><mi><sg><acc>/Sanaderov<np><cog><ma>+pos<adj><ma><sg><nom>/Sanaderov<np><cog><ma>+pos<adj><ma><sg><voc>$
-^Sanaderovoga/Sanaderov<n><ma>+pos<adj><ma><sg><acc>/Sanaderov<n><ma>+pos<adj><nt><sg><gen>/Sanaderov<np><cog><ma>+pos<adj><ma><sg><acc>/Sanaderov<np><cog><ma>+pos<adj><nt><sg><gen>$
+^Sanaderovog/Sanaderov<n><ma>+pos<adj><ma><sg><acc>/Sanaderov<n><ma>+pos<adj><nt><sg><gen>/Sanaderov<np><cog><ma>+pos<adj><ma><sg><acc>/Sanaderov<np><cog><ma>+pos<adj><nt><sg><gen>$
 ^Sanaderovome/Sanaderov<n><ma>+pos<adj><nt><sg><dat>/Sanaderov<n><ma>+pos<adj><nt><sg><loc>/Sanaderov<np><cog><ma>+pos<adj><nt><sg><dat>/Sanaderov<np><cog><ma>+pos<adj><nt><sg><loc>$
 ^Sanaderovim/Sanaderov<n><ma>+pos<adj><mi><pl><dat>/Sanaderov<n><ma>+pos<adj><mi><sg><ins>/Sanaderov<n><ma>+pos<adj><mi><pl><loc>/Sanaderov<np><cog><ma>+pos<adj><mi><pl><dat>/Sanaderov<np><cog><ma>+pos<adj><mi><sg><ins>/Sanaderov<np><cog><ma>+pos<adj><mi><pl><loc>$
 ^Sanaderovi/Sanaderov<n><ma>+pos<adj><mi><pl><nom>/Sanaderov<n><ma>+pos<adj><mi><pl><voc>/Sanaderov<np><cog><ma>+pos<adj><mi><pl><nom>/Sanaderov<np><cog><ma>+pos<adj><mi><pl><voc>$
@@ -376,7 +376,7 @@
 ^cijenjenih/cijenjen<adj><pst><mi><pl><gen><ind>/cijeniti<vblex><imperf><tv><pp><mi><pl><gen><ind>$
 ^cijenjenoj/cijenjen<adj><pst><f><sg><dat><ind>/cijenjen<adj><pst><f><sg><loc><ind>/cijeniti<vblex><imperf><tv><pp><f><sg><dat><ind>$
 ^cijenjenom/cijenjen<adj><pst><nt><sg><dat><def>/cijenjen<adj><pst><f><sg><ins><ind>/cijenjen<adj><pst><nt><sg><loc><def>/cijeniti<vblex><imperf><tv><pp><f><sg><ins><ind>$
-^cijenjenoga/cijenjen<adj><pst><ma><sg><acc><def>/cijenjen<adj><pst><nt><sg><gen><def>/cijeniti<vblex><imperf><tv><pp><nt><sg><gen><def>$
+^cijenjenog/cijenjen<adj><pst><ma><sg><acc><def>/cijenjen<adj><pst><nt><sg><gen><def>/cijeniti<vblex><imperf><tv><pp><nt><sg><gen><def>$
 ^precijenjen/cijenjen<adj><ssup><mi><sg><acc><ind>/cijenjen<adj><ssup><mi><sg><nom><ind>/cijenjen<adj><ssup><ma><sg><voc><ind>/precijeniti<vblex><perf><tv><pp><sfx><ma><sg><voc><ind>/precijeniti<vblex><perf><tv><pp><sfx><ma><sg><nom><ind>/precijeniti<vblex><perf><tv><pp><mi><sg><voc><ind>/precijeniti<vblex><perf><tv><pp><mi><sg><nom><ind>/precijeniti<vblex><perf><tv><pp><mi><sg><acc><ind>$
 ^posudi/posuda<n><f><sg><dat>/posuda<n><f><sg><loc>/posuditi<vblex><perf><iv><aor><p2><sg>/posuditi<vblex><perf><iv><imp><p2><sg>/posuditi<vblex><perf><iv><pres><p3><sg>/posuditi<vblex><perf><tv><aor><p2><sg>/posuditi<vblex><perf><tv><imp><p2><sg>/posuditi<vblex><perf><tv><pres><p3><sg>$
 ^posude/posuda<n><f><pl><acc>/posuda<n><f><sg><gen>/posuda<n><f><pl><nom>/posuda<n><f><pl><voc>/posuditi<vblex><perf><iv><pres><p3><pl>/posuditi<vblex><perf><tv><pres><p3><pl>$
@@ -430,7 +430,7 @@
 ^a/a<cnjcoo>$
 ^baba/babo<n><ma><sg><acc>/baba<n><f><pl><gen>/baba<n><f><sg><nom>$
 ^babin/babin<adj><pst><mi><sg><acc><ind>/babin<adj><pst><ma><sg><nom><def>/babin<adj><pst><mi><sg><voc><ind>/babin<n><f>+pos<adj><mi><sg><acc>/babin<n><f>+pos<adj><ma><sg><nom>/babin<n><f>+pos<adj><ma><sg><voc>$
-^babinoga/babin<adj><pst><ma><sg><acc><def>/babin<adj><pst><mi><sg><gen><def>/babin<n><f>+pos<adj><ma><sg><acc>/babin<n><f>+pos<adj><nt><sg><gen>$
+^babinog/babin<adj><pst><ma><sg><acc><def>/babin<adj><pst><mi><sg><gen><def>/babin<n><f>+pos<adj><ma><sg><acc>/babin<n><f>+pos<adj><nt><sg><gen>$
 ^babinome/babin<adj><pst><mi><sg><dat><def>/babin<adj><pst><mi><sg><loc><def>/babin<n><f>+pos<adj><nt><sg><dat>/babin<n><f>+pos<adj><nt><sg><loc>$
 ^babinim/babin<adj><pst><mi><pl><dat><ind>/babin<adj><pst><mi><sg><ins><ind>/babin<adj><pst><mi><pl><loc><ind>/babin<n><f>+pos<adj><mi><pl><dat>/babin<n><f>+pos<adj><mi><sg><ins>/babin<n><f>+pos<adj><mi><pl><loc>$
 ^babini/babin<adj><pst><mi><sg><acc><def>/babin<adj><pst><ma><pl><nom><def>/babin<adj><pst><mi><sg><voc><ind>/babin<n><f>+pos<adj><mi><pl><nom>/babin<n><f>+pos<adj><mi><pl><voc>$
@@ -444,7 +444,7 @@
 ^dela/dio<n><mi><sg><gen>/delati<vblex><imperf><tv><pres><p3><sg>$
 ^doista/doista<adv>/doista<part>$
 ^drugi/drugi<adj><pst><mi><sg><acc><def>/drugi<adj><pst><ma><pl><nom><def>/drugi<adj><pst><mi><sg><voc><def>/drugi<num><ord><mi><sg><acc>/drugi<num><ord><ma><sg><nom>/drugi<num><ord><ma><sg><voc>$
-^drugoga/drugi<adj><pst><ma><sg><acc><def>/drugi<adj><pst><nt><sg><gen><def>/drugi<num><ord><ma><sg><acc>/drugi<num><ord><ma><sg><gen>$
+^drugog/drugi<adj><pst><ma><sg><acc><def>/drugi<adj><pst><nt><sg><gen><def>/drugi<num><ord><ma><sg><acc>/drugi<num><ord><ma><sg><gen>$
 ^drugome/drugi<adj><pst><nt><sg><dat><def>/drugi<adj><pst><nt><sg><loc><def>/drugi<num><ord><ma><sg><dat>/drugi<num><ord><ma><sg><loc>$
 ^drugim/drugi<adj><pst><mi><pl><dat><def>/drugi<adj><pst><mi><sg><ins><def>/drugi<adj><pst><mi><pl><loc><def>/drugi<num><ord><ma><pl><dat>/drugi<num><ord><ma><sg><ins>/drugi<num><ord><ma><pl><loc>$
 ^drugih/drugi<adj><pst><mi><pl><gen><def>/drugi<num><ord><ma><pl><gen>$
@@ -1206,7 +1206,7 @@
 ^Antikriste/Antikrist<n><ma><pl><acc>/Antikrist<n><ma><sg><voc>/Antikrist<np><ant><ma><sg><voc>$
 ^Antikristom/Antikrist<n><ma><sg><ins>/Antikrist<np><ant><ma><sg><ins>$
 ^Antikristov/Antikrist<n><ma>+pos<adj><mi><sg><acc>/Antikrist<n><ma>+pos<adj><ma><sg><nom>/Antikrist<n><ma>+pos<adj><ma><sg><voc>/Antikristov<np><ant><ma>+pos<adj><mi><sg><acc>/Antikristov<np><ant><ma>+pos<adj><ma><sg><nom>/Antikristov<np><ant><ma>+pos<adj><ma><sg><voc>$
-^Antikristovoga/Antikrist<n><ma>+pos<adj><ma><sg><acc>/Antikrist<n><ma>+pos<adj><nt><sg><gen>/Antikristov<np><ant><ma>+pos<adj><ma><sg><acc>/Antikristov<np><ant><ma>+pos<adj><nt><sg><gen>$
+^Antikristovog/Antikrist<n><ma>+pos<adj><ma><sg><acc>/Antikrist<n><ma>+pos<adj><nt><sg><gen>/Antikristov<np><ant><ma>+pos<adj><ma><sg><acc>/Antikristov<np><ant><ma>+pos<adj><nt><sg><gen>$
 ^Antikristovome/Antikrist<n><ma>+pos<adj><nt><sg><dat>/Antikrist<n><ma>+pos<adj><nt><sg><loc>/Antikristov<np><ant><ma>+pos<adj><nt><sg><dat>/Antikristov<np><ant><ma>+pos<adj><nt><sg><loc>$
 ^Antikristovim/Antikrist<n><ma>+pos<adj><mi><pl><dat>/Antikrist<n><ma>+pos<adj><mi><sg><ins>/Antikrist<n><ma>+pos<adj><mi><pl><loc>/Antikristov<np><ant><ma>+pos<adj><mi><pl><dat>/Antikristov<np><ant><ma>+pos<adj><mi><sg><ins>/Antikristov<np><ant><ma>+pos<adj><mi><pl><loc>$
 ^Antikristovi/Antikrist<n><ma>+pos<adj><mi><pl><nom>/Antikrist<n><ma>+pos<adj><mi><pl><voc>/Antikristov<np><ant><ma>+pos<adj><mi><pl><nom>/Antikristov<np><ant><ma>+pos<adj><mi><pl><voc>$
@@ -1583,7 +1583,7 @@
 ^podržanih/podržati<vblex><perf><tv><pp><mi><pl><gen><ind>/podržati<vblex><perf><ref><pp><mi><pl><gen><ind>$
 ^podržanoj/podržati<vblex><perf><tv><pp><f><sg><dat><ind>/podržati<vblex><perf><ref><pp><f><sg><dat><ind>/podržati<vblex><perf><ref><pp><f><sg><loc><ind>$
 ^podržano/podržati<vblex><perf><tv><pp><nt><sg><voc><ind>/podržati<vblex><perf><tv><pp><nt><sg><nom><ind>/podržati<vblex><perf><tv><pp><nt><sg><acc><ind>/podržati<vblex><perf><ref><pp><nt><sg><acc><ind>/podržati<vblex><perf><ref><pp><nt><sg><nom><ind>/podržati<vblex><perf><ref><pp><nt><sg><voc><ind>$
-^podržanoga/podržati<vblex><perf><tv><pp><nt><sg><gen><def>/podržati<vblex><perf><ref><pp><ma><sg><acc><def>/podržati<vblex><perf><ref><pp><nt><sg><gen><def>$
+^podržanog/podržati<vblex><perf><tv><pp><nt><sg><gen><def>/podržati<vblex><perf><ref><pp><ma><sg><acc><def>/podržati<vblex><perf><ref><pp><nt><sg><gen><def>$
 ^podržavši/podržavši<adv>/podržati<vblex><perf><ref><pprs><adv>/podržati<vblex><perf><tv><pprs><adv>$
 ^jača/jak<adj><comp><nt><pl><acc>/jak<adj><comp><f><sg><nom>/jak<adj><comp><f><sg><voc>/jačati<vblex><imperf><iv><pres><p3><sg>/jačati<vblex><imperf><tv><pres><p3><sg>$
 ^nagledati/nagledati<vblex><perf><ref><inf>$
@@ -1623,7 +1623,7 @@
 ^bojanim/bojati<vblex><imperf><tv><pp><mi><sg><ins><ind>/bojati<vblex><imperf><ref><pp><mi><pl><dat><ind>/bojati<vblex><imperf><ref><pp><mi><sg><ins><ind>/bojati<vblex><imperf><ref><pp><mi><pl><loc><ind>$
 ^bojanih/bojati<vblex><imperf><tv><pp><mi><pl><gen><ind>/bojati<vblex><imperf><ref><pp><mi><pl><gen><ind>$
 ^bojanoj/bojati<vblex><imperf><tv><pp><f><sg><dat><ind>/bojati<vblex><imperf><ref><pp><f><sg><dat><ind>/bojati<vblex><imperf><ref><pp><f><sg><loc><ind>$
-^bojanoga/bojati<vblex><imperf><tv><pp><nt><sg><gen><def>/bojati<vblex><imperf><ref><pp><ma><sg><acc><def>/bojati<vblex><imperf><ref><pp><nt><sg><gen><def>$
+^bojanog/bojati<vblex><imperf><tv><pp><nt><sg><gen><def>/bojati<vblex><imperf><ref><pp><ma><sg><acc><def>/bojati<vblex><imperf><ref><pp><nt><sg><gen><def>$
 ^broji/brojiti<vblex><imperf><iv><imp><p2><sg>/brojiti<vblex><imperf><iv><pres><p3><sg>/brojiti<vblex><imperf><tv><imp><p2><sg>/brojiti<vblex><imperf><tv><pres><p3><sg>$
 ^daj/davati<vblex><imperf><iv><imp><p2><sg>/davati<vblex><imperf><ref><imp><p2><sg>/davati<vblex><imperf><tv><imp><p2><sg>/dati<vblex><perf><ref><imp><p2><sg>/dati<vblex><perf><tv><imp><p2><sg>$
 ^daju/davati<vblex><imperf><iv><pres><p3><pl>/davati<vblex><imperf><ref><pres><p3><pl>/davati<vblex><imperf><tv><pres><p3><pl>/dati<vblex><perf><ref><pres><p3><pl>/dati<vblex><perf><tv><pres><p3><pl>$
@@ -1636,7 +1636,7 @@
 ^prijeđenim/prijeći<vblex><perf><iv><pp><mi><pl><dat><ind>/prijeći<vblex><perf><iv><pp><mi><sg><ins><ind>/prijeći<vblex><perf><iv><pp><mi><pl><loc><ind>$
 ^prijeđenih/prijeći<vblex><perf><iv><pp><mi><pl><gen><ind>$
 ^prijeđenoj/prijeći<vblex><perf><iv><pp><f><sg><dat><ind>/prijeći<vblex><perf><iv><pp><f><sg><loc><ind>$
-^prijeđenoga/prijeći<vblex><perf><iv><pp><ma><sg><acc><def>/prijeći<vblex><perf><iv><pp><nt><sg><gen><def>$
+^prijeđenog/prijeći<vblex><perf><iv><pp><ma><sg><acc><def>/prijeći<vblex><perf><iv><pp><nt><sg><gen><def>$
 ^peći/peć<n><f><pl><acc>/peć<n><f><sg><dat>/peć<n><f><sg><gen>/peć<n><f><sg><ins>/peć<n><f><sg><loc>/peć<n><f><pl><nom>/peć<n><f><sg><voc>/peći<vblex><imperf><tv><inf>$
 ^poreče/poredak<n><ma><sg><voc>/poreći<vblex><perf><tv><aor><p3><sg>/poreći<vblex><perf><tv><pres><p3><sg>$
 ^poreklo/porijeklo<n><nt><sg><acc>/porijeklo<n><nt><sg><nom>/porijeklo<n><nt><sg><voc>/poreći<vblex><perf><tv><lp><nt><sg>$
@@ -1661,7 +1661,7 @@
 ^duhanih/duhati<vblex><imperf><tv><pp><mi><pl><gen><ind>/duhati<vblex><imperf><iv><pp><mi><pl><gen><ind>$
 ^duhanoj/duhati<vblex><imperf><tv><pp><f><sg><dat><ind>/duhati<vblex><imperf><iv><pp><f><sg><dat><ind>/duhati<vblex><imperf><iv><pp><f><sg><loc><ind>$
 ^duhano/duhati<vblex><imperf><tv><pp><nt><sg><nom><ind>/duhati<vblex><imperf><iv><pp><nt><sg><acc><ind>/duhati<vblex><imperf><iv><pp><nt><sg><nom><ind>/duhati<vblex><imperf><iv><pp><nt><sg><voc><ind>$
-^duhanoga/duhati<vblex><imperf><tv><pp><nt><sg><gen><def>/duhati<vblex><imperf><iv><pp><ma><sg><acc><def>/duhati<vblex><imperf><iv><pp><nt><sg><gen><def>$
+^duhanog/duhati<vblex><imperf><tv><pp><nt><sg><gen><def>/duhati<vblex><imperf><iv><pp><ma><sg><acc><def>/duhati<vblex><imperf><iv><pp><nt><sg><gen><def>$
 ^dan/dan<adj><pst><mi><sg><acc><ind>/dan<adj><pst><mi><sg><nom><ind>/dan<adj><pst><ma><sg><voc><ind>/dan<n><mi><sg><acc>/dan<n><mi><sg><nom>/dati<vblex><perf><tv><pp><sfx><ma><sg><voc><ind>/dati<vblex><perf><tv><pp><sfx><ma><sg><nom><ind>/dati<vblex><perf><tv><pp><mi><sg><voc><ind>/dati<vblex><perf><tv><pp><mi><sg><nom><ind>/dati<vblex><perf><tv><pp><mi><sg><acc><ind>$
 ^dana/dan<adj><pst><ma><sg><acc><ind>/dan<adj><pst><ma><sg><gen><ind>/dan<adj><pst><f><sg><nom><def>/dan<adj><pst><nt><pl><voc><ind>/dan<n><mi><sg><gen>/dati<vblex><perf><tv><pp><nt><pl><voc><ind>/dati<vblex><perf><tv><pp><nt><pl><nom><ind>/dati<vblex><perf><tv><pp><mi><sg><gen><ind>$
 ^danu/dan<adj><pst><f><sg><acc><ind>/dan<adj><pst><ma><sg><dat><ind>/dan<adj><pst><ma><sg><loc><ind>/dan<n><mi><sg><dat>/dan<n><mi><sg><loc>/dati<vblex><perf><tv><pp><mi><sg><dat><ind>$
@@ -1698,7 +1698,7 @@
 ^znanih/znan<adj><pst><mi><pl><gen><ind>/znati<vblex><imperf><tv><pp><mi><pl><gen><ind>/znati<vblex><imperf><ref><pp><mi><pl><gen><ind>$
 ^znanoj/znan<adj><pst><f><sg><dat><ind>/znan<adj><pst><f><sg><loc><ind>/znati<vblex><imperf><tv><pp><f><sg><dat><ind>/znati<vblex><imperf><ref><pp><f><sg><dat><ind>/znati<vblex><imperf><ref><pp><f><sg><loc><ind>$
 ^znanom/znan<adj><pst><nt><sg><dat><def>/znan<adj><pst><f><sg><ins><ind>/znan<adj><pst><nt><sg><loc><def>/znati<vblex><imperf><tv><pp><f><sg><ins><ind>/znati<vblex><imperf><ref><pp><nt><sg><dat><def>/znati<vblex><imperf><ref><pp><f><sg><ins><ind>/znati<vblex><imperf><ref><pp><nt><sg><loc><def>$
-^znanoga/znan<adj><pst><ma><sg><acc><def>/znan<adj><pst><nt><sg><gen><def>/znati<vblex><imperf><tv><pp><nt><sg><gen><def>/znati<vblex><imperf><ref><pp><ma><sg><acc><def>/znati<vblex><imperf><ref><pp><nt><sg><gen><def>$
+^znanog/znan<adj><pst><ma><sg><acc><def>/znan<adj><pst><nt><sg><gen><def>/znati<vblex><imperf><tv><pp><nt><sg><gen><def>/znati<vblex><imperf><ref><pp><ma><sg><acc><def>/znati<vblex><imperf><ref><pp><nt><sg><gen><def>$
 ^priznaj/priznavati<vblex><imperf><ref><imp><p2><sg>/priznavati<vblex><imperf><tv><imp><p2><sg>/priznati<vblex><perf><tv><imp><p2><sg>$
 ^priznaju/priznavati<vblex><imperf><ref><pres><p3><pl>/priznavati<vblex><imperf><tv><pres><p3><pl>/priznati<vblex><perf><tv><pres><p3><pl>$
 ^vladajući/vladajući<adj><pst><mi><sg><acc><def>/vladajući<adj><pst><ma><pl><nom><def>/vladajući<adj><pst><mi><sg><voc><def>/vladati<vblex><imperf><iv><pprs><adv>/vladati<vblex><imperf><ref><pprs><adv>$
@@ -1709,7 +1709,7 @@
 ^sastojanim/sastojati<vblex><imperf><ref><pp><mi><pl><dat><ind>/sastojati<vblex><imperf><ref><pp><mi><sg><ins><ind>/sastojati<vblex><imperf><ref><pp><mi><pl><loc><ind>$
 ^sastojanih/sastojati<vblex><imperf><ref><pp><mi><pl><gen><ind>$
 ^sastojanoj/sastojati<vblex><imperf><ref><pp><f><sg><dat><ind>/sastojati<vblex><imperf><ref><pp><f><sg><loc><ind>$
-^sastojanoga/sastojati<vblex><imperf><ref><pp><ma><sg><acc><def>/sastojati<vblex><imperf><ref><pp><nt><sg><gen><def>$
+^sastojanog/sastojati<vblex><imperf><ref><pp><ma><sg><acc><def>/sastojati<vblex><imperf><ref><pp><nt><sg><gen><def>$
 ^čestitati/čestitati<vblex><imperf><iv><inf>/čestitati<vblex><imperf><tv><inf>/čestitati<vblex><perf><iv><inf>/čestitati<vblex><perf><tv><inf>$
 ^čestitat ću/čestitati<vblex><imperf><iv><inf>+htjeti<vbmod><clt><futI><p1><sg>/čestitati<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p1><sg>/čestitati<vblex><perf><iv><inf>+htjeti<vbmod><clt><futI><p1><sg>/čestitati<vblex><perf><tv><inf>+htjeti<vbmod><clt><futI><p1><sg>$
 ^čestitat ćeš/čestitati<vblex><imperf><iv><inf>+htjeti<vbmod><clt><futI><p2><sg>/čestitati<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p2><sg>/čestitati<vblex><perf><iv><inf>+htjeti<vbmod><clt><futI><p2><sg>/čestitati<vblex><perf><tv><inf>+htjeti<vbmod><clt><futI><p2><sg>$
@@ -1735,7 +1735,7 @@
 ^održanoj/održan<adj><pst><f><sg><dat><ind>/održan<adj><pst><f><sg><loc><ind>/održati<vblex><perf><tv><pp><f><sg><dat><ind>/održati<vblex><perf><ref><pp><f><sg><dat><ind>/održati<vblex><perf><ref><pp><f><sg><loc><ind>$
 ^održanom/održan<adj><pst><nt><sg><dat><def>/održan<adj><pst><f><sg><ins><ind>/održan<adj><pst><nt><sg><loc><def>/održati<vblex><perf><tv><pp><f><sg><ins><ind>/održati<vblex><perf><ref><pp><nt><sg><dat><def>/održati<vblex><perf><ref><pp><f><sg><ins><ind>/održati<vblex><perf><ref><pp><nt><sg><loc><def>$
 ^održano/održan<adj><pst><nt><sg><acc><ind>/održan<adj><pst><nt><sg><nom><def>/održan<adj><pst><nt><sg><voc><ind>/održati<vblex><perf><tv><pp><nt><sg><voc><ind>/održati<vblex><perf><tv><pp><nt><sg><nom><ind>/održati<vblex><perf><tv><pp><nt><sg><acc><ind>/održati<vblex><perf><ref><pp><nt><sg><acc><ind>/održati<vblex><perf><ref><pp><nt><sg><nom><ind>/održati<vblex><perf><ref><pp><nt><sg><voc><ind>$
-^održanoga/održan<adj><pst><ma><sg><acc><def>/održan<adj><pst><nt><sg><gen><def>/održati<vblex><perf><tv><pp><nt><sg><gen><def>/održati<vblex><perf><ref><pp><ma><sg><acc><def>/održati<vblex><perf><ref><pp><nt><sg><gen><def>$
+^održanog/održan<adj><pst><ma><sg><acc><def>/održan<adj><pst><nt><sg><gen><def>/održati<vblex><perf><tv><pp><nt><sg><gen><def>/održati<vblex><perf><ref><pp><ma><sg><acc><def>/održati<vblex><perf><ref><pp><nt><sg><gen><def>$
 ^sleći/slijetati<vblex><imperf><tv><imp><p2><sg>/sleći<vblex><perf><iv><inf>/sleći<vblex><perf><ref><inf>/sleći<vblex><perf><tv><inf>$
 ^počeše/počešati<vblex><imperf><iv><pres><p3><sg>/počešati<vblex><imperf><ref><pres><p3><sg>/počešati<vblex><imperf><tv><pres><p3><sg>/početi<vblex><perf><tv><aor><p3><pl>$
 ^uzeti/uzet<adj><pst><mi><sg><acc><def>/uzet<adj><pst><ma><pl><nom><def>/uzet<adj><pst><mi><sg><voc><ind>/uzeti<vblex><perf><ref><inf>/uzeti<vblex><perf><tv><inf>/uzeti<vblex><perf><tv><pp><sfx><ma><sg><voc><ind>/uzeti<vblex><perf><tv><pp><sfx><ma><pl><nom><ind>/uzeti<vblex><perf><tv><pp><mi><sg><voc><ind>/uzeti<vblex><perf><tv><pp><mi><sg><nom><def>/uzeti<vblex><perf><tv><pp><mi><sg><acc><def>$
@@ -1747,7 +1747,7 @@
 ^preuzetoj/preuzet<adj><pst><f><sg><dat><ind>/preuzet<adj><pst><f><sg><loc><ind>/uzet<adj><ssup><f><sg><dat><ind>/uzet<adj><ssup><f><sg><loc><ind>/preuzeti<vblex><perf><tv><pp><f><sg><dat><ind>$
 ^preuzetom/preuzet<adj><pst><nt><sg><dat><def>/preuzet<adj><pst><f><sg><ins><ind>/preuzet<adj><pst><nt><sg><loc><def>/uzet<adj><ssup><nt><sg><dat><def>/uzet<adj><ssup><f><sg><ins><ind>/uzet<adj><ssup><nt><sg><loc><def>/preuzeti<vblex><perf><tv><pp><f><sg><ins><ind>$
 ^preuzeto/preuzet<adj><pst><nt><sg><acc><ind>/preuzet<adj><pst><nt><sg><nom><def>/preuzet<adj><pst><nt><sg><voc><ind>/uzet<adj><ssup><nt><sg><acc><ind>/uzet<adj><ssup><nt><sg><nom><def>/uzet<adj><ssup><nt><sg><voc><ind>/preuzeti<vblex><perf><tv><pp><nt><sg><voc><ind>/preuzeti<vblex><perf><tv><pp><nt><sg><nom><ind>/preuzeti<vblex><perf><tv><pp><nt><sg><acc><ind>$
-^preuzetoga/preuzet<adj><pst><ma><sg><acc><def>/preuzet<adj><pst><nt><sg><gen><def>/uzet<adj><ssup><ma><sg><acc><def>/uzet<adj><ssup><nt><sg><gen><def>/preuzeti<vblex><perf><tv><pp><nt><sg><gen><def>$
+^preuzetog/preuzet<adj><pst><ma><sg><acc><def>/preuzet<adj><pst><nt><sg><gen><def>/uzet<adj><ssup><ma><sg><acc><def>/uzet<adj><ssup><nt><sg><gen><def>/preuzeti<vblex><perf><tv><pp><nt><sg><gen><def>$
 ^uslijedi/uslijediti<vblex><perf><iv><aor><p2><sg>/uslijediti<vblex><perf><iv><imp><p2><sg>/uslijediti<vblex><perf><iv><pres><p3><sg>$
 ^uslijedimo/uslijediti<vblex><perf><iv><imp><p1><pl>/uslijediti<vblex><perf><iv><pres><p1><pl>$
 ^pobijedi/pobijediti<vblex><perf><iv><aor><p2><sg>/pobijediti<vblex><perf><iv><imp><p2><sg>/pobijediti<vblex><perf><iv><pres><p3><sg>/pobijediti<vblex><perf><ref><aor><p2><sg>/pobijediti<vblex><perf><ref><imp><p2><sg>/pobijediti<vblex><perf><ref><pres><p3><sg>/pobijediti<vblex><perf><tv><aor><p2><sg>/pobijediti<vblex><perf><tv><imp><p2><sg>/pobijediti<vblex><perf><tv><pres><p3><sg>$
@@ -1879,7 +1879,7 @@
 ^posječenih/posjeći<vblex><perf><tv><pp><mi><pl><gen><ind>/posjeći<vblex><perf><iv><pp><mi><pl><gen><ind>/posjeći<vblex><perf><ref><pp><mi><pl><gen><ind>$
 ^posječenoj/posjeći<vblex><perf><tv><pp><f><sg><dat><ind>/posjeći<vblex><perf><iv><pp><f><sg><dat><ind>/posjeći<vblex><perf><iv><pp><f><sg><loc><ind>/posjeći<vblex><perf><ref><pp><f><sg><dat><ind>/posjeći<vblex><perf><ref><pp><f><sg><loc><ind>$
 ^posječeno/posjeći<vblex><perf><tv><pp><nt><sg><voc><ind>/posjeći<vblex><perf><tv><pp><nt><sg><nom><ind>/posjeći<vblex><perf><tv><pp><nt><sg><acc><ind>/posjeći<vblex><perf><iv><pp><nt><sg><acc><ind>/posjeći<vblex><perf><ref><pp><nt><sg><acc><ind>/posjeći<vblex><perf><ref><pp><nt><sg><nom><ind>/posjeći<vblex><perf><ref><pp><nt><sg><voc><ind>/posjeći<vblex><perf><iv><pp><nt><sg><voc><ind>/posjeći<vblex><perf><iv><pp><nt><sg><nom><ind>$
-^posječenoga/posjeći<vblex><perf><tv><pp><nt><sg><gen><def>/posjeći<vblex><perf><iv><pp><ma><sg><acc><def>/posjeći<vblex><perf><iv><pp><nt><sg><gen><def>/posjeći<vblex><perf><ref><pp><ma><sg><acc><def>/posjeći<vblex><perf><ref><pp><nt><sg><gen><def>$
+^posječenog/posjeći<vblex><perf><tv><pp><nt><sg><gen><def>/posjeći<vblex><perf><iv><pp><ma><sg><acc><def>/posjeći<vblex><perf><iv><pp><nt><sg><gen><def>/posjeći<vblex><perf><ref><pp><ma><sg><acc><def>/posjeći<vblex><perf><ref><pp><nt><sg><gen><def>$
 ^zasječen/zasjeći<vblex><perf><tv><pp><sfx><ma><sg><voc><ind>/zasjeći<vblex><perf><tv><pp><sfx><ma><sg><nom><ind>/zasjeći<vblex><perf><tv><pp><mi><sg><voc><ind>/zasjeći<vblex><perf><tv><pp><mi><sg><nom><ind>/zasjeći<vblex><perf><tv><pp><mi><sg><acc><ind>/zasjeći<vblex><perf><iv><pp><mi><sg><acc><ind>/zasjeći<vblex><perf><iv><pp><mi><sg><voc><ind>/zasjeći<vblex><perf><iv><pp><mi><sg><nom><ind>$
 ^zasječena/zasjeći<vblex><perf><tv><pp><nt><pl><voc><ind>/zasjeći<vblex><perf><tv><pp><nt><pl><nom><ind>/zasjeći<vblex><perf><tv><pp><mi><sg><gen><ind>/zasjeći<vblex><perf><iv><pp><nt><pl><acc><ind>/zasjeći<vblex><perf><iv><pp><mi><sg><gen><ind>/zasjeći<vblex><perf><iv><pp><nt><pl><voc><ind>/zasjeći<vblex><perf><iv><pp><nt><pl><nom><ind>$
 ^zasječenu/zasjeći<vblex><perf><tv><pp><mi><sg><dat><ind>/zasjeći<vblex><perf><iv><pp><f><sg><acc><ind>/zasjeći<vblex><perf><iv><pp><mi><sg><dat><ind>/zasjeći<vblex><perf><iv><pp><mi><sg><loc><ind>$
@@ -1887,7 +1887,7 @@
 ^zasječenih/zasjeći<vblex><perf><tv><pp><mi><pl><gen><ind>/zasjeći<vblex><perf><iv><pp><mi><pl><gen><ind>$
 ^zasječenoj/zasjeći<vblex><perf><tv><pp><f><sg><dat><ind>/zasjeći<vblex><perf><iv><pp><f><sg><dat><ind>/zasjeći<vblex><perf><iv><pp><f><sg><loc><ind>$
 ^zasječeno/zasjeći<vblex><perf><tv><pp><nt><sg><voc><ind>/zasjeći<vblex><perf><tv><pp><nt><sg><nom><ind>/zasjeći<vblex><perf><tv><pp><nt><sg><acc><ind>/zasjeći<vblex><perf><iv><pp><nt><sg><acc><ind>/zasjeći<vblex><perf><iv><pp><nt><sg><voc><ind>/zasjeći<vblex><perf><iv><pp><nt><sg><nom><ind>$
-^zasječenoga/zasjeći<vblex><perf><tv><pp><nt><sg><gen><def>/zasjeći<vblex><perf><iv><pp><ma><sg><acc><def>/zasjeći<vblex><perf><iv><pp><nt><sg><gen><def>$
+^zasječenog/zasjeći<vblex><perf><tv><pp><nt><sg><gen><def>/zasjeći<vblex><perf><iv><pp><ma><sg><acc><def>/zasjeći<vblex><perf><iv><pp><nt><sg><gen><def>$
 ^teći/teća<n><f><sg><dat>/teća<n><f><sg><loc>/teći<vblex><imperf><iv><inf>$
 ^dezinformisati/dezinformisati<vblex><imperf><ref><inf>/dezinformisati<vblex><imperf><tv><inf>/dezinformisati<vblex><perf><iv><inf>/dezinformisati<vblex><perf><ref><inf>$
 ^dezinformisat ću/dezinformisati<vblex><imperf><ref><inf>+htjeti<vbmod><clt><futI><p1><sg>/dezinformisati<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p1><sg>/dezinformisati<vblex><perf><iv><inf>+htjeti<vbmod><clt><futI><p1><sg>/dezinformisati<vblex><perf><ref><inf>+htjeti<vbmod><clt><futI><p1><sg>$
@@ -2048,7 +2048,7 @@
 ^preorijentiranih/orijentiran<adj><ssup><mi><pl><gen><ind>/preorijentirati<vblex><imperf><tv><pp><mi><pl><gen><ind>/preorijentirati<vblex><perf><tv><pp><mi><pl><gen><ind>$
 ^preorijentiranoj/orijentiran<adj><ssup><f><sg><dat><ind>/orijentiran<adj><ssup><f><sg><loc><ind>/preorijentirati<vblex><imperf><tv><pp><f><sg><dat><ind>/preorijentirati<vblex><perf><tv><pp><f><sg><dat><ind>$
 ^preorijentirano/orijentiran<adj><ssup><nt><sg><acc><ind>/orijentiran<adj><ssup><nt><sg><nom><def>/orijentiran<adj><ssup><nt><sg><voc><ind>/preorijentirati<vblex><imperf><tv><pp><nt><sg><nom><ind>/preorijentirati<vblex><perf><tv><pp><nt><sg><voc><ind>/preorijentirati<vblex><perf><tv><pp><nt><sg><nom><ind>/preorijentirati<vblex><perf><tv><pp><nt><sg><acc><ind>$
-^preorijentiranoga/orijentiran<adj><ssup><ma><sg><acc><def>/orijentiran<adj><ssup><nt><sg><gen><def>/preorijentirati<vblex><imperf><tv><pp><nt><sg><gen><def>/preorijentirati<vblex><perf><tv><pp><nt><sg><gen><def>$
+^preorijentiranog/orijentiran<adj><ssup><ma><sg><acc><def>/orijentiran<adj><ssup><nt><sg><gen><def>/preorijentirati<vblex><imperf><tv><pp><nt><sg><gen><def>/preorijentirati<vblex><perf><tv><pp><nt><sg><gen><def>$
 ^očita/očit<adj><pst><ma><sg><acc><ind>/očit<adj><pst><ma><sg><gen><ind>/očit<adj><pst><f><sg><nom><def>/očit<adj><pst><nt><pl><voc><ind>/očitati<vblex><perf><tv><aor><p2><sg>/očitati<vblex><perf><tv><pres><p3><sg>$
 ^prenagli/nagao<adj><ssup><mi><sg><acc><def>/nagao<adj><ssup><mi><pl><nom><def>/nagao<adj><ssup><ma><sg><voc><ind>/prenagliti<vblex><perf><ref><aor><p2><sg>/prenagliti<vblex><perf><ref><imp><p2><sg>/prenagliti<vblex><perf><ref><pres><p3><sg>$
 ^prenaglim/nagao<adj><ssup><ma><pl><dat><ind>/nagao<adj><ssup><ma><sg><ins><ind>/nagao<adj><ssup><ma><pl><loc><ind>/prenagliti<vblex><perf><ref><pres><p1><sg>$
@@ -2078,7 +2078,7 @@
 ^Janku/Janko<np><ant><ma><sg><dat>/Janko<np><ant><ma><sg><loc>/Janko<np><cog><ma><sg><dat>/Janko<np><cog><ma><sg><loc>$
 ^Jankom/Janko<np><ant><ma><sg><ins>/Janko<np><cog><ma><sg><ins>$
 ^Jankov/Jankov<np><ant><ma>+pos<adj><mi><sg><acc>/Jankov<np><ant><ma>+pos<adj><ma><sg><nom>/Jankov<np><ant><ma>+pos<adj><ma><sg><voc>/Jankov<np><cog><ma>+pos<adj><mi><sg><acc>/Jankov<np><cog><ma>+pos<adj><ma><sg><nom>/Jankov<np><cog><ma>+pos<adj><ma><sg><voc>$
-^Jankovoga/Jankov<np><ant><ma>+pos<adj><ma><sg><acc>/Jankov<np><ant><ma>+pos<adj><nt><sg><gen>/Jankov<np><cog><ma>+pos<adj><ma><sg><acc>/Jankov<np><cog><ma>+pos<adj><nt><sg><gen>$
+^Jankovog/Jankov<np><ant><ma>+pos<adj><ma><sg><acc>/Jankov<np><ant><ma>+pos<adj><nt><sg><gen>/Jankov<np><cog><ma>+pos<adj><ma><sg><acc>/Jankov<np><cog><ma>+pos<adj><nt><sg><gen>$
 ^Jankovome/Jankov<np><ant><ma>+pos<adj><nt><sg><dat>/Jankov<np><ant><ma>+pos<adj><nt><sg><loc>/Jankov<np><cog><ma>+pos<adj><nt><sg><dat>/Jankov<np><cog><ma>+pos<adj><nt><sg><loc>$
 ^Jankovim/Jankov<np><ant><ma>+pos<adj><mi><pl><dat>/Jankov<np><ant><ma>+pos<adj><mi><sg><ins>/Jankov<np><ant><ma>+pos<adj><mi><pl><loc>/Jankov<np><cog><ma>+pos<adj><mi><pl><dat>/Jankov<np><cog><ma>+pos<adj><mi><sg><ins>/Jankov<np><cog><ma>+pos<adj><mi><pl><loc>$
 ^Jankovi/Jankov<np><ant><ma>+pos<adj><mi><pl><nom>/Jankov<np><ant><ma>+pos<adj><mi><pl><voc>/Jankov<np><cog><ma>+pos<adj><mi><pl><nom>/Jankov<np><cog><ma>+pos<adj><mi><pl><voc>$
@@ -2090,7 +2090,7 @@
 ^Miru/Mira<n><f><sg><acc>/Mir<n><mi><sg><dat>/Mir<n><mi><sg><loc>/Mir<n><mi><sg><voc>/Miro<np><ant><ma><sg><dat>/Miro<np><ant><ma><sg><loc>/Miro<np><cog><ma><sg><dat>/Miro<np><cog><ma><sg><loc>$
 ^Mirom/Mir<n><mi><sg><ins>/Miro<np><ant><ma><sg><ins>/Miro<np><cog><ma><sg><ins>$
 ^Mirov/Mirov<n><nt>+pos<adj><mi><sg><acc>/Mirov<n><nt>+pos<adj><ma><sg><nom>/Mirov<n><nt>+pos<adj><ma><sg><voc>/Mirov<np><ant><ma>+pos<adj><mi><sg><acc>/Mirov<np><ant><ma>+pos<adj><ma><sg><nom>/Mirov<np><ant><ma>+pos<adj><ma><sg><voc>/Mirov<np><cog><ma>+pos<adj><mi><sg><acc>/Mirov<np><cog><ma>+pos<adj><ma><sg><nom>/Mirov<np><cog><ma>+pos<adj><ma><sg><voc>$
-^Mirovoga/Mirov<n><nt>+pos<adj><ma><sg><acc>/Mirov<n><nt>+pos<adj><nt><sg><gen>/Mirov<np><ant><ma>+pos<adj><ma><sg><acc>/Mirov<np><ant><ma>+pos<adj><nt><sg><gen>/Mirov<np><cog><ma>+pos<adj><ma><sg><acc>/Mirov<np><cog><ma>+pos<adj><nt><sg><gen>$
+^Mirovog/Mirov<n><nt>+pos<adj><ma><sg><acc>/Mirov<n><nt>+pos<adj><nt><sg><gen>/Mirov<np><ant><ma>+pos<adj><ma><sg><acc>/Mirov<np><ant><ma>+pos<adj><nt><sg><gen>/Mirov<np><cog><ma>+pos<adj><ma><sg><acc>/Mirov<np><cog><ma>+pos<adj><nt><sg><gen>$
 ^Mirovome/Mirov<n><nt>+pos<adj><nt><sg><dat>/Mirov<n><nt>+pos<adj><nt><sg><loc>/Mirov<np><ant><ma>+pos<adj><nt><sg><dat>/Mirov<np><ant><ma>+pos<adj><nt><sg><loc>/Mirov<np><cog><ma>+pos<adj><nt><sg><dat>/Mirov<np><cog><ma>+pos<adj><nt><sg><loc>$
 ^Mirovim/Mirov<n><nt>+pos<adj><mi><pl><dat>/Mirov<n><nt>+pos<adj><mi><sg><ins>/Mirov<n><nt>+pos<adj><mi><pl><loc>/Mirov<np><ant><ma>+pos<adj><mi><pl><dat>/Mirov<np><ant><ma>+pos<adj><mi><sg><ins>/Mirov<np><ant><ma>+pos<adj><mi><pl><loc>/Mirov<np><cog><ma>+pos<adj><mi><pl><dat>/Mirov<np><cog><ma>+pos<adj><mi><sg><ins>/Mirov<np><cog><ma>+pos<adj><mi><pl><loc>$
 ^Mirovi/Mir<n><mi><pl><nom>/Mir<n><mi><pl><voc>/Mirov<n><nt>+pos<adj><mi><pl><nom>/Mirov<n><nt>+pos<adj><mi><pl><voc>/Mirov<np><ant><ma>+pos<adj><mi><pl><nom>/Mirov<np><ant><ma>+pos<adj><mi><pl><voc>/Mirov<np><cog><ma>+pos<adj><mi><pl><nom>/Mirov<np><cog><ma>+pos<adj><mi><pl><voc>$
@@ -2567,7 +2567,7 @@
 ^uzdržanih/uzdržan<adj><pst><mi><pl><gen><ind>/uzdržati<vblex><perf><iv><pp><mi><pl><gen><ind>/uzdržati<vblex><perf><ref><pp><mi><pl><gen><ind>$
 ^uzdržanoj/uzdržan<adj><pst><f><sg><dat><ind>/uzdržan<adj><pst><f><sg><loc><ind>/uzdržati<vblex><perf><iv><pp><f><sg><dat><ind>/uzdržati<vblex><perf><iv><pp><f><sg><loc><ind>/uzdržati<vblex><perf><ref><pp><f><sg><dat><ind>/uzdržati<vblex><perf><ref><pp><f><sg><loc><ind>$
 ^uzdržanom/uzdržan<adj><pst><nt><sg><dat><def>/uzdržan<adj><pst><f><sg><ins><ind>/uzdržan<adj><pst><nt><sg><loc><def>/uzdržati<vblex><perf><iv><pp><nt><sg><dat><def>/uzdržati<vblex><perf><iv><pp><f><sg><ins><ind>/uzdržati<vblex><perf><iv><pp><nt><sg><loc><def>/uzdržati<vblex><perf><ref><pp><nt><sg><dat><def>/uzdržati<vblex><perf><ref><pp><f><sg><ins><ind>/uzdržati<vblex><perf><ref><pp><nt><sg><loc><def>$
-^uzdržanoga/uzdržan<adj><pst><ma><sg><acc><def>/uzdržan<adj><pst><nt><sg><gen><def>/uzdržati<vblex><perf><iv><pp><ma><sg><acc><def>/uzdržati<vblex><perf><iv><pp><nt><sg><gen><def>/uzdržati<vblex><perf><ref><pp><ma><sg><acc><def>/uzdržati<vblex><perf><ref><pp><nt><sg><gen><def>$
+^uzdržanog/uzdržan<adj><pst><ma><sg><acc><def>/uzdržan<adj><pst><nt><sg><gen><def>/uzdržati<vblex><perf><iv><pp><ma><sg><acc><def>/uzdržati<vblex><perf><iv><pp><nt><sg><gen><def>/uzdržati<vblex><perf><ref><pp><ma><sg><acc><def>/uzdržati<vblex><perf><ref><pp><nt><sg><gen><def>$
 ^brkat/brkat<adj><pst><mi><sg><acc><ind>/brkat<adj><pst><mi><sg><nom><ind>/brkat<adj><pst><ma><sg><voc><ind>/brkati<vblex><imperf><tv><inf>/brkati<vblex><perf><tv><inf>$
 ^brkate/brkat<adj><pst><ma><pl><acc><ind>/brkat<adj><pst><f><sg><gen><ind>/brkat<adj><pst><f><pl><nom><def>/brkat<adj><pst><f><pl><voc><ind>/brkati<vblex><imperf><tv><pres><p2><pl>/brkati<vblex><perf><tv><pres><p2><pl>$
 ^kovrčaste/kovrčast<adj><pst><ma><pl><acc><ind>/kovrčast<adj><pst><f><sg><gen><ind>/kovrčast<adj><pst><f><pl><nom><def>/kovrčast<adj><pst><f><pl><voc><ind>/kovrčati<vblex><imperf><ref><pii><p2><pl>/kovrčati<vblex><imperf><tv><pii><p2><pl>$
@@ -2597,7 +2597,7 @@
 ^odležanoj/odležan<adj><pst><f><sg><dat><ind>/odležan<adj><pst><f><sg><loc><ind>/odležati<vblex><perf><tv><pp><f><sg><dat><ind>/odležati<vblex><perf><iv><pp><f><sg><dat><ind>/odležati<vblex><perf><iv><pp><f><sg><loc><ind>$
 ^odležanom/odležan<adj><pst><nt><sg><dat><def>/odležan<adj><pst><f><sg><ins><ind>/odležan<adj><pst><nt><sg><loc><def>/odležati<vblex><perf><tv><pp><f><sg><ins><ind>/odležati<vblex><perf><iv><pp><nt><sg><dat><def>/odležati<vblex><perf><iv><pp><f><sg><ins><ind>/odležati<vblex><perf><iv><pp><nt><sg><loc><def>$
 ^odležano/odležan<adj><pst><nt><sg><acc><ind>/odležan<adj><pst><nt><sg><nom><def>/odležan<adj><pst><nt><sg><voc><ind>/odležati<vblex><perf><tv><pp><nt><sg><voc><ind>/odležati<vblex><perf><tv><pp><nt><sg><nom><ind>/odležati<vblex><perf><tv><pp><nt><sg><acc><ind>/odležati<vblex><perf><iv><pp><nt><sg><acc><ind>/odležati<vblex><perf><iv><pp><nt><sg><voc><ind>/odležati<vblex><perf><iv><pp><nt><sg><nom><ind>$
-^odležanoga/odležan<adj><pst><ma><sg><acc><def>/odležan<adj><pst><nt><sg><gen><def>/odležati<vblex><perf><tv><pp><nt><sg><gen><def>/odležati<vblex><perf><iv><pp><ma><sg><acc><def>/odležati<vblex><perf><iv><pp><nt><sg><gen><def>$
+^odležanog/odležan<adj><pst><ma><sg><acc><def>/odležan<adj><pst><nt><sg><gen><def>/odležati<vblex><perf><tv><pp><nt><sg><gen><def>/odležati<vblex><perf><iv><pp><ma><sg><acc><def>/odležati<vblex><perf><iv><pp><nt><sg><gen><def>$
 ^pretjerano/pretjeran<adj><pst><nt><sg><acc><ind>/pretjeran<adj><pst><nt><sg><nom><def>/pretjeran<adj><pst><nt><sg><voc><ind>/pretjerano<adv>/pretjerati<vblex><perf><tv><pp><nt><sg><voc><ind>/pretjerati<vblex><perf><tv><pp><nt><sg><nom><ind>/pretjerati<vblex><perf><tv><pp><nt><sg><acc><ind>$
 ^stvrdnut/stvrdnut<adj><pst><mi><sg><acc><ind>/stvrdnut<adj><pst><mi><sg><nom><ind>/stvrdnut<adj><pst><ma><sg><voc><ind>/stvrdnuti<vblex><perf><iv><inf>/stvrdnuti<vblex><perf><ref><inf>$
 ^prelih/lih<adj><ssup><mi><sg><acc><ind>/lih<adj><ssup><mi><sg><nom><ind>/lih<adj><ssup><ma><sg><voc><ind>/preliti<vblex><perf><tv><aor><p1><sg>$
@@ -2653,8 +2653,9 @@
 ^čašćenim/častiti<vblex><imperf><tv><pp><mi><sg><ins><ind>/častiti<vblex><imperf><iv><pp><mi><pl><dat><ind>/častiti<vblex><imperf><iv><pp><mi><sg><ins><ind>/častiti<vblex><imperf><iv><pp><mi><pl><loc><ind>/častiti<vblex><imperf><ref><pp><mi><pl><dat><ind>/častiti<vblex><imperf><ref><pp><mi><sg><ins><ind>/častiti<vblex><imperf><ref><pp><mi><pl><loc><ind>$
 ^čašćenih/častiti<vblex><imperf><tv><pp><mi><pl><gen><ind>/častiti<vblex><imperf><iv><pp><mi><pl><gen><ind>/častiti<vblex><imperf><ref><pp><mi><pl><gen><ind>$
 ^čašćenoj/častiti<vblex><imperf><tv><pp><f><sg><dat><ind>/častiti<vblex><imperf><iv><pp><f><sg><dat><ind>/častiti<vblex><imperf><iv><pp><f><sg><loc><ind>/častiti<vblex><imperf><ref><pp><f><sg><dat><ind>/častiti<vblex><imperf><ref><pp><f><sg><loc><ind>$
-^čašćenoga/častiti<vblex><imperf><tv><pp><nt><sg><gen><def>/častiti<vblex><imperf><iv><pp><ma><sg><acc><def>/častiti<vblex><imperf><iv><pp><nt><sg><gen><def>/častiti<vblex><imperf><ref><pp><ma><sg><acc><def>/častiti<vblex><imperf><ref><pp><nt><sg><gen><def>$
+^čašćenog/častiti<vblex><imperf><tv><pp><nt><sg><gen><def>/častiti<vblex><imperf><iv><pp><ma><sg><acc><def>/častiti<vblex><imperf><iv><pp><nt><sg><gen><def>/častiti<vblex><imperf><ref><pp><ma><sg><acc><def>/častiti<vblex><imperf><ref><pp><nt><sg><gen><def>$
 ^dodirnu/dodirni<adj><pst><f><sg><acc><def>/dodirnuti<vblex><perf><ref><aor><p2><sg>/dodirnuti<vblex><perf><ref><pres><p3><pl>/dodirnuti<vblex><perf><tv><aor><p2><sg>/dodirnuti<vblex><perf><tv><pres><p3><pl>$
+^gay/gay<adj><pst><ma><sg><acc><ind>/gay<adj><pst><ma><sg><dat><ind>/gay<adj><pst><ma><sg><gen><ind>/gay<adj><pst><ma><sg><ins><ind>/gay<adj><pst><ma><sg><loc><ind>/gay<adj><pst><mi><pl><nom><def>/gay<adj><pst><ma><sg><voc><ind>/gay<n><ma><sg><nom>$
 ^grmi/grmjeti<vblex><imperf><iv><imp><p2><sg>/grmjeti<vblex><imperf><iv><pres><p3><sg>/grmiti<vblex><perf><iv><aor><p2><sg>/grmiti<vblex><perf><iv><imp><p2><sg>/grmiti<vblex><perf><iv><pres><p3><sg>$
 ^grmimo/grmjeti<vblex><imperf><iv><imp><p1><pl>/grmjeti<vblex><imperf><iv><pres><p1><pl>/grmiti<vblex><perf><iv><imp><p1><pl>/grmiti<vblex><perf><iv><pres><p1><pl>$
 ^isplivati/isplivati<vblex><imperf><iv><inf>/isplivati<vblex><perf><iv><inf>/isplivati<vblex><perf><tv><inf>$
@@ -2688,7 +2689,7 @@
 ^mahanim/mahati<vblex><imperf><iv><pp><mi><pl><dat><ind>/mahati<vblex><imperf><iv><pp><mi><sg><ins><ind>/mahati<vblex><imperf><iv><pp><mi><pl><loc><ind>$
 ^mahanih/mahati<vblex><imperf><iv><pp><mi><pl><gen><ind>$
 ^mahanoj/mahati<vblex><imperf><iv><pp><f><sg><dat><ind>/mahati<vblex><imperf><iv><pp><f><sg><loc><ind>$
-^mahanoga/mahati<vblex><imperf><iv><pp><ma><sg><acc><def>/mahati<vblex><imperf><iv><pp><nt><sg><gen><def>$
+^mahanog/mahati<vblex><imperf><iv><pp><ma><sg><acc><def>/mahati<vblex><imperf><iv><pp><nt><sg><gen><def>$
 ^martini/martini<n><mi><sg><acc>/martini<n><mi><sg><nom>/martini<n><mi><sg><voc>/martin<n><f>+pos<adj><mi><pl><nom>/martin<n><f>+pos<adj><mi><pl><voc>$
 ^nasukah/nasukati<vblex><perf><ref><aor><p1><sg>/nasukati<vblex><perf><tv><pii><p1><sg>$
 ^navikao/navikao<adj><pst><mi><sg><acc><ind>/navikao<adj><pst><mi><sg><nom><ind>/navikao<adj><pst><ma><sg><voc><ind>/navići<vblex><perf><ref><lp><m><sg>/navići<vblex><perf><tv><lp><m><sg>$
@@ -2809,18 +2810,24 @@
 ^sročiti/sročiti<vblex><imperf><tv><inf>/sročiti<vblex><imperf><tv><pp><mi><sg><nom><def>/sročiti<vblex><perf><tv><inf>$
 ^sročite/sročiti<vblex><imperf><tv><pp><ma><pl><acc><def>/sročiti<vblex><perf><tv><imp><p2><pl>/sročiti<vblex><perf><tv><pres><p2><pl>$
 ^opetovano/opetovano<adv>/opetovati<vblex><imperf><tv><pp><nt><sg><nom><ind>/opetovati<vblex><perf><tv><pp><nt><sg><voc><ind>/opetovati<vblex><perf><tv><pp><nt><sg><nom><ind>/opetovati<vblex><perf><tv><pp><nt><sg><acc><ind>$
-^Audi/Audi<np><al><mi><sg><nom>$
-^Audija/Audio<n><mi><pl><acc>/Audio<n><mi><sg><gen>/Audio<n><mi><pl><nom>/Audio<n><mi><pl><voc>/Audi<np><al><mi><sg><acc>/Audi<np><al><mi><sg><gen>/Audi<np><al><mi><sg><voc>$
+^Audi/Audi<np><al><mi><sg><acc>/Audi<np><al><mi><sg><nom>/Audi<np><al><mi><sg><voc>$
+^Audija/Audio<n><mi><pl><acc>/Audio<n><mi><sg><gen>/Audio<n><mi><pl><nom>/Audio<n><mi><pl><voc>/Audi<np><al><mi><sg><gen>$
 ^Audiju/Audio<n><mi><sg><dat>/Audio<n><mi><sg><loc>/Audi<np><al><mi><sg><dat>/Audi<np><al><mi><sg><loc>$
 ^Audijem/Audio<n><mi><sg><ins>/Audi<np><al><mi><sg><ins>$
 ^Audijev/Audijev<np><al><mi>+pos<adj><mi><sg><acc>/Audijev<np><al><mi>+pos<adj><ma><sg><nom>/Audijev<np><al><mi>+pos<adj><ma><sg><voc>$
-^Audijevoga/Audijev<np><al><mi>+pos<adj><ma><sg><acc>/Audijev<np><al><mi>+pos<adj><nt><sg><gen>$
+^Audijevog/Audijev<np><al><mi>+pos<adj><ma><sg><acc>/Audijev<np><al><mi>+pos<adj><nt><sg><gen>$
 ^Audijevome/Audijev<np><al><mi>+pos<adj><nt><sg><dat>/Audijev<np><al><mi>+pos<adj><nt><sg><loc>$
 ^Audijevim/Audijev<np><al><mi>+pos<adj><mi><pl><dat>/Audijev<np><al><mi>+pos<adj><mi><sg><ins>/Audijev<np><al><mi>+pos<adj><mi><pl><loc>$
 ^Audijevi/Audijev<np><al><mi>+pos<adj><mi><pl><nom>/Audijev<np><al><mi>+pos<adj><mi><pl><voc>$
 ^Audijevih/Audijev<np><al><mi>+pos<adj><mi><pl><gen>$
 ^Audijeve/Audijev<np><al><mi>+pos<adj><ma><pl><acc>/Audijev<np><al><mi>+pos<adj><f><sg><gen>/Audijev<np><al><mi>+pos<adj><f><pl><nom>/Audijev<np><al><mi>+pos<adj><f><pl><voc>$
 ^Audijevu/Audijev<np><al><mi>+pos<adj><f><sg><acc>$
+^Office/Office<n><mi><sg><acc>/Office<n><mi><sg><nom>/Office<n><mi><sg><voc>/Office<np><al><mi><sg><acc>/Office<np><al><mi><sg><nom>/Office<np><al><mi><sg><voc>$
+^Officea/Office<n><mi><sg><gen>/Office<np><al><mi><sg><gen>$
+^Officee/Office<n><mi><pl><acc>/Office<np><al><mi><pl><acc>$
+^Flotila/Flotila<n><f><pl><gen>/Flotila<n><f><sg><nom>/Flotila<np><al><f><pl><gen>/Flotila<np><al><f><sg><nom>/Flotila<np><al><f><sg><voc>$
+^Flotile/Flotila<n><f><pl><acc>/Flotila<n><f><sg><gen>/Flotila<n><f><pl><nom>/Flotila<n><f><pl><voc>/Flotila<np><al><f><pl><acc>/Flotila<np><al><f><sg><gen>/Flotila<np><al><f><pl><nom>/Flotila<np><al><f><pl><voc>$
+^Flotilo/Flotila<n><f><sg><voc>/Flotila<np><al><f><sg><voc>$
 ^cvasti/cvast<n><f><pl><acc>/cvast<n><f><sg><dat>/cvast<n><f><sg><gen>/cvast<n><f><sg><ins>/cvast<n><f><sg><loc>/cvast<n><f><pl><nom>/cvast<n><f><sg><voc>/cvasti<vblex><imperf><iv><inf>$
 ^desetak/desetak<n><mi><sg><acc>/desetak<n><mi><sg><nom>/desetak<num>$
 ^iskali/iskati<vblex><imperf><tv><lp><m><pl>/iskaliti<vblex><perf><ref><aor><p2><sg>/iskaliti<vblex><perf><ref><imp><p2><sg>/iskaliti<vblex><perf><ref><pres><p3><sg>/iskaliti<vblex><perf><tv><aor><p2><sg>/iskaliti<vblex><perf><tv><imp><p2><sg>/iskaliti<vblex><perf><tv><pres><p3><sg>$
@@ -2840,7 +2847,7 @@
 ^natrčanim/natrčati<vblex><perf><iv><pp><mi><pl><dat><ind>/natrčati<vblex><perf><iv><pp><mi><sg><ins><ind>/natrčati<vblex><perf><iv><pp><mi><pl><loc><ind>/natrčati<vblex><perf><ref><pp><mi><pl><dat><ind>/natrčati<vblex><perf><ref><pp><mi><sg><ins><ind>/natrčati<vblex><perf><ref><pp><mi><pl><loc><ind>$
 ^natrčanih/natrčati<vblex><perf><iv><pp><mi><pl><gen><ind>/natrčati<vblex><perf><ref><pp><mi><pl><gen><ind>$
 ^natrčanoj/natrčati<vblex><perf><iv><pp><f><sg><dat><ind>/natrčati<vblex><perf><iv><pp><f><sg><loc><ind>/natrčati<vblex><perf><ref><pp><f><sg><dat><ind>/natrčati<vblex><perf><ref><pp><f><sg><loc><ind>$
-^natrčanoga/natrčati<vblex><perf><iv><pp><ma><sg><acc><def>/natrčati<vblex><perf><iv><pp><nt><sg><gen><def>/natrčati<vblex><perf><ref><pp><ma><sg><acc><def>/natrčati<vblex><perf><ref><pp><nt><sg><gen><def>$
+^natrčanog/natrčati<vblex><perf><iv><pp><ma><sg><acc><def>/natrčati<vblex><perf><iv><pp><nt><sg><gen><def>/natrčati<vblex><perf><ref><pp><ma><sg><acc><def>/natrčati<vblex><perf><ref><pp><nt><sg><gen><def>$
 ^obuh/obuti<vblex><imperf><ref><pii><p1><sg>/obuti<vblex><imperf><tv><aor><p1><sg>$
 ^obu/obuti<vblex><imperf><tv><aor><p2><sg>$
 ^otpili/otpiti<vblex><perf><iv><lp><m><pl>/otpiliti<vblex><perf><tv><aor><p2><sg>/otpiliti<vblex><perf><tv><imp><p2><sg>/otpiliti<vblex><perf><tv><pres><p3><sg>$
@@ -2854,7 +2861,7 @@
 ^rastrčanim/rastrčati<vblex><perf><ref><pp><mi><pl><dat><ind>/rastrčati<vblex><perf><ref><pp><mi><sg><ins><ind>/rastrčati<vblex><perf><ref><pp><mi><pl><loc><ind>$
 ^rastrčanih/rastrčati<vblex><perf><ref><pp><mi><pl><gen><ind>$
 ^rastrčanoj/rastrčati<vblex><perf><ref><pp><f><sg><dat><ind>/rastrčati<vblex><perf><ref><pp><f><sg><loc><ind>$
-^rastrčanoga/rastrčati<vblex><perf><ref><pp><ma><sg><acc><def>/rastrčati<vblex><perf><ref><pp><nt><sg><gen><def>$
+^rastrčanog/rastrčati<vblex><perf><ref><pp><ma><sg><acc><def>/rastrčati<vblex><perf><ref><pp><nt><sg><gen><def>$
 ^razgranat/razgranat<adj><pst><mi><sg><acc><ind>/razgranat<adj><pst><mi><sg><nom><ind>/razgranat<adj><pst><ma><sg><voc><ind>/razgranati<vblex><perf><iv><inf>/razgranati<vblex><perf><ref><inf>/razgranati<vblex><perf><tv><inf>/razgranati<vblex><perf><tv><pp><sfx><ma><sg><voc><ind>/razgranati<vblex><perf><tv><pp><sfx><ma><sg><nom><ind>/razgranati<vblex><perf><tv><pp><mi><sg><voc><ind>/razgranati<vblex><perf><tv><pp><mi><sg><nom><ind>/razgranati<vblex><perf><tv><pp><mi><sg><acc><ind>$
 ^razgranate/razgranat<adj><pst><ma><pl><acc><ind>/razgranat<adj><pst><f><sg><gen><ind>/razgranat<adj><pst><f><pl><nom><def>/razgranat<adj><pst><f><pl><voc><ind>/razgranati<vblex><perf><iv><pres><p2><pl>/razgranati<vblex><perf><ref><pres><p2><pl>/razgranati<vblex><perf><tv><pp><f><pl><voc><ind>/razgranati<vblex><perf><tv><pp><f><pl><nom><ind>/razgranati<vblex><perf><tv><pp><ma><pl><acc><def>/razgranati<vblex><perf><tv><pres><p2><pl>$
 ^sitnežu/sitnež<n><mi><sg><dat>/sitnež<n><f><sg><ins>/sitnež<n><mi><sg><loc>/sitnež<n><mi><sg><voc>$
@@ -2870,7 +2877,6 @@
 ^zabezeknuće/zabezeknut<adj><comp><ma><pl><acc>/zabezeknut<adj><comp><f><sg><gen>/zabezeknut<adj><comp><f><pl><nom>/zabezeknut<adj><comp><f><pl><voc>/zabezeknuti<vblex><perf><ref><inf>+htjeti<vbmod><clt><futI><p3><pl>/zabezeknuti<vblex><perf><ref><inf>+htjeti<vbmod><clt><futI><p3><sg>/zabezeknuti<vblex><perf><tv><inf>+htjeti<vbmod><clt><futI><p3><pl>/zabezeknuti<vblex><perf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^zabezeknuću/zabezeknut<adj><comp><f><sg><acc>/zabezeknuti<vblex><perf><ref><inf>+htjeti<vbmod><clt><futI><p1><sg>/zabezeknuti<vblex><perf><tv><inf>+htjeti<vbmod><clt><futI><p1><sg>$
 ^zaleći/zalijetati<vblex><imperf><ref><imp><p2><sg>/zaleći<vblex><perf><ref><inf>$
-^gej/gej<adj><pst><ma><sg><acc><ind>/gej<adj><pst><ma><sg><dat><ind>/gej<adj><pst><ma><sg><gen><ind>/gej<adj><pst><ma><sg><ins><ind>/gej<adj><pst><ma><sg><loc><ind>/gej<adj><pst><mi><pl><nom><def>/gej<adj><pst><ma><sg><voc><ind>/gej<n><ma><sg><nom>$
 ^garnirano/garniran<adj><pst><nt><sg><acc><ind>/garniran<adj><pst><nt><sg><nom><def>/garniran<adj><pst><nt><sg><voc><ind>/garnirano<adv>/garnirati<vblex><imperf><tv><pp><nt><sg><nom><ind>/garnirati<vblex><perf><tv><pp><nt><sg><voc><ind>/garnirati<vblex><perf><tv><pp><nt><sg><nom><ind>/garnirati<vblex><perf><tv><pp><nt><sg><acc><ind>$
 ^cvašću/cvast<n><f><sg><ins>/cvasti<vblex><imperf><iv><inf>+htjeti<vbmod><clt><futI><p1><sg>$
 ^divanimo/divaniti<vblex><imperf><iv><imp><p1><pl>/divaniti<vblex><imperf><iv><pres><p1><pl>/divaniti<vblex><perf><tv><imp><p1><pl>/divaniti<vblex><perf><tv><pres><p1><pl>$
@@ -2927,11 +2933,12 @@
 ^preokorio/okorio<adj><ssup><mi><sg><nom><ind>/okorio<adj><ssup><mi><sg><voc><ind>$
 ^preokoreo/okorio<adj><ssup><mi><sg><acc><ind>/okorio<adj><ssup><mi><sg><nom><ind>$
 ^dišnom organ/dišni organ<n><mi><sg><loc>$
+^Big Bangu/Big Bang<np><al><mi><sg><dat>/Big Bang<np><al><mi><sg><loc>/Big Bang<np><al><mi><sg><voc>$
+^Freedom Houseovi/Freedom House<np><org><mi><pl><nom>/Freedom House<np><org><mi><pl><voc>$
+^Freedom Houseovima/Freedom House<np><org><mi><pl><dat>/Freedom House<np><org><mi><pl><ins>/Freedom House<np><org><mi><pl><loc>$
+^Freedom Houseove/Freedom House<np><org><mi><pl><acc>$
 ^Velikoj Gorici/Velika Gorica<np><top><f><sg><dat>$
 ^Velikoj Goric/Velika Gorica<np><top><f><sg><loc>$
-^Ujedinjeni narodi/Ujedinjeni narodi<np><org><mi><pl><nom>/Ujedinjeni narodi<np><org><mi><pl><voc>$
-^Ujedinjenim narodima/Ujedinjeni narodi<np><org><mi><pl><dat>/Ujedinjeni narodi<np><org><mi><pl><ins>/Ujedinjeni narodi<np><org><mi><pl><loc>$
-^Ujedinjene narode/Ujedinjeni narodi<np><org><mi><pl><acc>$
 ^dvadesetak/dvadesetak<num>$
 ^MRS/MRS<n><mi><sg><acc>/MRS<n><mi><sg><nom>/MRS<abbr><acc>/MRS<abbr><nom>/MRS<abbr><voc>$
 ^X/X<num>/X<abbr><acc>/X<abbr><nom>/X<abbr><voc>$
