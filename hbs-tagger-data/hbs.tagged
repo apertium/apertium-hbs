@@ -1,7 +1,7 @@
 ^Proces/proces<n><mi><sg><nom>$
 ^privatizacije/privatizacija<n><f><sg><gen>$
 ^na/na<pr><loc>$
-^Kosovu/Kosovu<np><top><ma><sg><loc>$
+^Kosovu/Kosovu<np><top><nt><sg><loc>$
 ^pod/pod<pr><ins>$
 ^povećalom/povećalo<n><nt><sg><ins>$
 
@@ -970,7 +970,7 @@
 ^veto/veto<n><mi><sg><acc>$
 ^./.<sent>$
 
-^Vi/vi<prn><pers><p2><pl><nom>$
+^Vi/ja<prn><pers><p2><mfn><pl><nom>$
 ^i/i<cnjcoo>$
 ^vlada/vlada<n><f><sg><nom>$
 ^imate/imati<vbhaver><imperf><tv><pres><p2><pl>$
@@ -2969,7 +2969,7 @@
 ^,/,<cm>$
 ^jer/jer<cnjsub>$
 ^ste/biti<vbser><clt><pres><p2><pl>$
-^vi/vi<prn><pers><p2><pl><nom>$
+^vi/ja<prn><pers><p2><mfn><pl><nom>$
 ^dio/dio<n><mi><sg><nom>$
 ^obaju/oba<num><mi><gen>$
 ^svjetova/svijet<n><mi><pl><gen>$
