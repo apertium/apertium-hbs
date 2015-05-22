@@ -8,6 +8,9 @@
 /TODO -text
 /alt.xsl -text
 /apertium-hbs.Cyrl-Latn.dix -text
+/apertium-hbs.hbs-coarse.tsx -text
+/apertium-hbs.hbs-fine-grained.tsx -text
+/apertium-hbs.hbs-semi-coarse.tsx -text
 /apertium-hbs.hbs.acx -text
 /apertium-hbs.hbs.metadix -text
 /apertium-hbs.hbs.rlx -text
@@ -17,6 +20,9 @@
 /autogen.sh -text
 /configure.ac -text
 dev/ConstraintGrammar-Croatian.rlx -text
+/hbs-coarse.prob -text
+/hbs-fine-grained.prob -text
+/hbs-semi-coarse.prob -text
 /hbs-supervised.make -text
 hbs-tagger-data/hbs.crp -text
 hbs-tagger-data/hbs.crp.txt -text
@@ -24,6 +30,5 @@ hbs-tagger-data/hbs.dic -text
 hbs-tagger-data/hbs.tagged -text
 hbs-tagger-data/hbs.tagged.txt -text
 hbs-tagger-data/hbs.untagged -text
-hbs-tagger-data/sentencize.py -text
 /hbs.prob -text svneol=unset#unset
 /modes.xml -text
