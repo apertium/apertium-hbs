@@ -5920,12 +5920,13 @@
   <def-label name="vbser.inf" closed="true">
     <tags-item tags="vbser.inf"/>
   </def-label>  
-  <def-label name="VOCATIVE" closed="false">
+<!--  <def-label name="VOCATIVE" closed="false">
     <tags-item tags="*.voc.*"/>
   </def-label>
   <def-label name="NOMINATIVE" closed="false">
     <tags-item tags="*.nom.*"/>
   </def-label>    
+-->
   <def-label name="NUMERAL" closed="true">
     <tags-item tags="num.*"/>
   </def-label>       
@@ -8714,18 +8715,21 @@
       <tags-item tags="vbmod.clt.futI.p3.sg"/>
     </sequence>
   </def-mult>
-  <def-mult name="pr.loc+n.mi.sg.loc" closed="false">
+<!--  <def-mult name="pr.loc+n.mi.sg.loc" closed="false">
     <sequence>
       <tags-item tags="pr.loc"/>
       <tags-item tags="n.mi.sg.loc"/>
     </sequence>
   </def-mult>
+-->
+<!--
   <def-mult name="NOUN+ADJECTIVE" closed="false">
     <sequence>
       <tags-item tags="n.*"/>
       <tags-item tags="adj.*"/>
     </sequence>
   </def-mult>  
+-->
   <def-mult name="np.al.mi+adj.f.pl.acc" closed="false">
     <sequence>
       <tags-item tags="np.al.mi"/>
@@ -9435,7 +9439,7 @@
     </sequence>
   </def-mult>
 </tagset>
-
+<!--
 <forbid>
   <label-sequence>
     <label-item label="pr"/>
@@ -9446,7 +9450,8 @@
     <label-item label="VOCATIVE"/>
   </label-sequence>  
 </forbid>
-
+-->
+<!--
 <enforce-rules>
   <enforce-after label="num">
     <label-set>
@@ -9461,5 +9466,5 @@
     </label-set>
   </enforce-after>
 </enforce-rules>
-
+-->
 </tagger>
