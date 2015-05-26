@@ -10275,7 +10275,7 @@
 ^potreba/potreba<n><f><pl><gen>$
 ^./.<sent>$
 
-^UN-ovo/UN-ov<abbr>+pos<adj><nt><sg><nom>$
+^UN-ovo/UN-ov<np><acr>+pos<adj><nt><sg><nom>$
 ^izvješće/izvješće<n><nt><sg><nom>$
 ^:/:<sent>$
 ^Balkan/Balkan<np><top><mi><sg><nom>$
@@ -10297,7 +10297,7 @@
 ^,/,<cm>$
 ^po/po<pr><loc>$
 ^izvješću/izvješće<n><nt><sg><loc>$
-^UN-ovog/UN-ov<abbr>+pos<adj><nt><sg><gen>$
+^UN-ovog/UN-ov<np><acr>+pos<adj><nt><sg><gen>$
 ^Ureda/ured<n><mi><sg><gen>$
 ^za/za<pr><acc>$
 ^borbu/borba<n><f><sg><acc>$
@@ -13842,7 +13842,7 @@
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^postala/postati<vblex><perf><iv><lp><f><sg>$
 ^članica/članica<n><f><sg><nom>$
-^NATO-ovog/NATO-ov<abbr>+pos<adj><nt><sg><gen>$
+^NATO-ovog/NATO-ov<np><acr>+pos<adj><nt><sg><gen>$
 ^programa/program<n><mi><sg><gen>$
 ^Partnerstvo/partnerstvo<n><nt><sg><nom>$
 ^za/za<pr><acc>$
@@ -18717,7 +18717,7 @@
 ^bit će/biti<vblex><imperf><tv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^na/na<pr><loc>$
 ^čelu/čelo<n><nt><sg><loc>$
-^UN-ovog/UN-ov<abbr>+pos<adj><nt><sg><gen>$
+^UN-ovog/UN-ov<np><acr>+pos<adj><nt><sg><gen>$
 ^odbora/odbor<n><mi><sg><gen>$
 ^Prema/prema<pr><loc>$
 ^studiji/studija<n><f><sg><loc>$
