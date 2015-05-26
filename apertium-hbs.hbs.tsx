@@ -891,7 +891,7 @@
   <def-label name="n.f.pl.acc" closed="false">
     <tags-item tags="n.f.pl.acc"/>
   </def-label>
-  <def-label name="n.f.pl.dat" closed="fals">
+  <def-label name="n.f.pl.dat" closed="false">
     <tags-item tags="n.f.pl.dat"/>
   </def-label>
   <def-label name="n.f.pl.gen" closed="false">
