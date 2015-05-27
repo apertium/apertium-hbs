@@ -225,68 +225,68 @@ BEFORE-SECTIONS
 
 # Conversion of cardinal numbers that are followed by a non-sentence ending dot into ordinal numbers
 #SUBSTITUTE:[Mod]Theres_aDot_isOrdinalAppendDot ("<\\d+>"r) ("<$1.>"v)  TARGET CardNum IF (1C ("." fxq) - Sentence)
-SUBSTITUTE:[Mod]Theres_aDot_isOrdinal (crd) (ord) TARGET CardNum IF (1C ("." fxq) - Sentence)
+#--SUBSTITUTE:[Mod]Theres_aDot_isOrdinal (crd) (ord) TARGET CardNum IF (1C ("." fxq) - Sentence)
 # Cleanup the cohort, so that it doesn't get in the way later
-REMCOHORT:[Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 OrdNum )
+#--REMCOHORT:[Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 OrdNum )
 
 
 # Conversion of numbers that behave like adjectives into adjectives:
 # The number 'jedan':
 # Remove the caseless analysis, since we are seeing it as an adjective:
-REMOVE:[Mod]JedanAsAdjective Numeral - Case (0 ("jedan"i num crd ltr) ) ; 
-SUBSTITUTE:[Mod]JedanAsAdjective (num crd) (adj) TARGET ("jedan"i num crd) ; #
+#--REMOVE:[Mod]JedanAsAdjective Numeral - Case (0 ("jedan"i num crd ltr) ) ; 
+#--SUBSTITUTE:[Mod]JedanAsAdjective (num crd) (adj) TARGET ("jedan"i num crd) ; #
 
 # Cleanup of imperfectivity and transitivity for htjeti as vbaux ("ću, ćeš, će, ćemo, ćete, će")
 # [Since it's just the auxilliary verb for making a future tense, and does not receive a real object in accusative]
-REMOVE:[Mod]VBAux_Cleanup Intransitive (0C ("htjeti"i vbaux)) ;
-SUBSTITUTE:[Mod]VBAux_Cleanup (tv) (*) TARGET ("htjeti"i vbaux) ;
-SUBSTITUTE:[Mod]VBAux_Cleanup (iv) (*) TARGET ("htjeti"i vbaux) ;
-SUBSTITUTE:[Mod]VBAux_Cleanup (imperf) (*) TARGET ("htjeti"i vbaux) ;	
-SUBSTITUTE:[Mod]VBAux_Cleanup (vbaux) (vbaux clt) TARGET ("htjeti"i vbaux) ;
+#--REMOVE:[Mod]VBAux_Cleanup Intransitive (0C ("htjeti"i vbaux)) ;
+#--SUBSTITUTE:[Mod]VBAux_Cleanup (tv) (*) TARGET ("htjeti"i vbaux) ;
+#--SUBSTITUTE:[Mod]VBAux_Cleanup (iv) (*) TARGET ("htjeti"i vbaux) ;
+#--SUBSTITUTE:[Mod]VBAux_Cleanup (imperf) (*) TARGET ("htjeti"i vbaux) ;	
+#--SUBSTITUTE:[Mod]VBAux_Cleanup (vbaux) (vbaux clt) TARGET ("htjeti"i vbaux) ;
 	
 # Most adjective definite/indefinite forms are identical,
 # the difference is either semantic or predicative/non-predicative
 # Predicative vs. non-predicative needs to be resolved semantically
 # Give adjective readings not containing the Mark 'def' the reading ind,
 # this is to make things easier later:
-ADD:[Mod]definite/indefinite? (¢IND) TARGET Adjective - Definite - (def?)
+#--ADD:[Mod]definite/indefinite? (¢IND) TARGET Adjective - Definite - (def?)
 	
 # Substitute the definite reading with the def? where
 # there is the (non-morphological) def/ind ambiguity:
 # The $$Gender+$$Number+$$Case element is quite important,
 # since the rule mustn't cut out all indefinite readings,
 # but just the ones with the GenNumCase ambiguity:
-SUBSTITUTE:[H][Mod]definite/indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
+#--SUBSTITUTE:[H][Mod]definite/indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
 	
 # Remove all the indefinite readings from the def?/ind ambiguity
-REMOVE:[H][Mod]definite/indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
-		(0 Adjective + $$Gender + $$Number + $$Case  + (def?) )
-		(0 Adjective + $$Gender + $$Number + $$Case + Indefinite) ;
+#--REMOVE:[H][Mod]definite/indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
+#--		(0 Adjective + $$Gender + $$Number + $$Case  + (def?) )
+#--		(0 Adjective + $$Gender + $$Number + $$Case + Indefinite) ;
 
 # The l-participle mods:
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt sg) TARGET Verb + (pp pres) + (".*lo>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m sg) TARGET Verb + (pp pres) + (".*o>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f sg) TARGET Verb + (pp pres) + (".*la>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt sg) TARGET Verb + (pp pres) + (".*lo>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m sg) TARGET Verb + (pp pres) + (".*o>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f sg) TARGET Verb + (pp pres) + (".*la>"r);
 
 # TODO: see what to do with <mfn>
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*li>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f pl) TARGET Verb + (pp pres) + (".*le>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*li>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f pl) TARGET Verb + (pp pres) + (".*le>"r);
 
 # dual:
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*la>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt pl) TARGET Verb + (pp pres) + (".*la>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*la>"r);
+#--SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt pl) TARGET Verb + (pp pres) + (".*la>"r);
 
 # Some words contain a 'mi' 'ma' reading, some don't (especially nouns),
 # so they are all normalized to 'm':
-SUBSTITUTE:[Mod]MiMa→M (mi) (m) TARGET (mi)
-SUBSTITUTE:[Mod]MiMa→M (ma) (m) TARGET (ma)
+#--SUBSTITUTE:[Mod]MiMa>M (mi) (m) TARGET (mi)
+#--SUBSTITUTE:[Mod]MiMa>M (ma) (m) TARGET (ma)
 
 # For some reason, perhaps because of a tagset conversion error some
 # masculine pronouns are genderless, and this messes up disambiguation.
-SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ProblemPronouns + Singular - Gender - Clitic
-SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ProblemPronouns + Plural - Gender - Clitic
-SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ("on"i) + Clitic - Gender
-SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ("on"i) + Clitic - Gender
+#--SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ProblemPronouns + Singular - Gender - Clitic
+#--SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ProblemPronouns + Plural - Gender - Clitic
+#--SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ("on"i) + Clitic - Gender
+#--SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ("on"i) + Clitic - Gender
 
 # Proper names recognition:
 
@@ -307,8 +307,8 @@ SUBSTITUTE:[H][Mod]Theres_aDot_isInitial (<unk>) (abbr np) TARGET (<unk>) IF (1C
 REMCOHORT:[H][Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 (abbr np) )
 
 # Analyser error. Sometimes there's a non-clitic with <dat> without <loc>
-ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
-	(NOT 0 Clitic) (NOT 0 Locative)
+#--ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
+#--	(NOT 0 Clitic) (NOT 0 Locative)
 
 #=============================================================================================================#
 # [Syntactic function candidate mapping]:
@@ -351,26 +351,26 @@ ADD:Direct_FromCL KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC)
 ADD:Direct_FromCR KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (1 Modifier + $$Case + $$Number)  (1 (@Dual) )  
 
 # For the fromNoun_Direct rules
-# @N→ - the reading can modify a noun right next to it
-# @Mod→ - the reading can modify a modifier right next to it
-# @cltN→ - the reading can modify a noun after a clitic right next to it
-# @cltMod→ - the reading can modify a modifier after a clitic right next to it
-ADD:@N→ KeepOrder	(@N→) Target Modifier + $$Gender + $$Number + $$Case (1 Noun + $$Gender + $$Number + $$Case ) 
-	(NOT 0 (@N→));
-ADD:@cltN→ KeepOrder (@cltN→) Target Modifier + $$Gender + $$Number + $$Case (2 Noun + $$Gender + $$Number + $$Case ) (1 Clitic)
-	(NOT 0 (@cltN→));
+# @N> - the reading can modify a noun right next to it
+# @Mod> - the reading can modify a modifier right next to it
+# @cltN> - the reading can modify a noun after a clitic right next to it
+# @cltMod> - the reading can modify a modifier after a clitic right next to it
+ADD:@N> KeepOrder	(@N>) Target Modifier + $$Gender + $$Number + $$Case (1 Noun + $$Gender + $$Number + $$Case ) 
+	(NOT 0 (@N>));
+ADD:@cltN> KeepOrder (@cltN>) Target Modifier + $$Gender + $$Number + $$Case (2 Noun + $$Gender + $$Number + $$Case ) (1 Clitic)
+	(NOT 0 (@cltN>));
 # For the fromModifier_Direct rules:
-ADD:Mod→Num KeepOrder (@Mod→) TARGET Modifier + Genitive IF (1 CardNum) (NOT 0 (@Mod→));
-ADD:cltMod→Num KeepOrder (@cltMod→) TARGET Modifier + Genitive IF (2 CardNum) (1 Clitic)
-		      (NOT 0 (@cltMod→))
-ADD:Mod→Num KeepOrder	(@Mod→)	TARGET Modifier + Genitive IF (1 CardNum) (0 Adjective + Indefinite) 
-			 (NOT 0 (@Mod→))
-ADD:cltMod→Num KeepOrder (@cltMod→) TARGET Modifier + Genitive IF (2 CardNum) (0 Adjective + Indefinite) (1 Clitic)
-		      (NOT 0 (@cltMod→))
-ADD:Mod→Mod KeepOrder	(@Mod→)	TARGET Modifier + $$Gender + $$Number + $$Case IF (1 Modifier + $$Gender + $$Number + $$Case ) 
-			 (NOT 0 (@Mod→))
-ADD:cltMod→Mod KeepOrder (@cltMod→) TARGET Modifier + $$Gender + $$Number + $$Case IF (2 Modifier + $$Gender + $$Number + $$Case ) (1 Clitic)
-		      (NOT 0 (@cltMod→)) (NOT -1 Nomen + $$Gender + $$Number + $$Case )
+ADD:Mod>Num KeepOrder (@Mod>) TARGET Modifier + Genitive IF (1 CardNum) (NOT 0 (@Mod>));
+ADD:cltMod>Num KeepOrder (@cltMod>) TARGET Modifier + Genitive IF (2 CardNum) (1 Clitic)
+		      (NOT 0 (@cltMod>))
+ADD:Mod>Num KeepOrder	(@Mod>)	TARGET Modifier + Genitive IF (1 CardNum) (0 Adjective + Indefinite) 
+			 (NOT 0 (@Mod>))
+ADD:cltMod>Num KeepOrder (@cltMod>) TARGET Modifier + Genitive IF (2 CardNum) (0 Adjective + Indefinite) (1 Clitic)
+		      (NOT 0 (@cltMod>))
+ADD:Mod>Mod KeepOrder	(@Mod>)	TARGET Modifier + $$Gender + $$Number + $$Case IF (1 Modifier + $$Gender + $$Number + $$Case ) 
+			 (NOT 0 (@Mod>))
+ADD:cltMod>Mod KeepOrder (@cltMod>) TARGET Modifier + $$Gender + $$Number + $$Case IF (2 Modifier + $$Gender + $$Number + $$Case ) (1 Clitic)
+		      (NOT 0 (@cltMod>)) (NOT -1 Nomen + $$Gender + $$Number + $$Case )
 
 
 SECTION
@@ -524,11 +524,11 @@ REMOVE:Number_Cleaning_afterPluralNum_Direct Genitive + Singular (0 Singular) (0
 # For a modifier remove any gender/number/case which cannot be a part of the agreement with the noun right next to it
 # !!! if there is any possibility of a concordance at all !!!
 
-# The cleaning rules, go in pair with the @N→ Markings:
-# REMOVE all the Modifier readings that do not have the @N→ or @cltN→ Marking
+# The cleaning rules, go in pair with the @N> Markings:
+# REMOVE all the Modifier readings that do not have the @N> or @cltN> Marking
 # If they do modify something
-REMOVE:Modifier_Cleaning_fromNoun_Direct KeepOrder Modifier + (*) - (@N→) (1 Noun) (0 Modifier + (@N→));
-REMOVE:Modifier_Cleaning_fromNoun_Direct KeepOrder Modifier + (*) - (@cltN→) (1 Clitic)(2 Noun) (0 Modifier + (clt@N→));
+REMOVE:Modifier_Cleaning_fromNoun_Direct KeepOrder Modifier + (*) - (@N>) (1 Noun) (0 Modifier + (@N>));
+REMOVE:Modifier_Cleaning_fromNoun_Direct KeepOrder Modifier + (*) - (@cltN>) (1 Clitic)(2 Noun) (0 Modifier + (clt@N>));
 
 # Similar but for numbers with gender:
 REMOVE:Number_Cleaning_fromNoun_Direct KeepOrder CardNum - $$Gender (0 CardNum + $$Gender) (1 Noun + $$Gender)
@@ -540,56 +540,56 @@ REMOVE:Number_Cleaning_fromNoun_Across_Clitic KeepOrder CardNum - $$Gender (0 Ca
 
 # Analogous, only "...Modifier Modifier..."
 # Note: This rule has an interesting side effect with the current rule, it kills of all the adjective readings where there is the adjective / adverb ambiguity, and leaves only the adverb!
-REMOVE:Modifier_Cleaning_fromModifier_Direct KeepOrder Modifier + (*) - (@Mod→) (1 Modifier) (0 Modifier + (@Mod→))
-REMOVE:Modifier_Cleaning_fromModifier_Direct KeepOrder Modifier + (*) - (@cltMod→) (1 Clitic) (2 Modifier) (0 Modifier + (@cltMod→))
+REMOVE:Modifier_Cleaning_fromModifier_Direct KeepOrder Modifier + (*) - (@Mod>) (1 Modifier) (0 Modifier + (@Mod>))
+REMOVE:Modifier_Cleaning_fromModifier_Direct KeepOrder Modifier + (*) - (@cltMod>) (1 Clitic) (2 Modifier) (0 Modifier + (@cltMod>))
 # The rule also requires further disambiguation, since only the Modifier adjacent to the noun is completely disambiguated:
 REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Gender
-	(0C (@Mod→))
+	(0C (@Mod>))
 	(NOT 1 Modifier + $$Gender) ;
 REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Number
-	(0C (@Mod→))
+	(0C (@Mod>))
 	(NOT 1 Modifier + $$Number) ;
 REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Case
-	(0C (@Mod→))
+	(0C (@Mod>))
 	(NOT 1 Modifier + $$Case) ;
 REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Gender
-	(0C (@cltMod→))
+	(0C (@cltMod>))
 	(NOT 2 Modifier + $$Gender) ;
 REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Number
-	(0C (@cltMod→))
+	(0C (@cltMod>))
 	(NOT 2 Modifier + $$Number) ;
 REMOVE:Modifier_Gender_Cleaning_fromModifier_Direct $$Case
-	(0C (@cltMod→))
+	(0C (@cltMod>))
 	(NOT 2 Modifier + $$Case) ;
 
 # Modifier transfers number,gender,and case
 REMOVE:Noun_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
 	 (0 Noun + $$Gender + $$Number + $$Case)
-	 (-1 Modifier + (@N→))
-	 (NOT -1 Modifier + (@N→) + $$Gender + $$Number + $$Case) ;
+	 (-1 Modifier + (@N>))
+	 (NOT -1 Modifier + (@N>) + $$Gender + $$Number + $$Case) ;
 REMOVE:Noun_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
 	 (0 Noun + $$Gender + $$Number + $$Case)
-	 (-2 Modifier + (@cltN→))
-	 (NOT -2 Modifier + (@cltN→) + $$Gender + $$Number + $$Case) ;
+	 (-2 Modifier + (@cltN>))
+	 (NOT -2 Modifier + (@cltN>) + $$Gender + $$Number + $$Case) ;
 
 REMOVE:Modifier_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
 	 (0 Modifier + $$Gender + $$Number + $$Case)
-	 (-1 Modifier + (@Mod→))
-	 (NOT -1 Modifier + (@Mod→) + $$Gender + $$Number + $$Case) ;
+	 (-1 Modifier + (@Mod>))
+	 (NOT -1 Modifier + (@Mod>) + $$Gender + $$Number + $$Case) ;
 REMOVE:Modifier_Cleaning_byModifier_Direct $$Gender + $$Number + $$Case
 	 (0 Modifier + $$Gender + $$Number + $$Case)
-	 (-2 Modifier + (@cltMod→))
-	 (NOT -2 Modifier + (@cltMod→) + $$Gender + $$Number + $$Case) ;
+	 (-2 Modifier + (@cltMod>))
+	 (NOT -2 Modifier + (@cltMod>) + $$Gender + $$Number + $$Case) ;
 
 # The special case with the genderless number
 REMOVE:Number_Cleaning_byModifier_Direct $$Gender
 	 (0 CardNum + $$Gender)
-	 (-1 Modifier + (@Mod→))
-	 (NOT -1 Modifier + (@Mod→) + $$Gender) ;
+	 (-1 Modifier + (@Mod>))
+	 (NOT -1 Modifier + (@Mod>) + $$Gender) ;
 REMOVE:Number_Cleaning_byModifier_Direct $$Gender
 	 (0 CardNum + $$Gender)
-	 (-2 Modifier + (@cltMod→))
-	 (NOT -2 Modifier + (@cltMod→) + $$Gender) ;
+	 (-2 Modifier + (@cltMod>))
+	 (NOT -2 Modifier + (@cltMod>) + $$Gender) ;
 
 # Vocative rules:
 # Vocative does not rule.
@@ -672,7 +672,7 @@ REMOVE:no_Accusative Verb + Transitive (0 Verb - Transitive)
 REMOVE:ObjectOfATransitiveVerb← Nomen + Nominative
 	(0 Nominative) (0 Accusative)
 	( (-1C Verb + Transitive) OR (-2C Verb + Transitive LINK 1 Clitic) )
-REMOVE:ObjectOfATransitiveVerb→ Nomen + Nominative
+REMOVE:ObjectOfATransitiveVerb> Nomen + Nominative
 	(0 Nomen)
 	(0 Nominative) (0 Accusative)
 	( (1C Verb + Transitive) OR (2C Verb + Transitive LINK -1 Clitic) )
@@ -777,11 +777,11 @@ SELECT:[H]ProperNoun_isNoun Noun (0C ProperNoun)
 # A proper does something to the noun after it?
 
 # A proper noun receives case from a noun directly preceding it "u gradu Zagrebu"
-SELECT:[H]Noun→ProperNoun $$Case (0 ProperNoun) (-1C Noun + $$Case)
-SELECT:[H]ProperNoun→ProperNoun $$Case (0 ProperNoun) (1C ProperNoun + $$Case)
-SELECT:[H]ProperNoun→ProperNoun $$Case (0 ProperNoun) (-1C ProperNoun + $$Case)
+SELECT:[H]Noun>ProperNoun $$Case (0 ProperNoun) (-1C Noun + $$Case)
+SELECT:[H]ProperNoun>ProperNoun $$Case (0 ProperNoun) (1C ProperNoun + $$Case)
+SELECT:[H]ProperNoun>ProperNoun $$Case (0 ProperNoun) (-1C ProperNoun + $$Case)
 # Sometimes also Gender
-SELECT:[H]Noun→ProperNoun $$Gender (0 ProperNoun) (-1 Noun + $$Gender)
+SELECT:[H]Noun>ProperNoun $$Gender (0 ProperNoun) (-1 Noun + $$Gender)
 
 # Proper nouns are mostly singular, in the development corpus:
 REMOVE:[H]ProperNoun_isSingular ProperNoun + Plural
