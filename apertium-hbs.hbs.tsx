@@ -8060,4 +8060,7 @@
     </sequence>
   </def-mult>
 </tagset>
+  <preferences>
+    <prefer tags="n.ma.pl.nom"/>
+  </preferences>
 </tagger>
