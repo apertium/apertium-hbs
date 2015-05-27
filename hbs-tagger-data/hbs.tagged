@@ -485,7 +485,7 @@
 ^to/taj<prn><dem><nt><sg><acc>$
 ^ostvario/ostvariti<vblex><perf><ref><lp><m><sg>$
 ^,/,<cm>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^nadvladati/nadvladati<vblex><perf><tv><inf>$
 ^nekoliko/nekoliko<adv>$
 ^izazova/izazov<n><mi><pl><gen>$
@@ -644,7 +644,7 @@
 ^dio/dio<n><mi><sg><nom>$
 ^-/-<guio>$
 ^ali/ali<cnjcoo>$
-^moramo/morati<vblex><imperf><iv><pres><p1><pl>$
+^moramo/morati<vbmod><imperf><iv><pres><p1><pl>$
 ^uložiti/uložiti<vblex><perf><tv><inf>$
 ^određene/određen<adj><pst><mi><pl><acc><def>$
 ^napore/napor<n><mi><pl><acc>$
@@ -990,7 +990,7 @@
 ^NATO/NATO<np><acr><mi><sg><acc>$
 ^,/,<cm>$
 ^Makedonija/Makedonija<np><top><f><sg><nom>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^odabrati/odabrati<vblex><perf><tv><inf>$
 ^svoje/svoj<prn><ref><pos><nt><sg><acc>$
 ^ime/ime<n><nt><sg><acc>$
@@ -1232,7 +1232,7 @@
 ^./.<sent>$
 
 ^To/taj<prn><dem><nt><sg><nom>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^biti/biti<vbser><inf>$
 ^iskorišteno/iskoristiti<vblex><perf><tv><pp><nt><sg><nom><def>$
 ^./.<sent>$
@@ -1426,7 +1426,7 @@
 ^u/u<pr><acc>$
 ^sljedeća/sljedeći<adj><pst><nt><pl><acc><def>$
 ^mjeseca/mjesec<n><mi><pl><gen>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^ubrzati/ubrzati<vblex><perf><tv><inf>$
 ^provedbu/provedba<n><f><sg><acc>$
 ^koje/koji<prn><rel><f><pl><acc>$
@@ -3139,7 +3139,7 @@
 ^./.<sent>$
 
 ^Čelnici/čelnik<n><ma><pl><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^voditi/voditi<vblex><imperf><tv><inf>$
 ^,/,<cm>$
 ^a/a<cnjcoo>$
@@ -3465,7 +3465,7 @@
 ^stvarnih/stvaran<adj><pst><f><pl><gen><def>$
 ^promjena/promjena<n><f><pl><gen>$
 ^,/,<cm>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^promijeniti/promijeniti<vblex><perf><tv><inf>$
 ^svijest/svijest<n><f><sg><nom>$
@@ -3704,7 +3704,7 @@
 ^,/,<cm>$
 ^gruzijske/gruzijski<adj><pst><f><pl><nom><def>$
 ^snage/snaga<n><f><pl><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^povući/povući<vblex><perf><ref><inf>$
 ^u/u<pr><acc>$
@@ -4723,7 +4723,7 @@
 ^najboljih/dobar<adj><sup><mi><pl><gen>$
 ^igrača/igrač<n><ma><pl><gen>$
 ^Grčke/Grčka<np><top><f><sg><gen>$
-^morala/morati<vblex><imperf><iv><lp><f><sg>$
+^morala/morati<vbmod><imperf><iv><lp><f><sg>$
 ^biti/biti<vbser><inf>$
 ^zamijenjena/zamijeniti<vblex><perf><tv><pp><f><sg><nom><def>$
 ^uslijed/uslijed<adv>$
@@ -5037,7 +5037,7 @@
 ^veliku/velik<adj><pst><f><sg><acc><def>$
 ^zapreku/zapreka<n><f><sg><acc>$
 ^koju/koji<prn><rel><f><sg><acc>$
-^moramo/morati<vblex><imperf><iv><pres><p1><pl>$
+^moramo/morati<vbmod><imperf><iv><pres><p1><pl>$
 ^nadvladati/nadvladati<vblex><perf><tv><inf>$
 ^ako/ako<cnjsub>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
@@ -5077,7 +5077,7 @@
 ^koje/koji<prn><rel><ma><pl><acc>$
 ^traži/tražiti<vblex><imperf><tv><pres><p3><sg>$
 ^ICTY/ICTY<np><acr><mi><sg><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^odmah/odmah<adv>$
 ^poslani/poslati<vblex><perf><tv><pp><mi><pl><nom><def>$
 ^u/u<pr><acc>$
@@ -5127,7 +5127,7 @@
 ^srbijanska/srbijanski<adj><pst><f><sg><nom><def>$
 ^nacionalna/nacionalan<adj><pst><f><sg><nom><def>$
 ^obveza/obveza<n><f><sg><nom>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^biti/biti<vbser><inf>$
 ^izgradnja/izgradnja<n><f><sg><nom>$
 ^neke/neki<prn><ind><f><sg><gen>$
@@ -6330,7 +6330,7 @@
 ^obveze/obveza<n><f><pl><acc>$
 ^,/,<cm>$
 ^EU/EU<np><acr><mi><sg><nom>$
-^morat će/morati<vblex><imperf><iv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
+^morat će/morati<vbmod><imperf><iv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^razmotriti/razmotriti<vblex><perf><tv><inf>$
 ^posljedice/posljedica<n><f><pl><acc>$
 ^po/po<pr><acc>$
@@ -6351,7 +6351,7 @@
 ^obveze/obveza<n><f><pl><acc>$
 ^,/,<cm>$
 ^EU/EU<np><acr><mi><sg><nom>$
-^morat će/morati<vblex><imperf><iv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
+^morat će/morati<vbmod><imperf><iv><inf>+htjeti<vbmod><clt><futI><p3><sg>$
 ^razmotriti/razmotriti<vblex><perf><tv><inf>$
 ^posljedice/posljedica<n><f><pl><acc>$
 ^po/po<pr><acc>$
@@ -7315,7 +7315,7 @@
 ^,/,<cm>$
 ^takvi/takav<prn><dem><ma><pl><nom>$
 ^prosvjedi/prosvjed<n><mi><pl><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^biti/biti<vbser><inf>$
 ^na/na<pr><acc>$
 ^odgovoran/odgovoran<adj><pst><mi><sg><acc><ind>$
@@ -7331,7 +7331,7 @@
 ^presedan/presedan<n><mi><sg><nom>$
 ^koji/koji<prn><rel><mi><sg><nom>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^osuditi/osuditi<vblex><perf><tv><inf>$
 ^./.<sent>$
 
@@ -7555,7 +7555,7 @@
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^na koncu/na koncu<adv>$
-^morati/morati<vblex><imperf><iv><inf>$
+^morati/morati<vbmod><imperf><iv><inf>$
 ^pronaći/pronaći<vblex><perf><tv><inf>$
 ^praktično/praktičan<adj><pst><nt><sg><acc><def>$
 ^i/i<cnjcoo>$
@@ -7586,7 +7586,7 @@
 ^u/u<pr><loc>$
 ^ovom/ovaj<prn><dem><mi><sg><loc>$
 ^trenutku/trenutak<n><mi><sg><loc>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^učiniti/učiniti<vblex><perf><tv><inf>$
 ^da/da<cnjsub>$
 ^bi/biti<vbser><clt><aor><p3><sg>$
@@ -7776,7 +7776,7 @@
 
 ^Također/također<adv>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
-^morati/morati<vblex><imperf><iv><inf>$
+^morati/morati<vbmod><imperf><iv><inf>$
 ^kupovati/kupovati<vblex><imperf><tv><inf>$
 ^5.000/5.000<num>$
 ^tona/tona<n><f><pl><gen>$
@@ -7795,7 +7795,7 @@
 ^bi/biti<vbser><clt><aor><p3><sg>$
 ^novi/nov<adj><pst><mi><sg><nom><def>$
 ^vlasnik/vlasnik<n><ma><sg><nom>$
-^morao/morati<vblex><imperf><iv><lp><m><sg>$
+^morao/morati<vbmod><imperf><iv><lp><m><sg>$
 ^platiti/platiti<vblex><perf><tv><inf>$
 ^u/u<pr><loc>$
 ^slučaju/slučaj<n><mi><sg><loc>$
@@ -8104,14 +8104,14 @@
 ^kao/kao<pr><gen>$
 ^manjina/manjina<n><f><sg><nom>$ 
 ^,/,<cm>$
-^morate/morati<vblex><imperf><iv><pres><p2><pl>$
+^morate/morati<vbmod><imperf><iv><pres><p2><pl>$
 ^to/taj<prn><dem><nt><sg><acc>$
 ^tražiti/tražiti<vblex><imperf><tv><inf>$
 ^./.<sent>$
 
 ^"/"<quote>$
 ^Albanci/Albanac<n><ma><pl><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^imati/imati<vblex><imperf><tv><inf>$
 ^neka/neki<prn><ind><nt><pl><acc>$
 ^prava/pravo<n><nt><pl><acc>$
@@ -8596,7 +8596,7 @@
 ^"/"<quote>$
 ^Bugarska/Bugarska<np><top><f><sg><nom>$
 ^će/htjeti<vbmod><clt><futI><p3><sg>$
-^morati/morati<vblex><imperf><iv><inf>$
+^morati/morati<vbmod><imperf><iv><inf>$
 ^platiti/platiti<vblex><perf><iv><inf>$
 ^cijenu/cijena<n><f><sg><acc>$
 ^toga/taj<prn><dem><nt><sg><gen>$
@@ -9211,14 +9211,14 @@
 ^./.<sent>$
 
 ^On/ja<prn><pers><p3><m><sg><nom>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^otići/otići<vblex><perf><iv><inf>$
 ^u/u<pr><acc>$
 ^Haag/Haag<np><top><mi><sg><acc>$
 ^i/i<cnjcoo>$
 ^svi/sav<prn><tot><ma><pl><nom>$
 ^napori/napor<n><mi><pl><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^biti/biti<vbser><inf>$
 ^usmjereni/usmjeriti<vblex><perf><tv><pp><ma><pl><nom><def>$
 ^na/na<pr><acc>$
@@ -9604,7 +9604,7 @@
 ^./.<sent>$
 
 ^"/"<quote>$
-^Moramo/morati<vblex><imperf><iv><pres><p1><pl>$
+^Moramo/morati<vbmod><imperf><iv><pres><p1><pl>$
 ^odlučiti/odlučiti<vblex><perf><tv><inf>$
 ^unutar/unutar<adv>$
 ^Europske/europski<adj><pst><f><sg><gen><def>$
@@ -9669,14 +9669,14 @@
 ^Pravilo/pravilo<n><nt><sg><nom>$
 ^kojeg/koji<prn><rel><nt><sg><gen>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
-^moramo/morati<vblex><imperf><iv><pres><p1><pl>$
+^moramo/morati<vbmod><imperf><iv><pres><p1><pl>$
 ^pridržavati/pridržavati<vblex><imperf><tv><inf>$
 ^kaže/kazati<vblex><perf><iv><pres><p3><sg>$
 ^kako/kako<cnjsub>$
 ^prema/prema<pr><loc>$
 ^punopravnom/punopravan<adj><pst><nt><sg><loc><def>$
 ^članstvu/članstvo<n><nt><sg><loc>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^ostati/ostati<vblex><perf><iv><inf>$
 ^otvoren/otvoren<adj><pst><mi><sg><nom><ind>$
 ^./.<sent>$
@@ -10151,7 +10151,7 @@
 ^U međuvremenu/u međuvremenu<adv>$
 ^će/htjeti<vbmod><clt><futI><p3><pl>$
 ^vjerojatno/vjerojatno<part>$
-^morati/morati<vblex><imperf><iv><inf>$
+^morati/morati<vbmod><imperf><iv><inf>$
 ^uzeti/uzeti<vblex><perf><tv><inf>$
 ^novi/nov<adj><pst><mi><sg><acc><def>$
 ^kredit/kredit<n><mi><sg><acc>$
@@ -10783,7 +10783,7 @@
 
 ^Priština/Priština<np><top><f><sg><nom>$
 ^također/također<adv>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^imati/imati<vblex><imperf><tv><inf>$
 ^potrebna/potreban<adj><pst><nt><pl><acc><def>$
 ^sredstva/sredstvo<n><nt><pl><acc>$
@@ -11672,7 +11672,7 @@
 
 ^"/"<quote>$
 ^To/taj<prn><dem><nt><sg><nom>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^prestati/prestati<vblex><perf><iv><inf>$
 ^!/!<sent>$
 ^"/"<quote>$
@@ -11756,7 +11756,7 @@
 ^čelnici/čelnik<n><ma><pl><nom>$
 ^ove/ovaj<prn><dem><f><sg><gen>$
 ^zemlje/zemlja<n><f><sg><gen>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^prestati/prestati<vblex><perf><iv><inf>$
 ^slijediti/slijediti<vblex><imperf><tv><inf>$
 ^uske/uzak<adj><pst><mi><pl><acc><def>$
@@ -11872,7 +11872,7 @@
 ^,/,<cm>$
 ^manjinske/manjinski<adj><pst><f><pl><nom><def>$
 ^zaklade/zaklada<n><f><pl><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^podnijeti/podnijeti<vblex><perf><tv><inf>$
 ^zahtjev/zahtjev<n><mi><sg><acc>$
 ^turskim/turski<adj><pst><f><pl><dat><def>$
@@ -11886,7 +11886,7 @@
 
 ^Svaki/svaki<prn><tot><mi><sg><acc>$
 ^zahtjev/zahtjev<n><mi><sg><acc>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^odobriti/odobriti<vblex><perf><tv><inf>$
 ^parlament/parlament<n><mi><sg><nom>$
 ^,/,<cm>$
@@ -14475,7 +14475,7 @@
 ^kazao/kazati<vblex><perf><iv><lp><m><sg>$
 ^je/biti<vbser><clt><pres><p3><sg>$
 ^,/,<cm>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^poboljšati/poboljšati<vblex><perf><tv><inf>$
 ^kroz/kroz<pr><acc>$
 ^ulaganja/ulaganje<n><nt><pl><acc>$
@@ -14893,7 +14893,7 @@
 ^(/(<lpar>$
 ^BiH/BiH<abbr>$
 ^)/)<rpar>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^završiti/završiti<vblex><perf><tv><inf>$
 ^ključne/ključan<adj><pst><f><pl><acc><def>$
 ^reforme/reforma<n><f><pl><acc>$
@@ -15169,7 +15169,7 @@
 ^još/još<adv>$
 ^devet/devet<num><sg>$
 ^aglomeracija/aglomeracija<n><f><pl><gen>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^biti/biti<vbser><inf>$
 ^unaprijeđeni/unaprijediti<vblex><perf><tv><pp><mi><pl><nom><def>$
 ^kako/kako<cnjsub>$
@@ -15533,7 +15533,7 @@
 ^"/"<quote>$
 ^Kosovska/kosovski<adj><pst><f><sg><nom><def>$
 ^država/država<n><f><sg><nom>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^od/od<pr><gen>$
 ^države/država<n><f><sg><gen>$
 ^za/za<pr><acc>$
@@ -16331,7 +16331,7 @@
 ^,/,<cm>$
 ^svaki/svaki<prn><tot><mi><sg><nom>$
 ^sat/sat<n><mi><sg><nom>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^biti/biti<vbser><inf>$
 ^posvećeni/posvetiti<vblex><perf><tv><pp><mi><pl><nom><def>$
 ^naporima/napor<n><mi><pl><dat>$
@@ -16565,7 +16565,7 @@
 ^,/,<cm>$
 ^prevenciji/prevencija<n><f><sg><loc>$
 ^koje/koji<prn><rel><f><sg><gen>$
-^mora/morati<vblex><imperf><iv><pres><p3><sg>$
+^mora/morati<vbmod><imperf><iv><pres><p3><sg>$
 ^biti/biti<vbser><inf>$
 ^i/i<cnjcoo>$
 ^načinima/način<n><mi><pl><loc>$
@@ -17407,11 +17407,11 @@
 ^temeljni/temeljan<adj><pst><mi><pl><nom><def>$
 ^zakoni/zakon<n><mi><pl><nom>$
 ^,/,<cm>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^biti/biti<vbser><inf>$
 ^usvojena/usvojiti<vblex><perf><tv><pp><nt><pl><nom><def>$
 ^i/i<cnjcoo>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^trajati/trajati<vblex><imperf><iv><inf>$
 ^./.<sent>$
 
@@ -19495,7 +19495,7 @@
 ^kriminalci/kriminalac<n><ma><pl><nom>$
 ^sankcionirali/sankcionirati<vblex><perf><tv><lp><m><pl>$
 ^,/,<cm>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^dijeliti/dijeliti<vblex><imperf><tv><inf>$
 ^i/i<cnjcoo>$
@@ -19504,7 +19504,7 @@
 ^diljem/diljem<pr><gen>$
 ^regije/regija<n><f><sg><gen>$
 ^i/i<cnjcoo>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^se/sebe<prn><ref><pers><mfn><sp><acc>$
 ^uspostaviti/uspostaviti<vblex><perf><tv><inf>$
 ^mehanizmi/mehanizam<n><mi><pl><nom>$
@@ -20430,7 +20430,7 @@
 ^publiku/publika<n><f><sg><acc>$
 ^,/,<cm>$
 ^da/da<cnjsub>$
-^moraju/morati<vblex><imperf><iv><pres><p3><pl>$
+^moraju/morati<vbmod><imperf><iv><pres><p3><pl>$
 ^pratiti/pratiti<vblex><imperf><iv><inf>$
 ^više/više<adj><comp><f><pl><gen>$
 ^TV/TV<np><acr><mi><sg><nom>$
