@@ -23,13 +23,15 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
   <xsl:output encoding="UTF-8"/>
   <xsl:param name="alt"/>
   <xsl:param name="var"/>
-
   <!-- For the e element ignore the lang attribute, output everything else -->
+  <!-- Do not output the e element if it has c="sub" -->
   <xsl:template match="e">
+    <xsl:if test="(./@c and @c!='sub') or not(./@c)">
     <e>
       <xsl:apply-templates select="@*[name()!='lang']" />
       <xsl:apply-templates select="node()" />
     </e>
+    </xsl:if>
   </xsl:template>
 
   <!-- Do not output the group tag, output contents only if it has the right var/alt parameter -->
