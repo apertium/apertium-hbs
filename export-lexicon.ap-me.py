@@ -130,6 +130,7 @@ for i in sys.stdin:
 	                taglist+=person(tags[6])
 	                taglist+=number(tags[7])
 	                taglist+='-y'
+	                lf='biti'
 	                end()
 	                continue
                   elif tags[2]=='+htjeti':
@@ -137,6 +138,7 @@ for i in sys.stdin:
                         taglist+=person(tags[6])
                         taglist+=number(tags[7])
                         taglist+='-y'
+                        lf='htjeti'
                         end()
                         continue
                   elif tags[2]==u'+moći':
@@ -144,6 +146,7 @@ for i in sys.stdin:
                         taglist+=person(tags[5])
                         taglist+=number(tags[6])
                         taglist+='-y'
+                        lf=u'moći'
                         end()
                         continue
 		taglist+=u'Q'
