@@ -83,7 +83,7 @@ c=0
 		
 for i in sys.stdin:
 	c+=1
-	fields = i.strip().split(u':')
+	fields = i.replace('~','').strip().split(u':') #removing post-generator flag as well
 	#if fields[1] == u'>':
 	#	continue
 	sf = fields[0]
@@ -123,6 +123,29 @@ for i in sys.stdin:
 		
 	#particle tags
 	if tags[0] == u'part':
+	        if len(tags)>5:
+	          #print tags
+                  if tags[3]=='vbser':#Var3s-y
+	                taglist+='Var'
+	                taglist+=person(tags[6])
+	                taglist+=number(tags[7])
+	                taglist+='-y'
+	                end()
+	                continue
+                  elif tags[2]=='+htjeti':
+                        taglist+='Var'
+                        taglist+=person(tags[6])
+                        taglist+=number(tags[7])
+                        taglist+='-y'
+                        end()
+                        continue
+                  elif tags[2]==u'+moći':
+                        taglist+='Vmr'
+                        taglist+=person(tags[5])
+                        taglist+=number(tags[6])
+                        taglist+='-y'
+                        end()
+                        continue
 		taglist+=u'Q'
 		if len(tags) > 1:
 			if tags[1] == u'neg':
@@ -165,7 +188,7 @@ for i in sys.stdin:
 		taglist+=gender(tags[1])
 		taglist+=number(tags[2])
 		taglist+=case(tags[3])
-		if tags[3] == u'acc':
+		if tags[3]==u'acc' and tags[2]=='sg':
 			if tags[1] == u'ma':
 				taglist+=u'y'
 			elif tags[1] == u'mi':
@@ -176,7 +199,7 @@ for i in sys.stdin:
 		taglist+=gender(tags[2])
 		taglist+=number(tags[3])
 		taglist+=case(tags[4])
-		if tags[4] == u'acc':
+		if tags[4] == u'acc' and tags[3]=='sg':
 			if tags[2] == u'ma':
 				taglist+=u'y'
 			elif tags[2] == u'mi':
@@ -301,9 +324,15 @@ for i in sys.stdin:
 						taglist+=number(tags[5])
 					taglist+=gender(tags[4])
 	elif tags[0] == u'vbmod' or tags[0] == u'vbser':
-		taglist+=u'Va'
 		if tags[1]=='clt':
                         del tags[1]
+                        taglist+=u'Va'
+                else:
+                        if tags[0]=='vbser':
+                          taglist+='Va'
+                        else:
+                          taglist+='Vm'
+
 		if tags[1]==u'inf':
 			taglist+=u'n'
 		elif tags[1]==u'imp':
@@ -314,6 +343,14 @@ for i in sys.stdin:
 			taglist+=u'r'
 			taglist+=person(tags[2])
 			taglist+=number(tags[3])
+                elif tags[1]=='futII' and tags[2]=='pres':
+                        taglist+=u'r'
+                        taglist+=person(tags[3])
+                        taglist+=number(tags[4])
+		elif tags[1]=='futI':
+		        taglist+='r'
+		        taglist+=person(tags[2])
+		        taglist+=number(tags[3])
 		elif tags[1]==u'pii':
 			taglist+=u'e'
 			taglist+=person(tags[2])
@@ -346,13 +383,13 @@ for i in sys.stdin:
 				taglist+=gender(tags[4])
 				taglist+=number(tags[5])
 				taglist+=case(tags[6])
-				taglist+=u'--n-n'
+				taglist+=u'--y-n'
 			elif tags[2] != u'clt':
 				taglist+=person(tags[2])
 				taglist+=gender(tags[3])
 				taglist+=number(tags[4])
 				taglist+=case(tags[5])
-				taglist+=u'--y-n'
+				taglist+=u'--n-n'
 			if tags[5] == u'acc' and tags[4] == u'sg':
 				if tags[3] == u'ma':
 					taglist+=u'y'
@@ -496,7 +533,7 @@ for i in sys.stdin:
 				taglist+=u'c'	#upitnik? novi tag? kolektivni? štaa? special?
 				taglist+=gender(tags[2])
 				taglist+=case(tags[3])
-				if tags[3] == u'acc':
+				if tags[3] == u'acc' and tags[2] == u'sg':
 					if tags[2] == u'ma':
 						taglist+=u'y'
 					elif tags[2] == u'mi':
@@ -533,7 +570,7 @@ for lema in lexiconin:
 					except:
 						break			
 		
-sys.stderr.write(datetime.now().isoformat()+'mapping adjective tags\n')
+sys.stderr.write(datetime.now().isoformat()+' mapping adjective tags\n')
 #mapping adjective tags
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
@@ -654,6 +691,8 @@ for lema in lexiconin:
 #print lexiconin
 #print lexiconout
 sys.stderr.write(datetime.now().isoformat()+' started output\n')
+sys.stdout.write('s\tsa\tSg\n')
+sys.stdout.write('s\tsa\tSl\n')
 for lf in lexiconout:
 	for sf in lexiconout[lf]:
 		for taglist in lexiconout[lf][sf]:
