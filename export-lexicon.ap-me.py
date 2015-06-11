@@ -4,6 +4,7 @@
 import sys
 import codecs
 import re
+from datetime import datetime
 
 sys.stdin = codecs.getreader('utf-8')(sys.stdin)
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
@@ -83,8 +84,8 @@ c=0
 for i in sys.stdin:
 	c+=1
 	fields = i.strip().split(u':')
-	if fields[1] == u'>':
-		continue
+	#if fields[1] == u'>':
+	#	continue
 	sf = fields[0]
 	if len(sf.split(u' '))>1:
 		#vidjet kaj s multiword expressionima - niš
@@ -97,6 +98,8 @@ for i in sys.stdin:
 		tags = re.split(u'<|>',fields[2])[1:]
 	while u'' in tags:
 		tags.remove(u'')
+        if c%100000==0:
+                sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
 #	print sf,lf,tags
 #sys.exit()
 	if tags[0] == u'adj' or (tags[0] == u'n' and len(tags) > 5) or (tags[0] == u'np' and len(tags) > 5):
@@ -145,8 +148,16 @@ for i in sys.stdin:
 				taglist+=u'Rs'
 		end()
 		continue
-	
-
+        #what about adverbs having additional tags? comp sup etc.
+	if tags[0]=='adv':
+	  if tags[1]=='comp':
+	    taglist+='Rgc'
+          elif tags[1]=='sup':
+            taglist+='Rgs'
+          else:
+            taglist+='Rgp'
+          end()
+          continue
 	
 	#common noun tags
 	if tags[0] == u'n' and len (tags) < 6:
@@ -256,11 +267,11 @@ for i in sys.stdin:
 				elif tags[4]==u'lp':
 					taglist+=u'p'
 					taglist+=u'-'
-					taglist+=gender(tags[5])
 					if tags[6] == u'du':
 						continue
 					else:
 						taglist+=number(tags[6])
+					taglist+=gender(tags[5])
 				taglist+=u'y'			
 			else:	
 				if tags[3]==u'inf':
@@ -284,13 +295,15 @@ for i in sys.stdin:
 				elif tags[3]==u'lp':
 					taglist+=u'p'
 					taglist+=u'-'
-					taglist+=gender(tags[4])
 					if tags[5] == u'du':
 						continue
 					else:
 						taglist+=number(tags[5])
+					taglist+=gender(tags[4])
 	elif tags[0] == u'vbmod' or tags[0] == u'vbser':
 		taglist+=u'Va'
+		if tags[1]=='clt':
+                        del tags[1]
 		if tags[1]==u'inf':
 			taglist+=u'n'
 		elif tags[1]==u'imp':
@@ -312,11 +325,11 @@ for i in sys.stdin:
 		elif tags[1]==u'lp':
 			taglist+=u'p'
 			taglist+=u'-'
-			taglist+=gender(tags[2])
 			if tags[3] == u'du':
 				continue
 			else:
 				taglist+=number(tags[3])
+			taglist+=gender(tags[2])
 	elif tags[0] == u'part' and tags[4] == u'clt':
 		taglist+=u'Var'
 		taglist+=person(tags[-2]) 
@@ -498,9 +511,11 @@ for i in sys.stdin:
 
 	end()
 
+sys.stderr.write(datetime.now().isoformat()+' read all\n')
+
 #print lexiconin
 #print lexiconout
-	
+sys.stderr.write(datetime.now().isoformat()+' preprocessing adjective definiteness\n')	
 #preprocessing adjective tags for definiteness
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
@@ -517,8 +532,9 @@ for lema in lexiconin:
 						lexiconin[lema][surface][lexiconin[lema][surface].index(listtags)].remove(u'ind')
 					except:
 						break			
-			
-#mapping adjective tags			
+		
+sys.stderr.write(datetime.now().isoformat()+'mapping adjective tags\n')
+#mapping adjective tags
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
 		for tags in lexiconin[lema][surface]:			
@@ -637,13 +653,14 @@ for lema in lexiconin:
 
 #print lexiconin
 #print lexiconout
-
+sys.stderr.write(datetime.now().isoformat()+' started output\n')
 for lf in lexiconout:
 	for sf in lexiconout[lf]:
 		for taglist in lexiconout[lf][sf]:
 			if taglist != u'':
 				sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
 
+sys.stderr.write(datetime.now().isoformat()+' output all\n')
 """						
 	
 	sys.stdout.write(i.strip()+u'\t^{0}/{1}{2}$\n'.format(sf, lf, u"".join(taglist)))
