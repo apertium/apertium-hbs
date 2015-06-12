@@ -67,16 +67,17 @@ def is_number(s):
 def end():
 	if lf not in lexiconout:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
-			lexiconout[lf]={sf:[taglist]}
+			lexiconout[lf]={sf:set([taglist])}
 	elif sf not in lexiconout[lf]:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
-			lexiconout[lf][sf]=[taglist]
+			lexiconout[lf][sf]=set([taglist])
 	elif taglist not in lexiconout[lf][sf]:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
-			lexiconout[lf][sf].append(taglist)
+			lexiconout[lf][sf].add(taglist)
 		
 lexiconin={}
 lexiconout={}
+adjout=set()
 #bejsikli - {lema: {sf: tags}} i onda if (sf, tags) not in lema dodaj, if in lema continue
 
 c=0
@@ -100,15 +101,16 @@ for i in sys.stdin:
 		tags.remove(u'')
         if c%100000==0:
                 sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
-#	print sf,lf,tags
+	#print sf,lf,tags
 #sys.exit()
 	if tags[0] == u'adj' or (tags[0] == u'n' and len(tags) > 5) or (tags[0] == u'np' and len(tags) > 5):
+		tags=tuple(tags)
 		if lf not in lexiconin:
-			lexiconin[lf]={sf:[tags]}
+			lexiconin[lf]={sf:set(tags)}
 		elif sf not in lexiconin[lf]:
-			lexiconin[lf][sf]=[tags]
+			lexiconin[lf][sf]=set(tags)
 		elif tags not in lexiconin[lf][sf]:
-			lexiconin[lf][sf].append(tags)
+			lexiconin[lf][sf].add(tags)
 		else:
 			continue
 
@@ -243,32 +245,24 @@ for i in sys.stdin:
 	
 	#verb tags
 	if tags[0] == u'vblex' or tags[0] == u'vbhaver':
-		if tags[3]==u'pp':
+		if tags[3]==u'pp': #<vblex><perf><tv><pp><ma><sg><nom><ind>
 			taglist+=u'App'
-			if tags[4] == u'sfx':
-				taglist+=gender(tags[5])
-				if tags[6] == u'du':
-					continue
-				else:
-					taglist+=number(tags[6])
-				taglist+=case(tags[7])
-				if tags[7] == u'acc' and tags[6] == u'sg':
-					if tags[5] == u'ma':
-						taglist+=u'y'
-					elif tags[5] == u'mi':
-						taglist+=u'n'				
-			else:
+			if True:
 				taglist+=gender(tags[4])
 				if tags[5] == u'du':
 					continue
 				else:
 					taglist+=number(tags[5])
 				taglist+=case(tags[6])
+				if tags[-1]=='def':
+				  taglist+='y'
+				else:
+				  taglist+='n'				
 				if tags[6] == u'acc' and tags[5] == u'sg':
 					if tags[4] == u'ma':
 						taglist+=u'y'
 					elif tags[4] == u'mi':
-						taglist+=u'n'			
+						taglist+=u'n'
 		else:
 			taglist+=u'Vm'
 			if tags[1] == u'neg':
@@ -555,8 +549,10 @@ sys.stderr.write(datetime.now().isoformat()+' read all\n')
 
 #print lexiconin
 #print lexiconout
+"""
 sys.stderr.write(datetime.now().isoformat()+' preprocessing adjective definiteness\n')	
 #preprocessing adjective tags for definiteness
+#this is magic beyond my capabilities of understanding, plain simple solution below 
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
 		for listtags in lexiconin[lema][surface]:
@@ -573,11 +569,18 @@ for lema in lexiconin:
 					except:
 						break			
 		
+"""
 sys.stderr.write(datetime.now().isoformat()+' mapping adjective tags\n')
 #mapping adjective tags
+#whuteva, it's simple, indefinite forms have to be deleted when the lemma and surface are
+#identical and all tags are identical, but the definiteness, changed tag lists to tag sets
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
-		for tags in lexiconin[lema][surface]:			
+	        #for tags in list(lexiconin[lema][surface]):
+	        #  if tags[-1]=='ind' and tags[:-1]+('def',) in lexiconin[lema][surface]:
+	        #    print lema,surface,tags
+	        #    lexiconin[lema][surface].remove(tags)
+		for tags in lexiconin[lema][surface]:
 #			print lema,surface,tags
 			taglist=u''
 			if tags[0] == u'adj':			
@@ -586,6 +589,7 @@ for lema in lexiconin:
 					taglist+=gender(tags[1])
 					taglist+=number(tags[2])
 					taglist+=case(tags[3])
+					taglist+='y'
 					if tags[3] == u'acc' and tags[2] == u'sg':
 						if tags[1] == u'ma':
 							taglist+=u'y'
@@ -600,8 +604,8 @@ for lema in lexiconin:
 					elif tags[1] == u'sup':
 						taglist+=u's'
 					elif tags[1] == u'ssup':
-						#idi dalje ćao đaci
-						continue
+						#idi dalje ćao đaci #do not agree
+						taglist+='p'
 					taglist+=gender(tags[2])
 					taglist+=number(tags[3])
 					taglist+=case(tags[4])
@@ -609,6 +613,8 @@ for lema in lexiconin:
 						taglist+=u'y'
 					elif tags[-1] == u'ind':
 						taglist+=u'n'
+                                        else:
+                                                taglist+='y'
 					#if tags [5] ==	u'def>' or u'indef>' videt kaj tu s definitessom tipa povući pickle leksikon i videt za taj surface form kakvo je stanje s definitessom i ako hm... ako ima i indefinite i definite onda staviti definite, a ako ima samo jedno od toga onda staviti to
 					#znači niš, moram na kraj s tim, ne? ako je (.+)(y|n)* > \1(y|n)\2
 					#dok gledamo pridjeve, znači prvi tag je adj [tagovi međusobno različiti]
@@ -680,11 +686,20 @@ for lema in lexiconin:
 						taglist+=u'n'
 
 			if lema not in lexiconout:
-				lexiconout[lema]={surface:[taglist]}
+				lexiconout[lema]={surface:set([taglist])}
 			elif surface not in lexiconout[lema]:
-				lexiconout[lema][surface]=[taglist]
+				lexiconout[lema][surface]=set([taglist])
 			elif taglist not in lexiconout[lema][surface]:
-				lexiconout[lema][surface].append(taglist)
+				lexiconout[lema][surface].add(taglist)
+
+for lema in lexiconout:
+  for surface in lexiconout[lema]:
+    for tag in list(lexiconout[lema][surface]):
+      if len(tag)>6:
+        if tag[0]=='A':
+          #print tag,lema,surface
+          if tag[6]=='n' and tag[:6]+'y'+tag[7:] in lexiconout[lema][surface]:
+            lexiconout[lema][surface].remove(tag)
 
 #head -1657 expansion.hr | grep -c ' '
 # head -1657 /home/filip/Apertium/apertium-hbs/expansion.hr | python transtag.ap-me.py | wc -l	

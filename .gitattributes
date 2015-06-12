@@ -21,6 +21,7 @@
 /configure.ac -text
 dev/ConstraintGrammar-Croatian.rlx -text
 /export-lexicon.ap-me.py -text
+/export-lexicon.ap-me.sh -text
 /hbs-coarse.prob -text
 /hbs-fine-grained.prob -text
 /hbs-semi-coarse.prob -text
