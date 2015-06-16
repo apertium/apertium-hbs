@@ -87,6 +87,8 @@ for i in sys.stdin:
 	fields = i.replace('~','').strip().split(u':') #removing post-generator flag as well
 	#if fields[1] == u'>':
 	#	continue
+	if i.startswith('__REGEXP__'):
+	  continue
 	sf = fields[0]
 	if len(sf.split(u' '))>1:
 		#vidjet kaj s multiword expressionima - niš
@@ -157,6 +159,11 @@ for i in sys.stdin:
 				taglist+=u'z'
 			elif tags[1] == u'itg':
 				taglist+=u'q'
+                else:
+                  if lf=='da':
+                    taglist+='r'
+                  else:
+                    taglist+='o'
 		end()
 		continue
 	
@@ -189,7 +196,10 @@ for i in sys.stdin:
 	
 	#common noun tags
 	if tags[0] == u'n' and len (tags) < 6:
-		taglist+=u'Nc'
+		if lf[0].lower()!=lf[0]:
+		  taglist+=u'Np'
+		else:
+		  taglist+=u'Nc'
 		taglist+=gender(tags[1])
 		taglist+=number(tags[2])
 		taglist+=case(tags[3])
@@ -488,15 +498,21 @@ for i in sys.stdin:
 	if tags[0] == u'num':
 		taglist+=u'M'
 		if len(tags) == 1:
-			if lf[-1] in u'ivx':
+			if lf[-1].lower() in u'ivx':
 				taglist+=u'r'
 			else:
 				taglist+=is_number(sf)			
+		elif len(tags)==2:
+		  taglist+=is_number(sf)
+		  if tags[1]=='coll':
+		    taglist+='s'
+                  else:
+                    taglist+='c'
 		else:
 			taglist+=is_number(sf)
 			if tags[1] == u'ord':
 				taglist+=u'o'
-				if len(tags) >2:
+				if True:#len(tags) >2:
 					taglist+=gender(tags[2])
 					taglist+=number(tags[3])
 					taglist+=case(tags[4])
@@ -505,30 +521,29 @@ for i in sys.stdin:
 							taglist+=u'y'
 						elif tags[2] == u'mi':
 							taglist+=u'n'												
-			elif tags[1] != u'ord' and tags[1] != u'coll':
-				taglist+=u'c'
-				if len(tags) < 4:
-					try:
-						taglist+=number(tags[1])
-					except:
-						taglist+=gender(tags[1])
-					try:
-						taglist+=case(tags[2])
-					except:
-						end()
-						continue
-				else:
-					taglist+=gender(tags[1])
-					taglist+=number(tags[2])
-					taglist+=case(tags[3])
-					if tags[3] == u'acc' and tags[2] == u'sg':
-						if tags[1] == u'ma':
-							taglist+=u'y'
-						elif tags[1] == u'mi':
-							taglist+=u'n'	
+			elif tags[1] != u'ord' and tags[1] != u'coll':#cardinal
+				if len(tags)==4:
+				  taglist+=u'c'
+	  			  if tags[1]=='mfn':
+	  			    taglist+='-'
+                                  else:
+                                    taglist+=gender(tags[1])
+	  			  if tags[2]=='sp':
+	  			    taglist+='-'
+                                  else:
+                                    taglist+=number(tags[2])
+                                  taglist+=case(tags[3])
+                                  if tags[3] == u'acc' and tags[2] == u'sg':
+				    if tags[1] == u'ma':
+				      taglist+=u'y'
+				    elif tags[1] == u'mi':
+                                      taglist+=u'n'	
+                                #else:
+                                #  continue
 			elif tags[1] == u'coll':
-				taglist+=u'c'	#upitnik? novi tag? kolektivni? štaa? special?
+				taglist+=u's'	#upitnik? novi tag? kolektivni? štaa? special?
 				taglist+=gender(tags[2])
+				taglist+='-'
 				taglist+=case(tags[3])
 				if tags[3] == u'acc' and tags[2] == u'sg':
 					if tags[2] == u'ma':
