@@ -304,8 +304,16 @@ for i in sys.stdin:
 					taglist+=gender(tags[5])
 				taglist+=u'y'			
 			else:	
-				if tags[3]==u'inf':
-					taglist+=u'n'
+				if tags[3]==u'inf':#<vblex><imperf><iv><inf>+hteti<vbmod><clt><futI><p1><sg>
+					if len(tags)>4:
+					  if tags[4]=='+hteti':
+                                            taglist+='f'
+                                            taglist+=person(tags[8])
+                                            taglist+=number(tags[9])
+                                          else:
+                                            continue
+					else:
+					  taglist+=u'n'
 				elif tags[3]==u'imp':
 					taglist+=u'm'
 					taglist+=person(tags[4])
@@ -339,8 +347,7 @@ for i in sys.stdin:
                           taglist+='Va'
                         else:
                           taglist+='Vm'
-
-		if tags[1]==u'inf':
+		if tags[1]==u'inf':#<vblex><imperf><iv><inf>+hteti<vbmod><clt><futI><p1><sg>
 			taglist+=u'n'
 		elif tags[1]==u'imp':
 			taglist+=u'm'
