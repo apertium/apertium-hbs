@@ -249,17 +249,17 @@ SUBSTITUTE:[Mod]VBAux_Cleanup (vbaux) (vbaux clt) TARGET ("htjeti"i vbaux) ;
 # Predicative vs. non-predicative needs to be resolved semantically
 # Give adjective readings not containing the Mark 'def' the reading ind,
 # this is to make things easier later:
-ADD:[Mod]definite/indefinite? (¢IND) TARGET Adjective - Definite - (def?)
+#ADD:[Mod]definite_indefinite? (¢IND) TARGET Adjective - Definite - (def?)
 	
 # Substitute the definite reading with the def? where
 # there is the (non-morphological) def/ind ambiguity:
 # The $$Gender+$$Number+$$Case element is quite important,
 # since the rule mustn't cut out all indefinite readings,
 # but just the ones with the GenNumCase ambiguity:
-SUBSTITUTE:[H][Mod]definite/indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
+SUBSTITUTE:[H][Mod]definite_indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
 	
 # Remove all the indefinite readings from the def?/ind ambiguity
-REMOVE:[H][Mod]definite/indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
+REMOVE:[H][Mod]definite_indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
 		(0 Adjective + $$Gender + $$Number + $$Case  + (def?) )
 		(0 Adjective + $$Gender + $$Number + $$Case + Indefinite) ;
 
@@ -307,8 +307,8 @@ SUBSTITUTE:[H][Mod]Theres_aDot_isInitial (<unk>) (abbr np) TARGET (<unk>) IF (1C
 REMCOHORT:[H][Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 (abbr np) )
 
 # Analyser error. Sometimes there's a non-clitic with <dat> without <loc>
-ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
-	(NOT 0 Clitic) (NOT 0 Locative)
+#ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
+#	(NOT 0 Clitic) (NOT 0 Locative)
 
 #=============================================================================================================#
 # [Syntactic function candidate mapping]:
