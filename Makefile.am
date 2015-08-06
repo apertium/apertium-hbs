@@ -98,6 +98,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix \
 	   $(BASENAME).post-$(LANG1).dix  \
 	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).$(LANG1).rlx  \
+	   $(LANG1).prob            \
 	   alt.xsl \
 	   modes.xml
 
@@ -111,7 +112,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix \
 apertium_hbsdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_hbs_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_hbs_DATA=$(TARGETS_COMMON)
+apertium_hbs_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
