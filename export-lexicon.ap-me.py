@@ -127,32 +127,32 @@ for i in sys.stdin:
 		
 	#particle tags
 	if tags[0] == u'part':
-	        if len(tags)>5:
-	          #print tags
-                  if tags[3]=='vbser':#Var3s-y
-	                taglist+='Var'
-	                taglist+=person(tags[6])
-	                taglist+=number(tags[7])
-	                taglist+='-y'
-	                lf='biti'
-	                end()
-	                continue
-                  elif tags[2]=='+htjeti':
-                        taglist+='Var'
-                        taglist+=person(tags[6])
-                        taglist+=number(tags[7])
-                        taglist+='-y'
-                        lf='htjeti'
-                        end()
-                        continue
-                  elif tags[2]==u'+moći':
-                        taglist+='Vmr'
-                        taglist+=person(tags[5])
-                        taglist+=number(tags[6])
-                        taglist+='-y'
-                        lf=u'moći'
-                        end()
-                        continue
+		if len(tags)>5:
+        #print tags
+			if tags[3]=='vbser':#Var3s-y
+				taglist+='Var'
+				taglist+=person(tags[6])
+				taglist+=number(tags[7])
+				taglist+='-y'
+				lf='biti'
+				end()
+				continue
+			elif tags[2]=='+htjeti':
+				taglist+='Var'
+				taglist+=person(tags[6])
+				taglist+=number(tags[7])
+				taglist+='-y'
+				lf='htjeti'
+				end()
+				continue
+			elif tags[2]==u'+moći':
+				taglist+='Vmm'
+				taglist+=person(tags[5])
+				taglist+=number(tags[6])
+				taglist+='-y'
+				lf=u'moći'
+				end()
+				continue
 		taglist+=u'Q'
 		if len(tags) > 1:
 			if tags[1] == u'neg':
@@ -185,14 +185,14 @@ for i in sys.stdin:
 		continue
         #what about adverbs having additional tags? comp sup etc.
 	if tags[0]=='adv':
-	  if tags[1]=='comp':
-	    taglist+='Rgc'
-          elif tags[1]=='sup':
-            taglist+='Rgs'
-          else:
-            taglist+='Rgp'
-          end()
-          continue
+		if tags[1]=='comp':
+			taglist+='Rgc'
+		elif tags[1]=='sup':
+			taglist+='Rgs'
+		else:
+			taglist+='Rgp'
+		end()
+		continue
 	
 	#common noun tags
 	if tags[0] == u'n' and len (tags) < 6:
@@ -275,34 +275,34 @@ for i in sys.stdin:
 						taglist+=u'n'
 		else:
 			taglist+=u'Vm'
-			if tags[1] == u'neg':
-				if tags[4]==u'inf':
+			if lf == u'nemati':
+				if tags[3]==u'inf':
 					taglist+=u'n'
-				elif tags[4]==u'imp':
+				elif tags[3]==u'imp':
 					taglist+=u'm'
-					taglist+=person(tags[5])
-					taglist+=number(tags[6])
-				elif tags[4]==u'pres':
+					taglist+=person(tags[4])
+					taglist+=number(tags[5])
+				elif tags[3]==u'pres':
 					taglist+=u'r'
-					taglist+=person(tags[5])
-					taglist+=number(tags[6])
-				elif tags[4]==u'pii':
+					taglist+=person(tags[4])
+					taglist+=number(tags[5])
+				elif tags[3]==u'pii':
 					taglist+=u'e'
-					taglist+=person(tags[5])
-					taglist+=number(tags[6])
-				elif tags[4]==u'aor':
+					taglist+=person(tags[4])
+					taglist+=number(tags[5])
+				elif tags[3]==u'aor':
 					taglist+=u'a'
-					taglist+=person(tags[5])
-					taglist+=number(tags[6])
-				elif tags[4]==u'lp':
+					taglist+=person(tags[4])
+					taglist+=number(tags[5])
+				elif tags[3]==u'lp':
 					taglist+=u'p'
 					taglist+=u'-'
-					if tags[6] == u'du':
+					if tags[5] == u'du':
 						continue
 					else:
-						taglist+=number(tags[6])
-					taglist+=gender(tags[5])
-				taglist+=u'y'			
+						taglist+=number(tags[5])
+					taglist+=gender(tags[4])
+				taglist+=u'-y'			
 			else:	
 				if tags[3]==u'inf':#<vblex><imperf><iv><inf>+hteti<vbmod><clt><futI><p1><sg>
 					if len(tags)>4:
@@ -478,15 +478,29 @@ for i in sys.stdin:
 		elif tags[1] == u'ind' or tags[1] == u'neg' or tags[1] == u'itg' or tags[1] == u'rel' or tags[1] == u'tot':
 			taglist+=u'i'
 			if len(tags) > 2:
-				taglist+=u'-'+gender(tags[2])
-				taglist+=number(tags[3])
-				taglist+=case(tags[4])
-				taglist+=u'--n-a'
-				if tags[4] == u'acc' and tags[3] == u'sg':
-					if tags[2] == u'ma':
-						taglist+=u'y'
-					elif tags[2] == u'mi':
-						taglist+=u'n'
+				if lf in [u'što', u'ništa', u'nešto', u'svašta', u'ništa', u'nešto', u'išta']:
+					taglist+=u'3n-'
+					taglist+=case(tags[4])
+					taglist+=u'--n-nn'
+				elif lf in [u'tko', u'nitko', u'netko', u'svatko', u'svatko', u'nitko', u'netko', u'itko']:
+					taglist+=u'3m-'
+					taglist+=case(tags[4])
+					taglist+=u'--n-ny'
+				elif lf == u'sve':
+					taglist+=u'-'+gender(tags[2])
+					taglist+=number(tags[3])
+					taglist+=case(tags[4])
+					taglist+=u'----a'
+				else:	
+					taglist+=u'-'+gender(tags[2])
+					taglist+=number(tags[3])
+					taglist+=case(tags[4])
+					taglist+=u'--n-a'
+					if tags[4] == u'acc' and tags[3] == u'sg':
+						if tags[2] == u'ma':
+							taglist+=u'y'
+						elif tags[2] == u'mi':
+							taglist+=u'n'
 			else:
 				taglist+=u'--------'			
 	
