@@ -68,12 +68,21 @@ def end():
 	if lf not in lexiconout:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf]={sf:set([taglist])}
+			if taglist2 != u'' and taglist3 != u'':
+				lexiconout[lf]={sf:set([taglist2])}
+				lexiconout[lf]={sf:set([taglist3])}
 	elif sf not in lexiconout[lf]:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf][sf]=set([taglist])
+			if taglist2 != u'' and taglist3 != u'':
+				lexiconout[lf][sf]=set([taglist2])
+				lexiconout[lf][sf]=set([taglist3])
 	elif taglist not in lexiconout[lf][sf]:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf][sf].add(taglist)
+			if taglist2 != u'' and taglist3 != u'':
+				lexiconout[lf][sf].add(taglist2)
+				lexiconout[lf][sf].add(taglist3)
 		
 lexiconin={}
 lexiconout={}
@@ -117,6 +126,8 @@ for i in sys.stdin:
 			continue
 
 	taglist = u''
+	taglist2 = u'' #these extra two are for <mfn> gender
+	taglist3 = u''
 	
 	# punctuation tags
 	if tags[0] in [u'sent', u'cm', u'apos', u'guio', u'lpar', u'rpar']:
@@ -397,13 +408,13 @@ for i in sys.stdin:
 				taglist+=gender(tags[4])
 				taglist+=number(tags[5])
 				taglist+=case(tags[6])
-				taglist+=u'--y-n'
+				#taglist+=u'--y-n'
 			elif tags[2] != u'clt':
 				taglist+=person(tags[2])
 				taglist+=gender(tags[3])
 				taglist+=number(tags[4])
 				taglist+=case(tags[5])
-				taglist+=u'--n-n'
+				#taglist+=u'--n-n'
 			if tags[5] == u'acc' and tags[4] == u'sg':
 				if tags[3] == u'ma':
 					taglist+=u'y'
@@ -415,7 +426,7 @@ for i in sys.stdin:
 			taglist+=gender(tags[2])
 			taglist+=number(tags[3])
 			taglist+=case(tags[4])		
-			taglist+=u'--n-a'
+			#taglist+=u'--n-a'
 			if tags[4] == u'acc' and tags[3] == u'sg':
 				if tags[2] == u'ma':
 					taglist+=u'y'
@@ -427,18 +438,18 @@ for i in sys.stdin:
 			taglist+=gender(tags[3])
 			taglist+=number(tags[4])
 			taglist+=case(tags[5])
-			if lf == u'moj' or lf == u'tvoj':
+			"""if lf == u'moj' or lf == u'tvoj':
 				taglist+=u's-n-a'
 			elif lf == u'njegov':
 				taglist+=u'smn-a'
 			elif lf == u'njen' or lf == u'njezin':
 				taglist+=u'sfn-a'
 			elif lf == u'naš' or lf == u'vaš' or lf == u'njihov':
-				taglist+=u'p-n-a'
-			if tags[4] == u'acc' and tags[3] == u'sg':
-				if tags[2] == u'ma':
+				taglist+=u'p-n-a'"""
+			if tags[5] == u'acc' and tags[4] == u'sg':
+				if tags[3] == u'ma':
 					taglist+=u'y'
-				elif tags[2] == u'mi':
+				elif tags[3] == u'mi':
 					taglist+=u'n'				
 		elif tags[1] == u'ref':
 			taglist+=u'x'
@@ -447,13 +458,13 @@ for i in sys.stdin:
 				taglist+=gender(tags[3])
 				taglist+=number(tags[4])
 				taglist+=case(tags[5])	
-				if lf == u'sebe':
+				"""if lf == u'sebe':
 					if len(sf) == 2:
 						taglist+=u'--ypn'
 					else:
 						taglist+=u'--npn'
 				else:
-					taglist+=u'--nsa'			
+					taglist+=u'--nsa'"""			
 				if tags[5] == u'acc' and tags[4] == u'sg':
 					if tags[3] == u'ma':
 						taglist+=u'y'
@@ -463,46 +474,70 @@ for i in sys.stdin:
 				taglist+=gender(tags[4])
 				taglist+=number(tags[5])
 				taglist+=case(tags[6])	
-				if lf == u'sebe':
+				"""if lf == u'sebe':
 					if len(sf) == 2:
 						taglist+=u'--ypn'
 					else:
 						taglist+=u'--npn'
 				else:
-					taglist+=u'--nsa'			
+					taglist+=u'--nsa'"""			
 				if tags[6] == u'acc' and tags[5] == u'sg':
 					if tags[3] == u'ma':
 						taglist+=u'y'
 					elif tags[3] == u'mi':
 						taglist+=u'n'	
-		elif tags[1] == u'ind' or tags[1] == u'neg' or tags[1] == u'itg' or tags[1] == u'rel' or tags[1] == u'tot':
-			taglist+=u'i'
+		elif tags[1] == u'itg':
+			taglist+=u'q'
 			if len(tags) > 2:
-				if lf in [u'što', u'ništa', u'nešto', u'svašta', u'ništa', u'nešto', u'išta']:
-					taglist+=u'3n-'
-					taglist+=case(tags[4])
-					taglist+=u'--n-nn'
-				elif lf in [u'tko', u'nitko', u'netko', u'svatko', u'svatko', u'nitko', u'netko', u'itko']:
+				if lf == u'tko':
 					taglist+=u'3m-'
 					taglist+=case(tags[4])
-					taglist+=u'--n-ny'
-				elif lf == u'sve':
+				elif lf == u'što':
+					taglist+=u'3n-'
+					taglist+=case(tags[4])
+				else:
 					taglist+=u'-'+gender(tags[2])
 					taglist+=number(tags[3])
 					taglist+=case(tags[4])
-					taglist+=u'----a'
+					if tags[4] == u'acc' and tags[3] == u'sg':
+						if tags[2] == u'ma':
+							taglist+=u'y'
+						elif tags[2] == u'mi':
+							taglist+=u'n'
+		elif tags[1] == u'ind' or tags[1] == u'neg' or tags[1] == u'rel' or tags[1] == u'tot':
+			taglist+=u'i'
+			if len(tags) > 2:
+				if lf in [u'što', u'šta', u'ništa', u'nešto', u'svašta', u'ništa', u'nešto', u'išta', u'štošta']:
+					taglist+=u'3n-'
+					taglist+=case(tags[4])
+					#taglist+=u'--n-nn'
+				elif lf in [u'tko', u'nitko', u'netko', u'svatko', u'svatko', u'nitko', u'netko', u'itko']:
+					taglist+=u'3m-'
+					taglist+=case(tags[4])
+					#taglist+=u'--n-ny'
+				elif lf == u'sve':
+					taglist+=u'-'
+					if gender(tags[2]) == u'-':
+						taglist+=u'm'+number(tags[3])+case(tags[4])
+						taglist2+=u'Pi-f'+number(tags[3])+case(tags[4])			
+						taglist3+=u'Pi-n'+number(tags[3])+case(tags[4])			
+					else:
+						taglist+=gender(tags[2])
+						taglist+=number(tags[3])
+						taglist+=case(tags[4])
+						#taglist+=u'----a'
 				else:	
 					taglist+=u'-'+gender(tags[2])
 					taglist+=number(tags[3])
 					taglist+=case(tags[4])
-					taglist+=u'--n-a'
+					#taglist+=u'--n-a'
 					if tags[4] == u'acc' and tags[3] == u'sg':
 						if tags[2] == u'ma':
 							taglist+=u'y'
 						elif tags[2] == u'mi':
 							taglist+=u'n'
 			else:
-				taglist+=u'--------'			
+				taglist+=u'---'			
 	
 	#preposition tags
 	if tags[0] == u'pr':
