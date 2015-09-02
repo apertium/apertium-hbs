@@ -348,7 +348,11 @@ for i in sys.stdin:
 						continue
 					else:
 						taglist+=number(tags[5])
-					taglist+=gender(tags[4])
+					try:
+						taglist+=gender(tags[4])
+					except:
+						print sf,tags
+						sys.exit()
 	elif tags[0] == u'vbmod' or tags[0] == u'vbser':
 		if tags[1]=='clt':
                         del tags[1]
