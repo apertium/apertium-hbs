@@ -20,9 +20,9 @@
 /autogen.sh -text
 /configure.ac -text
 dev/ConstraintGrammar-Croatian.rlx -text
+/export-lexicon.ap-me.HR.sh -text
 /export-lexicon.ap-me.SR.sh -text
 /export-lexicon.ap-me.py -text
-/export-lexicon.ap-me.sh -text
 /hbs-coarse.prob -text
 /hbs-supervised.make -text
 /hbs-supervised.make.stderr -text
