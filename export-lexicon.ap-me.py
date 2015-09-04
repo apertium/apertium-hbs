@@ -652,11 +652,12 @@ for i in sys.stdin:
 		taglist+=case(tags[2])
 		taglist+=u'y'
 
-	if taglist[0] == u'V' or taglist[:2] == u'Ap':
-		if (lf,sf,taglist) not in trans_hash:
-			trans_hash[(lf,sf,taglist)]=set(transitivity)
-		elif (lf,sf,taglist) in trans_hash:
-			trans_hash[(lf,sf,taglist)].add(transitivity)	
+	if len(taglist) >1:
+		if taglist[0] == u'V' or taglist[:2] == u'Ap':
+			if (lf,sf,taglist) not in trans_hash:
+				trans_hash[(lf,sf,taglist)]=set(transitivity)
+			elif (lf,sf,taglist) in trans_hash:
+				trans_hash[(lf,sf,taglist)].add(transitivity)	
 
 	end()
 
