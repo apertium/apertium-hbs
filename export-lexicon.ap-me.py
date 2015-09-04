@@ -64,7 +64,15 @@ def is_number(s):
     except ValueError:
         return u'l'
         
-def end():
+def check_transitivity(s):
+	if s == u'tv':
+		return u't'
+	elif s == u'iv':
+		return u'i'
+	else:
+		return False        
+        
+def end():		
 	if lf not in lexiconout:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf]={sf:set([taglist])}
@@ -87,6 +95,7 @@ def end():
 lexiconin={}
 lexiconout={}
 adjout=set()
+trans_hash={}
 #bejsikli - {lema: {sf: tags}} i onda if (sf, tags) not in lema dodaj, if in lema continue
 
 c=0
@@ -128,6 +137,8 @@ for i in sys.stdin:
 	taglist = u''
 	taglist2 = u'' #these extra two are for <mfn> gender
 	taglist3 = u''
+	
+	transitivity = u''
 	
 	# punctuation tags
 	if tags[0] in [u'sent', u'cm', u'apos', u'guio', u'lpar', u'rpar']:
@@ -284,6 +295,10 @@ for i in sys.stdin:
 						taglist+=u'y'
 					elif tags[4] == u'mi':
 						taglist+=u'n'
+				try:
+					transitivity+=check_transitivity(tags[2])
+				except:
+					pass
 		else:
 			taglist+=u'Vm'
 			if lf == u'nemati':
@@ -317,16 +332,20 @@ for i in sys.stdin:
 					else:
 						taglist+=number(tags[5])
 					taglist+=gender(tags[4])
-					taglist+=u'y'			
+					taglist+=u'y'	
+				try:
+					transitivity+=check_transitivity(tags[2])
+				except:
+					pass		
 			else:	
 				if tags[3]==u'inf':#<vblex><imperf><iv><inf>+hteti<vbmod><clt><futI><p1><sg>
 					if len(tags)>4:
-					  if tags[4]=='+hteti':
-                                            taglist+='f'
-                                            taglist+=person(tags[8])
-                                            taglist+=number(tags[9])
-                                          else:
-                                            continue
+						if tags[4]=='+hteti':
+							taglist+='f'
+							taglist+=person(tags[8])
+							taglist+=number(tags[9])
+						else:
+							continue
 					else:
 					  taglist+=u'n'
 				elif tags[3]==u'imp':
@@ -357,6 +376,10 @@ for i in sys.stdin:
 					except:
 						print sf,tags
 						sys.exit()
+				try:
+					transitivity+=check_transitivity(tags[2])
+				except:
+					pass
 	elif tags[0] == u'vbmod' or tags[0] == u'vbser':
 		if tags[1]=='clt':
                         del tags[1]
@@ -400,12 +423,19 @@ for i in sys.stdin:
 			else:
 				taglist+=number(tags[3])
 			taglist+=gender(tags[2])
+		try:
+			transitivity+=check_transitivity(tags[2])
+		except:
+			pass
 	elif tags[0] == u'part' and tags[4] == u'clt':
 		taglist+=u'Var'
 		taglist+=person(tags[-2]) 
 		taglist+=number(tags[-1])	
 		taglist+=u'y'
-		
+		try:
+			transitivity+=check_transitivity(tags[2])
+		except:
+			pass
 	#pronoun tags
 	if tags[0] == u'prn':
 		taglist+=u'P'
@@ -622,6 +652,12 @@ for i in sys.stdin:
 		taglist+=case(tags[2])
 		taglist+=u'y'
 
+	if taglist[0] == u'V' or taglist[:2] == u'Ap':
+		if (lf,sf,taglist) not in trans_hash:
+			trans_hash[(lf,sf,taglist)]=set(transitivity)
+		elif (lf,sf,taglist) in trans_hash:
+			trans_hash[(lf,sf,taglist)].add(transitivity)	
+
 	end()
 
 sys.stderr.write(datetime.now().isoformat()+' read all\n')
@@ -790,12 +826,22 @@ for lema in lexiconout:
 sys.stderr.write(datetime.now().isoformat()+' started output\n')
 sys.stdout.write('s\tsa\tSg\n')
 sys.stdout.write('s\tsa\tSl\n')
+
+taglist.split(u'\t')[0]
+
 for lf in lexiconout:
-	for sf in lexiconout[lf]:
+	for sf in lexiconout[lf]:	
 		for taglist in lexiconout[lf][sf]:
 			if taglist != u'':
-				sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
-
+				if (lf,sf,taglist) in trans_hash:
+					if trans_hash[(lf,sf,taglist)] != set([u'']):
+						trans=u''.join(sorted(list(trans_hash[(lf,sf,taglist)])))
+						sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\t'+trans+u'\n')
+					else:
+						sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
+				else:
+					sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
+print trans_hash			
 sys.stderr.write(datetime.now().isoformat()+' output all\n')
 """						
 	
