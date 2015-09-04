@@ -828,8 +828,6 @@ sys.stderr.write(datetime.now().isoformat()+' started output\n')
 sys.stdout.write('s\tsa\tSg\n')
 sys.stdout.write('s\tsa\tSl\n')
 
-taglist.split(u'\t')[0]
-
 for lf in lexiconout:
 	for sf in lexiconout[lf]:	
 		for taglist in lexiconout[lf][sf]:
@@ -842,7 +840,7 @@ for lf in lexiconout:
 						sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
 				else:
 					sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
-print trans_hash			
+
 sys.stderr.write(datetime.now().isoformat()+' output all\n')
 """						
 	
