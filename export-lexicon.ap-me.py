@@ -170,11 +170,11 @@ for i in sys.stdin:
 				taglist+=u'z'
 			elif tags[1] == u'itg':
 				taglist+=u'q'
-                else:
-                  if lf=='da':
-                    taglist+='r'
-                  else:
-                    taglist+='o'
+			else:
+				if lf=='da':
+					taglist+='r'
+				else:
+					taglist+='o'
 		end()
 		continue
 	
@@ -289,31 +289,35 @@ for i in sys.stdin:
 			if lf == u'nemati':
 				if tags[3]==u'inf':
 					taglist+=u'n'
+					taglist+=u'----y'
 				elif tags[3]==u'imp':
 					taglist+=u'm'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
+					taglist+=u'-y'
 				elif tags[3]==u'pres':
 					taglist+=u'r'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
+					taglist+=u'-y'
 				elif tags[3]==u'pii':
 					taglist+=u'e'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
+					taglist+=u'-y'
 				elif tags[3]==u'aor':
 					taglist+=u'a'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
+					taglist+=u'-y'
 				elif tags[3]==u'lp':
 					taglist+=u'p'
-					taglist+=u'-'
 					if tags[5] == u'du':
 						continue
 					else:
 						taglist+=number(tags[5])
 					taglist+=gender(tags[4])
-				taglist+=u'-y'			
+					taglist+=u'y'			
 			else:	
 				if tags[3]==u'inf':#<vblex><imperf><iv><inf>+hteti<vbmod><clt><futI><p1><sg>
 					if len(tags)>4:
