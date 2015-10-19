@@ -212,7 +212,7 @@ for i in sys.stdin:
 		elif tags[1]=='sup':
 			taglist+='Rgs'
 		else:
-			taglist+='Rgp'
+			taglist+='Rgp' #tu treba još apsolutni superlativ
 		end()
 		continue
 	
@@ -801,13 +801,24 @@ for lema in lexiconin:
 					elif tags[4] == u'mi':
 						taglist+=u'n'
 
-			if lema not in lexiconout:
-				lexiconout[lema]={surface:set([taglist])}
-			elif surface not in lexiconout[lema]:
-				lexiconout[lema][surface]=set([taglist])
-			elif taglist not in lexiconout[lema][surface]:
-				lexiconout[lema][surface].add(taglist)
-
+#tu bi se dalo znači još jednu if petlju ubacit pa da se provjeri ako je ssup, onda da sve isto ko ovo tu, samo na lema se doda pre+lema to ima smisla			
+			if len(tags) > 4:
+				print tags[1]
+				if tags[1] == u'ssup' and lema[:3]!=u'pre':
+					if lema not in lexiconout:
+						lexiconout[u'pre'+lema]={surface:set([taglist])}
+					elif surface not in lexiconout[u'pre'+lema]:
+						lexiconout[u'pre'+lema][surface]=set([taglist])
+					elif taglist not in lexiconout[u'pre'+lema][surface]:
+						lexiconout[u'pre'+lema][surface].add(taglist)
+				else:			
+					if lema not in lexiconout:
+						lexiconout[lema]={surface:set([taglist])}
+					elif surface not in lexiconout[lema]:
+						lexiconout[lema][surface]=set([taglist])
+					elif taglist not in lexiconout[lema][surface]:
+						lexiconout[lema][surface].add(taglist)
+		
 for lema in lexiconout:
   for surface in lexiconout[lema]:
     for tag in list(lexiconout[lema][surface]):
