@@ -803,15 +803,15 @@ for lema in lexiconin:
 
 #tu bi se dalo znači još jednu if petlju ubacit pa da se provjeri ako je ssup, onda da sve isto ko ovo tu, samo na lema se doda pre+lema to ima smisla
 			if len(tags) > 4:
-				print tags[1]
+				#print tags,lema,surface
 				if tags[1] == u'ssup' and lema[:3]!=u'pre':
-					if lema not in lexiconout:
+					if 'pre'+lema not in lexiconout: # was "if lemma not in lexiconout", but later you expect the key to be 'pre'+lemma
 						lexiconout[u'pre'+lema]={surface:set([taglist])}
 					elif surface not in lexiconout[u'pre'+lema]:
 						lexiconout[u'pre'+lema][surface]=set([taglist])
 					elif taglist not in lexiconout[u'pre'+lema][surface]:
 						lexiconout[u'pre'+lema][surface].add(taglist)
-				else:			
+				else:
 					if lema not in lexiconout:
 						lexiconout[lema]={surface:set([taglist])}
 					elif surface not in lexiconout[lema]:
