@@ -76,21 +76,24 @@ def end():
 	if lf not in lexiconout:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf]={sf:set([taglist])}
-			if taglist2 != u'' and taglist3 != u'':
+			if taglist2 != u'' and taglist3 != u'' and taglist4 != u'':
 				lexiconout[lf]={sf:set([taglist2])}
 				lexiconout[lf]={sf:set([taglist3])}
+				lexiconout[lf]={sf:set([taglist4])}
 	elif sf not in lexiconout[lf]:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf][sf]=set([taglist])
-			if taglist2 != u'' and taglist3 != u'':
+			if taglist2 != u'' and taglist3 != u'' and taglist4 != u'':
 				lexiconout[lf][sf]=set([taglist2])
 				lexiconout[lf][sf]=set([taglist3])
+				lexiconout[lf][sf]=set([taglist4])
 	elif taglist not in lexiconout[lf][sf]:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf][sf].add(taglist)
-			if taglist2 != u'' and taglist3 != u'':
+			if taglist2 != u'' and taglist3 != u'' and taglist4 != u'':
 				lexiconout[lf][sf].add(taglist2)
 				lexiconout[lf][sf].add(taglist3)
+				lexiconout[lf][sf].add(taglist4)
 		
 lexiconin={}
 lexiconout={}
@@ -135,8 +138,9 @@ for i in sys.stdin:
 			continue
 
 	taglist = u''
-	taglist2 = u'' #these extra two are for <mfn> gender
+	taglist2 = u'' #these extra three are for <mfn> gender
 	taglist3 = u''
+	taglist4 = u''
 	
 	transitivity = u''
 	
@@ -555,8 +559,13 @@ for i in sys.stdin:
 					#taglist+=u'--n-ny'
 				elif lf == u'sve':
 					taglist+=u'-'
-					if gender(tags[2]) == u'-':
-						taglist+=u'm'+number(tags[3])+case(tags[4])
+					if gender(tags[2]) == u'-':#if <mfn>, basically
+						if tags[4] == u'acc' and tags[3] == u'sg':
+							taglist+=u'm'+number(tags[3])+case(tags[4])+u'y'
+							taglist4+=u'Pi-m'+number(tags[3])+case(tags[4])+u'n'
+						else:
+							taglist+=u'm'+number(tags[3])+case(tags[4])	
+							taglist4+=u'Pi-m'+number(tags[3])+case(tags[4])	
 						taglist2+=u'Pi-f'+number(tags[3])+case(tags[4])			
 						taglist3+=u'Pi-n'+number(tags[3])+case(tags[4])			
 					else:
