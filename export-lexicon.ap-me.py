@@ -150,7 +150,13 @@ for i in sys.stdin:
 		#isprintaj samo Z i idi dalje
 		end()
 		continue
-		
+	
+	#interjection tags
+	if tags[0] == u'ij':
+		taglist+=u'I'
+		end()
+		continue	
+			
 	#particle tags
 	if tags[0] == u'part':
 		if len(tags)>5:
@@ -180,7 +186,12 @@ for i in sys.stdin:
 				end()
 				continue
 		taglist+=u'Q'
-		if len(tags) > 1:
+		if len(tags) == 1:
+			if lf=='da':
+				taglist+='r'
+			else:
+				taglist+='o'
+		elif len(tags) > 1:
 			if tags[1] == u'neg':
 				taglist+=u'z'
 			elif tags[1] == u'itg':
@@ -308,7 +319,7 @@ for i in sys.stdin:
 			if lf == u'nemati':
 				if tags[3]==u'inf':
 					taglist+=u'n'
-					taglist+=u'----y'
+					#taglist+=u'----y'
 				elif tags[3]==u'imp':
 					taglist+=u'm'
 					taglist+=person(tags[4])
@@ -331,6 +342,7 @@ for i in sys.stdin:
 					taglist+=u'-y'
 				elif tags[3]==u'lp':
 					taglist+=u'p'
+					taglist+=u'-' #fix? Vmp-pfy
 					if tags[5] == u'du':
 						continue
 					else:
