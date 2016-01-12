@@ -324,22 +324,22 @@ for i in sys.stdin:
 					taglist+=u'm'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
-					taglist+=u'-y'
+					#taglist+=u'-y'
 				elif tags[3]==u'pres':
 					taglist+=u'r'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
-					taglist+=u'-y'
+					#taglist+=u'-y'
 				elif tags[3]==u'pii':
 					taglist+=u'e'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
-					taglist+=u'-y'
+					#taglist+=u'-y'
 				elif tags[3]==u'aor':
 					taglist+=u'a'
 					taglist+=person(tags[4])
 					taglist+=number(tags[5])
-					taglist+=u'-y'
+					#taglist+=u'-y'
 				elif tags[3]==u'lp':
 					taglist+=u'p'
 					taglist+=u'-' #fix? Vmp-pfy
@@ -348,7 +348,7 @@ for i in sys.stdin:
 					else:
 						taglist+=number(tags[5])
 					taglist+=gender(tags[4])
-					taglist+=u'y'	
+					#taglist+=u'y'	
 				try:
 					transitivity+=check_transitivity(tags[2])
 				except:
