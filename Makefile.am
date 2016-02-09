@@ -61,16 +61,16 @@ $(LANG1).automorf.bin: .deps/$(BASENAME).$(LANG1).dix
 
 # att.gz:
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1a).autogen.att.gz: $(LANG1a).autogen.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1b).autogen.att.gz: $(LANG1b).autogen.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1c).autogen.att.gz: $(LANG1c).autogen.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 # Post-gen:
 $(LANG1a).autopgen.bin: $(BASENAME).post-$(LANG1).dix .deps/.d
