@@ -165,7 +165,7 @@ for i in sys.stdin:
 				taglist+='Var'
 				taglist+=person(tags[6])
 				taglist+=number(tags[7])
-				taglist+='-y'
+				#taglist+='-y'
 				lf='biti'
 				end()
 				continue
@@ -173,7 +173,7 @@ for i in sys.stdin:
 				taglist+='Var'
 				taglist+=person(tags[6])
 				taglist+=number(tags[7])
-				taglist+='-y'
+				#taglist+='-y'
 				lf='htjeti'
 				end()
 				continue
@@ -181,7 +181,7 @@ for i in sys.stdin:
 				taglist+='Vmm'
 				taglist+=person(tags[5])
 				taglist+=number(tags[6])
-				taglist+='-y'
+				#taglist+='-y'
 				lf=u'moći'
 				end()
 				continue
