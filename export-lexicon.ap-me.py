@@ -546,7 +546,7 @@ for i in sys.stdin:
 				if lf == u'tko':
 					taglist+=u'3m-'
 					taglist+=case(tags[4])
-				elif lf == u'što':
+				elif lf == u'što' or lf == u'šta':
 					taglist+=u'3n-'
 					taglist+=case(tags[4])
 				else:
