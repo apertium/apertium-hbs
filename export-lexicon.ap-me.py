@@ -125,6 +125,7 @@ for i in sys.stdin:
         if c%100000==0:
                 sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
 	#print sf,lf,tags
+	apertium_tag=tags
 #sys.exit()
 	if tags[0] == u'adj' or (tags[0] == u'n' and len(tags) > 5) or (tags[0] == u'np' and len(tags) > 5):
 		tags=tuple(tags)
@@ -861,7 +862,7 @@ sys.stdout.write('s\tsa\tSg\n')
 sys.stdout.write('s\tsa\tSl\n')
 
 for lf in lexiconout:
-	for sf in lexiconout[lf]:	
+	for sf in lexiconout[lf]:
 		for taglist in lexiconout[lf][sf]:
 			if taglist != u'':
 				if (lf,sf,taglist) in trans_hash:
