@@ -1,4 +1,4 @@
-TAGGER_SUPERVISED_ITERATIONS=0
+TAGGER_SUPERVISED_ITERATIONS=2
 BASENAME=apertium-hbs
 LANG1=hbs
 TAGGER=$(LANG1)-tagger-data
@@ -15,12 +15,12 @@ $(LANG1).prob: $(BASENAME).$(LANG1).tsx $(TAGGER)/$(LANG1).dic $(TAGGER)/$(LANG1
                            $(TAGGER)/$(LANG1).tagged \
                            $(TAGGER)/$(LANG1).untagged;
 
-$(TAGGER)/$(LANG1).dic: .deps/$(LANG1).dix $(LANG1).automorf.bin
+$(TAGGER)/$(LANG1).dic: .deps/$(BASENAME).$(LANG1).dix $(LANG1).automorf.bin
 	@echo "Generating $@";
 	@echo "This may take some time. Please, take a cup of coffee and come back later.";
-	apertium-validate-dictionary .deps/$(LANG1).dix
+	apertium-validate-dictionary .deps/$(BASENAME).$(LANG1).dix
 	apertium-validate-tagger $(BASENAME).$(LANG1).tsx
-	lt-expand .deps/$(LANG1).dix | grep -v "__REGEXP__" | grep -v ":<:" |\
+	lt-expand .deps/$(BASENAME).$(LANG1).dix | grep -v "__REGEXP__" | grep -v ":<:" |\
 	awk 'BEGIN{FS=":>:|:"}{print $$1 ".";}' | apertium-destxt >$(LANG1).dic.expanded
 	@echo "." >>$(LANG1).dic.expanded
 	@echo "?" >>$(LANG1).dic.expanded
