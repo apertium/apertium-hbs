@@ -278,8 +278,8 @@ SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt pl) TARGET Verb + (pp pres) +
 
 # Some words contain a 'mi' 'ma' reading, some don't (especially nouns),
 # so they are all normalized to 'm':
-SUBSTITUTE:[Mod]MiMa→M (mi) (m) TARGET (mi)
-SUBSTITUTE:[Mod]MiMa→M (ma) (m) TARGET (ma)
+#SUBSTITUTE:[Mod]MiMa→M (mi) (m) TARGET (mi)
+#SUBSTITUTE:[Mod]MiMa→M (ma) (m) TARGET (ma)
 
 # For some reason, perhaps because of a tagset conversion error some
 # masculine pronouns are genderless, and this messes up disambiguation.
