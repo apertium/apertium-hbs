@@ -842,8 +842,8 @@ REMOVE:[H]AdjCopula_isNominative Adjective + Case - Nominative (0C Adjective)
 	(NEGATE 2 L-Participle)
 
 # Big TODO: For now we renounce aorist and imperfect since they don't appear in this type of text.
-REMOVE:[H]noAoristHere Aorist
-#REMOVE:[H]noImperfectHere Imperfect
+#REMOVE:[H]noAoristHere Aorist ;
+#REMOVE:[H]noImperfectHere Imperfect ;
 
 # Imperative sentences must end with a "!"
 # It's a heuristic, since there are possible exceptions to this rule, however, none in this corpus.
@@ -854,44 +854,44 @@ SELECT:[H]verb+se Reflexive (0C Verb) (0 Verb + Reflexive) (0 Verb - Reflexive) 
 
 # Conjunction vs. adverb vs. other stuff
 	
-SELECT:[H]već Adverb (NOT -1 Cm) (0 ("već"i))
-SELECT:[H]već Conjunction (-1 Cm) (0 ("već"i))
+SELECT:[H]već Adverb (NOT -1 Cm) (0 ("već"i)) ; 
+SELECT:[H]već Conjunction (-1 Cm) (0 ("već"i)) ; 
 
-SELECT:[H]osim Conjunction (1 ("što"i)) (0 ("osim"i))
-SELECT:[H]osim Conjunction (1 ("ako"i)) (0 ("osim"i))
-SELECT:[H]osim Conjunction (1 ("da"i)) (0 ("osim"i))
-SELECT:[H]osim Conjunction (1 ("kad"i)) (0 ("osim"i))
-SELECT:[H]osim Preposition (1 Nomen) (0 ("osim"i))
-SELECT:[H]osim Adverb (0 ("osim"i)) # This should function as an 'else' statement
+SELECT:[H]osim Conjunction (1 ("što"i)) (0 ("osim"i)) ; 
+SELECT:[H]osim Conjunction (1 ("ako"i)) (0 ("osim"i)) ; 
+SELECT:[H]osim Conjunction (1 ("da"i)) (0 ("osim"i)) ; 
+SELECT:[H]osim Conjunction (1 ("kad"i)) (0 ("osim"i)) ; 
+SELECT:[H]osim Preposition (1 Nomen) (0 ("osim"i)) ; 
+SELECT:[H]osim Adverb (0 ("osim"i)) ; # This should function as an 'else' statement
 
-SELECT:[H]tek Adverb (0 ("tek"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
-SELECT:[H]zato Adverb (0 ("zato"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
-SELECT:[H]dakle Adverb (0 ("dakle"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
-SELECT:[H]koliko Adverb (0 ("koliko"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
-SELECT:[H]kuda Adverb (0 ("kuda"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
-SELECT:[H]odakle Adverb (0 ("odakle"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
+SELECT:[H]tek Adverb (0 ("tek"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+SELECT:[H]zato Adverb (0 ("zato"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+SELECT:[H]dakle Adverb (0 ("dakle"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+SELECT:[H]koliko Adverb (0 ("koliko"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
+SELECT:[H]kuda Adverb (0 ("kuda"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
+SELECT:[H]odakle Adverb (0 ("odakle"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, prilog po HJP-u
 
-REMOVE:[H]stoga Conjunction (0 ("stoga"i)) # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
-REMOVE:[H]stoga Noun (-1 BOS OR Mark)
-REMOVE:[H]stoga Noun (NOT -1 Preposition)
+REMOVE:[H]stoga Conjunction (0 ("stoga"i)) ; # TODO: Provjeriti u nekom pouzdanom izvoru, priložna čestica po HJP-u
+REMOVE:[H]stoga Noun (-1 BOS OR Mark) ;
+REMOVE:[H]stoga Noun (NOT -1 Preposition) ;
 
-SELECT:[H]budući Conjunction (1 ("da"i)) (0 ("budući"i))
-REMOVE:[H]budući Conjunction (NOT 1 ("da"i)) (0 ("budući"i))
+SELECT:[H]budući Conjunction (1 ("da"i)) (0 ("budući"i)) ; 
+REMOVE:[H]budući Conjunction (NOT 1 ("da"i)) (0 ("budući"i)) ; 
 
-SELECT:[H]dokle Conjunction (1 ("god"i)) (0 ("dokle"i))
-REMOVE:[H]dokle Conjunction (NOT 1 ("god"i)) (0 ("dokle"i))
+SELECT:[H]dokle Conjunction (1 ("god"i)) (0 ("dokle"i)) ; 
+REMOVE:[H]dokle Conjunction (NOT 1 ("god"i)) (0 ("dokle"i)) ; 
 
-SELECT:[H]jedino Conjunction (1 ("što"i)) (0 ("jedino"i) LINK -1 Cm)
-REMOVE:[H]jedino Conjunction (0 ("jedino"i))
+SELECT:[H]jedino Conjunction (1 ("što"i)) (0 ("jedino"i) LINK -1 Cm) ;
+REMOVE:[H]jedino Conjunction (0 ("jedino"i)) ;
 
-REMOVE:[H]neka KeepOrder Conjunction (0 ("neka"i)) (0 $$Case) (-1 Preposition + $$Case )
-REMOVE:[H]neka KeepOrder Conjunction (0 ("neka"i)) (0 $$Gender + $$Number + $$Case) (1* Nomen + $$Gender + $$Number + $$Case BARRIER Word - Mark - Clitic)
-SELECT:[H]neka KeepOrder Conjunction (0 ("neka"i)) (1* Verb - Clitic BARRIER Word - Mark - Clitic)
+REMOVE:[H]neka KeepOrder Conjunction (0 ("neka"i)) (0 $$Case) (-1 Preposition + $$Case ) ;
+REMOVE:[H]neka KeepOrder Conjunction (0 ("neka"i)) (0 $$Gender + $$Number + $$Case) (1* Nomen + $$Gender + $$Number + $$Case BARRIER Word - Mark - Clitic) ;
+SELECT:[H]neka KeepOrder Conjunction (0 ("neka"i)) (1* Verb - Clitic BARRIER Word - Mark - Clitic) ;
 
-SELECT:[H]te CS (0 ("te"i)) # Te nije subordinating
+SELECT:[H]te CS (0 ("te"i)) ; # Te nije subordinating
 
-SELECT:[H]no CS (0 ("no"i)) (NOT -1 Cm) (NOT 1 Cm)
-SELECT:[H]no CC (0 ("no"i)) ((-1 Cm) OR (1 Cm))
+SELECT:[H]no CS (0 ("no"i)) (NOT -1 Cm) (NOT 1 Cm) ;
+SELECT:[H]no CC (0 ("no"i)) ((-1 Cm) OR (1 Cm)) ;
 
 # TODO: Cover "nit", the lexicon is missing the noun analysis.
 
@@ -899,10 +899,10 @@ SELECT:[H]no CC (0 ("no"i)) ((-1 Cm) OR (1 Cm))
 # "kada" is either a noun or same as "kad"
 REMOVE:[H]kada ("kada"i) + Noun + $$Gender + $$Number + $$Case 
 	(NOT -1 Modifier + $$Gender + $$Number + $$Case)
-	(NOT 1 Modifier + $$Gender + $$Number + $$Case)
+	(NOT 1 Modifier + $$Gender + $$Number + $$Case) ;
 
 SELECT:[H]Conjunction_after_comma Conjunction (-1 Cm) (NOT 1 Mark) (NOT 1 EOS) (0 Conjunction)(0 Adverb);
-SELECT:[H]Adverb_Without_comma Adverb (NOT -1 Cm) (NOT 1 BOS)(0 Conjunction) (0 Adverb);
+SELECT:[H]Adverb_Without_comma Adverb (NOT -1 Cm) (NOT 1 BOS)(0 Conjunction) (0 Adverb); 
 
 #SELECT:[H]Conjunction_vs_Adverb Adverb (0 Conjunction) (0 Adverb) (1* ("?") BARRIER Clause-Boundary OR Mark)
 
@@ -921,10 +921,10 @@ SELECT:[H]isPossesive Possesive (0C Adjective + Possesive OR Adjective - Possesi
 # "Prošle godine", "last year" adverbial phrase:
 SELECT:[H]ProšleGodine KeepOrder Adjective + Genitive 
 	(0 $$Gender + $$Number + $$Case) (NEGATE 2 Modifier + $$Gender + $$Number + $$Case)
-	(0 ("prošle"i)) (1 ("godine"i))
+	(0 ("prošle"i)) (1 ("godine"i)) ;
 SELECT:[H]ProšleGodine KeepOrder Noun + Genitive 
 	(0 $$Gender + $$Number + $$Case) (NEGATE 1 Modifier + $$Gender + $$Number + $$Case)
-	(-1 ("prošle"i)) (0 ("godine"i))
+	(-1 ("prošle"i)) (0 ("godine"i)) ;
 
 #=============================================================================================================#
 # |/Heuristic| #
