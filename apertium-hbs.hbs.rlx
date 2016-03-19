@@ -37,7 +37,7 @@
 #=============================================================================================================#
 # Legend:
 #   [H] - Heuristic rule
-#   [Mod] - Modifies the morphological analyser output, analyser dependent
+##   [Mod] - Modifies the morphological analyser output, analyser dependent
 #   @ - syntactic tag prefix
 #   ¢ - morphological tag prefix
 #=============================================================================================================#
@@ -216,7 +216,7 @@ SET QuantitativeAdverbPlural =  ("<nekoliko>"i) ;
 BEFORE-SECTIONS
 #=============================================================================================================#
 # [Cleanup and modifications of analyser output]:
-# [Mod]
+## [Mod]
 #=============================================================================================================#
 
 # The rules in this section are specific to the morphological analyser
@@ -224,90 +224,91 @@ BEFORE-SECTIONS
 # clean-up analyser artifacts.
 
 # Conversion of cardinal numbers that are followed by a non-sentence ending dot into ordinal numbers
-#SUBSTITUTE:[Mod]Theres_aDot_isOrdinalAppendDot ("<\\d+>"r) ("<$1.>"v)  TARGET CardNum IF (1C ("." fxq) - Sentence)
-SUBSTITUTE:[Mod]Theres_aDot_isOrdinal (crd) (ord) TARGET CardNum IF (1C ("." fxq) - Sentence)
+##SUBSTITUTE:[Mod]Theres_aDot_isOrdinalAppendDot ("<\\d+>"r) ("<$1.>"v)  TARGET CardNum IF (1C ("." fxq) - Sentence)
+#SUBSTITUTE:[Mod]Theres_aDot_isOrdinal (crd) (ord) TARGET CardNum IF (1C ("." fxq) - Sentence)
 # Cleanup the cohort, so that it doesn't get in the way later
-REMCOHORT:[Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 OrdNum )
+#REMCOHORT:[Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 OrdNum )
 
 
 # Conversion of numbers that behave like adjectives into adjectives:
 # The number 'jedan':
 # Remove the caseless analysis, since we are seeing it as an adjective:
-REMOVE:[Mod]JedanAsAdjective Numeral - Case (0 ("jedan"i num crd ltr) ) ; 
-SUBSTITUTE:[Mod]JedanAsAdjective (num crd) (adj) TARGET ("jedan"i num crd) ; #
+#REMOVE:[Mod]JedanAsAdjective Numeral - Case (0 ("jedan"i num crd ltr) ) ; 
+#SUBSTITUTE:[Mod]JedanAsAdjective (num crd) (adj) TARGET ("jedan"i num crd) ; #
 
 # Cleanup of imperfectivity and transitivity for htjeti as vbaux ("ću, ćeš, će, ćemo, ćete, će")
 # [Since it's just the auxilliary verb for making a future tense, and does not receive a real object in accusative]
-REMOVE:[Mod]VBAux_Cleanup Intransitive (0C ("htjeti"i vbaux)) ;
-SUBSTITUTE:[Mod]VBAux_Cleanup (tv) (*) TARGET ("htjeti"i vbaux) ;
-SUBSTITUTE:[Mod]VBAux_Cleanup (iv) (*) TARGET ("htjeti"i vbaux) ;
-SUBSTITUTE:[Mod]VBAux_Cleanup (imperf) (*) TARGET ("htjeti"i vbaux) ;	
-SUBSTITUTE:[Mod]VBAux_Cleanup (vbaux) (vbaux clt) TARGET ("htjeti"i vbaux) ;
+#REMOVE:[Mod]VBAux_Cleanup Intransitive (0C ("htjeti"i vbaux)) ;
+#SUBSTITUTE:[Mod]VBAux_Cleanup (tv) (*) TARGET ("htjeti"i vbaux) ;
+#SUBSTITUTE:[Mod]VBAux_Cleanup (iv) (*) TARGET ("htjeti"i vbaux) ;
+#SUBSTITUTE:[Mod]VBAux_Cleanup (imperf) (*) TARGET ("htjeti"i vbaux) ;	
+#SUBSTITUTE:[Mod]VBAux_Cleanup (vbaux) (vbaux clt) TARGET ("htjeti"i vbaux) ;
 	
 # Most adjective definite/indefinite forms are identical,
 # the difference is either semantic or predicative/non-predicative
 # Predicative vs. non-predicative needs to be resolved semantically
 # Give adjective readings not containing the Mark 'def' the reading ind,
 # this is to make things easier later:
-#ADD:[Mod]definite_indefinite? (¢IND) TARGET Adjective - Definite - (def?)
+##ADD:[Mod]definite_indefinite? (¢IND) TARGET Adjective - Definite - (def?)
 	
 # Substitute the definite reading with the def? where
 # there is the (non-morphological) def/ind ambiguity:
 # The $$Gender+$$Number+$$Case element is quite important,
 # since the rule mustn't cut out all indefinite readings,
 # but just the ones with the GenNumCase ambiguity:
-SUBSTITUTE:[H][Mod]definite_indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
+#SUBSTITUTE:[H][Mod]definite_indefinite? KeepOrder Definite (def?) TARGET Adjective + Definite + $$Gender + $$Number + $$Case IF (0 Adjective + Definite + $$Gender + $$Number + $$Case ) (0 Adjective + Indefinite + $$Gender + $$Number + $$Case ) ;
 	
 # Remove all the indefinite readings from the def?/ind ambiguity
-REMOVE:[H][Mod]definite_indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
-		(0 Adjective + $$Gender + $$Number + $$Case  + (def?) )
-		(0 Adjective + $$Gender + $$Number + $$Case + Indefinite) ;
+#REMOVE:[H][Mod]definite_indefinite? KeepOrder Adjective + Indefinite + $$Gender + $$Number + $$Case
+#		(0 Adjective + $$Gender + $$Number + $$Case  + (def?) )
+#		(0 Adjective + $$Gender + $$Number + $$Case + Indefinite) ;
 
 # The l-participle mods:
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt sg) TARGET Verb + (pp pres) + (".*lo>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m sg) TARGET Verb + (pp pres) + (".*o>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f sg) TARGET Verb + (pp pres) + (".*la>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt sg) TARGET Verb + (pp pres) + (".*lo>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m sg) TARGET Verb + (pp pres) + (".*o>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f sg) TARGET Verb + (pp pres) + (".*la>"r);
 
 # TODO: see what to do with <mfn>
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*li>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f pl) TARGET Verb + (pp pres) + (".*le>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*li>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp f pl) TARGET Verb + (pp pres) + (".*le>"r);
 
 # dual:
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*la>"r);
-SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt pl) TARGET Verb + (pp pres) + (".*la>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp m pl) TARGET Verb + (pp pres) + (".*la>"r);
+#SUBSTITUTE:[Mod]LParticiple (pp pres sg pl) (lp nt pl) TARGET Verb + (pp pres) + (".*la>"r);
 
 # Some words contain a 'mi' 'ma' reading, some don't (especially nouns),
 # so they are all normalized to 'm':
-#SUBSTITUTE:[Mod]MiMa→M (mi) (m) TARGET (mi)
-#SUBSTITUTE:[Mod]MiMa→M (ma) (m) TARGET (ma)
+##SUBSTITUTE:[Mod]MiMa→M (mi) (m) TARGET (mi)
+##SUBSTITUTE:[Mod]MiMa→M (ma) (m) TARGET (ma)
 
 # For some reason, perhaps because of a tagset conversion error some
 # masculine pronouns are genderless, and this messes up disambiguation.
-SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ProblemPronouns + Singular - Gender - Clitic
-SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ProblemPronouns + Plural - Gender - Clitic
-SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ("on"i) + Clitic - Gender
-SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ("on"i) + Clitic - Gender
+#SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ProblemPronouns + Singular - Gender - Clitic
+#SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ProblemPronouns + Plural - Gender - Clitic
+#SUBSTITUTE:[Mod]ImpliedMasculine (sg) (m sg) TARGET ("on"i) + Clitic - Gender
+#SUBSTITUTE:[Mod]ImpliedMasculine (pl) (m pl) TARGET ("on"i) + Clitic - Gender
 
 # Proper names recognition:
 
 # Everything inside a sentence beginning with a capital letter is a proper noun.
 # Naive, so it's a heuristic:	
-SUBSTITUTE:[H][Mod]ProperNoun $$Nomen $$Nomen + (np) TARGET ("<[A-ZČĆŽŠĐ].*>"r) + $$Nomen
-		(0 Noun OR Adjective)
-		(NOT -1 BOS) (NEGATE -1 Mark LINK -1 BOS)
-		(NOT 0 ProperNoun)
-		(NOT 0 Pronoun)			
+#SUBSTITUTE:[H][Mod]ProperNoun $$Nomen $$Nomen + (np) TARGET ("<[A-ZČĆŽŠĐ].*>"r) + $$Nomen
+#		(0 Noun OR Adjective)
+#		(NOT -1 BOS) (NEGATE -1 Mark LINK -1 BOS)
+#		(NOT 0 ProperNoun)
+#		(NOT 0 Pronoun)			
+
 # Very heuristic, an adjective with a np is suddenly just a noun
 # Unless it modifies another noun
-SUBSTITUTE:[H][Mod]NpAdj_isAdj (adj np) (np) TARGET Adjective + ProperNoun + $$Gender + $$Number + $$Case
-		(NOT 1 Nomen + $$Case + $$Gender + $$Number)
+#SUBSTITUTE:[H][Mod]NpAdj_isAdj (adj np) (np) TARGET Adjective + ProperNoun + $$Gender + $$Number + $$Case
+#		(NOT 1 Nomen + $$Case + $$Gender + $$Number)
 
 # Readings immediately before a non-sentence fullstop are proper nouns    
-SUBSTITUTE:[H][Mod]Theres_aDot_isInitial (<unk>) (abbr np) TARGET (<unk>) IF (1C ("." fxq) - Sentence)
-REMCOHORT:[H][Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 (abbr np) )
+#SUBSTITUTE:[H][Mod]Theres_aDot_isInitial (<unk>) (abbr np) TARGET (<unk>) IF (1C ("." fxq) - Sentence)
+#REMCOHORT:[H][Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 (abbr np) )
 
 # Analyser error. Sometimes there's a non-clitic with <dat> without <loc>
-#ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
+##ADD:[Mod]MissingLocative Locative TARGET Nomen + Dative
 #	(NOT 0 Clitic) (NOT 0 Locative)
 
 #=============================================================================================================#
@@ -316,39 +317,39 @@ REMCOHORT:[H][Mod]killDot TARGET (".") IF (0 (fxq) - Sentence) (-1 (abbr np) )
 #=============================================================================================================#
 
 # NumPhrase Preposition Marking:
-ADD:Direct (@NumPhPr) TARGET Preposition - (@NumPhPr) IF (1C CardNum)
+ADD:Direct (@NumPhPr) TARGET Preposition - (@NumPhPr) IF (1C CardNum) ;
 ADD:LongDist (@NumPhPr) TARGET Preposition IF (1*C CardNum CBARRIER Clause-Boundary OR WordMark - Modifier ) (NOT 0 (@NumPhPr))
-		(NOT 1C Case-G); # Unless there is an unambiguous non-genitive reading right next to the right
+		(NOT 1C Case-G) ; # Unless there is an unambiguous non-genitive reading right next to the right
 
 # Determine whether it's a plural or dual number phrase preposition
-ADD:DualNumPhrase (@Dual) TARGET (@NumPhPr) IF (1*C CardNum + DualNum CBARRIER Clause-Boundary OR WordMark - Modifier) (NOT 0 (@Dual)) 
-ADD:PluralNumPhrase (@Plural) TARGET (@NumPhPr) IF (1*C CardNum + PluralNum CBARRIER Clause-Boundary OR WordMark - Modifier) (NOT 0 (@Plural)) 
+ADD:DualNumPhrase (@Dual) TARGET (@NumPhPr) IF (1*C CardNum + DualNum CBARRIER Clause-Boundary OR WordMark - Modifier) (NOT 0 (@Dual))  ;
+ADD:PluralNumPhrase (@Plural) TARGET (@NumPhPr) IF (1*C CardNum + PluralNum CBARRIER Clause-Boundary OR WordMark - Modifier) (NOT 0 (@Plural))  ;
 
 # NumPhrase Constituents Marking:
-ADD:ItsANumber (@NumPhC) TARGET CardNum - (@NumPhC)
-ADD:Direct_FromPr KeepOrder (@NumPhC) TARGET Nomen - (@NumPhC) IF (-1 (@NumPhPr) )
-ADD:Direct_FromNumLeft KeepOrder (@NumPhC) TARGET Nomen + Genitive - (@NumPhC) IF (-1 CardNum - Case)
-ADD:Direct_FromNumLeft KeepOrder (@NumPhC) TARGET Nomen + $$Case - (@NumPhC) IF (-1 CardNum + $$Case)
-ADD:Direct_FromNumRight KeepOrder (@NumPhC) TARGET Modifier + Genitive - (@NumPhC) IF (1 CardNum - Case)
-ADD:Direct_FromNumRight KeepOrder (@NumPhC) TARGET Modifier + $$Case - (@NumPhC) IF (1 CardNum + $$Case)
-ADD:Direct_FromCL KeepOrder (@NumPhC) TARGET Nomen + $$Case + $$Number - (@NumPhC) IF (-1 Modifier + $$Case + $$Number + (@NumPhC))
-ADD:Direct_FromCR KeepOrder (@NumPhC) TARGET Nomen + $$Case + $$Number - (@NumPhC) IF (1 Modifier + $$Case + $$Number + (@NumPhC))
+ADD:ItsANumber (@NumPhC) TARGET CardNum - (@NumPhC) ; 
+ADD:Direct_FromPr KeepOrder (@NumPhC) TARGET Nomen - (@NumPhC) IF (-1 (@NumPhPr) ) ; 
+ADD:Direct_FromNumLeft KeepOrder (@NumPhC) TARGET Nomen + Genitive - (@NumPhC) IF (-1 CardNum - Case) ; 
+ADD:Direct_FromNumLeft KeepOrder (@NumPhC) TARGET Nomen + $$Case - (@NumPhC) IF (-1 CardNum + $$Case) ; 
+ADD:Direct_FromNumRight KeepOrder (@NumPhC) TARGET Modifier + Genitive - (@NumPhC) IF (1 CardNum - Case) ; 
+ADD:Direct_FromNumRight KeepOrder (@NumPhC) TARGET Modifier + $$Case - (@NumPhC) IF (1 CardNum + $$Case) ; 
+ADD:Direct_FromCL KeepOrder (@NumPhC) TARGET Nomen + $$Case + $$Number - (@NumPhC) IF (-1 Modifier + $$Case + $$Number + (@NumPhC)) ; 
+ADD:Direct_FromCR KeepOrder (@NumPhC) TARGET Nomen + $$Case + $$Number - (@NumPhC) IF (1 Modifier + $$Case + $$Number + (@NumPhC)) ; 
 
-ADD:Direct_FromPr KeepOrder (@Plural) TARGET Nomen + (@NumPhC) - (@Plural) IF (-1 (@NumPhPr) + (@Plural) )
-ADD:Direct_FromNumLeft KeepOrder (@Plural) TARGET Nomen + Genitive + (@NumPhC) - (@Plural) IF (-1 CardNum + PluralNum - Case)
-ADD:Direct_FromNumLeft KeepOrder (@Plural) TARGET Nomen + $$Case + (@NumPhC) - (@Plural) IF (-1 CardNum + PluralNum + $$Case)
-ADD:Direct_FromNumRight KeepOrder (@Plural) TARGET Modifier + Genitive + (@NumPhC) - (@Plural) IF (1 CardNum + PluralNum - Case)
-ADD:Direct_FromNumRight KeepOrder (@Plural) TARGET Modifier + $$Case + (@NumPhC) - (@Plural) IF (1 CardNum + PluralNum + $$Case)
-ADD:Direct_FromCL KeepOrder (@Plural) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Plural) IF (-1 Modifier + $$Case + $$Number)  (-1 (@Plural) )
-ADD:Direct_FromCR KeepOrder (@Plural) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Plural) IF (1 Modifier + $$Case + $$Number)  (1 (@Plural) )  
+ADD:Direct_FromPr KeepOrder (@Plural) TARGET Nomen + (@NumPhC) - (@Plural) IF (-1 (@NumPhPr) + (@Plural) ) ; 
+ADD:Direct_FromNumLeft KeepOrder (@Plural) TARGET Nomen + Genitive + (@NumPhC) - (@Plural) IF (-1 CardNum + PluralNum - Case) ; 
+ADD:Direct_FromNumLeft KeepOrder (@Plural) TARGET Nomen + $$Case + (@NumPhC) - (@Plural) IF (-1 CardNum + PluralNum + $$Case) ; 
+ADD:Direct_FromNumRight KeepOrder (@Plural) TARGET Modifier + Genitive + (@NumPhC) - (@Plural) IF (1 CardNum + PluralNum - Case) ; 
+ADD:Direct_FromNumRight KeepOrder (@Plural) TARGET Modifier + $$Case + (@NumPhC) - (@Plural) IF (1 CardNum + PluralNum + $$Case) ; 
+ADD:Direct_FromCL KeepOrder (@Plural) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Plural) IF (-1 Modifier + $$Case + $$Number)  (-1 (@Plural) ) ; 
+ADD:Direct_FromCR KeepOrder (@Plural) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Plural) IF (1 Modifier + $$Case + $$Number)  (1 (@Plural) )   ; 
 
-ADD:Direct_FromPr KeepOrder (@Dual) TARGET Nomen + (@NumPhC) - (@Dual) IF (-1 (@NumPhPr) + (@Dual) )
-ADD:Direct_FromNumLeft KeepOrder (@Dual) TARGET Nomen + Genitive + (@NumPhC) - (@Dual) IF (-1 CardNum + DualNum - Case)
-ADD:Direct_FromNumLeft KeepOrder (@Dual) TARGET Nomen + $$Case + (@NumPhC) - (@Dual) IF (-1 CardNum + DualNum + $$Case)
-ADD:Direct_FromNumRight KeepOrder (@Dual) TARGET Modifier + Genitive + (@NumPhC) - (@Dual) IF (1 CardNum + DualNum - Case)
-ADD:Direct_FromNumRight KeepOrder (@Dual) TARGET Modifier + $$Case + (@NumPhC) - (@Dual) IF (1 CardNum + DualNum + $$Case)
-ADD:Direct_FromCL KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (-1 Modifier + $$Case + $$Number)  (-1 (@Dual) )
-ADD:Direct_FromCR KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (1 Modifier + $$Case + $$Number)  (1 (@Dual) )  
+ADD:Direct_FromPr KeepOrder (@Dual) TARGET Nomen + (@NumPhC) - (@Dual) IF (-1 (@NumPhPr) + (@Dual) ) ; 
+ADD:Direct_FromNumLeft KeepOrder (@Dual) TARGET Nomen + Genitive + (@NumPhC) - (@Dual) IF (-1 CardNum + DualNum - Case) ; 
+ADD:Direct_FromNumLeft KeepOrder (@Dual) TARGET Nomen + $$Case + (@NumPhC) - (@Dual) IF (-1 CardNum + DualNum + $$Case) ; 
+ADD:Direct_FromNumRight KeepOrder (@Dual) TARGET Modifier + Genitive + (@NumPhC) - (@Dual) IF (1 CardNum + DualNum - Case) ; 
+ADD:Direct_FromNumRight KeepOrder (@Dual) TARGET Modifier + $$Case + (@NumPhC) - (@Dual) IF (1 CardNum + DualNum + $$Case) ; 
+ADD:Direct_FromCL KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (-1 Modifier + $$Case + $$Number)  (-1 (@Dual) ) ; 
+ADD:Direct_FromCR KeepOrder (@Dual) TARGET Nomen + $$Case + $$Number + (@NumPhC) - (@Dual) IF (1 Modifier + $$Case + $$Number)  (1 (@Dual) )   ; 
 
 # For the fromNoun_Direct rules
 # @N→ - the reading can modify a noun right next to it
@@ -362,15 +363,15 @@ ADD:@cltN→ KeepOrder (@cltN→) Target Modifier + $$Gender + $$Number + $$Case
 # For the fromModifier_Direct rules:
 ADD:Mod→Num KeepOrder (@Mod→) TARGET Modifier + Genitive IF (1 CardNum) (NOT 0 (@Mod→));
 ADD:cltMod→Num KeepOrder (@cltMod→) TARGET Modifier + Genitive IF (2 CardNum) (1 Clitic)
-		      (NOT 0 (@cltMod→))
+		      (NOT 0 (@cltMod→)) ;
 ADD:Mod→Num KeepOrder	(@Mod→)	TARGET Modifier + Genitive IF (1 CardNum) (0 Adjective + Indefinite) 
-			 (NOT 0 (@Mod→))
+			 (NOT 0 (@Mod→)) ;
 ADD:cltMod→Num KeepOrder (@cltMod→) TARGET Modifier + Genitive IF (2 CardNum) (0 Adjective + Indefinite) (1 Clitic)
-		      (NOT 0 (@cltMod→))
+		      (NOT 0 (@cltMod→)) ;
 ADD:Mod→Mod KeepOrder	(@Mod→)	TARGET Modifier + $$Gender + $$Number + $$Case IF (1 Modifier + $$Gender + $$Number + $$Case ) 
-			 (NOT 0 (@Mod→))
+			 (NOT 0 (@Mod→)) ;
 ADD:cltMod→Mod KeepOrder (@cltMod→) TARGET Modifier + $$Gender + $$Number + $$Case IF (2 Modifier + $$Gender + $$Number + $$Case ) (1 Clitic)
-		      (NOT 0 (@cltMod→)) (NOT -1 Nomen + $$Gender + $$Number + $$Case )
+		      (NOT 0 (@cltMod→)) (NOT -1 Nomen + $$Gender + $$Number + $$Case ) ;
 
 
 SECTION
@@ -610,9 +611,10 @@ REMOVE:IsVocative! Case - Vocative
 
 REMOVE:NotVocative Vocative
 	(-1 Cm OR BOS)
-	(NOT 1* Mark - (".") CBARRIER Word - Nomen or Nomen - Vocative)
+	(NOT 1* Mark - (".") CBARRIER Word - Nomen or Nomen - Vocative) ;
+
 REMOVE:NotVocative Vocative
-	(NOT -1 Cm OR BOS or Particle)
+	(NOT -1 Cm OR BOS or Particle) ;
 
 
 # Prepositionless Case disambiguation:
@@ -622,19 +624,19 @@ REMOVE:NoPreposition Locative (0 Nomen + Dative) (0 Nomen + Locative)
 	(NOT -1 Modifier + Locative)
 	(NEGATE -1 Cm OR Conjunction OR Clitic LINK -1 Modifier + Locative)
 	(NEGATE -2 Preposition + Locative LINK 1 UnaryNum)
-	(NEGATE -2 Preposition + Locative LINK 1C Adverb)
+	(NEGATE -2 Preposition + Locative LINK 1C Adverb) ;
 
-# Dative / Locative to undo the possible damage done by dative/locative [Mod] rule
-SUBSTITUTE:[Mod]ThisIsLocative (dat loc) (loc) Nomen (-1 Preposition + Locative) (NEGATE -1 Preposition + Dative)
-SUBSTITUTE:[Mod]ThisIsLocative (dat loc) (loc) Nomen (-1 Modifier + Locative) (NEGATE -1 Modifier + Dative)
-SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (-1 Preposition + Dative) (NEGATE -1 Preposition + Locative)
-SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (-1 Modifier + Dative) (NEGATE -1 Modifier + Locative)
-SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (0 Nomen + Dative) (0 Nomen + Locative)
-	(NOT -1 Preposition + Locative)
-	(NOT -1 Modifier + Locative)
-	(NEGATE -1 Cm OR Conjunction OR Clitic LINK -1 Modifier + Locative)
-	(NEGATE -2 Preposition LINK 1 UnaryNum)
-	(NEGATE -2 Preposition + Locative LINK 1C Adverb)
+## Dative / Locative to undo the possible damage done by dative/locative [Mod] rule
+#SUBSTITUTE:[Mod]ThisIsLocative (dat loc) (loc) Nomen (-1 Preposition + Locative) (NEGATE -1 Preposition + Dative)
+#SUBSTITUTE:[Mod]ThisIsLocative (dat loc) (loc) Nomen (-1 Modifier + Locative) (NEGATE -1 Modifier + Dative)
+#SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (-1 Preposition + Dative) (NEGATE -1 Preposition + Locative)
+#SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (-1 Modifier + Dative) (NEGATE -1 Modifier + Locative)
+#SUBSTITUTE:[Mod]ThisIsDative (dat loc) (dat) Nomen (0 Nomen + Dative) (0 Nomen + Locative)
+#	(NOT -1 Preposition + Locative)
+#	(NOT -1 Modifier + Locative)
+#	(NEGATE -1 Cm OR Conjunction OR Clitic LINK -1 Modifier + Locative)
+#	(NEGATE -2 Preposition LINK 1 UnaryNum)
+#	(NEGATE -2 Preposition + Locative LINK 1C Adverb)
 
 #-------------------------------------------------------------------------------------------------------------#
 # Disambiguation for verbs:
