@@ -51,8 +51,9 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
+LIST N = n ;
 LIST Noun = n np ;
-LIST NounProper = np ;
+LIST Prop = np ;
 LIST NounCommon = n ;
 LIST Adj = adj ;
 LIST Verb = vblex vbcop vbaux vbhaver vbmod ;
@@ -113,7 +114,6 @@ LIST Plural = pl ;
 
 LIST Antroponym = ant ;
 LIST Cogname = cog ;
-LIST ProperNoun = np ;
 
 # Words that have Gender, Number and Case:
 LIST Nomen = cog n np prn adj num;
@@ -153,6 +153,15 @@ LIST RelativePronoun = "tko"i "što"i "koji"i "kakav"i "čiji"i ;
 
 LIST Sentence = sent ;
 
+LIST Title = ("<[А-ЯA-Z][а-яa-z]+>"r) ;
+LIST Majusc = ("<[А-ЯA-Z]+>"r) ;
+LIST Minusc = ("<[а-яa-z]+>"r) ;
+
+LIST DicTitle = ("[А-ЯA-Z][а-яa-z]+"r) ;
+LIST DicMajusc = ("[А-ЯA-Z]+"r) ;
+LIST DicMinusc = ("[а-яa-z]+"r) ;
+
+
 #===========================================================================#
 
 #SET V-FIN = FIN-TEMPS + V ;
@@ -188,7 +197,7 @@ SET NOT-NP-MEMBER = WordMark - NP-MEMBER ;
 SET NOT-PP-MEMBER = WordMark - PP-MEMBER ;
 
 # Categories which can be the head of a noun phrase
-SET NP-HEAD = Noun | Pronoun | ProperNoun ;
+SET NP-HEAD = Noun | Pronoun | Prop ;
 
 SET Clause-Boundary = CS | Noun + Vocative | EOS | BOS | Cm ;
 
@@ -292,15 +301,15 @@ BEFORE-SECTIONS
 
 # Everything inside a sentence beginning with a capital letter is a proper noun.
 # Naive, so it's a heuristic:	
-#SUBSTITUTE:[H][Mod]ProperNoun $$Nomen $$Nomen + (np) TARGET ("<[A-ZČĆŽŠĐ].*>"r) + $$Nomen
+#SUBSTITUTE:[H][Mod]Prop $$Nomen $$Nomen + (np) TARGET ("<[A-ZČĆŽŠĐ].*>"r) + $$Nomen
 #		(0 Noun OR Adjective)
 #		(NOT -1 BOS) (NEGATE -1 Mark LINK -1 BOS)
-#		(NOT 0 ProperNoun)
+#		(NOT 0 Prop)
 #		(NOT 0 Pronoun)			
 
 # Very heuristic, an adjective with a np is suddenly just a noun
 # Unless it modifies another noun
-#SUBSTITUTE:[H][Mod]NpAdj_isAdj (adj np) (np) TARGET Adjective + ProperNoun + $$Gender + $$Number + $$Case
+#SUBSTITUTE:[H][Mod]NpAdj_isAdj (adj np) (np) TARGET Adjective + Prop + $$Gender + $$Number + $$Case
 #		(NOT 1 Nomen + $$Case + $$Gender + $$Number)
 
 # Readings immediately before a non-sentence fullstop are proper nouns    
@@ -775,18 +784,18 @@ REMOVE:[H]Pronoun_afterNoun_Genitive Pronoun + Case-G (0 Pronoun) (-1 Noun) (NOT
 
 # Proper noun ambiguities:
 # A proper noun is always just a noun
-SELECT:[H]ProperNoun_isNoun Noun (0C ProperNoun)
+# SELECT:[H]Prop_isNoun Noun (0C Prop)
 # A proper does something to the noun after it?
 
 # A proper noun receives case from a noun directly preceding it "u gradu Zagrebu"
-SELECT:[H]Noun→ProperNoun $$Case (0 ProperNoun) (-1C Noun + $$Case)
-SELECT:[H]ProperNoun→ProperNoun $$Case (0 ProperNoun) (1C ProperNoun + $$Case)
-SELECT:[H]ProperNoun→ProperNoun $$Case (0 ProperNoun) (-1C ProperNoun + $$Case)
+SELECT:[H]Noun→Prop $$Case (0 Prop) (-1C Noun + $$Case)
+SELECT:[H]Prop→Prop $$Case (0 Prop) (1C Prop + $$Case)
+SELECT:[H]Prop→Prop $$Case (0 Prop) (-1C Prop + $$Case)
 # Sometimes also Gender
-SELECT:[H]Noun→ProperNoun $$Gender (0 ProperNoun) (-1 Noun + $$Gender)
+SELECT:[H]Noun→Prop $$Gender (0 Prop) (-1 Noun + $$Gender)
 
 # Proper nouns are mostly singular, in the development corpus:
-REMOVE:[H]ProperNoun_isSingular ProperNoun + Plural
+REMOVE:[H]Prop_isSingular Prop + Plural
 
 # Adverb or neuter adjective:
 # A neuter adjective followed by a verb is an adverb
@@ -929,5 +938,7 @@ SELECT:[H]ProšleGodine KeepOrder Noun + Genitive
 #=============================================================================================================#
 # |/Heuristic| #
 #=============================================================================================================#
+
+SELECT Prop IF (0 Prop OR N) (0C Title) (NOT -1 BOS)  ;
 
 # |/Rules| #
