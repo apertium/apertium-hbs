@@ -209,16 +209,8 @@ for i in sys.stdin:
 	if tags[-1] == u'adv':
 		if len(tags) == 1:
 			taglist+=u'Rgp'
-		elif tags[1] == u'neg':
-			if tags[2] == u'imperf':
-				taglist+=u'Rr'		
-			elif tags[2] == u'perf':
-				taglist+=u'Rs'
-		else:
-			if tags[1] == u'imperf':
-				taglist+=u'Rr'		
-			elif tags[1] == u'perf':
-				taglist+=u'Rs'
+		elif tags[-2]=='pprs':
+			taglist+='Rr'
 		end()
 		continue
         #what about adverbs having additional tags? comp sup etc.
@@ -228,7 +220,9 @@ for i in sys.stdin:
 		elif tags[1]=='sup':
 			taglist+='Rgs'
 		else:
-			taglist+='Rgp' #tu treba još apsolutni superlativ
+			taglist+='Rgp' #tu treba još apsolutni superlativ # as written below?
+			if tags[1]==u'ssup' and lf[:3]!=u'pre':
+			  lf='pre'+lf
 		end()
 		continue
 	
@@ -315,6 +309,8 @@ for i in sys.stdin:
 					transitivity+=check_transitivity(tags[2])
 				except:
 					pass
+		elif tags[3]=='pprs': #<vblex><imperf><tv><pprs><adv>
+		  taglist+='Rr'
 		else:
 			taglist+=u'Vm'
 			if lf == u'nemati':
@@ -615,7 +611,7 @@ for i in sys.stdin:
 		taglist+=u'M'
 		if len(tags) == 1:
 			if lf[-1].lower() in u'ivx':
-				taglist+=u'r'
+				taglist+=u'rc'
 			else:
 				taglist+=is_number(sf)			
 		elif len(tags)==2:
