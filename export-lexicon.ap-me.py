@@ -854,8 +854,14 @@ for lema in lexiconout:
 #print lexiconin
 #print lexiconout
 sys.stderr.write(datetime.now().isoformat()+' started output\n')
-sys.stdout.write('s\tsa\tSg\n')
-sys.stdout.write('s\tsa\tSl\n')
+sys.stdout.write('.\t.\tZ\n')
+sys.stdout.write('"\t"\tZ\n')
+sys.stdout.write('(\t(\tZ\n')
+sys.stdout.write(')\t)\tZ\n')
+sys.stdout.write('?\t?\tZ\n')
+sys.stdout.write('!\t!\tZ\n')
+sys.stdout.write(':\t:\tZ\n')
+sys.stdout.write(';\t;\tZ\n')
 
 for lf in lexiconout:
 	for sf in lexiconout[lf]:
