@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="hbs-morph">
+  <mode name="hbs-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="hbs.automorf.bin"/>
@@ -9,7 +9,7 @@
     </pipeline>
   </mode>
 
-  <mode name="hbs_BS-gener">
+  <mode name="hbs_BS-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="hbs_BS.autogen.bin"/>
@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="hbs_HR-gener">
+  <mode name="hbs_HR-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="hbs_HR.autogen.bin"/>
@@ -25,7 +25,7 @@
     </pipeline>
   </mode>
 
-  <mode name="hbs_SR-gener">
+  <mode name="hbs_SR-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="hbs_SR.autogen.bin"/>
@@ -35,7 +35,7 @@
 
 
 
-  <mode name="hbs-disam">
+  <mode name="hbs-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="hbs.automorf.bin"/>
