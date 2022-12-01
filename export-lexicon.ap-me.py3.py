@@ -6,8 +6,8 @@ import codecs
 import re
 from datetime import datetime
 
-sys.stdin = codecs.getreader('utf-8')(sys.stdin)
-sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+#sys.stdin.reconfigure(encoding='utf-8')
+#sys.stdout.reconfigure(encoding='utf-8')
 
 def case(s):
 	if s == u'nom':
@@ -122,8 +122,8 @@ for i in sys.stdin:
 		tags = re.split(u'<|>',fields[2])[1:]
 	while u'' in tags:
 		tags.remove(u'')
-        if c%100000==0:
-                sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
+	if c%100000==0:
+		sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
 	#print sf,lf,tags
 	apertium_tag=tags
 #sys.exit()
@@ -387,7 +387,7 @@ for i in sys.stdin:
 					try:
 						taglist+=gender(tags[4])
 					except:
-						print sf,tags
+						print(sf,tags)
 						sys.exit()
 				try:
 					transitivity+=check_transitivity(tags[2])
@@ -395,23 +395,23 @@ for i in sys.stdin:
 					pass
 	elif tags[0] == u'vbmod' or tags[0] == u'vbser':
 		if tags[1]=='clt':
-                        del tags[1]
-                        taglist+=u'Va'
-                else:
-                        if tags[0]=='vbser':
-                          taglist+='Va'
-                        else:
-                          taglist+='Vm'
+			del tags[1]
+			taglist+=u'Va'
+		else:
+			if tags[0]=='vbser':
+				taglist+='Va'
+			else:
+				taglist+='Vm'
 		if tags[1]==u'inf':#bićeš:biti<vbser><inf>+hteti<vbmod><clt><futI><p2><sg>
-                        if len(tags)>3:
+			if len(tags)>3:
 				if tags[2]=='+hteti':
 					taglist+='f'
 					taglist+=person(tags[6])
 					taglist+=number(tags[7])
-                                else:
+				else:
 					continue
-                        else:
-			        taglist+=u'n'
+			else:
+				taglist+=u'n'
 		elif tags[1]==u'imp':
 			taglist+=u'm'
 			taglist+=person(tags[2])
@@ -420,14 +420,14 @@ for i in sys.stdin:
 			taglist+=u'r'
 			taglist+=person(tags[2])
 			taglist+=number(tags[3])
-                elif tags[1]=='futII' and tags[2]=='pres':
-                        taglist+=u'r'
-                        taglist+=person(tags[3])
-                        taglist+=number(tags[4])
+		elif tags[1]=='futII' and tags[2]=='pres':
+			taglist+=u'r'
+			taglist+=person(tags[3])
+			taglist+=number(tags[4])
 		elif tags[1]=='futI':
-		        taglist+='r'
-		        taglist+=person(tags[2])
-		        taglist+=number(tags[3])
+			taglist+='r'
+			taglist+=person(tags[2])
+			taglist+=number(tags[3])
 		elif tags[1]==u'pii':
 			taglist+=u'e'
 			taglist+=person(tags[2])
@@ -623,11 +623,11 @@ for i in sys.stdin:
 			else:
 				taglist+=is_number(sf)			
 		elif len(tags)==2:
-		  taglist+=is_number(sf)
-		  if tags[1]=='coll':
-		    taglist+='s'
-                  else:
-                    taglist+='c'
+			taglist+=is_number(sf)
+			if tags[1]=='coll':
+				taglist+='s'
+			else:
+				taglist+='c'
 		else:
 			taglist+=is_number(sf)
 			if tags[1] == u'ord':
@@ -643,21 +643,21 @@ for i in sys.stdin:
 							taglist+=u'n'												
 			elif tags[1] != u'ord' and tags[1] != u'coll':#cardinal
 				if len(tags)==4:
-				  taglist+=u'c'
-	  			  if tags[1]=='mfn':
-	  			    taglist+='-'
-                                  else:
-                                    taglist+=gender(tags[1])
-	  			  if tags[2]=='sp':
-	  			    taglist+='-'
-                                  else:
-                                    taglist+=number(tags[2])
-                                  taglist+=case(tags[3])
-                                  if tags[3] == u'acc' and tags[2] == u'sg':
-				    if tags[1] == u'ma':
-				      taglist+=u'y'
-				    elif tags[1] == u'mi':
-                                      taglist+=u'n'	
+					taglist+=u'c'
+					if tags[1]=='mfn':
+						taglist+='-'
+					else:
+						taglist+=gender(tags[1])
+					if tags[2]=='sp':
+						taglist+='-'
+					else:
+						taglist+=number(tags[2])
+					taglist+=case(tags[3])
+					if tags[3] == u'acc' and tags[2] == u'sg':
+						if tags[1] == u'ma':
+							taglist+=u'y'
+						elif tags[1] == u'mi':
+							taglist+=u'n'	
                                 #else:
                                 #  continue
 			elif tags[1] == u'coll':
@@ -755,8 +755,8 @@ for lema in lexiconin:
 						taglist+=u'y'
 					elif tags[-1] == u'ind':
 						taglist+=u'n'
-                                        else:
-                                                taglist+='y'
+					else:
+						taglist+='y'
 					#if tags [5] ==	u'def>' or u'indef>' videt kaj tu s definitessom tipa povući pickle leksikon i videt za taj surface form kakvo je stanje s definitessom i ako hm... ako ima i indefinite i definite onda staviti definite, a ako ima samo jedno od toga onda staviti to
 					#znači niš, moram na kraj s tim, ne? ako je (.+)(y|n)* > \1(y|n)\2
 					#dok gledamo pridjeve, znači prvi tag je adj [tagovi međusobno različiti]
