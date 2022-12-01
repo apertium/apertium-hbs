@@ -6,14 +6,14 @@ import codecs
 import re
 from datetime import datetime
 
-sys.stdin = codecs.getreader('utf-8')(sys.stdin)
-sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+sys.stdin.reconfigure(encoding='utf-8')
+sys.stdout.reconfigure(encoding='utf-8')
 
 def case(s):
 	if s == u'nom':
 		return u'n'
 	elif s == u'gen':
-		return u'g'		
+		return u'g'
 	elif s == u'dat':
 		return u'd'
 	elif s == u'acc':
@@ -46,7 +46,7 @@ def gender(s):
 		return u'-'
 	else:
 		return False
-				
+
 def person(s):
 	if s == u'p1':
 		return u'1'
@@ -56,23 +56,23 @@ def person(s):
 		return u'3'
 	else:
 		return False
-		
+
 def is_number(s):
-    try:
-        float(s)
-        return u'd'
-    except ValueError:
-        return u'l'
-        
+	try:
+		float(s)
+		return u'd'
+	except ValueError:
+		return u'l'
+
 def check_transitivity(s):
 	if s == u'tv':
 		return u't'
 	elif s == u'iv':
 		return u'i'
 	else:
-		return False        
-        
-def end():		
+		return False
+
+def end():
 	if lf not in lexiconout:
 		if tags[0] != u'adj' or (tags[0] != u'n' and len(tags) < 6) or (tags[0] != u'np' and len(tags) < 6):
 			lexiconout[lf]={sf:set([taglist])}
@@ -94,7 +94,7 @@ def end():
 				lexiconout[lf][sf].add(taglist2)
 				lexiconout[lf][sf].add(taglist3)
 				lexiconout[lf][sf].add(taglist4)
-		
+
 lexiconin={}
 lexiconout={}
 adjout=set()
@@ -102,14 +102,14 @@ trans_hash={}
 #bejsikli - {lema: {sf: tags}} i onda if (sf, tags) not in lema dodaj, if in lema continue
 
 c=0
-		
+
 for i in sys.stdin:
 	c+=1
 	fields = i.replace('~','').strip().split(u':') #removing post-generator flag as well
 	#if fields[1] == u'>':
 	#	continue
 	if i.startswith('__REGEXP__'):
-	  continue
+		continue
 	sf = fields[0]
 	if len(sf.split(u' '))>1:
 		#vidjet kaj s multiword expressionima - niš
@@ -122,8 +122,8 @@ for i in sys.stdin:
 		tags = re.split(u'<|>',fields[2])[1:]
 	while u'' in tags:
 		tags.remove(u'')
-        if c%100000==0:
-                sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
+		if c%100000==0:
+			sys.stderr.write(datetime.now().isoformat()+' read '+str(c)+'\n')
 	#print sf,lf,tags
 	apertium_tag=tags
 #sys.exit()
@@ -142,26 +142,26 @@ for i in sys.stdin:
 	taglist2 = u'' #these extra three are for <mfn> gender
 	taglist3 = u''
 	taglist4 = u''
-	
+
 	transitivity = u''
-	
+
 	# punctuation tags
 	if tags[0] in [u'sent', u'cm', u'apos', u'guio', u'lpar', u'rpar']:
 		taglist+=u'Z'
 		#isprintaj samo Z i idi dalje
 		end()
 		continue
-	
+
 	#interjection tags
 	if tags[0] == u'ij':
 		taglist+=u'I'
 		end()
-		continue	
-			
+		continue
+
 	#particle tags
 	if tags[0] == u'part':
 		if len(tags)>5:
-        #print tags
+			#print tags
 			if tags[3]=='vbser':#Var3s-y
 				taglist+='Var'
 				taglist+=person(tags[6])
@@ -204,7 +204,7 @@ for i in sys.stdin:
 					taglist+='o'
 		end()
 		continue
-	
+
 	#adverb tag
 	if tags[-1] == u'adv':
 		if len(tags) == 1:
@@ -213,7 +213,7 @@ for i in sys.stdin:
 			taglist+='Rr'
 		end()
 		continue
-        #what about adverbs having additional tags? comp sup etc.
+		#what about adverbs having additional tags? comp sup etc.
 	if tags[0]=='adv':
 		if tags[1]=='comp':
 			taglist+='Rgc'
@@ -222,16 +222,16 @@ for i in sys.stdin:
 		else:
 			taglist+='Rgp' #tu treba još apsolutni superlativ # as written below?
 			if tags[1]==u'ssup' and lf[:3]!=u'pre':
-			  lf='pre'+lf
+				lf='pre'+lf
 		end()
 		continue
-	
+
 	#common noun tags
 	if tags[0] == u'n' and len (tags) < 6:
 		if lf[0].lower()!=lf[0]:
-		  taglist+=u'Np'
+			taglist+=u'Np'
 		else:
-		  taglist+=u'Nc'
+			taglist+=u'Nc'
 		taglist+=gender(tags[1])
 		taglist+=number(tags[2])
 		taglist+=case(tags[3])
@@ -240,7 +240,7 @@ for i in sys.stdin:
 				taglist+=u'y'
 			elif tags[1] == u'mi':
 				taglist+=u'n'
-	#proper noun tags		
+	#proper noun tags
 	elif tags[0] == u'np' and len (tags) < 6:
 		taglist+=u'Np'
 		taglist+=gender(tags[2])
@@ -273,7 +273,7 @@ for i in sys.stdin:
 				taglist+=u'n'
 			end()
 			continue
-		#possessive		
+		#possessive
 		elif len(tags) > 3:
 			taglist+=u'Asp'
 			taglist+=gender(tags[3])
@@ -283,8 +283,8 @@ for i in sys.stdin:
 				if tags[3] == u'ma':
 					taglist+=u'y'
 				elif tags[3] == u'mi':
-					taglist+=u'n'							
-	
+					taglist+=u'n'
+
 	#verb tags
 	if tags[0] == u'vblex' or tags[0] == u'vbhaver':
 		if tags[3]==u'pp': #<vblex><perf><tv><pp><ma><sg><nom><ind>
@@ -297,9 +297,9 @@ for i in sys.stdin:
 					taglist+=number(tags[5])
 				taglist+=case(tags[6])
 				if tags[-1]=='def':
-				  taglist+='y'
+					taglist+='y'
 				else:
-				  taglist+='n'				
+					taglist+='n'
 				if tags[6] == u'acc' and tags[5] == u'sg':
 					if tags[4] == u'ma':
 						taglist+=u'y'
@@ -310,7 +310,7 @@ for i in sys.stdin:
 				except:
 					pass
 		elif tags[3]=='pprs': #<vblex><imperf><tv><pprs><adv>
-		  taglist+='Rr'
+			taglist+='Rr'
 		else:
 			taglist+=u'Vm'
 			if lf == u'nemati':
@@ -345,12 +345,12 @@ for i in sys.stdin:
 					else:
 						taglist+=number(tags[5])
 					taglist+=gender(tags[4])
-					#taglist+=u'y'	
+					#taglist+=u'y'
 				try:
 					transitivity+=check_transitivity(tags[2])
 				except:
-					pass		
-			else:	
+					pass
+			else:
 				if tags[3]==u'inf':#<vblex><imperf><iv><inf>+hteti<vbmod><clt><futI><p1><sg>
 					if len(tags)>4:
 						if tags[4]=='+hteti':
@@ -360,7 +360,7 @@ for i in sys.stdin:
 						else:
 							continue
 					else:
-					  taglist+=u'n'
+						taglist+=u'n'
 				elif tags[3]==u'imp':
 					taglist+=u'm'
 					taglist+=person(tags[4])
@@ -420,14 +420,14 @@ for i in sys.stdin:
 			taglist+=u'r'
 			taglist+=person(tags[2])
 			taglist+=number(tags[3])
-                elif tags[1]=='futII' and tags[2]=='pres':
-                        taglist+=u'r'
-                        taglist+=person(tags[3])
-                        taglist+=number(tags[4])
+				elif tags[1]=='futII' and tags[2]=='pres':
+					taglist+=u'r'
+					taglist+=person(tags[3])
+					taglist+=number(tags[4])
 		elif tags[1]=='futI':
-		        taglist+='r'
-		        taglist+=person(tags[2])
-		        taglist+=number(tags[3])
+			taglist+='r'
+			taglist+=person(tags[2])
+			taglist+=number(tags[3])
 		elif tags[1]==u'pii':
 			taglist+=u'e'
 			taglist+=person(tags[2])
@@ -450,8 +450,8 @@ for i in sys.stdin:
 			pass
 	elif tags[0] == u'part' and tags[4] == u'clt':
 		taglist+=u'Var'
-		taglist+=person(tags[-2]) 
-		taglist+=number(tags[-1])	
+		taglist+=person(tags[-2])
+		taglist+=number(tags[-1])
 		taglist+=u'y'
 		try:
 			transitivity+=check_transitivity(tags[2])
@@ -478,19 +478,19 @@ for i in sys.stdin:
 				if tags[3] == u'ma':
 					taglist+=u'y'
 				elif tags[3] == u'mi':
-					taglist+=u'n'	
+					taglist+=u'n'
 		elif tags[1] == u'dem':
 			taglist+=u'd'
 			taglist+=u'-'
 			taglist+=gender(tags[2])
 			taglist+=number(tags[3])
-			taglist+=case(tags[4])		
+			taglist+=case(tags[4])
 			#taglist+=u'--n-a'
 			if tags[4] == u'acc' and tags[3] == u'sg':
 				if tags[2] == u'ma':
 					taglist+=u'y'
 				elif tags[2] == u'mi':
-					taglist+=u'n'	
+					taglist+=u'n'
 		elif tags[1] == u'pos':
 			taglist+=u's'
 			taglist+=person(tags[2])
@@ -509,42 +509,42 @@ for i in sys.stdin:
 				if tags[3] == u'ma':
 					taglist+=u'y'
 				elif tags[3] == u'mi':
-					taglist+=u'n'				
+					taglist+=u'n'
 		elif tags[1] == u'ref':
 			taglist+=u'x'
 			taglist+=u'-'
 			if u'clt' not in tags:
 				taglist+=gender(tags[3])
 				taglist+=number(tags[4])
-				taglist+=case(tags[5])	
+				taglist+=case(tags[5])
 				"""if lf == u'sebe':
 					if len(sf) == 2:
 						taglist+=u'--ypn'
 					else:
 						taglist+=u'--npn'
 				else:
-					taglist+=u'--nsa'"""			
+					taglist+=u'--nsa'"""
 				if tags[5] == u'acc' and tags[4] == u'sg':
 					if tags[3] == u'ma':
 						taglist+=u'y'
 					elif tags[3] == u'mi':
-						taglist+=u'n'								
+						taglist+=u'n'
 			elif u'clt' in tags:
 				taglist+=gender(tags[4])
 				taglist+=number(tags[5])
-				taglist+=case(tags[6])	
+				taglist+=case(tags[6])
 				"""if lf == u'sebe':
 					if len(sf) == 2:
 						taglist+=u'--ypn'
 					else:
 						taglist+=u'--npn'
 				else:
-					taglist+=u'--nsa'"""			
+					taglist+=u'--nsa'"""
 				if tags[6] == u'acc' and tags[5] == u'sg':
 					if tags[3] == u'ma':
 						taglist+=u'y'
 					elif tags[3] == u'mi':
-						taglist+=u'n'	
+						taglist+=u'n'
 		elif tags[1] == u'itg':
 			taglist+=u'q'
 			if len(tags) > 2:
@@ -581,16 +581,16 @@ for i in sys.stdin:
 							taglist+=u'm'+number(tags[3])+case(tags[4])+u'y'
 							taglist4+=u'Pi-m'+number(tags[3])+case(tags[4])+u'n'
 						else:
-							taglist+=u'm'+number(tags[3])+case(tags[4])	
-							taglist4+=u'Pi-m'+number(tags[3])+case(tags[4])	
-						taglist2+=u'Pi-f'+number(tags[3])+case(tags[4])			
-						taglist3+=u'Pi-n'+number(tags[3])+case(tags[4])			
+							taglist+=u'm'+number(tags[3])+case(tags[4])
+							taglist4+=u'Pi-m'+number(tags[3])+case(tags[4])
+						taglist2+=u'Pi-f'+number(tags[3])+case(tags[4])
+						taglist3+=u'Pi-n'+number(tags[3])+case(tags[4])
 					else:
 						taglist+=gender(tags[2])
 						taglist+=number(tags[3])
 						taglist+=case(tags[4])
 						#taglist+=u'----a'
-				else:	
+				else:
 					taglist+=u'-'+gender(tags[2])
 					taglist+=number(tags[3])
 					taglist+=case(tags[4])
@@ -601,19 +601,19 @@ for i in sys.stdin:
 						elif tags[2] == u'mi':
 							taglist+=u'n'
 			else:
-				taglist+=u'---'			
-	
+				taglist+=u'---'
+
 	#preposition tags
 	if tags[0] == u'pr':
 		taglist+=u'S'
 		taglist+=case(tags[1])
-	
+
 	#conjunction tags
 	if tags[0] == u'cnjcoo':
 		taglist+=u'Cc'
 	elif tags[0] == u'cnjsub':
 		taglist+=u'Cs'
-	
+
 	#numeral tags
 	if tags[0] == u'num':
 		taglist+=u'M'
@@ -621,13 +621,13 @@ for i in sys.stdin:
 			if lf[-1].lower() in u'ivx':
 				taglist+=u'rc'
 			else:
-				taglist+=is_number(sf)			
+				taglist+=is_number(sf)
 		elif len(tags)==2:
-		  taglist+=is_number(sf)
-		  if tags[1]=='coll':
-		    taglist+='s'
-                  else:
-                    taglist+='c'
+			taglist+=is_number(sf)
+			if tags[1]=='coll':
+		 		taglist+='s'
+			else:
+				taglist+='c'
 		else:
 			taglist+=is_number(sf)
 			if tags[1] == u'ord':
@@ -640,7 +640,7 @@ for i in sys.stdin:
 						if tags[2] == u'ma':
 							taglist+=u'y'
 						elif tags[2] == u'mi':
-							taglist+=u'n'												
+							taglist+=u'n'
 			elif tags[1] != u'ord' and tags[1] != u'coll':#cardinal
 				if len(tags)==4:
 				  taglist+=u'c'
@@ -657,7 +657,7 @@ for i in sys.stdin:
 				    if tags[1] == u'ma':
 				      taglist+=u'y'
 				    elif tags[1] == u'mi':
-                                      taglist+=u'n'	
+                                      taglist+=u'n'
                                 #else:
                                 #  continue
 			elif tags[1] == u'coll':
@@ -669,8 +669,8 @@ for i in sys.stdin:
 					if tags[2] == u'ma':
 						taglist+=u'y'
 					elif tags[2] == u'mi':
-						taglist+=u'n'	
-	
+						taglist+=u'n'
+
 	if tags[0] in [u'ma',u'mi',u'f',u'nt']:
 		taglist+=u'Agp'
 		taglist+=gender(tags[0])
@@ -683,7 +683,7 @@ for i in sys.stdin:
 			if (lf,sf,taglist) not in trans_hash:
 				trans_hash[(lf,sf,taglist)]=set(transitivity)
 			elif (lf,sf,taglist) in trans_hash:
-				trans_hash[(lf,sf,taglist)].add(transitivity)	
+				trans_hash[(lf,sf,taglist)].add(transitivity)
 
 	end()
 
@@ -692,9 +692,9 @@ sys.stderr.write(datetime.now().isoformat()+' read all\n')
 #print lexiconin
 #print lexiconout
 """
-sys.stderr.write(datetime.now().isoformat()+' preprocessing adjective definiteness\n')	
+sys.stderr.write(datetime.now().isoformat()+' preprocessing adjective definiteness\n')
 #preprocessing adjective tags for definiteness
-#this is magic beyond my capabilities of understanding, plain simple solution below 
+#this is magic beyond my capabilities of understanding, plain simple solution below
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
 		for listtags in lexiconin[lema][surface]:
@@ -709,8 +709,8 @@ for lema in lexiconin:
 						lexiconin[lema][surface][lexiconin[lema][surface].index(listtags2)].remove(u'def')
 						lexiconin[lema][surface][lexiconin[lema][surface].index(listtags)].remove(u'ind')
 					except:
-						break			
-		
+						break
+
 """
 sys.stderr.write(datetime.now().isoformat()+' mapping adjective tags\n')
 #mapping adjective tags
@@ -718,14 +718,14 @@ sys.stderr.write(datetime.now().isoformat()+' mapping adjective tags\n')
 #identical and all tags are identical, but the definiteness, changed tag lists to tag sets
 for lema in lexiconin:
 	for surface in lexiconin[lema]:
-	        #for tags in list(lexiconin[lema][surface]):
-	        #  if tags[-1]=='ind' and tags[:-1]+('def',) in lexiconin[lema][surface]:
-	        #    print lema,surface,tags
-	        #    lexiconin[lema][surface].remove(tags)
+		#for tags in list(lexiconin[lema][surface]):
+		#	if tags[-1]=='ind' and tags[:-1]+('def',) in lexiconin[lema][surface]:
+		#		print lema,surface,tags
+		#		lexiconin[lema][surface].remove(tags)
 		for tags in lexiconin[lema][surface]:
 #			print lema,surface,tags
 			taglist=u''
-			if tags[0] == u'adj':			
+			if tags[0] == u'adj':
 				if len(tags) == 4:
 					taglist+=u'Agp'
 					taglist+=gender(tags[1])
@@ -755,12 +755,12 @@ for lema in lexiconin:
 						taglist+=u'y'
 					elif tags[-1] == u'ind':
 						taglist+=u'n'
-                                        else:
-                                                taglist+='y'
+					else:
+						taglist+='y'
 					#if tags [5] ==	u'def>' or u'indef>' videt kaj tu s definitessom tipa povući pickle leksikon i videt za taj surface form kakvo je stanje s definitessom i ako hm... ako ima i indefinite i definite onda staviti definite, a ako ima samo jedno od toga onda staviti to
 					#znači niš, moram na kraj s tim, ne? ako je (.+)(y|n)* > \1(y|n)\2
 					#dok gledamo pridjeve, znači prvi tag je adj [tagovi međusobno različiti]
-					#možda postoji par di jedino po čemu se razlikuju je zadnji tag, odnosno definiteness				
+					#možda postoji par di jedino po čemu se razlikuju je zadnji tag, odnosno definiteness
 					#
 					#for lemma in lexiconin:
 					#	for surface in lexiconin[lemma]:
@@ -773,15 +773,15 @@ for lema in lexiconin:
 					#					continue
 					#				else:
 					#					napravi novi tag valjda?
-					#				candidates.append((len(set.intersection(set(t_expanded), set(tags))),t_expanded))			
-									#AKO ISTI SURFACE FORM MOŽE BITI I DEFINITE I INDEFINITE ONDA NIŠTA; AKO JE SAMO JEDNO OD TOGA, ONDA DODAJ DEFINITENESS; meaning, ako nema intersectiona odnosno ako ima, ali u njemu definiteness nije issue, onda samo vrati tag kak je; ako 
-					
+					#				candidates.append((len(set.intersection(set(t_expanded), set(tags))),t_expanded))
+									#AKO ISTI SURFACE FORM MOŽE BITI I DEFINITE I INDEFINITE ONDA NIŠTA; AKO JE SAMO JEDNO OD TOGA, ONDA DODAJ DEFINITENESS; meaning, ako nema intersectiona odnosno ako ima, ali u njemu definiteness nije issue, onda samo vrati tag kak je; ako
+
 					if tags[4] == u'acc' and tags[3] == u'sg':
 						if tags[2] == u'ma':
 							taglist+=u'y'
 						elif tags[2] == u'mi':
 							taglist+=u'n'
-							
+
 			elif tags[0] == u'n' and len(tags) > 5:
 				taglist+=u'Asp'
 				taglist+=gender(tags[4])
@@ -790,13 +790,13 @@ for lema in lexiconin:
 				if tags[-1] == u'def':
 					taglist+=u'y'
 				elif tags[-1] == u'ind':
-					taglist+=u'n'				
+					taglist+=u'n'
 				if tags[6] == u'acc' and tags[5] == u'sg':
 					if tags[4] == u'ma':
 						taglist+=u'y'
 					elif tags[4] == u'mi':
-						taglist+=u'n'	
-			
+						taglist+=u'n'
+
 			elif tags[0] == u'np' and tags[1] != u'acr' and len(tags) > 5:
 				taglist+=u'Asp'
 				taglist+=gender(tags[5])
@@ -805,13 +805,13 @@ for lema in lexiconin:
 				if tags[-1] == u'def':
 					taglist+=u'y'
 				elif tags[-1] == u'ind':
-					taglist+=u'n'				
+					taglist+=u'n'
 				if tags[7] == u'acc' and tags[6] == u'sg':
 					if tags[5] == u'ma':
 						taglist+=u'y'
 					elif tags[5] == u'mi':
-						taglist+=u'n'			
-			
+						taglist+=u'n'
+
 			elif tags[0] == u'np' and tags[1] == u'acr' and len(tags) > 5:
 				taglist+=u'Asp'
 				taglist+=gender(tags[4])
@@ -820,7 +820,7 @@ for lema in lexiconin:
 				if tags[-1] == u'def':
 					taglist+=u'y'
 				elif tags[-1] == u'ind':
-					taglist+=u'n'				
+					taglist+=u'n'
 				if tags[6] == u'acc' and tags[5] == u'sg':
 					if tags[4] == u'ma':
 						taglist+=u'y'
@@ -844,18 +844,18 @@ for lema in lexiconin:
 						lexiconout[lema][surface]=set([taglist])
 					elif taglist not in lexiconout[lema][surface]:
 						lexiconout[lema][surface].add(taglist)
-		
+
 for lema in lexiconout:
-  for surface in lexiconout[lema]:
-    for tag in list(lexiconout[lema][surface]):
-      if len(tag)>6:
-        if tag[0]=='A':
-          #print tag,lema,surface
-          if tag[6]=='n' and tag[:6]+'y'+tag[7:] in lexiconout[lema][surface]:
-            lexiconout[lema][surface].remove(tag)
+	for surface in lexiconout[lema]:
+		for tag in list(lexiconout[lema][surface]):
+			if len(tag)>6:
+				if tag[0]=='A':
+					#print tag,lema,surface
+					if tag[6]=='n' and tag[:6]+'y'+tag[7:] in lexiconout[lema][surface]:
+						lexiconout[lema][surface].remove(tag)
 
 #head -1657 expansion.hr | grep -c ' '
-# head -1657 /home/filip/Apertium/apertium-hbs/expansion.hr | python transtag.ap-me.py | wc -l	
+# head -1657 /home/filip/Apertium/apertium-hbs/expansion.hr | python transtag.ap-me.py | wc -l
 # filip@filip-Inspiron-5720:~/Apertium/scripts$ grep '<prn>' /home/filip/Apertium/apertium-hbs/expansion.hr | python transtag.ap-me.py | less
 # filip@filip-Inspiron-5720:~/Apertium/apertium-hbs$ grep '<prn' expansion.hr | grep 'ref' | less
 
@@ -885,29 +885,29 @@ for lf in lexiconout:
 					sys.stdout.write(sf+u'\t'+lf+u'\t'+taglist+u'\n')
 
 sys.stderr.write(datetime.now().isoformat()+' output all\n')
-"""						
-	
+"""
+
 	sys.stdout.write(i.strip()+u'\t^{0}/{1}{2}$\n'.format(sf, lf, u"".join(taglist)))
 
-    
+
 # head -20 /home/filip/Prompsit/SETimes/setimes.hr.v1.conllx | python transtag.py
 """
 """
 for i in sys.stdin:
-  fields = i.split(u'\t')
-  if len(fields) > 1 and fields[1] == u'.':
-    sys.stdout.write(u'^./.<sent>$\n')
-  else:
-    sys.stdout.write(i)
+	fields = i.split(u'\t')
+	if len(fields) > 1 and fields[1] == u'.':
+		sys.stdout.write(u'^./.<sent>$\n')
+	else:
+		sys.stdout.write(i)
 """
 
-# filip@filip-Inspiron-5720:~/Apertium/apertium-hbs$ lt-proc hbs.automorf.bin 
+# filip@filip-Inspiron-5720:~/Apertium/apertium-hbs$ lt-proc hbs.automorf.bin
 
 """
 and lf in [u'ja', u'ti', u'mi', u'vi', u'on'] and tags[5] in [u'g', u'd', u'a']:
 				taglist.append(u'<pers><clt>')
 			elif tags[1] == u'p':
-"""			
+"""
 
 """
 				if lm[-3:-1] == u'št' or lm[-3:] == u'tko':

@@ -1,0 +1,30 @@
+[2Pc1nWikqFbo#0] ^Ja/ja<prn><pers><p1><mfn><sg><nom>$ ^jesam/biti<vbser><pres><p1><sg>$^./.<sent>$
+[/2Pc1nWikqFbo]
+[CPa4R9VHuSqa#0] ^Oni/oni<prn><pers><p3><m><pl><nom>/onaj<prn><dem><ma><pl><nom>/onaj<prn><dem><mi><pl><nom>$ ^jesu/biti<vbser><pres><p3><pl>$^./.<sent>$
+[/CPa4R9VHuSqa]
+[Cu71VwCGAZLS#0] ^Oni/oni<prn><pers><p3><m><pl><nom>/onaj<prn><dem><ma><pl><nom>/onaj<prn><dem><mi><pl><nom>$ ^su/biti<vbser><clt><pres><p3><pl>$^./.<sent>$
+[/Cu71VwCGAZLS]
+[EYQ3T0DnaB7A#0] ^Mi/mi<prn><pers><p1><mfn><pl><nom>/mi<prn><pers><p1><mfn><pl><voc>/ja<prn><pers><clt><p1><mfn><sg><dat>$ ^jesmo/biti<vbser><pres><p1><pl>$^./.<sent>$
+[/EYQ3T0DnaB7A]
+[GWbaXNm3ffRB#0] ^Ti/ti<prn><pers><p2><mfn><sg><nom>/ti<prn><pers><p2><mfn><sg><voc>/taj<prn><dem><ma><pl><nom>/taj<prn><dem><mi><pl><nom>/ti<prn><pers><clt><p2><mfn><sg><dat>$ ^si/biti<vbser><clt><pres><p2><sg>/sebe<prn><ref><clt><pers><mfn><sp><dat>$^./.<sent>$
+[/GWbaXNm3ffRB]
+[GasO73fe1oNO#0] ^Ono/ono<part>/on<prn><pers><p3><nt><sg><nom>/onaj<prn><dem><nt><sg><nom>/onaj<prn><dem><nt><sg><acc>$ ^jest/biti<vbser><pres><p3><sg>/jesti<vblex><imperf><tv><inf>$^./.<sent>$
+[/GasO73fe1oNO]
+[KKCeq49Sw2wi#0] ^Ona/on<prn><pers><p3><f><sg><nom>/oni<prn><pers><p3><nt><pl><nom>/onaj<prn><dem><nt><pl><nom>/onaj<prn><dem><nt><pl><acc>/onaj<prn><dem><f><sg><nom>$ ^je/on<prn><pers><clt><p3><f><sg><gen>/on<prn><pers><clt><p3><f><sg><acc>/biti<vbser><clt><pres><p3><sg>$^./.<sent>$
+[/KKCeq49Sw2wi]
+[MGQM8Q0fH29U#0] ^Vi/vi<num>/vi<prn><pers><p2><mfn><pl><nom>/vi<prn><pers><p2><mfn><pl><voc>$ ^jeste/biti<vbser><pres><p2><pl>$^./.<sent>$
+[/MGQM8Q0fH29U]
+[U1Mgv-lM3K-H#0] ^Mi/mi<prn><pers><p1><mfn><pl><nom>/mi<prn><pers><p1><mfn><pl><voc>/ja<prn><pers><clt><p1><mfn><sg><dat>$ ^smo/biti<vbser><clt><pres><p1><pl>$^./.<sent>$
+[/U1Mgv-lM3K-H]
+[Yf352pA0XTy6#0] ^Ona/on<prn><pers><p3><f><sg><nom>/oni<prn><pers><p3><nt><pl><nom>/onaj<prn><dem><nt><pl><nom>/onaj<prn><dem><nt><pl><acc>/onaj<prn><dem><f><sg><nom>$ ^jest/biti<vbser><pres><p3><sg>/jesti<vblex><imperf><tv><inf>$^./.<sent>$
+[/Yf352pA0XTy6]
+[ku5nN_BmHBuc#0] ^Vi/vi<num>/vi<prn><pers><p2><mfn><pl><nom>/vi<prn><pers><p2><mfn><pl><voc>$ ^ste/biti<vbser><clt><pres><p2><pl>$^./.<sent>$
+[/ku5nN_BmHBuc]
+[oC6Ev1SsOozN#0] ^Ti/ti<prn><pers><p2><mfn><sg><nom>/ti<prn><pers><p2><mfn><sg><voc>/taj<prn><dem><ma><pl><nom>/taj<prn><dem><mi><pl><nom>/ti<prn><pers><clt><p2><mfn><sg><dat>$ ^jesi/biti<vbser><pres><p2><sg>$^./.<sent>$
+[/oC6Ev1SsOozN]
+[oyxYNaSceynp#0] ^On/on<prn><pers><p3><m><sg><nom>$ ^je/on<prn><pers><clt><p3><f><sg><gen>/on<prn><pers><clt><p3><f><sg><acc>/biti<vbser><clt><pres><p3><sg>$^./.<sent>$
+[/oyxYNaSceynp]
+[vPTwf4W8MXXA#0] ^Ono/ono<part>/on<prn><pers><p3><nt><sg><nom>/onaj<prn><dem><nt><sg><nom>/onaj<prn><dem><nt><sg><acc>$ ^je/on<prn><pers><clt><p3><f><sg><gen>/on<prn><pers><clt><p3><f><sg><acc>/biti<vbser><clt><pres><p3><sg>$^./.<sent>$
+[/vPTwf4W8MXXA]
+[xg1EsbvftD61#0] ^On/on<prn><pers><p3><m><sg><nom>$ ^jest/biti<vbser><pres><p3><sg>/jesti<vblex><imperf><tv><inf>$^./.<sent>$
+[/xg1EsbvftD61]
